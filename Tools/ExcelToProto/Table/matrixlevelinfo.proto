@@ -1,0 +1,26 @@
+/**
+* @file:   matrixlevelinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message MatrixLevelInfo{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 关卡表关联id */
+    required int32 levelId = 2 [default = 0];
+    /** 列标题资源 */
+    required string rowTitle = 3 [default = ""];
+    /** 行标题资源 */
+    required string columnTitle = 4 [default = ""];
+    /** 结果图资源名称 */
+    required string resultname = 5 [default = ""];
+    /** 旋转 */
+    optional int32 resRotation = 6 [default = 0];
+}
+
+message MatrixLevelInfo_ARRAY {
+    repeated MatrixLevelInfo items = 1;
+}

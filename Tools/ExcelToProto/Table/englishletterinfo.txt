@@ -1,0 +1,5188 @@
+items {
+  id: 10111
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "A"
+  param_2: "V"
+  param_3: "U"
+  audio_param_1: "401020101"
+  audio_param_2: "401020122"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020340"
+  bigorsmall: 1
+}
+items {
+  id: 10112
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "A"
+  param_2: "O"
+  param_3: "D"
+  audio_param_1: "401020101"
+  audio_param_2: "401020115"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020340"
+  bigorsmall: 1
+}
+items {
+  id: 10113
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "A is for apple."
+}
+items {
+  id: 10114
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "a"
+  param_2: "o"
+  param_3: "u"
+  audio_param_1: "401020101"
+  audio_param_2: "401020115"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020366"
+  bigorsmall: 2
+}
+items {
+  id: 10115
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "a"
+  param_2: "d"
+  param_3: "c"
+  audio_param_1: "401020101"
+  audio_param_2: "401020104"
+  audio_param_3: "401020103"
+  ledi_hint_audio: "401020366"
+  bigorsmall: 2
+}
+items {
+  id: 10116
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "a"
+  param_2: "b"
+  param_3: "u"
+  audio_param_1: "401020101"
+  audio_param_2: "401020102"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020314"
+  bigorsmall: 2
+}
+items {
+  id: 10121
+  name: "A"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>A</color>nt"
+  param_2: "<color=#ff0000ff>E</color>gg"
+  param_3: "<color=#ff0000ff>D</color>og"
+  audio_param_1: "401020227;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020204;1"
+  param_1_atlas: 70001
+  param_1_texture: "ant4"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70005
+  param_3_texture: "dog1"
+  param_1_offset: "0,10,0"
+  ledi_hint_audio: "401020340"
+  bigorsmall: 1
+}
+items {
+  id: 10122
+  name: "A"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>A</color>pple"
+  param_2: "<color=#ff0000ff>F</color>ish"
+  param_3: "<color=#ff0000ff>V</color>ase"
+  audio_param_1: "401020201;1"
+  audio_param_2: "401020206;1"
+  audio_param_3: "401020222;1"
+  param_1_atlas: 70001
+  param_1_texture: "apple4"
+  param_2_atlas: 70005
+  param_2_texture: "fish1"
+  param_3_atlas: 70003
+  param_3_texture: "vase4"
+  ledi_hint_audio: "401020340"
+  bigorsmall: 1
+}
+items {
+  id: 10123
+  name: "A"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>a</color>pple"
+  param_2: "<color=#ff0000ff>j</color>uice"
+  param_3: "<color=#ff0000ff>h</color>orse"
+  audio_param_1: "401020201;1"
+  audio_param_2: "401020210;1"
+  audio_param_3: "401020208;1"
+  param_1_atlas: 70001
+  param_1_texture: "apple4"
+  param_2_atlas: 70002
+  param_2_texture: "juice1"
+  param_3_atlas: 70004
+  param_3_texture: "horse"
+  ledi_hint_audio: "401020366"
+  bigorsmall: 2
+}
+items {
+  id: 10124
+  name: "A"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>a</color>nt"
+  param_2: "<color=#ff0000ff>t</color>iger"
+  param_3: "<color=#ff0000ff>d</color>uck"
+  audio_param_1: "401020227;1"
+  audio_param_2: "401020220;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70001
+  param_1_texture: "ant4"
+  param_2_atlas: 70004
+  param_2_texture: "tiger"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020366"
+  bigorsmall: 2
+}
+items {
+  id: 10131
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "A"
+  param_2: "A"
+  audio_param_1: "401020101"
+  audio_param_2: "401020101"
+  letter_draw_audio: "401020101"
+  ledi_letter_audio: "401020101"
+  bigorsmall: 1
+}
+items {
+  id: 10132
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "a"
+  param_2: "a"
+  audio_param_1: "401020101"
+  audio_param_2: "401020101"
+  letter_draw_audio: "401020101"
+  ledi_letter_audio: "401020101"
+  bigorsmall: 2
+}
+items {
+  id: 10141
+  name: "A"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "A"
+  audio_param_1: "401020101"
+  game1_statement1: "Big A"
+  game1_statement2: "Little a"
+  game1_statement3: "Apple"
+  game1_statement4: "ant"
+  game1_audio1: "401020501"
+  game1_audio2: "401020527"
+  game1_audio3: "401020201;1"
+  game1_audio4: "401020227;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_texture1: "apple-bg01"
+  game1_texture2: "ant-bg01"
+}
+items {
+  id: 10211
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "B"
+  param_2: "E"
+  param_3: "U"
+  audio_param_1: "401020102"
+  audio_param_2: "401020105"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020341"
+  bigorsmall: 1
+}
+items {
+  id: 10212
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "B"
+  param_2: "D"
+  param_3: "P"
+  audio_param_1: "401020102"
+  audio_param_2: "401020104"
+  audio_param_3: "401020116"
+  ledi_hint_audio: "401020341"
+  bigorsmall: 1
+}
+items {
+  id: 10213
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "B is for ball."
+}
+items {
+  id: 10214
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: " b "
+  param_2: "p"
+  param_3: "o"
+  audio_param_1: "401020102"
+  audio_param_2: "401020116"
+  audio_param_3: "401020115"
+  param_2_offset: "0,10,0"
+  ledi_hint_audio: "401020367"
+  bigorsmall: 2
+}
+items {
+  id: 10215
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "b"
+  param_2: "u"
+  param_3: "e"
+  audio_param_1: "401020102"
+  audio_param_2: "401020121"
+  audio_param_3: "401020105"
+  ledi_hint_audio: "401020367"
+  bigorsmall: 2
+}
+items {
+  id: 10216
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "b"
+  param_2: "o"
+  param_3: "d"
+  audio_param_1: "401020102"
+  audio_param_2: "401020115"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020315"
+  bigorsmall: 2
+}
+items {
+  id: 10221
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>B</color>ear"
+  param_2: "<color=#ff0000ff>P</color>ig"
+  param_3: "<color=#ff0000ff>D</color>og"
+  audio_param_1: "401020228;1"
+  audio_param_2: "401020216;1"
+  audio_param_3: "401020204;1"
+  param_1_atlas: 70004
+  param_1_texture: "bear"
+  param_2_atlas: 70002
+  param_2_texture: "pig4"
+  param_3_atlas: 70005
+  param_3_texture: "dog1"
+  ledi_hint_audio: "401020341"
+  bigorsmall: 1
+}
+items {
+  id: 10222
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>B</color>all"
+  param_2: "<color=#ff0000ff>D</color>uck"
+  param_3: "<color=#ff0000ff>F</color>ox"
+  audio_param_1: "401020202;1"
+  audio_param_2: "401020230;1"
+  audio_param_3: "401020250;1"
+  param_1_atlas: 70004
+  param_1_texture: "ball"
+  param_2_atlas: 70005
+  param_2_texture: "duck1"
+  param_3_atlas: 70005
+  param_3_texture: "fox1"
+  ledi_hint_audio: "401020341"
+  bigorsmall: 1
+}
+items {
+  id: 10223
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>b</color>all"
+  param_2: "<color=#ff0000ff>l</color>emon"
+  param_3: "<color=#ff0000ff>g</color>oat"
+  audio_param_1: "401020202;1"
+  audio_param_2: "401020238;1"
+  audio_param_3: "401020207;1"
+  param_1_atlas: 70004
+  param_1_texture: "ball"
+  param_2_atlas: 70005
+  param_2_texture: "lemon1"
+  param_3_atlas: 70001
+  param_3_texture: "goat4"
+  ledi_hint_audio: "401020367"
+  bigorsmall: 2
+}
+items {
+  id: 10224
+  name: "B"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>b</color>ear"
+  param_2: "<color=#ff0000ff>v</color>ase"
+  param_3: "<color=#ff0000ff>c</color>at"
+  audio_param_1: "401020228;1"
+  audio_param_2: "401020222;1"
+  audio_param_3: "401020203;1"
+  param_1_atlas: 70004
+  param_1_texture: "bear"
+  param_2_atlas: 70003
+  param_2_texture: "vase4"
+  param_3_atlas: 70001
+  param_3_texture: "cat4"
+  ledi_hint_audio: "401020367"
+  bigorsmall: 2
+}
+items {
+  id: 10231
+  name: "B"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "B"
+  param_2: "B"
+  audio_param_1: "401020102"
+  audio_param_2: "401020102"
+  letter_draw_audio: "401020102"
+  ledi_letter_audio: "401020102"
+  bigorsmall: 1
+}
+items {
+  id: 10232
+  name: "B"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "b"
+  param_2: "b"
+  audio_param_1: "401020102"
+  audio_param_2: "401020102"
+  letter_draw_audio: "401020102"
+  ledi_letter_audio: "401020102"
+  bigorsmall: 2
+}
+items {
+  id: 10241
+  name: "B"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "B"
+  audio_param_1: "401020102"
+  game1_statement1: "Big B"
+  game1_statement2: " Little b "
+  game1_statement3: "Ball"
+  game1_statement4: "bear"
+  game1_audio1: "401020502"
+  game1_audio2: "401020528"
+  game1_audio3: "401020202;1"
+  game1_audio4: "401020228;1"
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_texture1: "ball-bg05"
+  game1_texture2: "bear 2-bg05"
+}
+items {
+  id: 10242
+  name: "B"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Ball"
+  audio_param_1: "401020202;1"
+}
+items {
+  id: 10311
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "C"
+  param_2: "D"
+  param_3: "O"
+  audio_param_1: "401020103"
+  audio_param_2: "401020104"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020342"
+  bigorsmall: 1
+}
+items {
+  id: 10312
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "C"
+  param_2: "P"
+  param_3: "Q"
+  audio_param_1: "401020103"
+  audio_param_2: "401020116"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020342"
+  bigorsmall: 1
+}
+items {
+  id: 10313
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "C is for cat."
+}
+items {
+  id: 10314
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "c"
+  param_2: "e"
+  param_3: "d"
+  audio_param_1: "401020103"
+  audio_param_2: "401020105"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020368"
+  bigorsmall: 2
+}
+items {
+  id: 10315
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "c"
+  param_2: "b"
+  param_3: "o"
+  audio_param_1: "401020103"
+  audio_param_2: "401020102"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020368"
+  bigorsmall: 2
+}
+items {
+  id: 10316
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "c"
+  param_2: "a"
+  param_3: "e"
+  audio_param_1: "401020103"
+  audio_param_2: "401020101"
+  audio_param_3: "401020105"
+  ledi_hint_audio: "401020316"
+  bigorsmall: 2
+}
+items {
+  id: 10321
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>C</color>at"
+  param_2: "<color=#ff0000ff>D</color>og"
+  param_3: "<color=#ff0000ff>P</color>ig"
+  audio_param_1: "401020203;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020216;1"
+  param_1_atlas: 70001
+  param_1_texture: "cat4"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70002
+  param_3_texture: "pig4"
+  ledi_hint_audio: "401020342"
+  bigorsmall: 1
+}
+items {
+  id: 10322
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>C</color>ar"
+  param_2: "<color=#ff0000ff>L</color>ion"
+  param_3: "<color=#ff0000ff>N</color>est"
+  audio_param_1: "401020229;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020214;1"
+  param_1_atlas: 70001
+  param_1_texture: "car3"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70004
+  param_3_texture: "nest"
+  ledi_hint_audio: "401020342"
+  bigorsmall: 1
+}
+items {
+  id: 10323
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>c</color>at"
+  param_2: "<color=#ff0000ff>e</color>gg"
+  param_3: "<color=#ff0000ff>r</color>abbit"
+  audio_param_1: "401020203;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020218;1"
+  param_1_atlas: 70001
+  param_1_texture: "cat4"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70005
+  param_3_texture: "rabbit1"
+  ledi_hint_audio: "401020368"
+  bigorsmall: 2
+}
+items {
+  id: 10324
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>c</color>ar"
+  param_2: "<color=#ff0000ff>m</color>ango"
+  param_3: "<color=#ff0000ff>z</color>ebra"
+  audio_param_1: "401020229;1"
+  audio_param_2: "401020239;1"
+  audio_param_3: "401020226;1"
+  param_1_atlas: 70001
+  param_1_texture: "car3"
+  param_2_atlas: 70002
+  param_2_texture: "mango4"
+  param_3_atlas: 70004
+  param_3_texture: "zebra"
+  ledi_hint_audio: "401020368"
+  bigorsmall: 2
+}
+items {
+  id: 10331
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "C"
+  param_2: "C"
+  audio_param_1: "401020103"
+  audio_param_2: "401020103"
+  letter_draw_audio: "401020103"
+  ledi_letter_audio: "401020103"
+  bigorsmall: 1
+}
+items {
+  id: 10332
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "c"
+  param_2: "c"
+  audio_param_1: "401020103"
+  audio_param_2: "401020103"
+  letter_draw_audio: "401020103"
+  ledi_letter_audio: "401020103"
+  bigorsmall: 2
+}
+items {
+  id: 10341
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "C"
+  audio_param_1: "401020103"
+  game1_statement1: "Big C"
+  game1_statement2: " Little c"
+  game1_statement3: "Cat"
+  game1_statement4: "car"
+  game1_audio1: "401020503"
+  game1_audio2: "401020529"
+  game1_audio3: "401020203;1"
+  game1_audio4: "401020229;1"
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 2
+  game1_texture1: "cat-bg05"
+  game1_texture2: "car-bg03"
+}
+items {
+  id: 103242
+  name: "C"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Cat"
+  audio_param_1: "401020203;1"
+}
+items {
+  id: 10411
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "D"
+  param_2: "B"
+  param_3: "O"
+  audio_param_1: "401020104"
+  audio_param_2: "401020102"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020343"
+  bigorsmall: 1
+}
+items {
+  id: 10412
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "D"
+  param_2: "P"
+  param_3: "C"
+  audio_param_1: "401020104"
+  audio_param_2: "401020116"
+  audio_param_3: "401020103"
+  ledi_hint_audio: "401020343"
+  bigorsmall: 1
+}
+items {
+  id: 10413
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "D is for dog."
+}
+items {
+  id: 10414
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "d"
+  param_2: "p"
+  param_3: "b"
+  audio_param_1: "401020104"
+  audio_param_2: "401020116"
+  audio_param_3: "401020102"
+  param_2_offset: "0,10,0"
+  ledi_hint_audio: "401020369"
+  bigorsmall: 2
+}
+items {
+  id: 10415
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "d"
+  param_2: "o"
+  param_3: "a"
+  audio_param_1: "401020104"
+  audio_param_2: "401020115"
+  audio_param_3: "401020101"
+  ledi_hint_audio: "401020369"
+  bigorsmall: 2
+}
+items {
+  id: 10416
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "d"
+  param_2: "e"
+  param_3: "g"
+  audio_param_1: "401020104"
+  audio_param_2: "401020105"
+  audio_param_3: "401020107"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020317"
+  bigorsmall: 2
+}
+items {
+  id: 10421
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>D</color>og"
+  param_2: "<color=#ff0000ff>E</color>gg"
+  param_3: "<color=#ff0000ff>A</color>pple"
+  audio_param_1: "401020204;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020201;1"
+  param_1_atlas: 70005
+  param_1_texture: "dog1"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70001
+  param_3_texture: "apple4"
+  ledi_hint_audio: "401020343"
+  bigorsmall: 1
+}
+items {
+  id: 10422
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>D</color>uck"
+  param_2: "<color=#ff0000ff>R</color>abbit"
+  param_3: "<color=#ff0000ff>Y</color>oyo"
+  audio_param_1: "401020230;1"
+  audio_param_2: "401020218;1"
+  audio_param_3: "401020225;1"
+  param_1_atlas: 70005
+  param_1_texture: "duck1"
+  param_2_atlas: 70005
+  param_2_texture: "rabbit1"
+  param_3_atlas: 70003
+  param_3_texture: "Yoyo4"
+  ledi_hint_audio: "401020343"
+  bigorsmall: 1
+}
+items {
+  id: 10423
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>d</color>og"
+  param_2: "<color=#ff0000ff>q</color>ueen"
+  param_3: "<color=#ff0000ff>b</color>all"
+  audio_param_1: "401020204;1"
+  audio_param_2: "401020217;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70005
+  param_1_texture: "dog1"
+  param_2_atlas: 70004
+  param_2_texture: "queen"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020369"
+  bigorsmall: 2
+}
+items {
+  id: 10424
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>d</color>uck"
+  param_2: "<color=#ff0000ff>g</color>oat"
+  param_3: "<color=#ff0000ff>p</color>ig"
+  audio_param_1: "401020230;1"
+  audio_param_2: "401020207;1"
+  audio_param_3: "401020216;1"
+  param_1_atlas: 70005
+  param_1_texture: "duck1"
+  param_2_atlas: 70001
+  param_2_texture: "goat4"
+  param_3_atlas: 70002
+  param_3_texture: "pig4"
+  ledi_hint_audio: "401020369"
+  bigorsmall: 2
+}
+items {
+  id: 10431
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "D"
+  param_2: "D"
+  audio_param_1: "401020104"
+  audio_param_2: "401020104"
+  letter_draw_audio: "401020104"
+  ledi_letter_audio: "401020104"
+  bigorsmall: 1
+}
+items {
+  id: 10432
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "d"
+  param_2: "d"
+  audio_param_1: "401020104"
+  audio_param_2: "401020104"
+  letter_draw_audio: "401020104"
+  ledi_letter_audio: "401020104"
+  bigorsmall: 2
+}
+items {
+  id: 10441
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "D"
+  audio_param_1: "401020104"
+  game1_statement1: "Big D"
+  game1_statement2: " Little d"
+  game1_statement3: "Dog"
+  game1_statement4: "duck"
+  game1_audio1: "401020504"
+  game1_audio2: "401020530"
+  game1_audio3: "401020204;1"
+  game1_audio4: "401020230;1"
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 3
+  game1_texture1: "dog-bg05"
+  game1_texture2: "duck-bg04"
+}
+items {
+  id: 10442
+  name: "D"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Dog"
+  audio_param_1: "401020204;1"
+}
+items {
+  id: 10511
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "E"
+  param_2: "A"
+  param_3: "B"
+  audio_param_1: "401020105"
+  audio_param_2: "401020101"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020344"
+  bigorsmall: 1
+}
+items {
+  id: 10512
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "E"
+  param_2: "F"
+  param_3: "W"
+  audio_param_1: "401020105"
+  audio_param_2: "401020106"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020344"
+  bigorsmall: 1
+}
+items {
+  id: 10513
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "E is for egg."
+}
+items {
+  id: 10514
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "e"
+  param_2: "a"
+  param_3: "c"
+  audio_param_1: "401020105"
+  audio_param_2: "401020101"
+  audio_param_3: "401020103"
+  ledi_hint_audio: "401020370"
+  bigorsmall: 2
+}
+items {
+  id: 10515
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "e"
+  param_2: "a"
+  param_3: "b"
+  audio_param_1: "401020105"
+  audio_param_2: "401020101"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020370"
+  bigorsmall: 2
+}
+items {
+  id: 10516
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "e"
+  param_2: "f"
+  param_3: "v"
+  audio_param_1: "401020105"
+  audio_param_2: "401020106"
+  audio_param_3: "401020122"
+  ledi_hint_audio: "401020318"
+  bigorsmall: 2
+}
+items {
+  id: 10521
+  name: "E"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>E</color>gg"
+  param_2: "<color=#ff0000ff>F</color>ox"
+  param_3: "<color=#ff0000ff>H</color>orse"
+  audio_param_1: "401020205;1"
+  audio_param_2: "401020250;1"
+  audio_param_3: "401020208;1"
+  param_1_atlas: 70004
+  param_1_texture: "egg"
+  param_2_atlas: 70005
+  param_2_texture: "fox1"
+  param_3_atlas: 70004
+  param_3_texture: "horse"
+  ledi_hint_audio: "401020344"
+  bigorsmall: 1
+}
+items {
+  id: 10522
+  name: "E"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>E</color>lephant"
+  param_2: "<color=#ff0000ff>O</color>ctopus"
+  param_3: "<color=#ff0000ff>C</color>at"
+  audio_param_1: "401020231;1"
+  audio_param_2: "401020241;1"
+  audio_param_3: "401020203;1"
+  param_1_atlas: 70004
+  param_1_texture: "elephant"
+  param_2_atlas: 70005
+  param_2_texture: "octopus1"
+  param_3_atlas: 70001
+  param_3_texture: "cat4"
+  ledi_hint_audio: "401020344"
+  bigorsmall: 1
+}
+items {
+  id: 10523
+  name: "E"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>e</color>gg"
+  param_2: "<color=#ff0000ff>b</color>ox"
+  param_3: " <color=#ff0000ff>y</color>oyo"
+  audio_param_1: "401020205;1"
+  audio_param_2: "401020224;1"
+  audio_param_3: "401020225;1"
+  param_1_atlas: 70004
+  param_1_texture: "egg"
+  param_2_atlas: 70005
+  param_2_texture: "box1"
+  param_3_atlas: 70003
+  param_3_texture: "Yoyo4"
+  ledi_hint_audio: "401020370"
+  bigorsmall: 2
+}
+items {
+  id: 10524
+  name: "E"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>e</color>lephant"
+  param_2: "<color=#ff0000ff>p</color>anda"
+  param_3: "<color=#ff0000ff>o</color>ctopus"
+  audio_param_1: "401020231;1"
+  audio_param_2: "401020242;1"
+  audio_param_3: "401020241;1"
+  param_1_atlas: 70004
+  param_1_texture: "elephant"
+  param_2_atlas: 70002
+  param_2_texture: "panda4"
+  param_3_atlas: 70005
+  param_3_texture: "octopus1"
+  ledi_hint_audio: "401020370"
+  bigorsmall: 2
+}
+items {
+  id: 10531
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "E"
+  param_2: "E"
+  audio_param_1: "401020105"
+  audio_param_2: "401020105"
+  letter_draw_audio: "401020105"
+  ledi_letter_audio: "401020105"
+  bigorsmall: 1
+}
+items {
+  id: 10532
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "e"
+  param_2: "e"
+  audio_param_1: "401020105"
+  audio_param_2: "401020105"
+  letter_draw_audio: "401020105"
+  ledi_letter_audio: "401020105"
+  bigorsmall: 2
+}
+items {
+  id: 10541
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "E"
+  audio_param_1: "401020105"
+  game1_statement1: "Big E"
+  game1_statement2: " Little e"
+  game1_statement3: "Egg"
+  game1_statement4: "elephant"
+  game1_audio1: "401020505"
+  game1_audio2: "401020531"
+  game1_audio3: "401020205;1"
+  game1_audio4: "401020231;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_texture1: "egg-bg01"
+  game1_texture2: "elephant-bg01"
+}
+items {
+  id: 10542
+  name: "E"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Egg"
+  audio_param_1: "401020205;1"
+}
+items {
+  id: 10611
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "F"
+  param_2: "E"
+  param_3: "A"
+  audio_param_1: "401020106"
+  audio_param_2: "401020105"
+  audio_param_3: "401020101"
+  ledi_hint_audio: "401020345"
+  bigorsmall: 1
+}
+items {
+  id: 10612
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "F"
+  param_2: "L"
+  param_3: "I"
+  audio_param_1: "401020106"
+  audio_param_2: "401020112"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020345"
+  bigorsmall: 1
+}
+items {
+  id: 10613
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "F is for fish."
+}
+items {
+  id: 10614
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "f"
+  param_2: "a"
+  param_3: "d"
+  audio_param_1: "401020106"
+  audio_param_2: "401020101"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020371"
+  bigorsmall: 2
+}
+items {
+  id: 10615
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "f"
+  param_2: "l"
+  param_3: "k"
+  audio_param_1: "401020106"
+  audio_param_2: "401020112"
+  audio_param_3: "401020111"
+  ledi_hint_audio: "401020371"
+  bigorsmall: 2
+}
+items {
+  id: 10616
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "f"
+  param_2: "h"
+  param_3: "i"
+  audio_param_1: "401020106"
+  audio_param_2: "401020108"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020319"
+  bigorsmall: 2
+}
+items {
+  id: 10621
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>F</color>ish"
+  param_2: "<color=#ff0000ff>E</color>gg"
+  param_3: "<color=#ff0000ff>M</color>onkey"
+  audio_param_1: "401020206;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020213;1"
+  param_1_atlas: 70005
+  param_1_texture: "fish1"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70002
+  param_3_texture: "monkey4"
+  ledi_hint_audio: "401020345"
+  bigorsmall: 1
+}
+items {
+  id: 10622
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>F</color>inger"
+  param_2: "<color=#ff0000ff>D</color>og"
+  param_3: "<color=#ff0000ff>H</color>orse"
+  audio_param_1: "401020232;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020208;1"
+  param_1_atlas: 70005
+  param_1_texture: "finger1"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70004
+  param_3_texture: "horse"
+  ledi_hint_audio: "401020345"
+  bigorsmall: 1
+}
+items {
+  id: 10623
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>f</color>ish"
+  param_2: "<color=#ff0000ff>k</color>ey"
+  param_3: "<color=#ff0000ff>j</color>uice"
+  audio_param_1: "401020206;1"
+  audio_param_2: "401020237;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70005
+  param_1_texture: "fish1"
+  param_2_atlas: 70004
+  param_2_texture: "key"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020371"
+  bigorsmall: 2
+}
+items {
+  id: 10624
+  name: "F"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>f</color>inger"
+  param_2: "<color=#ff0000ff>v</color>ase"
+  param_3: "<color=#ff0000ff>d</color>uck"
+  audio_param_1: "401020232;1"
+  audio_param_2: "401020222;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70005
+  param_1_texture: "finger1"
+  param_2_atlas: 70003
+  param_2_texture: "vase4"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020371"
+  bigorsmall: 2
+}
+items {
+  id: 10631
+  name: "F"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "F"
+  param_2: "F"
+  audio_param_1: "401020106"
+  audio_param_2: "401020106"
+  letter_draw_audio: "401020106"
+  ledi_letter_audio: "401020106"
+  bigorsmall: 1
+}
+items {
+  id: 10632
+  name: "F"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "f"
+  param_2: "f"
+  audio_param_1: "401020106"
+  audio_param_2: "401020106"
+  letter_draw_audio: "401020106"
+  ledi_letter_audio: "401020106"
+  bigorsmall: 2
+}
+items {
+  id: 10641
+  name: "F"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "F"
+  audio_param_1: "401020106"
+  game1_statement1: "Big F"
+  game1_statement2: " Little f"
+  game1_statement3: "Fish"
+  game1_statement4: "finger"
+  game1_audio1: "401020506"
+  game1_audio2: "401020532"
+  game1_audio3: "401020206;1"
+  game1_audio4: "401020232;1"
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_texture1: "fish-bg04"
+  game1_texture2: "finger-bg02"
+}
+items {
+  id: 10642
+  name: "F"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Fish"
+  audio_param_1: "401020206;1"
+}
+items {
+  id: 10711
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "G"
+  param_2: "O"
+  param_3: "Q"
+  audio_param_1: "401020107"
+  audio_param_2: "401020115"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020346"
+  bigorsmall: 1
+}
+items {
+  id: 10712
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "G"
+  param_2: "P"
+  param_3: "B"
+  audio_param_1: "401020107"
+  audio_param_2: "401020116"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020346"
+  bigorsmall: 1
+}
+items {
+  id: 10713
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "G is for goat."
+}
+items {
+  id: 10714
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "g"
+  param_2: "o"
+  param_3: "q"
+  audio_param_1: "401020107"
+  audio_param_2: "401020115"
+  audio_param_3: "401020117"
+  param_1_offset: "0,10,0"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020372"
+  bigorsmall: 2
+}
+items {
+  id: 10715
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "g"
+  param_2: "p"
+  param_3: "d"
+  audio_param_1: "401020107"
+  audio_param_2: "401020116"
+  audio_param_3: "401020104"
+  param_1_offset: "0,10,0"
+  param_2_offset: "0,10,0"
+  ledi_hint_audio: "401020372"
+  bigorsmall: 2
+}
+items {
+  id: 10716
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "g"
+  param_2: "o"
+  param_3: "e"
+  audio_param_1: "401020107"
+  audio_param_2: "401020115"
+  audio_param_3: "401020105"
+  param_1_offset: "0,10,0"
+  ledi_hint_audio: "401020320"
+  bigorsmall: 2
+}
+items {
+  id: 10721
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>G</color>oat"
+  param_2: "<color=#ff0000ff>D</color>og"
+  param_3: "<color=#ff0000ff>Q</color>ueen"
+  audio_param_1: "401020207;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020217;1"
+  param_1_atlas: 70001
+  param_1_texture: "goat4"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70004
+  param_3_texture: "queen"
+  ledi_hint_audio: "401020346"
+  bigorsmall: 1
+}
+items {
+  id: 10722
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>G</color>ift"
+  param_2: "<color=#ff0000ff>R</color>abbit"
+  param_3: "<color=#ff0000ff>O</color>ctopus"
+  audio_param_1: "401020233;1"
+  audio_param_2: "401020218;1"
+  audio_param_3: "401020241;1"
+  param_1_atlas: 70001
+  param_1_texture: "gift4"
+  param_2_atlas: 70005
+  param_2_texture: "rabbit1"
+  param_3_atlas: 70005
+  param_3_texture: "octopus1"
+  ledi_hint_audio: "401020346"
+  bigorsmall: 1
+}
+items {
+  id: 10723
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>g</color>oat"
+  param_2: "<color=#ff0000ff>q</color>ueen"
+  param_3: "<color=#ff0000ff>d</color>uck"
+  audio_param_1: "401020207;1"
+  audio_param_2: "401020217;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70001
+  param_1_texture: "goat4"
+  param_2_atlas: 70004
+  param_2_texture: "queen"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020372"
+  bigorsmall: 2
+}
+items {
+  id: 10724
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>g</color>ift"
+  param_2: "<color=#ff0000ff>h</color>en"
+  param_3: "<color=#ff0000ff>q</color>uilt"
+  audio_param_1: "401020233;1"
+  audio_param_2: "401020216;1"
+  audio_param_3: "401020243;1"
+  param_1_atlas: 70001
+  param_1_texture: "gift4"
+  param_2_atlas: 70004
+  param_2_texture: "hen"
+  param_3_atlas: 70004
+  param_3_texture: "quilt"
+  ledi_hint_audio: "401020372"
+  bigorsmall: 2
+}
+items {
+  id: 10731
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "G"
+  param_2: "G"
+  audio_param_1: "401020107"
+  audio_param_2: "401020107"
+  letter_draw_audio: "401020107"
+  ledi_letter_audio: "401020107"
+  bigorsmall: 1
+}
+items {
+  id: 10732
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "g"
+  param_2: "g"
+  audio_param_1: "401020107"
+  audio_param_2: "401020107"
+  letter_draw_audio: "401020107"
+  ledi_letter_audio: "401020107"
+  bigorsmall: 2
+}
+items {
+  id: 10741
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "G"
+  audio_param_1: "401020107"
+  game1_statement1: "Big G"
+  game1_statement2: " Little g"
+  game1_statement3: "Goat"
+  game1_statement4: "Gift"
+  game1_audio1: "401020507"
+  game1_audio2: "401020533"
+  game1_audio3: "401020207;1"
+  game1_audio4: "401020233;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 4
+  game1_texture1: "goat-bg01"
+  game1_texture2: "gift-bg05"
+}
+items {
+  id: 10742
+  name: "G"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Goat\n\n\n"
+  audio_param_1: "401020207;1"
+}
+items {
+  id: 10811
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "H"
+  param_2: "G"
+  param_3: "F"
+  audio_param_1: "401020108"
+  audio_param_2: "401020107"
+  audio_param_3: "401020106"
+  ledi_hint_audio: "401020347"
+  bigorsmall: 1
+}
+items {
+  id: 10812
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "H"
+  param_2: "J"
+  param_3: "B"
+  audio_param_1: "401020108"
+  audio_param_2: "401020110"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020347"
+  bigorsmall: 1
+}
+items {
+  id: 10813
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "H is for horse."
+}
+items {
+  id: 10814
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "h"
+  param_2: "n"
+  param_3: "i"
+  audio_param_1: "401020108"
+  audio_param_2: "401020114"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020373"
+  bigorsmall: 2
+}
+items {
+  id: 10815
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "h"
+  param_2: "v"
+  param_3: "u"
+  audio_param_1: "401020108"
+  audio_param_2: "401020122"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020373"
+  bigorsmall: 2
+}
+items {
+  id: 10816
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "h"
+  param_2: "b"
+  param_3: "n"
+  audio_param_1: "401020108"
+  audio_param_2: "401020102"
+  audio_param_3: "401020114"
+  ledi_hint_audio: "401020321"
+  bigorsmall: 2
+}
+items {
+  id: 10821
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>H</color>orse"
+  param_2: "<color=#ff0000ff>G</color>oat"
+  param_3: "<color=#ff0000ff>F</color>ox"
+  audio_param_1: "401020208;1"
+  audio_param_2: "401020207;1"
+  audio_param_3: "401020250;1"
+  param_1_atlas: 70004
+  param_1_texture: "horse"
+  param_2_atlas: 70001
+  param_2_texture: "goat4"
+  param_3_atlas: 70005
+  param_3_texture: "fox1"
+  ledi_hint_audio: "401020347"
+  bigorsmall: 1
+}
+items {
+  id: 10822
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>H</color>en"
+  param_2: "<color=#ff0000ff>I</color>guana"
+  param_3: "<color=#ff0000ff>K</color>ite"
+  audio_param_1: "401020234;1"
+  audio_param_2: "401020235;1"
+  audio_param_3: "401020211;1"
+  param_1_atlas: 70004
+  param_1_texture: "hen"
+  param_2_atlas: 70005
+  param_2_texture: "iguana1"
+  param_3_atlas: 70004
+  param_3_texture: "kite"
+  ledi_hint_audio: "401020347"
+  bigorsmall: 1
+}
+items {
+  id: 10823
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>h</color>en"
+  param_2: "<color=#ff0000ff>g</color>ift"
+  param_3: "<color=#ff0000ff>m</color>ango"
+  audio_param_1: "401020234;1"
+  audio_param_2: "401020233;1"
+  audio_param_3: "401020239;1"
+  param_1_atlas: 70004
+  param_1_texture: "hen"
+  param_2_atlas: 70001
+  param_2_texture: "gift4"
+  param_3_atlas: 70002
+  param_3_texture: "mango4"
+  ledi_hint_audio: "401020373"
+  bigorsmall: 2
+}
+items {
+  id: 10824
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>h</color>orse"
+  param_2: "<color=#ff0000ff>n</color>est"
+  param_3: "<color=#ff0000ff>j</color>uice"
+  audio_param_1: "401020208;1"
+  audio_param_2: "401020214;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70004
+  param_1_texture: "horse"
+  param_2_atlas: 70004
+  param_2_texture: "nest"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020373"
+  bigorsmall: 2
+}
+items {
+  id: 10831
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "H"
+  param_2: "H"
+  audio_param_1: "401020108"
+  audio_param_2: "401020108"
+  letter_draw_audio: "401020108"
+  ledi_letter_audio: "401020108"
+  bigorsmall: 1
+}
+items {
+  id: 10832
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "h"
+  param_2: "h"
+  audio_param_1: "401020108"
+  audio_param_2: "401020108"
+  letter_draw_audio: "401020108"
+  ledi_letter_audio: "401020108"
+  bigorsmall: 2
+}
+items {
+  id: 10841
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "H"
+  audio_param_1: "401020108"
+  game1_statement1: "Big H"
+  game1_statement2: " Little h"
+  game1_statement3: "Horse"
+  game1_statement4: "hen"
+  game1_audio1: "401020508"
+  game1_audio2: "401020534"
+  game1_audio3: "401020208;1"
+  game1_audio4: "401020234;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_texture1: "horse-bg01"
+  game1_texture2: "hen-bg01"
+}
+items {
+  id: 10842
+  name: "H"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Horse"
+  audio_param_1: "401020208;1"
+}
+items {
+  id: 10911
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "I"
+  param_2: "L"
+  param_3: "J"
+  audio_param_1: "401020109"
+  audio_param_2: "401020112"
+  audio_param_3: "401020110"
+  ledi_hint_audio: "401020348"
+  bigorsmall: 1
+}
+items {
+  id: 10912
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "I"
+  param_2: "H"
+  param_3: "F"
+  audio_param_1: "401020109"
+  audio_param_2: "401020108"
+  audio_param_3: "401020106"
+  ledi_hint_audio: "401020348"
+  bigorsmall: 1
+}
+items {
+  id: 10913
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "I is for \nice-cream."
+}
+items {
+  id: 10914
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "i"
+  param_2: "h"
+  param_3: "l"
+  audio_param_1: "401020109"
+  audio_param_2: "401020108"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020374"
+  bigorsmall: 2
+}
+items {
+  id: 10915
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "i"
+  param_2: "a"
+  param_3: "d"
+  audio_param_1: "401020109"
+  audio_param_2: "401020101"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020374"
+  bigorsmall: 2
+}
+items {
+  id: 10916
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "i"
+  param_2: "d"
+  param_3: "f"
+  audio_param_1: "401020109"
+  audio_param_2: "401020104"
+  audio_param_3: "401020106"
+  ledi_hint_audio: "401020322"
+  bigorsmall: 2
+}
+items {
+  id: 10921
+  name: "I"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>I</color>ce-cream"
+  param_2: "<color=#ff0000ff>H</color>en"
+  param_3: "<color=#ff0000ff>J</color>et"
+  audio_param_1: "401020209;1"
+  audio_param_2: "401020234;1"
+  audio_param_3: "401020236;1"
+  param_1_atlas: 70005
+  param_1_texture: "ice-cream1"
+  param_2_atlas: 70004
+  param_2_texture: "hen"
+  param_3_atlas: 70002
+  param_3_texture: "jet4"
+  ledi_hint_audio: "401020348"
+  bigorsmall: 1
+}
+items {
+  id: 10922
+  name: "I"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>I</color>guana"
+  param_2: "<color=#ff0000ff>D</color>og"
+  param_3: "<color=#ff0000ff>M</color>ango"
+  audio_param_1: "401020235;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020239;1"
+  param_1_atlas: 70005
+  param_1_texture: "iguana1"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70002
+  param_3_texture: "mango4"
+  ledi_hint_audio: "401020348"
+  bigorsmall: 1
+}
+items {
+  id: 10923
+  name: "I"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>i</color>ce-cream"
+  param_2: "<color=#ff0000ff>b</color>all"
+  param_3: "<color=#ff0000ff>a</color>pple"
+  audio_param_1: "401020209;1"
+  audio_param_2: "401020202;1"
+  audio_param_3: "401020201;1"
+  param_1_atlas: 70005
+  param_1_texture: "ice-cream1"
+  param_2_atlas: 70004
+  param_2_texture: "ball"
+  param_3_atlas: 70001
+  param_3_texture: "apple4"
+  ledi_hint_audio: "401020374"
+  bigorsmall: 2
+}
+items {
+  id: 10924
+  name: "I"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>i</color>guana"
+  param_2: "<color=#ff0000ff>d</color>uck"
+  param_3: "<color=#ff0000ff>g</color>oat"
+  audio_param_1: "401020235;1"
+  audio_param_2: "401020230;1"
+  audio_param_3: "401020207;1"
+  param_1_atlas: 70005
+  param_1_texture: "iguana1"
+  param_2_atlas: 70005
+  param_2_texture: "duck1"
+  param_3_atlas: 70001
+  param_3_texture: "goat4"
+  ledi_hint_audio: "401020374"
+  bigorsmall: 2
+}
+items {
+  id: 10931
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "I"
+  param_2: "I"
+  audio_param_1: "401020109"
+  audio_param_2: "401020109"
+  letter_draw_audio: "401020109"
+  ledi_letter_audio: "401020109"
+  bigorsmall: 1
+}
+items {
+  id: 10932
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "i"
+  param_2: "i"
+  audio_param_1: "401020109"
+  audio_param_2: "401020109"
+  audio_param_3: "   "
+  letter_draw_audio: "401020109"
+  ledi_letter_audio: "401020109"
+  bigorsmall: 2
+}
+items {
+  id: 10941
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "i"
+  audio_param_1: "401020109"
+  game1_statement1: "Big I"
+  game1_statement2: " Little i"
+  game1_statement3: "Ice-cream"
+  game1_statement4: "iguana"
+  game1_audio1: "401020509"
+  game1_audio2: "401020535"
+  game1_audio3: "401020209;1"
+  game1_audio4: "401020235;1"
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 2
+  game1_texture1: "ice-cream-bg02"
+  game1_texture2: "iguana-bg03"
+}
+items {
+  id: 10942
+  name: "I"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Ice-cream"
+  audio_param_1: "401020209;1"
+}
+items {
+  id: 101011
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "J"
+  param_2: "F"
+  param_3: "L"
+  audio_param_1: "401020110"
+  audio_param_2: "401020106"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020349"
+  bigorsmall: 1
+}
+items {
+  id: 101012
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "J"
+  param_2: "P"
+  param_3: "Y"
+  audio_param_1: "401020110"
+  audio_param_2: "401020116"
+  audio_param_3: "401020125"
+  ledi_hint_audio: "401020349"
+  bigorsmall: 1
+}
+items {
+  id: 101013
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "J is for juice."
+}
+items {
+  id: 101014
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "j"
+  param_2: "f"
+  param_3: "n"
+  audio_param_1: "401020110"
+  audio_param_2: "401020106"
+  audio_param_3: "401020114"
+  ledi_hint_audio: "401020375"
+  bigorsmall: 2
+}
+items {
+  id: 101015
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "j"
+  param_2: "l"
+  param_3: "d"
+  audio_param_1: "401020110"
+  audio_param_2: "401020112"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020375"
+  bigorsmall: 2
+}
+items {
+  id: 101016
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "j"
+  param_2: "h"
+  param_3: "y"
+  audio_param_1: "401020110"
+  audio_param_2: "401020108"
+  audio_param_3: "401020125"
+  ledi_hint_audio: "401020323"
+  bigorsmall: 2
+}
+items {
+  id: 101021
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>J</color>uice"
+  param_2: "<color=#ff0000ff>L</color>ion"
+  param_3: "<color=#ff0000ff>I</color>guana"
+  audio_param_1: "401020210;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020235;1"
+  param_1_atlas: 70002
+  param_1_texture: "juice1"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70005
+  param_3_texture: "iguana1"
+  ledi_hint_audio: "401020349"
+  bigorsmall: 1
+}
+items {
+  id: 101022
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>J</color>et"
+  param_2: "<color=#ff0000ff>P</color>ig"
+  param_3: "<color=#ff0000ff>Y</color>oyo"
+  audio_param_1: "401020236;1"
+  audio_param_2: "401020216;1"
+  audio_param_3: "401020225;1"
+  param_1_atlas: 70002
+  param_1_texture: "jet4"
+  param_2_atlas: 70002
+  param_2_texture: "pig4"
+  param_3_atlas: 70003
+  param_3_texture: "Yoyo4"
+  ledi_hint_audio: "401020349"
+  bigorsmall: 1
+}
+items {
+  id: 101023
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>j</color>uice"
+  param_2: "<color=#ff0000ff>l</color>emon"
+  param_3: "<color=#ff0000ff>n</color>oodle"
+  audio_param_1: "401020210;1"
+  audio_param_2: "401020238;1"
+  audio_param_3: "401020240;1"
+  param_1_atlas: 70002
+  param_1_texture: "juice1"
+  param_2_atlas: 70005
+  param_2_texture: "lemon1"
+  param_3_atlas: 70004
+  param_3_texture: "noodle"
+  ledi_hint_audio: "401020375"
+  bigorsmall: 2
+}
+items {
+  id: 101024
+  name: "J"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>j</color>et"
+  param_2: "<color=#ff0000ff>h</color>en"
+  param_3: "<color=#ff0000ff>y</color>oyo"
+  audio_param_1: "401020236;1"
+  audio_param_2: "401020234;1"
+  audio_param_3: "401020225;1"
+  param_1_atlas: 70002
+  param_1_texture: "jet4"
+  param_2_atlas: 70004
+  param_2_texture: "hen"
+  param_3_atlas: 70003
+  param_3_texture: "Yoyo4"
+  ledi_hint_audio: "401020375"
+  bigorsmall: 2
+}
+items {
+  id: 101031
+  name: "J"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "J"
+  param_2: "J"
+  audio_param_1: "401020110"
+  audio_param_2: "401020110"
+  letter_draw_audio: "401020110"
+  ledi_letter_audio: "401020110"
+  bigorsmall: 1
+}
+items {
+  id: 101032
+  name: "J"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "j"
+  param_2: "j"
+  audio_param_1: "401020110"
+  audio_param_2: "401020110"
+  letter_draw_audio: "401020110"
+  ledi_letter_audio: "401020110"
+  bigorsmall: 2
+}
+items {
+  id: 101041
+  name: "J"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "J"
+  audio_param_1: "401020110"
+  game1_statement1: "Big J"
+  game1_statement2: " Little j"
+  game1_statement3: "Juice"
+  game1_statement4: "jet"
+  game1_audio1: "401020510"
+  game1_audio2: "401020536"
+  game1_audio3: "401020210;1"
+  game1_audio4: "401020236;1"
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_texture1: "juice-bg04"
+  game1_texture2: "jet-bg02"
+}
+items {
+  id: 101042
+  name: "J"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Juice"
+  audio_param_1: "401020210;1"
+}
+items {
+  id: 101111
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "K"
+  param_2: "M"
+  param_3: "Y"
+  audio_param_1: "401020111"
+  audio_param_2: "401020113"
+  audio_param_3: "401020125"
+  ledi_hint_audio: "401020350"
+  bigorsmall: 1
+}
+items {
+  id: 101112
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "K"
+  param_2: "L"
+  param_3: "J"
+  audio_param_1: "401020111"
+  audio_param_2: "401020112"
+  audio_param_3: "401020110"
+  ledi_hint_audio: "401020350"
+  bigorsmall: 1
+}
+items {
+  id: 101113
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "K is for Kite"
+}
+items {
+  id: 101114
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "k"
+  param_2: "m"
+  param_3: "j"
+  audio_param_1: "401020111"
+  audio_param_2: "401020113"
+  audio_param_3: "401020110"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020376"
+  bigorsmall: 2
+}
+items {
+  id: 101115
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "k"
+  param_2: "d"
+  param_3: "f"
+  audio_param_1: "401020111"
+  audio_param_2: "401020104"
+  audio_param_3: "401020106"
+  ledi_hint_audio: "401020376"
+  bigorsmall: 2
+}
+items {
+  id: 101116
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "k"
+  param_2: "d"
+  param_3: "l"
+  audio_param_1: "401020111"
+  audio_param_2: "401020104"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020324"
+  bigorsmall: 2
+}
+items {
+  id: 101121
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>K</color>ite"
+  param_2: "<color=#ff0000ff>Y</color>oyo"
+  param_3: "<color=#ff0000ff>A</color>nt"
+  audio_param_1: "401020211;1"
+  audio_param_2: "401020225;1"
+  audio_param_3: "401020227;1"
+  param_1_atlas: 70004
+  param_1_texture: "kite"
+  param_2_atlas: 70003
+  param_2_texture: "Yoyo4"
+  param_3_atlas: 70001
+  param_3_texture: "ant4"
+  ledi_hint_audio: "401020350"
+  bigorsmall: 1
+}
+items {
+  id: 101122
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>K</color>ey"
+  param_2: "<color=#ff0000ff>J</color>et"
+  param_3: "<color=#ff0000ff>L</color>emon"
+  audio_param_1: "401020237;1"
+  audio_param_2: "401020236;1"
+  audio_param_3: "401020238;1"
+  param_1_atlas: 70004
+  param_1_texture: "key"
+  param_2_atlas: 70002
+  param_2_texture: "jet4"
+  param_3_atlas: 70005
+  param_3_texture: "lemon1"
+  ledi_hint_audio: "401020350"
+  bigorsmall: 1
+}
+items {
+  id: 101123
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>k</color>ite"
+  param_2: "<color=#ff0000ff>d</color>og"
+  param_3: "<color=#ff0000ff>z</color>ebra"
+  audio_param_1: "401020211;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020226;1"
+  param_1_atlas: 70004
+  param_1_texture: "kite"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70004
+  param_3_texture: "zebra"
+  ledi_hint_audio: "401020376"
+  bigorsmall: 2
+}
+items {
+  id: 101124
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>k</color>ey"
+  param_2: "<color=#ff0000ff>l</color>ion"
+  param_3: "<color=#ff0000ff>j</color>uice"
+  audio_param_1: "401020237;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70004
+  param_1_texture: "key"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020376"
+  bigorsmall: 2
+}
+items {
+  id: 101131
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "K"
+  param_2: "K"
+  audio_param_1: "401020111"
+  audio_param_2: "401020111"
+  letter_draw_audio: "401020111"
+  ledi_letter_audio: "401020111"
+  bigorsmall: 1
+}
+items {
+  id: 101132
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "k"
+  param_2: "k"
+  audio_param_1: "401020111"
+  audio_param_2: "401020111"
+  letter_draw_audio: "401020111"
+  ledi_letter_audio: "401020111"
+  bigorsmall: 2
+}
+items {
+  id: 101141
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "K"
+  audio_param_1: "401020111"
+  game1_statement1: "Big K"
+  game1_statement2: " Little k"
+  game1_statement3: "Kite"
+  game1_statement4: "key"
+  game1_audio1: "401020511"
+  game1_audio2: "401020537"
+  game1_audio3: "401020211;1"
+  game1_audio4: "401020237;1"
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_texture1: "kite-bg02"
+  game1_texture2: "key-bg05"
+}
+items {
+  id: 101142
+  name: "K"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: " Kite"
+  audio_param_1: "401020211;1"
+}
+items {
+  id: 101211
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "L"
+  param_2: "T"
+  param_3: "I"
+  audio_param_1: "401020112"
+  audio_param_2: "401020120"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020351"
+  bigorsmall: 1
+}
+items {
+  id: 101212
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "L"
+  param_2: "S"
+  param_3: "Y"
+  audio_param_1: "401020112"
+  audio_param_2: "401020119"
+  audio_param_3: "401020125"
+  ledi_hint_audio: "401020351"
+  bigorsmall: 1
+}
+items {
+  id: 101213
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "L is for lion."
+}
+items {
+  id: 101214
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "l"
+  param_2: "i"
+  param_3: "f"
+  audio_param_1: "401020112"
+  audio_param_2: "401020109"
+  audio_param_3: "401020106"
+  ledi_hint_audio: "401020377"
+  bigorsmall: 2
+}
+items {
+  id: 101215
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "l"
+  param_2: "h"
+  param_3: "d"
+  audio_param_1: "401020112"
+  audio_param_2: "401020108"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020377"
+  bigorsmall: 2
+}
+items {
+  id: 101216
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "l"
+  param_2: "j"
+  param_3: "b"
+  audio_param_1: "401020112"
+  audio_param_2: "401020110"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020325"
+  bigorsmall: 2
+}
+items {
+  id: 101221
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>L</color>ion"
+  param_2: "<color=#ff0000ff>T</color>iger"
+  param_3: "<color=#ff0000ff>S</color>nake"
+  audio_param_1: "401020212;1"
+  audio_param_2: "401020220;1"
+  audio_param_3: "401020219;1"
+  param_1_atlas: 70005
+  param_1_texture: "lion1"
+  param_2_atlas: 70004
+  param_2_texture: "tiger"
+  param_3_atlas: 70003
+  param_3_texture: "snake4"
+  ledi_hint_audio: "401020351"
+  bigorsmall: 1
+}
+items {
+  id: 101222
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>L</color>emon"
+  param_2: "<color=#ff0000ff>Y</color>oyo"
+  param_3: "<color=#ff0000ff>M</color>onkey"
+  audio_param_1: "401020238;1"
+  audio_param_2: "401020225;1"
+  audio_param_3: "401020213;1"
+  param_1_atlas: 70005
+  param_1_texture: "lemon1"
+  param_2_atlas: 70003
+  param_2_texture: "Yoyo4"
+  param_3_atlas: 70002
+  param_3_texture: "monkey4"
+  ledi_hint_audio: "401020351"
+  bigorsmall: 1
+}
+items {
+  id: 101223
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>l</color>ion"
+  param_2: "<color=#ff0000ff>p</color>ig"
+  param_3: "<color=#ff0000ff>d</color>uck"
+  audio_param_1: "401020212;1"
+  audio_param_2: "401020216;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70005
+  param_1_texture: "lion1"
+  param_2_atlas: 70002
+  param_2_texture: "pig4"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020377"
+  bigorsmall: 2
+}
+items {
+  id: 101224
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>l</color>emon"
+  param_2: "<color=#ff0000ff>g</color>ift"
+  param_3: "<color=#ff0000ff>h</color>orse"
+  audio_param_1: "401020238;1"
+  audio_param_2: "401020233;1"
+  audio_param_3: "401020208;1"
+  param_1_atlas: 70005
+  param_1_texture: "lemon1"
+  param_2_atlas: 70001
+  param_2_texture: "gift4"
+  param_3_atlas: 70004
+  param_3_texture: "horse"
+  ledi_hint_audio: "401020377"
+  bigorsmall: 2
+}
+items {
+  id: 101231
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "L"
+  param_2: "L"
+  audio_param_1: "401020112"
+  audio_param_2: "401020112"
+  letter_draw_audio: "401020112"
+  ledi_letter_audio: "401020112"
+  bigorsmall: 1
+}
+items {
+  id: 101232
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "l"
+  param_2: "l"
+  audio_param_1: "401020112"
+  audio_param_2: "401020112"
+  letter_draw_audio: "401020112"
+  ledi_letter_audio: "401020112"
+  bigorsmall: 2
+}
+items {
+  id: 101241
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "L"
+  audio_param_1: "401020112"
+  game1_statement1: "Big L"
+  game1_statement2: " Little l"
+  game1_statement3: "Lion"
+  game1_statement4: "lemon"
+  game1_audio1: "401020512"
+  game1_audio2: "401020538"
+  game1_audio3: "401020212;1"
+  game1_audio4: "401020238;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 3
+  game1_texture1: "lion-bg01"
+  game1_texture2: "lemon-bg04"
+}
+items {
+  id: 101242
+  name: "L"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Lion"
+  audio_param_1: "401020212;1"
+}
+items {
+  id: 101311
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "M"
+  param_2: "D"
+  param_3: "G"
+  audio_param_1: "401020113"
+  audio_param_2: "401020104"
+  audio_param_3: "401020107"
+  ledi_hint_audio: "401020352"
+  bigorsmall: 1
+}
+items {
+  id: 101312
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "M"
+  param_2: "N"
+  param_3: "L"
+  audio_param_1: "401020113"
+  audio_param_2: "401020114"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020352"
+  bigorsmall: 1
+}
+items {
+  id: 101313
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "M is for monkey."
+}
+items {
+  id: 101314
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "m"
+  param_2: "e"
+  param_3: "a"
+  audio_param_1: "401020113"
+  audio_param_2: "401020105"
+  audio_param_3: "401020101"
+  ledi_hint_audio: "401020378"
+  bigorsmall: 2
+}
+items {
+  id: 101315
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "m"
+  param_2: "o"
+  param_3: "u"
+  audio_param_1: "401020113"
+  audio_param_2: "401020115"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020378"
+  bigorsmall: 2
+}
+items {
+  id: 101316
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "m"
+  param_2: "n"
+  param_3: "i"
+  audio_param_1: "401020113"
+  audio_param_2: "401020114"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020326"
+  bigorsmall: 2
+}
+items {
+  id: 101321
+  name: "M"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>M</color>onkey"
+  param_2: "<color=#ff0000ff>V</color>ase"
+  param_3: "<color=#ff0000ff>P</color>ig"
+  audio_param_1: "401020213;1"
+  audio_param_2: "401020222;1"
+  audio_param_3: "401020216;1"
+  param_1_atlas: 70002
+  param_1_texture: "monkey4"
+  param_2_atlas: 70003
+  param_2_texture: "vase4"
+  param_3_atlas: 70002
+  param_3_texture: "pig4"
+  ledi_hint_audio: "401020352"
+  bigorsmall: 1
+}
+items {
+  id: 101322
+  name: "M"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>M</color>ango"
+  param_2: "<color=#ff0000ff>A</color>pple"
+  param_3: "<color=#ff0000ff>K</color>ite"
+  audio_param_1: "401020239;1"
+  audio_param_2: "401020201;1"
+  audio_param_3: "401020211;1"
+  param_1_atlas: 70002
+  param_1_texture: "mango4"
+  param_2_atlas: 70001
+  param_2_texture: "apple4"
+  param_3_atlas: 70004
+  param_3_texture: "kite"
+  ledi_hint_audio: "401020352"
+  bigorsmall: 1
+}
+items {
+  id: 101323
+  name: "M"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>m</color>onkey"
+  param_2: "<color=#ff0000ff>n</color>oodle"
+  param_3: "<color=#ff0000ff>a</color>nt"
+  audio_param_1: "401020213;1"
+  audio_param_2: "401020240;1"
+  audio_param_3: "401020227;1"
+  param_1_atlas: 70002
+  param_1_texture: "monkey4"
+  param_2_atlas: 70004
+  param_2_texture: "noodle"
+  param_3_atlas: 70001
+  param_3_texture: "ant4"
+  ledi_hint_audio: "401020378"
+  bigorsmall: 2
+}
+items {
+  id: 101324
+  name: "M"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>m</color>ango"
+  param_2: "<color=#ff0000ff>l</color>ion"
+  param_3: "<color=#ff0000ff>j</color>uice"
+  audio_param_1: "401020239;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70002
+  param_1_texture: "mango4"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020378"
+  bigorsmall: 2
+}
+items {
+  id: 101331
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "M"
+  param_2: "M"
+  audio_param_1: "401020113"
+  audio_param_2: "401020113"
+  letter_draw_audio: "401020113"
+  ledi_letter_audio: "401020113"
+  bigorsmall: 1
+}
+items {
+  id: 101332
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "m"
+  param_2: "m"
+  audio_param_1: "401020113"
+  audio_param_2: "401020113"
+  letter_draw_audio: "401020113"
+  ledi_letter_audio: "401020113"
+  bigorsmall: 2
+}
+items {
+  id: 101341
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "M"
+  audio_param_1: "401020113"
+  game1_statement1: "Big M"
+  game1_statement2: " Little m"
+  game1_statement3: "Monkey"
+  game1_statement4: "mango"
+  game1_audio1: "401020513"
+  game1_audio2: "401020539"
+  game1_audio3: "401020213;1"
+  game1_audio4: "401020239;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 3
+  game1_texture1: "monkey-bg01"
+  game1_texture2: "mango-bg02"
+}
+items {
+  id: 101342
+  name: "M"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Monkey"
+  audio_param_1: "401020213;1"
+}
+items {
+  id: 101411
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "N"
+  param_2: "W"
+  param_3: "M"
+  audio_param_1: "401020114"
+  audio_param_2: "401020123"
+  audio_param_3: "401020113"
+  ledi_hint_audio: "401020353"
+  bigorsmall: 1
+}
+items {
+  id: 101412
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "N"
+  param_2: "F"
+  param_3: "P"
+  audio_param_1: "401020114"
+  audio_param_2: "401020106"
+  audio_param_3: "401020116"
+  ledi_hint_audio: "401020353"
+  bigorsmall: 1
+}
+items {
+  id: 101413
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "N is for nest."
+}
+items {
+  id: 101414
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "n"
+  param_2: "w"
+  param_3: "z"
+  audio_param_1: "401020114"
+  audio_param_2: "401020123"
+  audio_param_3: "401020126"
+  ledi_hint_audio: "401020379"
+  bigorsmall: 2
+}
+items {
+  id: 101415
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "n"
+  param_2: "m"
+  param_3: "u"
+  audio_param_1: "401020114"
+  audio_param_2: "401020113"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020379"
+  bigorsmall: 2
+}
+items {
+  id: 101416
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "n"
+  param_2: "m"
+  param_3: "l"
+  audio_param_1: "401020114"
+  audio_param_2: "401020113"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020327"
+  bigorsmall: 2
+}
+items {
+  id: 101421
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>N</color>est"
+  param_2: "<color=#ff0000ff>M</color>onkey"
+  param_3: "<color=#ff0000ff>H</color>orse"
+  audio_param_1: "401020214;1"
+  audio_param_2: "401020213;1"
+  audio_param_3: "401020208;1"
+  param_1_atlas: 70004
+  param_1_texture: "nest"
+  param_2_atlas: 70002
+  param_2_texture: "monkey4"
+  param_3_atlas: 70004
+  param_3_texture: "horse"
+  ledi_hint_audio: "401020353"
+  bigorsmall: 1
+}
+items {
+  id: 101422
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>N</color>oodle"
+  param_2: "<color=#ff0000ff>R</color>abbit"
+  param_3: "<color=#ff0000ff>F</color>ish"
+  audio_param_1: "401020240;1"
+  audio_param_2: "401020218;1"
+  audio_param_3: "401020206;1"
+  param_1_atlas: 70004
+  param_1_texture: "noodle"
+  param_2_atlas: 70005
+  param_2_texture: "rabbit1"
+  param_3_atlas: 70005
+  param_3_texture: "fish1"
+  ledi_hint_audio: "401020353"
+  bigorsmall: 1
+}
+items {
+  id: 101423
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>n</color>est"
+  param_2: "<color=#ff0000ff>j</color>uice"
+  param_3: "<color=#ff0000ff>z</color>ebra"
+  audio_param_1: "401020214;1"
+  audio_param_2: "401020210;1"
+  audio_param_3: "401020226;1"
+  param_1_atlas: 70004
+  param_1_texture: "nest"
+  param_2_atlas: 70002
+  param_2_texture: "juice1"
+  param_3_atlas: 70004
+  param_3_texture: "zebra"
+  ledi_hint_audio: "401020379"
+  bigorsmall: 2
+}
+items {
+  id: 101424
+  name: "N"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>n</color>oodle"
+  param_2: "<color=#ff0000ff>w</color>olf"
+  param_3: "<color=#ff0000ff>z</color>ebra"
+  audio_param_1: "401020240;1"
+  audio_param_2: "401020223;1"
+  audio_param_3: "401020226;1"
+  param_1_atlas: 70004
+  param_1_texture: "noodle"
+  param_2_atlas: 70004
+  param_2_texture: "wolf"
+  param_3_atlas: 70004
+  param_3_texture: "zebra"
+  ledi_hint_audio: "401020379"
+  bigorsmall: 2
+}
+items {
+  id: 101431
+  name: "N"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "N"
+  param_2: "N"
+  audio_param_1: "401020114"
+  audio_param_2: "401020114"
+  letter_draw_audio: "401020114"
+  ledi_letter_audio: "401020114"
+  bigorsmall: 1
+}
+items {
+  id: 101432
+  name: "N"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "n"
+  param_2: "n"
+  audio_param_1: "401020114"
+  audio_param_2: "401020114"
+  letter_draw_audio: "401020114"
+  ledi_letter_audio: "401020114"
+  bigorsmall: 2
+}
+items {
+  id: 101441
+  name: "N"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "N"
+  audio_param_1: "401020114"
+  game1_statement1: "Big N"
+  game1_statement2: " Little n"
+  game1_statement3: "Nest"
+  game1_statement4: "noodle"
+  game1_audio1: "401020514"
+  game1_audio2: "401020540"
+  game1_audio3: "401020214;1"
+  game1_audio4: "401020240;1"
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 1
+  game1_texture1: "nest-bg02"
+  game1_texture2: "noodle-bg02"
+}
+items {
+  id: 101442
+  name: "N"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Nest"
+  audio_param_1: "401020214;1"
+}
+items {
+  id: 101511
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "O"
+  param_2: "P"
+  param_3: "Q"
+  audio_param_1: "401020115"
+  audio_param_2: "401020116"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020354"
+  bigorsmall: 1
+}
+items {
+  id: 101512
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "O"
+  param_2: "U"
+  param_3: "D"
+  audio_param_1: "401020115"
+  audio_param_2: "401020121"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020354"
+  bigorsmall: 1
+}
+items {
+  id: 101513
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "O is for orange."
+}
+items {
+  id: 101514
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "o"
+  param_2: "y"
+  param_3: "p"
+  audio_param_1: "401020115"
+  audio_param_2: "401020125"
+  audio_param_3: "401020116"
+  param_2_offset: "0,10,0"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020380"
+  bigorsmall: 2
+}
+items {
+  id: 101515
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "o"
+  param_2: "q"
+  param_3: "u"
+  audio_param_1: "401020115"
+  audio_param_2: "401020117"
+  audio_param_3: "401020121"
+  param_2_offset: "0,10,0"
+  ledi_hint_audio: "401020380"
+  bigorsmall: 2
+}
+items {
+  id: 101516
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "o"
+  param_2: "e"
+  param_3: "d"
+  audio_param_1: "401020115"
+  audio_param_2: "401020105"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020328"
+  bigorsmall: 2
+}
+items {
+  id: 101521
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>O</color>range"
+  param_2: "<color=#ff0000ff>D</color>uck"
+  param_3: "<color=#ff0000ff>B</color>all"
+  audio_param_1: "401020215;1"
+  audio_param_2: "401020230;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70005
+  param_1_texture: "orange1"
+  param_2_atlas: 70005
+  param_2_texture: "duck1"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020354"
+  bigorsmall: 1
+}
+items {
+  id: 101522
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>O</color>ctopus"
+  param_2: "<color=#ff0000ff>U</color>kelele"
+  param_3: "<color=#ff0000ff>R</color>abbit"
+  audio_param_1: "401020241;1"
+  audio_param_2: "401020247;1"
+  audio_param_3: "401020218;1"
+  param_1_atlas: 70005
+  param_1_texture: "octopus1"
+  param_2_atlas: 70005
+  param_2_texture: "ukelele1"
+  param_3_atlas: 70005
+  param_3_texture: "rabbit1"
+  ledi_hint_audio: "401020354"
+  bigorsmall: 1
+}
+items {
+  id: 101523
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>o</color>range"
+  param_2: "<color=#ff0000ff>c</color>ar"
+  param_3: "<color=#ff0000ff>p</color>ig"
+  audio_param_1: "401020215;1"
+  audio_param_2: "401020229;1"
+  audio_param_3: "401020216;1"
+  param_1_atlas: 70005
+  param_1_texture: "orange1"
+  param_2_atlas: 70001
+  param_2_texture: "car4"
+  param_3_atlas: 70002
+  param_3_texture: "pig4"
+  ledi_hint_audio: "401020380"
+  bigorsmall: 2
+}
+items {
+  id: 101524
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>o</color>ctopus"
+  param_2: "<color=#ff0000ff>e</color>gg"
+  param_3: "<color=#ff0000ff>b</color>all"
+  audio_param_1: "401020241;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70005
+  param_1_texture: "octopus1"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020380"
+  bigorsmall: 2
+}
+items {
+  id: 101531
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "O"
+  param_2: "O"
+  audio_param_1: "401020115"
+  audio_param_2: "401020115"
+  letter_draw_audio: "401020115"
+  ledi_letter_audio: "401020115"
+  bigorsmall: 1
+}
+items {
+  id: 101532
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "o"
+  param_2: "o"
+  audio_param_1: "401020115"
+  audio_param_2: "401020115"
+  letter_draw_audio: "401020115"
+  ledi_letter_audio: "401020115"
+  bigorsmall: 2
+}
+items {
+  id: 101541
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "O"
+  audio_param_1: "401020115"
+  game1_statement1: "Big O"
+  game1_statement2: " Little o"
+  game1_statement3: "Orange"
+  game1_statement4: "octopus"
+  game1_audio1: "401020515"
+  game1_audio2: "401020541"
+  game1_audio3: "401020215;1"
+  game1_audio4: "401020241;1"
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 3
+  game1_texture1: "orange-bg03"
+  game1_texture2: "octopus-bg04"
+}
+items {
+  id: 101542
+  name: "O"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Orange"
+  audio_param_1: "401020215;1"
+}
+items {
+  id: 101611
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "P"
+  param_2: "O"
+  param_3: "D"
+  audio_param_1: "401020116"
+  audio_param_2: "401020115"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020355"
+  bigorsmall: 1
+}
+items {
+  id: 101612
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "P"
+  param_2: "B"
+  param_3: "Q"
+  audio_param_1: "401020116"
+  audio_param_2: "401020102"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020355"
+  bigorsmall: 1
+}
+items {
+  id: 101613
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "P is for  pig."
+}
+items {
+  id: 101614
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "p"
+  param_2: "b"
+  param_3: "d"
+  audio_param_1: "401020116"
+  audio_param_2: "401020102"
+  audio_param_3: "401020104"
+  param_1_offset: "0,10,0"
+  ledi_hint_audio: "401020381"
+  bigorsmall: 2
+}
+items {
+  id: 101615
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "p"
+  param_2: "o"
+  param_3: "b"
+  audio_param_1: "401020116"
+  audio_param_2: "401020115"
+  audio_param_3: "401020102"
+  param_1_offset: "0,10,0"
+  ledi_hint_audio: "401020381"
+  bigorsmall: 2
+}
+items {
+  id: 101616
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "p"
+  param_2: "d"
+  param_3: "q"
+  audio_param_1: "401020116"
+  audio_param_2: "401020104"
+  audio_param_3: "401020117"
+  param_1_offset: "0,10,0"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020329"
+  bigorsmall: 2
+}
+items {
+  id: 101621
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>P</color>ig"
+  param_2: "<color=#ff0000ff>D</color>uck"
+  param_3: "<color=#ff0000ff>B</color>all"
+  audio_param_1: "401020216;1"
+  audio_param_2: "401020230;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70002
+  param_1_texture: "pig4"
+  param_2_atlas: 70005
+  param_2_texture: "duck1"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020355"
+  bigorsmall: 1
+}
+items {
+  id: 101622
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>P</color>anda"
+  param_2: "<color=#ff0000ff>Q</color>ueen"
+  param_3: "<color=#ff0000ff>B</color>ox"
+  audio_param_1: "401020242;1"
+  audio_param_2: "401020217;1"
+  audio_param_3: "401020224;1"
+  param_1_atlas: 70002
+  param_1_texture: "panda4"
+  param_2_atlas: 70004
+  param_2_texture: "queen"
+  param_3_atlas: 70005
+  param_3_texture: "box1"
+  ledi_hint_audio: "401020355"
+  bigorsmall: 1
+}
+items {
+  id: 101623
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>p</color>ig"
+  param_2: "<color=#ff0000ff>d</color>og"
+  param_3: "<color=#ff0000ff>c</color>ar"
+  audio_param_1: "401020216;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020229;1"
+  param_1_atlas: 70002
+  param_1_texture: "pig4"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70001
+  param_3_texture: "car4"
+  ledi_hint_audio: "401020381"
+  bigorsmall: 2
+}
+items {
+  id: 101624
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>p</color>anda"
+  param_2: "<color=#ff0000ff>w</color>olf"
+  param_3: "<color=#ff0000ff>d</color>og"
+  audio_param_1: "401020242;1"
+  audio_param_2: "401020223;1"
+  audio_param_3: "401020204;1"
+  param_1_atlas: 70002
+  param_1_texture: "panda4"
+  param_2_atlas: 70004
+  param_2_texture: "wolf"
+  param_3_atlas: 70005
+  param_3_texture: "dog1"
+  ledi_hint_audio: "401020381"
+  bigorsmall: 2
+}
+items {
+  id: 101631
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "P"
+  param_2: "P"
+  audio_param_1: "401020116"
+  audio_param_2: "401020116"
+  letter_draw_audio: "401020116"
+  ledi_letter_audio: "401020116"
+  bigorsmall: 1
+}
+items {
+  id: 101632
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "p"
+  param_2: "p"
+  audio_param_1: "401020116"
+  audio_param_2: "401020116"
+  audio_param_3: "401020242;1"
+  letter_draw_audio: "401020116"
+  ledi_letter_audio: "401020116"
+  bigorsmall: 2
+}
+items {
+  id: 101641
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "P"
+  audio_param_1: "401020116"
+  game1_statement1: "Big P"
+  game1_statement2: "  Little p"
+  game1_statement3: "Pig"
+  game1_statement4: "panda"
+  game1_audio1: "401020516"
+  game1_audio2: "401020542"
+  game1_audio3: "401020216;1"
+  game1_audio4: "401020242;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_texture1: "pig-bg01"
+  game1_texture2: "panda-bg01"
+}
+items {
+  id: 101642
+  name: "P"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Pig"
+  audio_param_1: "401020216;1"
+}
+items {
+  id: 101711
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "Q"
+  param_2: "O"
+  param_3: "D"
+  audio_param_1: "401020117"
+  audio_param_2: "401020115"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020356"
+  bigorsmall: 1
+}
+items {
+  id: 101712
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "Q"
+  param_2: "E"
+  param_3: "B"
+  audio_param_1: "401020117"
+  audio_param_2: "401020105"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020356"
+  bigorsmall: 1
+}
+items {
+  id: 101713
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "Q is for queen."
+}
+items {
+  id: 101714
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "q"
+  param_2: "d"
+  param_3: "o"
+  audio_param_1: "401020117"
+  audio_param_2: "401020104"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020382"
+  bigorsmall: 2
+}
+items {
+  id: 101715
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "q"
+  param_2: "a"
+  param_3: "d"
+  audio_param_1: "401020117"
+  audio_param_2: "401020101"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020382"
+  bigorsmall: 2
+}
+items {
+  id: 101716
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "q"
+  param_2: "b"
+  param_3: "a"
+  audio_param_1: "401020117"
+  audio_param_2: "401020102"
+  audio_param_3: "401020101"
+  ledi_hint_audio: "401020330"
+  bigorsmall: 2
+}
+items {
+  id: 101721
+  name: "Q"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Q</color>ueen"
+  param_2: "<color=#ff0000ff>D</color>og"
+  param_3: "<color=#ff0000ff>V</color>est"
+  audio_param_1: "401020217;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020248;1"
+  param_1_atlas: 70004
+  param_1_texture: "queen"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70003
+  param_3_texture: "vest4"
+  ledi_hint_audio: "401020356"
+  bigorsmall: 1
+}
+items {
+  id: 101722
+  name: "Q"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Q</color>uilt"
+  param_2: "<color=#ff0000ff>E</color>gg"
+  param_3: "<color=#ff0000ff>B</color>ox"
+  audio_param_1: "401020243;1"
+  audio_param_2: "401020205;1"
+  audio_param_3: "401020224;1"
+  param_1_atlas: 70004
+  param_1_texture: "quilt"
+  param_2_atlas: 70004
+  param_2_texture: "egg"
+  param_3_atlas: 70005
+  param_3_texture: "box1"
+  ledi_hint_audio: "401020356"
+  bigorsmall: 1
+}
+items {
+  id: 101723
+  name: "Q"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>q</color>ueen"
+  param_2: "<color=#ff0000ff>o</color>ctopus"
+  param_3: "<color=#ff0000ff>a</color>pple"
+  audio_param_1: "401020217;1"
+  audio_param_2: "401020241;1"
+  audio_param_3: "401020201;1"
+  param_1_atlas: 70004
+  param_1_texture: "queen"
+  param_2_atlas: 70005
+  param_2_texture: "octopus1"
+  param_3_atlas: 70001
+  param_3_texture: "apple4"
+  ledi_hint_audio: "401020382"
+  bigorsmall: 2
+}
+items {
+  id: 101724
+  name: "Q"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>q</color>uilt"
+  param_2: "<color=#ff0000ff>h</color>en"
+  param_3: "<color=#ff0000ff>p</color>anda"
+  audio_param_1: "401020243;1"
+  audio_param_2: "401020234;1"
+  audio_param_3: "401020242;1"
+  param_1_atlas: 70004
+  param_1_texture: "quilt"
+  param_2_atlas: 70004
+  param_2_texture: "hen"
+  param_3_atlas: 70002
+  param_3_texture: "panda4"
+  ledi_hint_audio: "401020382"
+  bigorsmall: 2
+}
+items {
+  id: 101731
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "Q"
+  param_2: "Q"
+  audio_param_1: "401020117"
+  audio_param_2: "401020117"
+  letter_draw_audio: "401020117"
+  ledi_letter_audio: "401020117"
+  bigorsmall: 1
+}
+items {
+  id: 101732
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "q"
+  param_2: "q"
+  audio_param_1: "401020117"
+  audio_param_2: "401020117"
+  letter_draw_audio: "401020117"
+  ledi_letter_audio: "401020117"
+  bigorsmall: 2
+}
+items {
+  id: 101741
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "Q"
+  audio_param_1: "401020117"
+  game1_statement1: "Big Q"
+  game1_statement2: "  Little q"
+  game1_statement3: "Queen"
+  game1_statement4: "quilt"
+  game1_audio1: "401020517"
+  game1_audio2: "401020543"
+  game1_audio3: "401020217;1"
+  game1_audio4: "401020243;1"
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_texture1: "queen-bg05"
+  game1_texture2: "quilt-bg05"
+}
+items {
+  id: 101742
+  name: "Q"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Queen"
+  audio_param_1: "401020217;1"
+}
+items {
+  id: 101811
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "R"
+  param_2: "O"
+  param_3: "D"
+  audio_param_1: "401020118"
+  audio_param_2: "401020115"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020357"
+  bigorsmall: 1
+}
+items {
+  id: 101812
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "R"
+  param_2: "Q"
+  param_3: "B"
+  audio_param_1: "401020118"
+  audio_param_2: "401020117"
+  audio_param_3: "401020102"
+  ledi_hint_audio: "401020357"
+  bigorsmall: 1
+}
+items {
+  id: 101813
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "R is for rabbit."
+}
+items {
+  id: 101814
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "r"
+  param_2: "l"
+  param_3: "u"
+  audio_param_1: "401020118"
+  audio_param_2: "401020112"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020383"
+  bigorsmall: 2
+}
+items {
+  id: 101815
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "r"
+  param_2: "u"
+  param_3: "o"
+  audio_param_1: "401020118"
+  audio_param_2: "401020121"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020383"
+  bigorsmall: 2
+}
+items {
+  id: 101816
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "r"
+  param_2: "f"
+  param_3: "w"
+  audio_param_1: "401020118"
+  audio_param_2: "401020106"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020331"
+  bigorsmall: 2
+}
+items {
+  id: 101821
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>R</color>abbit"
+  param_2: "<color=#ff0000ff>U</color>kelele"
+  param_3: "<color=#ff0000ff>D</color>uck"
+  audio_param_1: "401020218;1"
+  audio_param_2: "401020247;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70005
+  param_1_texture: "rabbit1"
+  param_2_atlas: 70005
+  param_2_texture: "ukelele1"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020357"
+  bigorsmall: 1
+}
+items {
+  id: 101822
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>R</color>obot"
+  param_2: "<color=#ff0000ff>Q</color>ueen"
+  param_3: "<color=#ff0000ff>B</color>all"
+  audio_param_1: "401020244;1"
+  audio_param_2: "401020217;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70005
+  param_1_texture: "robot1"
+  param_2_atlas: 70004
+  param_2_texture: "queen"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020357"
+  bigorsmall: 1
+}
+items {
+  id: 101823
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>r</color>abbit"
+  param_2: "<color=#ff0000ff>l</color>emon"
+  param_3: "<color=#ff0000ff>m</color>onkey"
+  audio_param_1: "401020218;1"
+  audio_param_2: "401020238;1"
+  audio_param_3: "401020213;1"
+  param_1_atlas: 70005
+  param_1_texture: "rabbit1"
+  param_2_atlas: 70005
+  param_2_texture: "lemon1"
+  param_3_atlas: 70002
+  param_3_texture: "monkey4"
+  ledi_hint_audio: "401020383"
+  bigorsmall: 2
+}
+items {
+  id: 101824
+  name: "R"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>r</color>obot"
+  param_2: "<color=#ff0000ff>f</color>ish"
+  param_3: "<color=#ff0000ff>c</color>at"
+  audio_param_1: "401020244;1"
+  audio_param_2: "401020206;1"
+  audio_param_3: "401020203;1"
+  param_1_atlas: 70005
+  param_1_texture: "robot1"
+  param_2_atlas: 70005
+  param_2_texture: "fish1"
+  param_3_atlas: 70001
+  param_3_texture: "cat4"
+  ledi_hint_audio: "401020383"
+  bigorsmall: 2
+}
+items {
+  id: 101831
+  name: "R"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "R"
+  param_2: "R"
+  audio_param_1: "401020118"
+  audio_param_2: "401020118"
+  letter_draw_audio: "401020118"
+  ledi_letter_audio: "401020118"
+  bigorsmall: 1
+}
+items {
+  id: 101832
+  name: "R"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "r"
+  param_2: "r"
+  audio_param_1: "401020118"
+  audio_param_2: "401020118"
+  letter_draw_audio: "401020118"
+  ledi_letter_audio: "401020118"
+  bigorsmall: 2
+}
+items {
+  id: 101841
+  name: "R"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "R"
+  audio_param_1: "401020118"
+  game1_statement1: "Big R"
+  game1_statement2: "  Little r"
+  game1_statement3: "Rabbit"
+  game1_statement4: "robot"
+  game1_audio1: "401020518"
+  game1_audio2: "401020544"
+  game1_audio3: "401020218;1"
+  game1_audio4: "401020244;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 4
+  game1_texture1: "rabbit-bg01"
+  game1_texture2: "robot-bg03"
+}
+items {
+  id: 101842
+  name: "R"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Rabbit"
+  audio_param_1: "401020218;1"
+}
+items {
+  id: 101911
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "S"
+  param_2: "I"
+  param_3: "N"
+  audio_param_1: "401020119"
+  audio_param_2: "401020109"
+  audio_param_3: "401020114"
+  ledi_hint_audio: "401020358"
+  bigorsmall: 1
+}
+items {
+  id: 101912
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "S"
+  param_2: "X"
+  param_3: "W"
+  audio_param_1: "401020119"
+  audio_param_2: "401020124"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020358"
+  bigorsmall: 1
+}
+items {
+  id: 101913
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "S is for snake."
+}
+items {
+  id: 101914
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "s"
+  param_2: "i"
+  param_3: "w"
+  audio_param_1: "401020119"
+  audio_param_2: "401020109"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020384"
+  bigorsmall: 2
+}
+items {
+  id: 101915
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "s"
+  param_2: "l"
+  param_3: "i"
+  audio_param_1: "401020119"
+  audio_param_2: "401020112"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020384"
+  bigorsmall: 2
+}
+items {
+  id: 101916
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "s"
+  param_2: "u"
+  param_3: "t"
+  audio_param_1: "401020119"
+  audio_param_2: "401020121"
+  audio_param_3: "401020120"
+  ledi_hint_audio: "401020332"
+  bigorsmall: 2
+}
+items {
+  id: 101921
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>S</color>nake"
+  param_2: "<color=#ff0000ff>L</color>ion"
+  param_3: "<color=#ff0000ff>I</color>guana"
+  audio_param_1: "401020219;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020235;1"
+  param_1_atlas: 70003
+  param_1_texture: "snake4"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70005
+  param_3_texture: "iguana1"
+  ledi_hint_audio: "401020358"
+  bigorsmall: 1
+}
+items {
+  id: 101922
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>S</color>un"
+  param_2: "<color=#ff0000ff>R</color>obot"
+  param_3: "<color=#ff0000ff>G</color>oat"
+  audio_param_1: "401020245;1"
+  audio_param_2: "401020244;1"
+  audio_param_3: "401020207;1"
+  param_1_atlas: 70003
+  param_1_texture: "sun4"
+  param_2_atlas: 70005
+  param_2_texture: "robot1"
+  param_3_atlas: 70001
+  param_3_texture: "goat4"
+  ledi_hint_audio: "401020358"
+  bigorsmall: 1
+}
+items {
+  id: 101923
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>s</color>nake"
+  param_2: "<color=#ff0000ff>k</color>ite"
+  param_3: "<color=#ff0000ff>j</color>uice"
+  audio_param_1: "401020219;1"
+  audio_param_2: "401020211;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70003
+  param_1_texture: "snake4"
+  param_2_atlas: 70004
+  param_2_texture: "kite"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020384"
+  bigorsmall: 2
+}
+items {
+  id: 101924
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>s</color>un"
+  param_2: "<color=#ff0000ff>j</color>et"
+  param_3: "<color=#ff0000ff>g</color>ift"
+  audio_param_1: "401020245;1"
+  audio_param_2: "401020236;1"
+  audio_param_3: "401020233;1"
+  param_1_atlas: 70003
+  param_1_texture: "sun4"
+  param_2_atlas: 70002
+  param_2_texture: "jet4"
+  param_3_atlas: 70001
+  param_3_texture: "gift4"
+  ledi_hint_audio: "401020384"
+  bigorsmall: 2
+}
+items {
+  id: 101931
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "S"
+  param_2: "S"
+  audio_param_1: "401020119"
+  audio_param_2: "401020119"
+  letter_draw_audio: "401020119"
+  ledi_letter_audio: "401020119"
+  bigorsmall: 1
+}
+items {
+  id: 101932
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "s"
+  param_2: "s"
+  audio_param_1: "401020119"
+  audio_param_2: "401020119"
+  letter_draw_audio: "401020119"
+  ledi_letter_audio: "401020119"
+  bigorsmall: 2
+}
+items {
+  id: 101941
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "S"
+  audio_param_1: "401020119"
+  game1_statement1: "Big S"
+  game1_statement2: " Little s"
+  game1_statement3: "Snake"
+  game1_statement4: "sun"
+  game1_audio1: "401020519"
+  game1_audio2: "401020545"
+  game1_audio3: "401020219;1"
+  game1_audio4: "401020245;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 1
+  game1_texture1: "snake-bg03"
+  game1_texture2: "sun-bg02"
+}
+items {
+  id: 101942
+  name: "S"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Snake"
+  audio_param_1: "401020219;1"
+}
+items {
+  id: 102011
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "T"
+  param_2: "S"
+  param_3: "I"
+  audio_param_1: "401020120"
+  audio_param_2: "401020119"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020359"
+  bigorsmall: 1
+}
+items {
+  id: 102012
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "T"
+  param_2: "J"
+  param_3: "S"
+  audio_param_1: "401020120"
+  audio_param_2: "401020110"
+  audio_param_3: "401020119"
+  ledi_hint_audio: "401020359"
+  bigorsmall: 1
+}
+items {
+  id: 102013
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "T is for tiger."
+}
+items {
+  id: 102014
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "t"
+  param_2: "f"
+  param_3: "i"
+  audio_param_1: "401020120"
+  audio_param_2: "401020106"
+  audio_param_3: "401020109"
+  ledi_hint_audio: "401020385"
+  bigorsmall: 2
+}
+items {
+  id: 102015
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "t"
+  param_2: "k"
+  param_3: "l"
+  audio_param_1: "401020120"
+  audio_param_2: "401020111"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020385"
+  bigorsmall: 2
+}
+items {
+  id: 102016
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "t"
+  param_2: "l"
+  param_3: "j"
+  audio_param_1: "401020120"
+  audio_param_2: "401020112"
+  audio_param_3: "401020110"
+  ledi_hint_audio: "401020333"
+  bigorsmall: 2
+}
+items {
+  id: 102021
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>T</color>iger"
+  param_2: "<color=#ff0000ff>S</color>un"
+  param_3: "<color=#ff0000ff>L</color>emon"
+  audio_param_1: "401020220;1"
+  audio_param_2: "401020245;1"
+  audio_param_3: "401020238;1"
+  param_1_atlas: 70004
+  param_1_texture: "tiger"
+  param_2_atlas: 70003
+  param_2_texture: "sun4"
+  param_3_atlas: 70005
+  param_3_texture: "lemon1"
+  ledi_hint_audio: "401020359"
+  bigorsmall: 1
+}
+items {
+  id: 102022
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>T</color>ea"
+  param_2: "<color=#ff0000ff>F</color>ox"
+  param_3: "<color=#ff0000ff>J</color>uice"
+  audio_param_1: "401020246;1"
+  audio_param_2: "401020250;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70004
+  param_1_texture: "tea"
+  param_2_atlas: 70005
+  param_2_texture: "fox1"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020359"
+  bigorsmall: 1
+}
+items {
+  id: 102023
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>t</color>iger"
+  param_2: "<color=#ff0000ff>s</color>nake"
+  param_3: "<color=#ff0000ff>l</color>ion"
+  audio_param_1: "401020220;1"
+  audio_param_2: "401020219;1"
+  audio_param_3: "401020212;1"
+  param_1_atlas: 70004
+  param_1_texture: "tiger"
+  param_2_atlas: 70003
+  param_2_texture: "snake4"
+  param_3_atlas: 70005
+  param_3_texture: "lion1"
+  ledi_hint_audio: "401020385"
+  bigorsmall: 2
+}
+items {
+  id: 102024
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>t</color>ea"
+  param_2: "<color=#ff0000ff>m</color>onkey"
+  param_3: "<color=#ff0000ff>f</color>ish"
+  audio_param_1: "401020246;1"
+  audio_param_2: "401020213;1"
+  audio_param_3: "401020206;1"
+  param_1_atlas: 70004
+  param_1_texture: "tea"
+  param_2_atlas: 70002
+  param_2_texture: "monkey4"
+  param_3_atlas: 70005
+  param_3_texture: "fish1"
+  ledi_hint_audio: "401020385"
+  bigorsmall: 2
+}
+items {
+  id: 102031
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "T"
+  param_2: "T"
+  audio_param_1: "401020120"
+  audio_param_2: "401020120"
+  letter_draw_audio: "401020120"
+  ledi_letter_audio: "401020120"
+  bigorsmall: 1
+}
+items {
+  id: 102032
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "t"
+  param_2: "t"
+  audio_param_1: "401020120"
+  audio_param_2: "401020120"
+  letter_draw_audio: "401020120"
+  ledi_letter_audio: "401020120"
+  bigorsmall: 2
+}
+items {
+  id: 102041
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "T"
+  audio_param_1: "401020120"
+  game1_statement1: "Big T"
+  game1_statement2: " Little t"
+  game1_statement3: "Tiger"
+  game1_statement4: "tea"
+  game1_audio1: "401020520"
+  game1_audio2: "401020546"
+  game1_audio3: "401020220;1"
+  game1_audio4: "401020246;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 4
+  game1_texture1: "tiger-bg01"
+  game1_texture2: "tea-bg05"
+}
+items {
+  id: 102042
+  name: "T"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Tiger"
+  audio_param_1: "401020220;1"
+}
+items {
+  id: 102111
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "U"
+  param_2: "O"
+  param_3: "V"
+  audio_param_1: "401020121"
+  audio_param_2: "401020115"
+  audio_param_3: "401020122"
+  ledi_hint_audio: "401020360"
+  bigorsmall: 1
+}
+items {
+  id: 102112
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "U"
+  param_2: "D"
+  param_3: "W"
+  audio_param_1: "401020121"
+  audio_param_2: "401020104"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020360"
+  bigorsmall: 1
+}
+items {
+  id: 102113
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "U is for  \numbrella."
+}
+items {
+  id: 102114
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "u"
+  param_2: "m"
+  param_3: "n"
+  audio_param_1: "401020121"
+  audio_param_2: "401020113"
+  audio_param_3: "401020114"
+  ledi_hint_audio: "401020386"
+  bigorsmall: 2
+}
+items {
+  id: 102115
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "u"
+  param_2: "r"
+  param_3: "o"
+  audio_param_1: "401020121"
+  audio_param_2: "401020118"
+  audio_param_3: "401020115"
+  ledi_hint_audio: "401020386"
+  bigorsmall: 2
+}
+items {
+  id: 102116
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "u"
+  param_2: "m"
+  param_3: "v"
+  audio_param_1: "401020121"
+  audio_param_2: "401020113"
+  audio_param_3: "401020122"
+  ledi_hint_audio: "401020334"
+  bigorsmall: 2
+}
+items {
+  id: 102121
+  name: "U"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>U</color>mbrella"
+  param_2: "<color=#ff0000ff>V</color>ase"
+  param_3: "<color=#ff0000ff>D</color>og"
+  audio_param_1: "401020221;1"
+  audio_param_2: "401020222;1"
+  audio_param_3: "401020204;1"
+  param_1_atlas: 70005
+  param_1_texture: "umbrella1"
+  param_2_atlas: 70003
+  param_2_texture: "vase4"
+  param_3_atlas: 70005
+  param_3_texture: "dog1"
+  ledi_hint_audio: "401020360"
+  bigorsmall: 1
+}
+items {
+  id: 102122
+  name: "U"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>U</color>kelele"
+  param_2: "<color=#ff0000ff>B</color>ox"
+  param_3: "<color=#ff0000ff>N</color>est"
+  audio_param_1: "401020247;1"
+  audio_param_2: "401020224;1"
+  audio_param_3: "401020214;1"
+  param_1_atlas: 70005
+  param_1_texture: "ukelele1"
+  param_2_atlas: 70005
+  param_2_texture: "box1"
+  param_3_atlas: 70004
+  param_3_texture: "nest"
+  ledi_hint_audio: "401020360"
+  bigorsmall: 1
+}
+items {
+  id: 102123
+  name: "U"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>u</color>mbrella"
+  param_2: "<color=#ff0000ff>l</color>ion"
+  param_3: "<color=#ff0000ff>y</color>oyo"
+  audio_param_1: "401020221;1"
+  audio_param_2: "401020212;1"
+  audio_param_3: "401020225;1"
+  param_1_atlas: 70005
+  param_1_texture: "umbrella1"
+  param_2_atlas: 70005
+  param_2_texture: "lion1"
+  param_3_atlas: 70003
+  param_3_texture: "Yoyo4"
+  ledi_hint_audio: "401020386"
+  bigorsmall: 2
+}
+items {
+  id: 102124
+  name: "U"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>u</color>kelele"
+  param_2: "<color=#ff0000ff>r</color>abbit"
+  param_3: "<color=#ff0000ff>p</color>ig"
+  audio_param_1: "401020247;1"
+  audio_param_2: "401020218;1"
+  audio_param_3: "401020216;1"
+  param_1_atlas: 70005
+  param_1_texture: "ukelele1"
+  param_2_atlas: 70005
+  param_2_texture: "rabbit1"
+  param_3_atlas: 70002
+  param_3_texture: "pig4"
+  ledi_hint_audio: "401020386"
+  bigorsmall: 2
+}
+items {
+  id: 102131
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "U"
+  param_2: "U"
+  audio_param_1: "401020121"
+  audio_param_2: "401020121"
+  letter_draw_audio: "401020121"
+  ledi_letter_audio: "401020121"
+  bigorsmall: 1
+}
+items {
+  id: 102132
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "u"
+  param_2: "u"
+  audio_param_1: "401020121"
+  audio_param_2: "401020121"
+  letter_draw_audio: "401020121"
+  ledi_letter_audio: "401020121"
+  bigorsmall: 2
+}
+items {
+  id: 102141
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "U"
+  audio_param_1: "401020121"
+  game1_statement1: "Big U"
+  game1_statement2: " Little u"
+  game1_statement3: "Umbrella"
+  game1_statement4: "ukelele"
+  game1_audio1: "401020521"
+  game1_audio2: "401020547"
+  game1_audio3: "401020221;1"
+  game1_audio4: "401020247;1"
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 1
+  game1_bg_list: 4
+  game1_texture1: "umbrella-bg02"
+  game1_texture2: "ukelele-bg05"
+}
+items {
+  id: 102142
+  name: "U"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Umbrella"
+  audio_param_1: "401020221;1"
+}
+items {
+  id: 102211
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "V"
+  param_2: "N"
+  param_3: "W"
+  audio_param_1: "401020122"
+  audio_param_2: "401020114"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020361"
+  bigorsmall: 1
+}
+items {
+  id: 102212
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "V"
+  param_2: "U"
+  param_3: "Q"
+  audio_param_1: "401020122"
+  audio_param_2: "401020121"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020361"
+  bigorsmall: 1
+}
+items {
+  id: 102213
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "V is for vase."
+}
+items {
+  id: 102214
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "v"
+  param_2: "n"
+  param_3: "u"
+  audio_param_1: "401020122"
+  audio_param_2: "401020114"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020387"
+  bigorsmall: 2
+}
+items {
+  id: 102215
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "v"
+  param_2: "c"
+  param_3: "w"
+  audio_param_1: "401020122"
+  audio_param_2: "401020103"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020387"
+  bigorsmall: 2
+}
+items {
+  id: 102216
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "v"
+  param_2: "o"
+  param_3: "p"
+  audio_param_1: "401020122"
+  audio_param_2: "401020115"
+  audio_param_3: "401020116"
+  ledi_hint_audio: "401020335"
+  bigorsmall: 2
+}
+items {
+  id: 102221
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>V</color>ase"
+  param_2: "<color=#ff0000ff>A</color>nt"
+  param_3: "<color=#ff0000ff>B</color>ox"
+  audio_param_1: "401020222;1"
+  audio_param_2: "401020227;1"
+  audio_param_3: "401020224;1"
+  param_1_atlas: 70003
+  param_1_texture: "vase4"
+  param_2_atlas: 70001
+  param_2_texture: "ant4"
+  param_3_atlas: 70005
+  param_3_texture: "box1"
+  ledi_hint_audio: "401020361"
+  bigorsmall: 1
+}
+items {
+  id: 102222
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>V</color>est"
+  param_2: "<color=#ff0000ff>Q</color>ueen"
+  param_3: "<color=#ff0000ff>T</color>iger"
+  audio_param_1: "401020248;1"
+  audio_param_2: "401020217;1"
+  audio_param_3: "401020220;1"
+  param_1_atlas: 70003
+  param_1_texture: "vest4"
+  param_2_atlas: 70004
+  param_2_texture: "queen"
+  param_3_atlas: 70004
+  param_3_texture: "tiger"
+  ledi_hint_audio: "401020361"
+  bigorsmall: 1
+}
+items {
+  id: 102223
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>v</color>ase"
+  param_2: "<color=#ff0000ff>d</color>og"
+  param_3: "<color=#ff0000ff>e</color>gg"
+  audio_param_1: "401020222;1"
+  audio_param_2: "401020204;1"
+  audio_param_3: "401020205;1"
+  param_1_atlas: 70003
+  param_1_texture: "vase4"
+  param_2_atlas: 70005
+  param_2_texture: "dog1"
+  param_3_atlas: 70004
+  param_3_texture: "egg"
+  ledi_hint_audio: "401020387"
+  bigorsmall: 2
+}
+items {
+  id: 102224
+  name: "V"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>v</color>est"
+  param_2: "<color=#ff0000ff>b</color>all"
+  param_3: "<color=#ff0000ff>d</color>uck"
+  audio_param_1: "401020248;1"
+  audio_param_2: "401020202;1"
+  audio_param_3: "401020230;1"
+  param_1_atlas: 70003
+  param_1_texture: "vest4"
+  param_2_atlas: 70004
+  param_2_texture: "ball"
+  param_3_atlas: 70005
+  param_3_texture: "duck1"
+  ledi_hint_audio: "401020387"
+  bigorsmall: 2
+}
+items {
+  id: 102231
+  name: "V"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "V"
+  param_2: "V"
+  audio_param_1: "401020122"
+  audio_param_2: "401020122"
+  letter_draw_audio: "401020122"
+  ledi_letter_audio: "401020122"
+  bigorsmall: 1
+}
+items {
+  id: 102232
+  name: "V"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "v"
+  param_2: "v"
+  audio_param_1: "401020122"
+  audio_param_2: "401020122"
+  letter_draw_audio: "401020122"
+  ledi_letter_audio: "401020122"
+  bigorsmall: 2
+}
+items {
+  id: 102241
+  name: "V"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "V"
+  audio_param_1: "401020122"
+  game1_statement1: "Big V"
+  game1_statement2: " Little v"
+  game1_statement3: "Vase"
+  game1_statement4: "vest"
+  game1_audio1: "401020522"
+  game1_audio2: "401020548"
+  game1_audio3: "401020222;1"
+  game1_audio4: "401020248;1"
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_bg_list: 4
+  game1_texture1: "vase-bg05"
+  game1_texture2: "vest-bg05"
+}
+items {
+  id: 102242
+  name: "V"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Vase"
+  audio_param_1: "401020222;1"
+}
+items {
+  id: 102311
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "W"
+  param_2: "V"
+  param_3: "U"
+  audio_param_1: "401020123"
+  audio_param_2: "401020122"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020362"
+  bigorsmall: 1
+}
+items {
+  id: 102312
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "W"
+  param_2: "X"
+  param_3: "M"
+  audio_param_1: "401020123"
+  audio_param_2: "401020124"
+  audio_param_3: "401020113"
+  ledi_hint_audio: "401020362"
+  bigorsmall: 1
+}
+items {
+  id: 102313
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "W is for wolf."
+}
+items {
+  id: 102314
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "w"
+  param_2: "n"
+  param_3: "m"
+  audio_param_1: "401020123"
+  audio_param_2: "401020114"
+  audio_param_3: "401020113"
+  ledi_hint_audio: "401020388"
+  bigorsmall: 2
+}
+items {
+  id: 102315
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "w"
+  param_2: "o"
+  param_3: "u"
+  audio_param_1: "401020123"
+  audio_param_2: "401020115"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020388"
+  bigorsmall: 2
+}
+items {
+  id: 102316
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "w"
+  param_2: "v"
+  param_3: "y"
+  audio_param_1: "401020123"
+  audio_param_2: "401020122"
+  audio_param_3: "401020125"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020336"
+  bigorsmall: 2
+}
+items {
+  id: 102321
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>W</color>olf"
+  param_2: "<color=#ff0000ff>M</color>onkey"
+  param_3: "<color=#ff0000ff>V</color>ase"
+  audio_param_1: "401020223;1"
+  audio_param_2: "401020213;1"
+  audio_param_3: "401020222;1"
+  param_1_atlas: 70004
+  param_1_texture: "wolf"
+  param_2_atlas: 70002
+  param_2_texture: "monkey4"
+  param_3_atlas: 70003
+  param_3_texture: "vase4"
+  ledi_hint_audio: "401020362"
+  bigorsmall: 1
+}
+items {
+  id: 102322
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>W</color>ind"
+  param_2: "<color=#ff0000ff>N</color>est"
+  param_3: "<color=#ff0000ff>R</color>obot"
+  audio_param_1: "401020249;1"
+  audio_param_2: "401020214;1"
+  audio_param_3: "401020244;1"
+  param_1_atlas: 70004
+  param_1_texture: "wind"
+  param_2_atlas: 70004
+  param_2_texture: "nest"
+  param_3_atlas: 70005
+  param_3_texture: "robot1"
+  ledi_hint_audio: "401020362"
+  bigorsmall: 1
+}
+items {
+  id: 102323
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>w</color>olf"
+  param_2: "<color=#ff0000ff>v</color>est"
+  param_3: "<color=#ff0000ff>n</color>est"
+  audio_param_1: "401020223;1"
+  audio_param_2: "401020248;1"
+  audio_param_3: "401020214;1"
+  param_1_atlas: 70004
+  param_1_texture: "wolf"
+  param_2_atlas: 70003
+  param_2_texture: "vest4"
+  param_3_atlas: 70004
+  param_3_texture: "nest"
+  ledi_hint_audio: "401020388"
+  bigorsmall: 2
+}
+items {
+  id: 102324
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>w</color>ind"
+  param_2: "<color=#ff0000ff>f</color>ox"
+  param_3: "<color=#ff0000ff>b</color>all"
+  audio_param_1: "401020249;1"
+  audio_param_2: "401020250;1"
+  audio_param_3: "401020202;1"
+  param_1_atlas: 70004
+  param_1_texture: "wind"
+  param_2_atlas: 70005
+  param_2_texture: "fox1"
+  param_3_atlas: 70004
+  param_3_texture: "ball"
+  ledi_hint_audio: "401020388"
+  bigorsmall: 2
+}
+items {
+  id: 102331
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "W"
+  param_2: "W"
+  audio_param_1: "401020123"
+  audio_param_2: "401020123"
+  letter_draw_audio: "401020123"
+  ledi_letter_audio: "401020123"
+  bigorsmall: 1
+}
+items {
+  id: 102332
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "w"
+  param_2: "w"
+  audio_param_1: "401020123"
+  audio_param_2: "401020123"
+  letter_draw_audio: "401020123"
+  ledi_letter_audio: "401020123"
+  bigorsmall: 2
+}
+items {
+  id: 102341
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "W"
+  audio_param_1: "401020123"
+  game1_statement1: "Big W"
+  game1_statement2: " Little w"
+  game1_statement3: "Wolf"
+  game1_statement4: "wind"
+  game1_audio1: "401020523"
+  game1_audio2: "401020549"
+  game1_audio3: "401020223;1"
+  game1_audio4: "401020249;1"
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_bg_list: 2
+  game1_texture1: "wolf-bg03"
+  game1_texture2: "wind-bg03"
+}
+items {
+  id: 102342
+  name: "W"
+  description: "\351\272\246\347\224\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Wolf"
+  audio_param_1: "401020223;1"
+}
+items {
+  id: 102411
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "X"
+  param_2: "N"
+  param_3: "Y"
+  audio_param_1: "401020124"
+  audio_param_2: "401020114"
+  audio_param_3: "401020125"
+  ledi_hint_audio: "401020363"
+  bigorsmall: 1
+}
+items {
+  id: 102412
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "X"
+  param_2: "M"
+  param_3: "V"
+  audio_param_1: "401020124"
+  audio_param_2: "401020113"
+  audio_param_3: "401020122"
+  ledi_hint_audio: "401020363"
+  bigorsmall: 1
+}
+items {
+  id: 102413
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "X is for box"
+}
+items {
+  id: 102414
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "x"
+  param_2: "v"
+  param_3: "u"
+  audio_param_1: "401020124"
+  audio_param_2: "401020122"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020389"
+  bigorsmall: 2
+}
+items {
+  id: 102415
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "x"
+  param_2: "u"
+  param_3: "y"
+  audio_param_1: "401020124"
+  audio_param_2: "401020121"
+  audio_param_3: "401020125"
+  param_3_offset: "0,10,0"
+  ledi_hint_audio: "401020389"
+  bigorsmall: 2
+}
+items {
+  id: 102416
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "x"
+  param_2: "n"
+  param_3: "u"
+  audio_param_1: "401020124"
+  audio_param_2: "401020114"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020337"
+  bigorsmall: 2
+}
+items {
+  id: 102421
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "bo<color=#ff0000ff>X</color>"
+  param_2: "<color=#ff0000ff>W</color>olf"
+  param_3: "<color=#ff0000ff>V</color>ase"
+  audio_param_1: "401020224;1"
+  audio_param_2: "401020223;1"
+  audio_param_3: "401020222;1"
+  param_1_atlas: 70005
+  param_1_texture: "box1"
+  param_2_atlas: 70004
+  param_2_texture: "wolf"
+  param_3_atlas: 70003
+  param_3_texture: "vase4"
+  ledi_hint_audio: "401020363"
+  bigorsmall: 1
+}
+items {
+  id: 102422
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "fo<color=#ff0000ff>X</color>"
+  param_2: "<color=#ff0000ff>M</color>onkey"
+  param_3: "<color=#ff0000ff>J</color>uice"
+  audio_param_1: "401020250;1"
+  audio_param_2: "401020213;1"
+  audio_param_3: "401020210;1"
+  param_1_atlas: 70005
+  param_1_texture: "fox1"
+  param_2_atlas: 70002
+  param_2_texture: "monkey4"
+  param_3_atlas: 70002
+  param_3_texture: "juice1"
+  ledi_hint_audio: "401020363"
+  bigorsmall: 1
+}
+items {
+  id: 102423
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "bo<color=#ff0000ff>x</color>"
+  param_2: "<color=#ff0000ff>w</color>olf"
+  param_3: "<color=#ff0000ff>m</color>ango"
+  audio_param_1: "401020224;1"
+  audio_param_2: "401020223;1"
+  audio_param_3: "401020239;1"
+  param_1_atlas: 70005
+  param_1_texture: "box1"
+  param_2_atlas: 70004
+  param_2_texture: "wolf"
+  param_3_atlas: 70002
+  param_3_texture: "mango4"
+  ledi_hint_audio: "401020389"
+  bigorsmall: 2
+}
+items {
+  id: 102424
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "fo<color=#ff0000ff>x</color>"
+  param_2: "<color=#ff0000ff>n</color>est"
+  param_3: "<color=#ff0000ff>l</color>ion"
+  audio_param_1: "401020250;1"
+  audio_param_2: "401020214;1"
+  audio_param_3: "401020212;1"
+  param_1_atlas: 70005
+  param_1_texture: "fox1"
+  param_2_atlas: 70004
+  param_2_texture: "nest"
+  param_3_atlas: 70005
+  param_3_texture: "lion1"
+  ledi_hint_audio: "401020389"
+  bigorsmall: 2
+}
+items {
+  id: 102431
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "X"
+  param_2: "X"
+  audio_param_1: "401020124"
+  audio_param_2: "401020124"
+  letter_draw_audio: "401020124"
+  ledi_letter_audio: "401020124"
+  bigorsmall: 1
+}
+items {
+  id: 102432
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "x"
+  param_2: "x"
+  audio_param_1: "401020124"
+  audio_param_2: "401020124"
+  letter_draw_audio: "401020124"
+  ledi_letter_audio: "401020124"
+  bigorsmall: 2
+}
+items {
+  id: 102441
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "X"
+  audio_param_1: "401020124"
+  game1_statement1: "Big X"
+  game1_statement2: " Little x"
+  game1_statement3: "Fox"
+  game1_statement4: "box"
+  game1_audio1: "401020524"
+  game1_audio2: "401020550"
+  game1_audio3: "401020250;1"
+  game1_audio4: "401020224;1"
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 0
+  game1_texture1: "fox-bg05"
+  game1_texture2: "box-bg05"
+}
+items {
+  id: 102442
+  name: "X"
+  description: "\351\233\252\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Box"
+  audio_param_1: "401020224;1"
+}
+items {
+  id: 102511
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "Y"
+  param_2: "A"
+  param_3: "Q"
+  audio_param_1: "401020125"
+  audio_param_2: "401020101"
+  audio_param_3: "401020117"
+  ledi_hint_audio: "401020364"
+  bigorsmall: 1
+}
+items {
+  id: 102512
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "Y"
+  param_2: "U"
+  param_3: "L"
+  audio_param_1: "401020125"
+  audio_param_2: "401020121"
+  audio_param_3: "401020112"
+  ledi_hint_audio: "401020364"
+  bigorsmall: 1
+}
+items {
+  id: 102513
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "Y is for yoyo."
+}
+items {
+  id: 102514
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "y"
+  param_2: "l"
+  param_3: "g"
+  audio_param_1: "401020125"
+  audio_param_2: "401020112"
+  audio_param_3: "401020107"
+  ledi_hint_audio: "401020390"
+  bigorsmall: 2
+}
+items {
+  id: 102515
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "y"
+  param_2: "j"
+  param_3: "g"
+  audio_param_1: "401020125"
+  audio_param_2: "401020110"
+  audio_param_3: "401020107"
+  ledi_hint_audio: "401020390"
+  bigorsmall: 2
+}
+items {
+  id: 102516
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "y"
+  param_2: "f"
+  param_3: "d"
+  audio_param_1: "401020125"
+  audio_param_2: "401020106"
+  audio_param_3: "401020104"
+  ledi_hint_audio: "401020338"
+  bigorsmall: 2
+}
+items {
+  id: 102521
+  name: "Y"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Y</color>oyo"
+  param_2: "<color=#ff0000ff>V</color>est"
+  param_3: "<color=#ff0000ff>A</color>pple"
+  audio_param_1: "401020225;1"
+  audio_param_2: "401020248;1"
+  audio_param_3: "401020201;1"
+  param_1_atlas: 70003
+  param_1_texture: "Yoyo4"
+  param_2_atlas: 70003
+  param_2_texture: "vest4"
+  param_3_atlas: 70001
+  param_3_texture: "apple4"
+  ledi_hint_audio: "401020364"
+  bigorsmall: 1
+}
+items {
+  id: 102522
+  name: "Y"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Y</color>ak"
+  param_2: "<color=#ff0000ff>J</color>uice"
+  param_3: "<color=#ff0000ff>L</color>emon"
+  audio_param_1: "401020251;1"
+  audio_param_2: "401020210;1"
+  audio_param_3: "401020238;1"
+  param_1_atlas: 70003
+  param_1_texture: "yak4"
+  param_2_atlas: 70002
+  param_2_texture: "juice1"
+  param_3_atlas: 70005
+  param_3_texture: "lemon1"
+  ledi_hint_audio: "401020364"
+  bigorsmall: 1
+}
+items {
+  id: 102523
+  name: "Y"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>y</color>oyo"
+  param_2: "<color=#ff0000ff>k</color>ite"
+  param_3: "<color=#ff0000ff>g</color>oat"
+  audio_param_1: "401020225;1"
+  audio_param_2: "401020211;1"
+  audio_param_3: "401020207;1"
+  param_1_atlas: 70003
+  param_1_texture: "Yoyo4"
+  param_2_atlas: 70004
+  param_2_texture: "kite"
+  param_3_atlas: 70001
+  param_3_texture: "goat4"
+  ledi_hint_audio: "401020390"
+  bigorsmall: 2
+}
+items {
+  id: 102524
+  name: "Y"
+  description: "\345\201\234\346\234\272\345\235\252\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>y</color>ak"
+  param_2: "<color=#ff0000ff>h</color>en"
+  param_3: "<color=#ff0000ff>m</color>ango"
+  audio_param_1: "401020251;1"
+  audio_param_2: "401020234;1"
+  audio_param_3: "401020239;1"
+  param_1_atlas: 70003
+  param_1_texture: "yak4"
+  param_2_atlas: 70004
+  param_2_texture: "hen"
+  param_3_atlas: 70002
+  param_3_texture: "mango4"
+  ledi_hint_audio: "401020390"
+  bigorsmall: 2
+}
+items {
+  id: 102531
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "Y"
+  param_2: "Y"
+  audio_param_1: "401020125"
+  audio_param_2: "401020125"
+  letter_draw_audio: "401020125"
+  ledi_letter_audio: "401020125"
+  bigorsmall: 1
+}
+items {
+  id: 102532
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "y"
+  param_2: "y"
+  audio_param_1: "401020125"
+  audio_param_2: "401020125"
+  letter_draw_audio: "401020125"
+  ledi_letter_audio: "401020125"
+  bigorsmall: 2
+}
+items {
+  id: 102541
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "Y"
+  audio_param_1: "401020125"
+  game1_statement1: "Big Y"
+  game1_statement2: " Little y"
+  game1_statement3: "Yoyo"
+  game1_statement4: "yak"
+  game1_audio1: "401020525"
+  game1_audio2: "401020551"
+  game1_audio3: "401020225;1"
+  game1_audio4: "401020251;1"
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 3
+  game1_bg_list: 0
+  game1_texture1: "yoyo-bg05"
+  game1_texture2: "yak-bg01"
+}
+items {
+  id: 102542
+  name: "Y"
+  description: "\350\215\211\345\234\260\357\274\232 \350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Yoyo"
+  audio_param_1: "401020225;1"
+}
+items {
+  id: 102611
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\200\345\271\225\357\274\210Game1)"
+  param_1: "Z"
+  param_2: "N"
+  param_3: "W"
+  audio_param_1: "401020126"
+  audio_param_2: "401020114"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020365"
+  bigorsmall: 1
+}
+items {
+  id: 102612
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\214\345\271\225\357\274\210Game1)"
+  param_1: "Z"
+  param_2: "U"
+  param_3: "M"
+  audio_param_1: "401020126"
+  audio_param_2: "401020121"
+  audio_param_3: "401020113"
+  ledi_hint_audio: "401020365"
+  bigorsmall: 1
+}
+items {
+  id: 102613
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\270\211\345\271\225\357\274\210Game1)"
+  param_1: "Z is for zebra."
+}
+items {
+  id: 102614
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\233\233\345\271\225\357\274\210Game1)"
+  param_1: "z"
+  param_2: "o"
+  param_3: "u"
+  audio_param_1: "401020126"
+  audio_param_2: "401020115"
+  audio_param_3: "401020121"
+  ledi_hint_audio: "401020391"
+  bigorsmall: 2
+}
+items {
+  id: 102615
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\344\272\224\345\271\225\357\274\210Game1)"
+  param_1: "z"
+  param_2: "m"
+  param_3: "w"
+  audio_param_1: "401020126"
+  audio_param_2: "401020113"
+  audio_param_3: "401020123"
+  ledi_hint_audio: "401020391"
+  bigorsmall: 2
+}
+items {
+  id: 102616
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232  \347\254\254\345\205\255\345\271\225\357\274\210Game1)"
+  param_1: "z"
+  param_2: "n"
+  param_3: "v"
+  audio_param_1: "401020126"
+  audio_param_2: "401020114"
+  audio_param_3: "401020122"
+  ledi_hint_audio: "401020339"
+  bigorsmall: 2
+}
+items {
+  id: 102621
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\200\345\271\225\357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Z</color>ebra"
+  param_2: "<color=#ff0000ff>M</color>ango"
+  param_3: "<color=#ff0000ff>N</color>est"
+  audio_param_1: "401020226;1"
+  audio_param_2: "401020239;1"
+  audio_param_3: "401020214;1"
+  param_1_atlas: 70004
+  param_1_texture: "zebra"
+  param_2_atlas: 70002
+  param_2_texture: "mango4"
+  param_3_atlas: 70004
+  param_3_texture: "nest"
+  ledi_hint_audio: "401020365"
+  bigorsmall: 1
+}
+items {
+  id: 102622
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\272\214\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>Z</color>ero"
+  param_2: "<color=#ff0000ff>N</color>oodle"
+  param_3: "<color=#ff0000ff>P</color>anda"
+  audio_param_1: "401020252;1"
+  audio_param_2: "401020240;1"
+  audio_param_3: "401020242;1"
+  param_1_atlas: 70004
+  param_1_texture: "ZERO"
+  param_2_atlas: 70004
+  param_2_texture: "noodle"
+  param_3_atlas: 70002
+  param_3_texture: "panda4"
+  ledi_hint_audio: "401020365"
+  bigorsmall: 1
+}
+items {
+  id: 102623
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\344\270\211\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>z</color>ebra"
+  param_2: "<color=#ff0000ff>t</color>iger"
+  param_3: "<color=#ff0000ff>w</color>olf"
+  audio_param_1: "401020226;1"
+  audio_param_2: "401020220;1"
+  audio_param_3: "401020223;1"
+  param_1_atlas: 70004
+  param_1_texture: "zebra"
+  param_2_atlas: 70004
+  param_2_texture: "tiger"
+  param_3_atlas: 70004
+  param_3_texture: "wolf"
+  ledi_hint_audio: "401020391"
+  bigorsmall: 2
+}
+items {
+  id: 102624
+  name: "Z"
+  description: "\346\265\267\345\272\225\357\274\232\347\254\254\345\233\233\345\271\225 \357\274\210Game2)"
+  param_1: "<color=#ff0000ff>z</color>ero"
+  param_2: "<color=#ff0000ff>f</color>ox"
+  param_3: "<color=#ff0000ff>e</color>gg"
+  audio_param_1: "401020252;1"
+  audio_param_2: "401020250;1"
+  audio_param_3: "401020205;1"
+  param_1_atlas: 70004
+  param_1_texture: "ZERO"
+  param_2_atlas: 70005
+  param_2_texture: "fox1"
+  param_3_atlas: 70004
+  param_3_texture: "egg"
+  ledi_hint_audio: "401020391"
+  bigorsmall: 2
+}
+items {
+  id: 102631
+  name: "Z"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\244\247\345\206\231\345\255\227\346\257\215\357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "Z"
+  param_2: "Z"
+  audio_param_1: "401020126"
+  audio_param_2: "401020126"
+  letter_draw_audio: "401020126"
+  ledi_letter_audio: "401020126"
+  bigorsmall: 1
+}
+items {
+  id: 102632
+  name: "Z"
+  description: "\346\262\231\346\273\251\357\274\232\346\270\270\346\210\217\344\270\211\345\206\231\345\260\217\345\206\231\345\255\227\346\257\215 \357\274\2102\346\254\241\357\274\211\n\357\274\210Game3)"
+  param_1: "z"
+  param_2: "z"
+  audio_param_1: "401020126"
+  audio_param_2: "401020126"
+  letter_draw_audio: "401020126"
+  ledi_letter_audio: "401020126"
+  bigorsmall: 2
+}
+items {
+  id: 102641
+  name: "Z"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\255\227\346\257\215\n\357\274\210Game4)"
+  param_1: "Z"
+  audio_param_1: "401020126"
+  game1_statement1: "Big Z"
+  game1_statement2: " Little z"
+  game1_statement3: "Zebra"
+  game1_statement4: "zero"
+  game1_audio1: "401020526"
+  game1_audio2: "401020552"
+  game1_audio3: "401020226;1"
+  game1_audio4: "401020252;1"
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 0
+  game1_bg_list: 1
+  game1_texture1: "zebra-bg01"
+  game1_texture2: "zerp-bg04"
+}
+items {
+  id: 102642
+  name: "Z"
+  description: "\346\262\231\346\273\251\357\274\232\350\257\273\345\215\225\350\257\215\n\357\274\210Game4)"
+  param_1: "Zebra"
+  audio_param_1: "401020226;1"
+}

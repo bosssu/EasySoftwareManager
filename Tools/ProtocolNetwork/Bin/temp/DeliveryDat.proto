@@ -1,0 +1,43 @@
+// 快递
+package app.models;
+import "proto/DefaultDat.proto";
+
+message InitDeliveryData {
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnDeliveryData {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+    optional int32 energy = 3;    // 能量数
+    optional int32 total_photo_num = 4;    // 所有照片数
+    repeated PhotoInfo my_photo_info = 5;  // 我的图片集合
+    optional string bonus_energy_time = 6; // 获得能量奖励时的时间;0-无奖励，非0-时间戳
+}
+
+message PhotoInfo {
+    required string photo_id = 1;    // 照片ID
+    optional string title = 2;       // 名称
+    optional string photo_url = 3;   // 照片地址
+    optional int32 area_type = 4;    // 洲份信息；1-北美洲、2-大洋洲、3-非洲、4-南美洲、5-欧洲、6-亚洲
+}
+
+message Travel {
+    required int32 id = 1; // 玩家id
+}
+
+message TakePhoto {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+    optional PhotoInfo photo_info = 3; // 获得图片信息
+}
+
+message AddEnergy {
+    required int32 id = 1; // 玩家id
+    required int32 num = 2;
+}
+
+message ReturnAddEnergy {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+}

@@ -1,0 +1,39 @@
+//飞侠电台
+package app.models;
+import "proto/DefaultDat.proto";
+
+
+message Album{
+     required int32 cid = 1; // 分类ID
+     required string name = 2;   // 名称
+     optional string desc = 3;   // 描述
+     optional string cover_url = 4;   // 图片地址
+     required int32 price = 5;   // 价格
+     repeated RadioInfo radioList = 6;   //视频列表信息
+     required int32 buy = 7;   //是否购买了本专辑 1是 0否
+     required int32 status = 8;   //状态 1在售 0下架
+	 required int32 good_id = 9;   //商品ID 下单时用
+     required int32 order = 10;   //顺序
+}
+
+message RadioInfo{
+     required int32 rid = 1; //集ID
+     required string name = 2;   // 名称
+     optional string desc = 3;   // 描述
+     optional string cover_url = 4;   // 展示图标
+     optional string addr = 5;   // 播放地址
+     required int32 free = 6;   //是否免费 1是 0否
+     required int32 status = 7;   //状态 1在售 0下架
+     required int32 order = 8;   //顺序
+     required int32 is_recommand = 9;   //是否推荐商品 1是 0否
+}
+
+message GetRadioData {
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnRadioInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated Album album = 3;   //电台相关数据
+}

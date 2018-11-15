@@ -1,0 +1,4320 @@
+items {
+  id: 1
+  levelId: 1
+  rowTitle: "A1B2"
+  columnTitle: "A2B1"
+  resultname: "A2B2"
+  resRotation: 0
+}
+items {
+  id: 2
+  levelId: 1
+  rowTitle: "A1B2"
+  columnTitle: "A3B1"
+  resultname: "A3B2"
+  resRotation: 0
+}
+items {
+  id: 3
+  levelId: 1
+  rowTitle: "A1B2"
+  columnTitle: "A4B1"
+  resultname: "A4B2"
+  resRotation: 0
+}
+items {
+  id: 4
+  levelId: 1
+  rowTitle: "A1B3"
+  columnTitle: "A2B1"
+  resultname: "A2B3"
+  resRotation: 0
+}
+items {
+  id: 5
+  levelId: 1
+  rowTitle: "A1B3"
+  columnTitle: "A3B1"
+  resultname: "A3B3"
+  resRotation: 0
+}
+items {
+  id: 6
+  levelId: 1
+  rowTitle: "A1B3"
+  columnTitle: "A4B1"
+  resultname: "A4B3"
+  resRotation: 0
+}
+items {
+  id: 7
+  levelId: 1
+  rowTitle: "A1B4"
+  columnTitle: "A2B1"
+  resultname: "A2B4"
+  resRotation: 0
+}
+items {
+  id: 8
+  levelId: 1
+  rowTitle: "A1B4"
+  columnTitle: "A3B1"
+  resultname: "A3B4"
+  resRotation: 0
+}
+items {
+  id: 9
+  levelId: 1
+  rowTitle: "A1B4"
+  columnTitle: "A4B1"
+  resultname: "A4B4"
+  resRotation: 0
+}
+items {
+  id: 10
+  levelId: 2
+  rowTitle: "A1B6"
+  columnTitle: "A2B1"
+  resultname: "A2B6"
+  resRotation: 0
+}
+items {
+  id: 11
+  levelId: 2
+  rowTitle: "A1B6"
+  columnTitle: "A3B1"
+  resultname: "A3B6"
+  resRotation: 0
+}
+items {
+  id: 12
+  levelId: 2
+  rowTitle: "A1B6"
+  columnTitle: "A4B1"
+  resultname: "A4B6"
+  resRotation: 0
+}
+items {
+  id: 13
+  levelId: 2
+  rowTitle: "A1B7"
+  columnTitle: "A2B1"
+  resultname: "A2B7"
+  resRotation: 0
+}
+items {
+  id: 14
+  levelId: 2
+  rowTitle: "A1B7"
+  columnTitle: "A3B1"
+  resultname: "A3B7"
+  resRotation: 0
+}
+items {
+  id: 15
+  levelId: 2
+  rowTitle: "A1B7"
+  columnTitle: "A4B1"
+  resultname: "A4B7"
+  resRotation: 0
+}
+items {
+  id: 16
+  levelId: 2
+  rowTitle: "A1B8"
+  columnTitle: "A2B1"
+  resultname: "A2B8"
+  resRotation: 0
+}
+items {
+  id: 17
+  levelId: 2
+  rowTitle: "A1B8"
+  columnTitle: "A3B1"
+  resultname: "A3B8"
+  resRotation: 0
+}
+items {
+  id: 18
+  levelId: 2
+  rowTitle: "A1B8"
+  columnTitle: "A4B1"
+  resultname: "A4B8"
+  resRotation: 0
+}
+items {
+  id: 19
+  levelId: 3
+  rowTitle: "A1B10"
+  columnTitle: "A2B1"
+  resultname: "A2B10"
+  resRotation: 0
+}
+items {
+  id: 20
+  levelId: 3
+  rowTitle: "A1B10"
+  columnTitle: "A3B1"
+  resultname: "A3B10"
+  resRotation: 0
+}
+items {
+  id: 21
+  levelId: 3
+  rowTitle: "A1B10"
+  columnTitle: "A4B1"
+  resultname: "A4B10"
+  resRotation: 0
+}
+items {
+  id: 22
+  levelId: 3
+  rowTitle: "A1B11"
+  columnTitle: "A2B1"
+  resultname: "A2B11"
+  resRotation: 0
+}
+items {
+  id: 23
+  levelId: 3
+  rowTitle: "A1B11"
+  columnTitle: "A3B1"
+  resultname: "A3B11"
+  resRotation: 0
+}
+items {
+  id: 24
+  levelId: 3
+  rowTitle: "A1B11"
+  columnTitle: "A4B1"
+  resultname: "A4B11"
+  resRotation: 0
+}
+items {
+  id: 25
+  levelId: 3
+  rowTitle: "A1B12"
+  columnTitle: "A2B1"
+  resultname: "A2B12"
+  resRotation: 0
+}
+items {
+  id: 26
+  levelId: 3
+  rowTitle: "A1B12"
+  columnTitle: "A3B1"
+  resultname: "A3B12"
+  resRotation: 0
+}
+items {
+  id: 27
+  levelId: 3
+  rowTitle: "A1B12"
+  columnTitle: "A4B1"
+  resultname: "A4B12"
+  resRotation: 0
+}
+items {
+  id: 28
+  levelId: 4
+  rowTitle: "A10B14"
+  columnTitle: "A2B1"
+  resultname: "A2B14"
+  resRotation: 0
+}
+items {
+  id: 29
+  levelId: 4
+  rowTitle: "A10B14"
+  columnTitle: "A3B1"
+  resultname: "A3B14"
+  resRotation: 0
+}
+items {
+  id: 30
+  levelId: 4
+  rowTitle: "A10B14"
+  columnTitle: "A4B1"
+  resultname: "A4B14"
+  resRotation: 0
+}
+items {
+  id: 31
+  levelId: 4
+  rowTitle: "A1B15"
+  columnTitle: "A2B1"
+  resultname: "A2B15"
+  resRotation: 0
+}
+items {
+  id: 32
+  levelId: 4
+  rowTitle: "A1B15"
+  columnTitle: "A3B1"
+  resultname: "A3B15"
+  resRotation: 0
+}
+items {
+  id: 33
+  levelId: 4
+  rowTitle: "A1B15"
+  columnTitle: "A4B1"
+  resultname: "A4B15"
+  resRotation: 0
+}
+items {
+  id: 34
+  levelId: 4
+  rowTitle: "A1B16"
+  columnTitle: "A2B1"
+  resultname: "A2B16"
+  resRotation: 0
+}
+items {
+  id: 35
+  levelId: 4
+  rowTitle: "A1B16"
+  columnTitle: "A3B1"
+  resultname: "A3B16"
+  resRotation: 0
+}
+items {
+  id: 36
+  levelId: 4
+  rowTitle: "A1B16"
+  columnTitle: "A4B1"
+  resultname: "A4B16"
+  resRotation: 0
+}
+items {
+  id: 37
+  levelId: 5
+  rowTitle: "A1B18"
+  columnTitle: "A2B1"
+  resultname: "A2B18"
+  resRotation: 0
+}
+items {
+  id: 38
+  levelId: 5
+  rowTitle: "A1B18"
+  columnTitle: "A3B1"
+  resultname: "A3B18"
+  resRotation: 0
+}
+items {
+  id: 39
+  levelId: 5
+  rowTitle: "A1B18"
+  columnTitle: "A4B1"
+  resultname: "A4B18"
+  resRotation: 0
+}
+items {
+  id: 40
+  levelId: 5
+  rowTitle: "A1B19"
+  columnTitle: "A2B1"
+  resultname: "A2B19"
+  resRotation: 0
+}
+items {
+  id: 41
+  levelId: 5
+  rowTitle: "A1B19"
+  columnTitle: "A3B1"
+  resultname: "A3B19"
+  resRotation: 0
+}
+items {
+  id: 42
+  levelId: 5
+  rowTitle: "A1B19"
+  columnTitle: "A4B1"
+  resultname: "A4B19"
+  resRotation: 0
+}
+items {
+  id: 43
+  levelId: 5
+  rowTitle: "A1B20"
+  columnTitle: "A2B1"
+  resultname: "A2B20"
+  resRotation: 0
+}
+items {
+  id: 44
+  levelId: 5
+  rowTitle: "A1B20"
+  columnTitle: "A3B1"
+  resultname: "A3B20"
+  resRotation: 0
+}
+items {
+  id: 45
+  levelId: 5
+  rowTitle: "A1B20"
+  columnTitle: "A4B1"
+  resultname: "A4B20"
+  resRotation: 0
+}
+items {
+  id: 46
+  levelId: 6
+  rowTitle: "A5B2"
+  columnTitle: "A6B1"
+  resultname: "A6B2"
+  resRotation: 0
+}
+items {
+  id: 47
+  levelId: 6
+  rowTitle: "A5B2"
+  columnTitle: "A7B1"
+  resultname: "A7B2"
+  resRotation: 0
+}
+items {
+  id: 48
+  levelId: 6
+  rowTitle: "A5B2"
+  columnTitle: "A8B1"
+  resultname: "A8B2"
+  resRotation: 0
+}
+items {
+  id: 49
+  levelId: 6
+  rowTitle: "A5B3"
+  columnTitle: "A6B1"
+  resultname: "A6B3"
+  resRotation: 0
+}
+items {
+  id: 50
+  levelId: 6
+  rowTitle: "A5B3"
+  columnTitle: "A7B1"
+  resultname: "A7B3"
+  resRotation: 0
+}
+items {
+  id: 51
+  levelId: 6
+  rowTitle: "A5B3"
+  columnTitle: "A8B1"
+  resultname: "A8B3"
+  resRotation: 0
+}
+items {
+  id: 52
+  levelId: 6
+  rowTitle: "A5B4"
+  columnTitle: "A6B1"
+  resultname: "A6B4"
+  resRotation: 0
+}
+items {
+  id: 53
+  levelId: 6
+  rowTitle: "A5B4"
+  columnTitle: "A7B1"
+  resultname: "A7B4"
+  resRotation: 0
+}
+items {
+  id: 54
+  levelId: 6
+  rowTitle: "A5B4"
+  columnTitle: "A8B1"
+  resultname: "A8B4"
+  resRotation: 0
+}
+items {
+  id: 55
+  levelId: 7
+  rowTitle: "A5B6"
+  columnTitle: "A6B1"
+  resultname: "A6B6"
+  resRotation: 0
+}
+items {
+  id: 56
+  levelId: 7
+  rowTitle: "A5B6"
+  columnTitle: "A7B1"
+  resultname: "A7B6"
+  resRotation: 0
+}
+items {
+  id: 57
+  levelId: 7
+  rowTitle: "A5B6"
+  columnTitle: "A8B1"
+  resultname: "A8B6"
+  resRotation: 0
+}
+items {
+  id: 58
+  levelId: 7
+  rowTitle: "A5B7"
+  columnTitle: "A6B1"
+  resultname: "A6B7"
+  resRotation: 0
+}
+items {
+  id: 59
+  levelId: 7
+  rowTitle: "A5B7"
+  columnTitle: "A7B1"
+  resultname: "A7B7"
+  resRotation: 0
+}
+items {
+  id: 60
+  levelId: 7
+  rowTitle: "A5B7"
+  columnTitle: "A8B1"
+  resultname: "A8B7"
+  resRotation: 0
+}
+items {
+  id: 61
+  levelId: 7
+  rowTitle: "A5B8"
+  columnTitle: "A6B1"
+  resultname: "A6B8"
+  resRotation: 0
+}
+items {
+  id: 62
+  levelId: 7
+  rowTitle: "A5B8"
+  columnTitle: "A7B1"
+  resultname: "A7B8"
+  resRotation: 0
+}
+items {
+  id: 63
+  levelId: 7
+  rowTitle: "A5B8"
+  columnTitle: "A8B1"
+  resultname: "A8B8"
+  resRotation: 0
+}
+items {
+  id: 64
+  levelId: 8
+  rowTitle: "A5B10"
+  columnTitle: "A6B1"
+  resultname: "A6B10"
+  resRotation: 0
+}
+items {
+  id: 65
+  levelId: 8
+  rowTitle: "A5B10"
+  columnTitle: "A7B1"
+  resultname: "A7B10"
+  resRotation: 0
+}
+items {
+  id: 66
+  levelId: 8
+  rowTitle: "A5B10"
+  columnTitle: "A8B1"
+  resultname: "A8B10"
+  resRotation: 0
+}
+items {
+  id: 67
+  levelId: 8
+  rowTitle: "A5B11"
+  columnTitle: "A6B1"
+  resultname: "A6B11"
+  resRotation: 0
+}
+items {
+  id: 68
+  levelId: 8
+  rowTitle: "A5B11"
+  columnTitle: "A7B1"
+  resultname: "A7B11"
+  resRotation: 0
+}
+items {
+  id: 69
+  levelId: 8
+  rowTitle: "A5B11"
+  columnTitle: "A8B1"
+  resultname: "A8B11"
+  resRotation: 0
+}
+items {
+  id: 70
+  levelId: 8
+  rowTitle: "A5B12"
+  columnTitle: "A6B1"
+  resultname: "A6B12"
+  resRotation: 0
+}
+items {
+  id: 71
+  levelId: 8
+  rowTitle: "A5B12"
+  columnTitle: "A7B1"
+  resultname: "A7B12"
+  resRotation: 0
+}
+items {
+  id: 72
+  levelId: 8
+  rowTitle: "A5B12"
+  columnTitle: "A8B1"
+  resultname: "A8B12"
+  resRotation: 0
+}
+items {
+  id: 73
+  levelId: 9
+  rowTitle: "A5B14"
+  columnTitle: "A6B1"
+  resultname: "A6B14"
+  resRotation: 0
+}
+items {
+  id: 74
+  levelId: 9
+  rowTitle: "A5B14"
+  columnTitle: "A7B1"
+  resultname: "A7B14"
+  resRotation: 0
+}
+items {
+  id: 75
+  levelId: 9
+  rowTitle: "A5B14"
+  columnTitle: "A8B1"
+  resultname: "A8B14"
+  resRotation: 0
+}
+items {
+  id: 76
+  levelId: 9
+  rowTitle: "A5B15"
+  columnTitle: "A6B1"
+  resultname: "A6B15"
+  resRotation: 0
+}
+items {
+  id: 77
+  levelId: 9
+  rowTitle: "A5B15"
+  columnTitle: "A7B1"
+  resultname: "A7B15"
+  resRotation: 0
+}
+items {
+  id: 78
+  levelId: 9
+  rowTitle: "A5B15"
+  columnTitle: "A8B1"
+  resultname: "A8B15"
+  resRotation: 0
+}
+items {
+  id: 79
+  levelId: 9
+  rowTitle: "A5B16"
+  columnTitle: "A6B1"
+  resultname: "A6B16"
+  resRotation: 0
+}
+items {
+  id: 80
+  levelId: 9
+  rowTitle: "A5B16"
+  columnTitle: "A7B1"
+  resultname: "A7B16"
+  resRotation: 0
+}
+items {
+  id: 81
+  levelId: 9
+  rowTitle: "A5B16"
+  columnTitle: "A8B1"
+  resultname: "A8B16"
+  resRotation: 0
+}
+items {
+  id: 82
+  levelId: 10
+  rowTitle: "A1B6"
+  columnTitle: "A6B1"
+  resultname: "A6B18"
+  resRotation: 0
+}
+items {
+  id: 83
+  levelId: 10
+  rowTitle: "A1B6"
+  columnTitle: "A7B1"
+  resultname: "A7B18"
+  resRotation: 0
+}
+items {
+  id: 84
+  levelId: 10
+  rowTitle: "A1B6"
+  columnTitle: "A8B1"
+  resultname: "A8B18"
+  resRotation: 0
+}
+items {
+  id: 85
+  levelId: 10
+  rowTitle: "A1B7"
+  columnTitle: "A6B1"
+  resultname: "A6B19"
+  resRotation: 0
+}
+items {
+  id: 86
+  levelId: 10
+  rowTitle: "A1B7"
+  columnTitle: "A7B1"
+  resultname: "A7B19"
+  resRotation: 0
+}
+items {
+  id: 87
+  levelId: 10
+  rowTitle: "A1B7"
+  columnTitle: "A8B1"
+  resultname: "A8B19"
+  resRotation: 0
+}
+items {
+  id: 88
+  levelId: 10
+  rowTitle: "A1B8"
+  columnTitle: "A6B1"
+  resultname: "A6B20"
+  resRotation: 0
+}
+items {
+  id: 89
+  levelId: 10
+  rowTitle: "A1B8"
+  columnTitle: "A7B1"
+  resultname: "A7B20"
+  resRotation: 0
+}
+items {
+  id: 90
+  levelId: 10
+  rowTitle: "A1B8"
+  columnTitle: "A8B1"
+  resultname: "A8B20"
+  resRotation: 0
+}
+items {
+  id: 91
+  levelId: 11
+  rowTitle: "A9B2"
+  columnTitle: "A10B1"
+  resultname: "A10B2"
+  resRotation: 0
+}
+items {
+  id: 92
+  levelId: 11
+  rowTitle: "A9B2"
+  columnTitle: "A11B1"
+  resultname: "A11B2"
+  resRotation: 0
+}
+items {
+  id: 93
+  levelId: 11
+  rowTitle: "A9B2"
+  columnTitle: "A12B1"
+  resultname: "A12B2"
+  resRotation: 0
+}
+items {
+  id: 94
+  levelId: 11
+  rowTitle: "A9B3"
+  columnTitle: "A10B1"
+  resultname: "A10B3"
+  resRotation: 0
+}
+items {
+  id: 95
+  levelId: 11
+  rowTitle: "A9B3"
+  columnTitle: "A11B1"
+  resultname: "A11B3"
+  resRotation: 0
+}
+items {
+  id: 96
+  levelId: 11
+  rowTitle: "A9B3"
+  columnTitle: "A12B1"
+  resultname: "A12B3"
+  resRotation: 0
+}
+items {
+  id: 97
+  levelId: 11
+  rowTitle: "A9B4"
+  columnTitle: "A10B1"
+  resultname: "A10B4"
+  resRotation: 0
+}
+items {
+  id: 98
+  levelId: 11
+  rowTitle: "A9B4"
+  columnTitle: "A11B1"
+  resultname: "A11B4"
+  resRotation: 0
+}
+items {
+  id: 99
+  levelId: 11
+  rowTitle: "A9B4"
+  columnTitle: "A12B1"
+  resultname: "A12B4"
+  resRotation: 0
+}
+items {
+  id: 100
+  levelId: 12
+  rowTitle: "A9B6"
+  columnTitle: "A10B1"
+  resultname: "A10B6"
+  resRotation: 0
+}
+items {
+  id: 101
+  levelId: 12
+  rowTitle: "A9B6"
+  columnTitle: "A11B1"
+  resultname: "A11B6"
+  resRotation: 0
+}
+items {
+  id: 102
+  levelId: 12
+  rowTitle: "A9B6"
+  columnTitle: "A12B1"
+  resultname: "A12B6"
+  resRotation: 0
+}
+items {
+  id: 103
+  levelId: 12
+  rowTitle: "A9B7"
+  columnTitle: "A10B1"
+  resultname: "A10B7"
+  resRotation: 0
+}
+items {
+  id: 104
+  levelId: 12
+  rowTitle: "A9B7"
+  columnTitle: "A11B1"
+  resultname: "A11B7"
+  resRotation: 0
+}
+items {
+  id: 105
+  levelId: 12
+  rowTitle: "A9B7"
+  columnTitle: "A12B1"
+  resultname: "A12B7"
+  resRotation: 0
+}
+items {
+  id: 106
+  levelId: 12
+  rowTitle: "A9B8"
+  columnTitle: "A10B1"
+  resultname: "A10B8"
+  resRotation: 0
+}
+items {
+  id: 107
+  levelId: 12
+  rowTitle: "A9B8"
+  columnTitle: "A11B1"
+  resultname: "A11B8"
+  resRotation: 0
+}
+items {
+  id: 108
+  levelId: 12
+  rowTitle: "A9B8"
+  columnTitle: "A12B1"
+  resultname: "A12B8"
+  resRotation: 0
+}
+items {
+  id: 109
+  levelId: 13
+  rowTitle: "A9B10"
+  columnTitle: "A10B1"
+  resultname: "A10B10"
+  resRotation: 0
+}
+items {
+  id: 110
+  levelId: 13
+  rowTitle: "A9B10"
+  columnTitle: "A11B1"
+  resultname: "A11B10"
+  resRotation: 0
+}
+items {
+  id: 111
+  levelId: 13
+  rowTitle: "A9B10"
+  columnTitle: "A12B1"
+  resultname: "A12B10"
+  resRotation: 0
+}
+items {
+  id: 112
+  levelId: 13
+  rowTitle: "A9B11"
+  columnTitle: "A10B1"
+  resultname: "A10B11"
+  resRotation: 0
+}
+items {
+  id: 113
+  levelId: 13
+  rowTitle: "A9B11"
+  columnTitle: "A11B1"
+  resultname: "A11B11"
+  resRotation: 0
+}
+items {
+  id: 114
+  levelId: 13
+  rowTitle: "A9B11"
+  columnTitle: "A12B1"
+  resultname: "A12B11"
+  resRotation: 0
+}
+items {
+  id: 115
+  levelId: 13
+  rowTitle: "A9B12"
+  columnTitle: "A10B1"
+  resultname: "A10B12"
+  resRotation: 0
+}
+items {
+  id: 116
+  levelId: 13
+  rowTitle: "A9B12"
+  columnTitle: "A11B1"
+  resultname: "A11B12"
+  resRotation: 0
+}
+items {
+  id: 117
+  levelId: 13
+  rowTitle: "A9B12"
+  columnTitle: "A12B1"
+  resultname: "A12B12"
+  resRotation: 0
+}
+items {
+  id: 118
+  levelId: 14
+  rowTitle: "A9B14"
+  columnTitle: "A10B1"
+  resultname: "A10B14"
+  resRotation: 0
+}
+items {
+  id: 119
+  levelId: 14
+  rowTitle: "A9B14"
+  columnTitle: "A11B1"
+  resultname: "A11B14"
+  resRotation: 0
+}
+items {
+  id: 120
+  levelId: 14
+  rowTitle: "A9B14"
+  columnTitle: "A12B1"
+  resultname: "A12B14"
+  resRotation: 0
+}
+items {
+  id: 121
+  levelId: 14
+  rowTitle: "A9B15"
+  columnTitle: "A10B1"
+  resultname: "A10B15"
+  resRotation: 0
+}
+items {
+  id: 122
+  levelId: 14
+  rowTitle: "A9B15"
+  columnTitle: "A11B1"
+  resultname: "A11B15"
+  resRotation: 0
+}
+items {
+  id: 123
+  levelId: 14
+  rowTitle: "A9B15"
+  columnTitle: "A12B1"
+  resultname: "A12B15"
+  resRotation: 0
+}
+items {
+  id: 124
+  levelId: 14
+  rowTitle: "A9B16"
+  columnTitle: "A10B1"
+  resultname: "A10B16"
+  resRotation: 0
+}
+items {
+  id: 125
+  levelId: 14
+  rowTitle: "A9B16"
+  columnTitle: "A11B1"
+  resultname: "A11B16"
+  resRotation: 0
+}
+items {
+  id: 126
+  levelId: 14
+  rowTitle: "A9B16"
+  columnTitle: "A12B1"
+  resultname: "A12B16"
+  resRotation: 0
+}
+items {
+  id: 127
+  levelId: 15
+  rowTitle: "A9B18"
+  columnTitle: "A10B1"
+  resultname: "A10B18"
+  resRotation: 0
+}
+items {
+  id: 128
+  levelId: 15
+  rowTitle: "A9B18"
+  columnTitle: "A11B1"
+  resultname: "A11B18"
+  resRotation: 0
+}
+items {
+  id: 129
+  levelId: 15
+  rowTitle: "A9B18"
+  columnTitle: "A12B1"
+  resultname: "A12B18"
+  resRotation: 0
+}
+items {
+  id: 130
+  levelId: 15
+  rowTitle: "A9B19"
+  columnTitle: "A10B1"
+  resultname: "A10B19"
+  resRotation: 0
+}
+items {
+  id: 131
+  levelId: 15
+  rowTitle: "A9B19"
+  columnTitle: "A11B1"
+  resultname: "A11B19"
+  resRotation: 0
+}
+items {
+  id: 132
+  levelId: 15
+  rowTitle: "A9B19"
+  columnTitle: "A12B1"
+  resultname: "A12B19"
+  resRotation: 0
+}
+items {
+  id: 133
+  levelId: 15
+  rowTitle: "A9B20"
+  columnTitle: "A10B1"
+  resultname: "A10B20"
+  resRotation: 0
+}
+items {
+  id: 134
+  levelId: 15
+  rowTitle: "A9B20"
+  columnTitle: "A11B1"
+  resultname: "A11B20"
+  resRotation: 0
+}
+items {
+  id: 135
+  levelId: 15
+  rowTitle: "A9B20"
+  columnTitle: "A12B1"
+  resultname: "A12B20"
+  resRotation: 0
+}
+items {
+  id: 136
+  levelId: 16
+  rowTitle: "A1B22"
+  columnTitle: "A2B21"
+  resultname: "A2B22"
+  resRotation: 0
+}
+items {
+  id: 137
+  levelId: 16
+  rowTitle: "A1B22"
+  columnTitle: "A3B21"
+  resultname: "A3B22"
+  resRotation: 0
+}
+items {
+  id: 138
+  levelId: 16
+  rowTitle: "A1B22"
+  columnTitle: "A4B21"
+  resultname: "A4B22"
+  resRotation: 0
+}
+items {
+  id: 139
+  levelId: 16
+  rowTitle: "A1B23"
+  columnTitle: "A2B21"
+  resultname: "A2B23"
+  resRotation: 0
+}
+items {
+  id: 140
+  levelId: 16
+  rowTitle: "A1B23"
+  columnTitle: "A3B21"
+  resultname: "A3B23"
+  resRotation: 0
+}
+items {
+  id: 141
+  levelId: 16
+  rowTitle: "A1B23"
+  columnTitle: "A4B21"
+  resultname: "A4B23"
+  resRotation: 0
+}
+items {
+  id: 142
+  levelId: 16
+  rowTitle: "A1B24"
+  columnTitle: "A2B21"
+  resultname: "A2B24"
+  resRotation: 0
+}
+items {
+  id: 143
+  levelId: 16
+  rowTitle: "A1B24"
+  columnTitle: "A3B21"
+  resultname: "A3B24"
+  resRotation: 0
+}
+items {
+  id: 144
+  levelId: 16
+  rowTitle: "A1B24"
+  columnTitle: "A4B21"
+  resultname: "A4B24"
+  resRotation: 0
+}
+items {
+  id: 145
+  levelId: 17
+  rowTitle: "A1B22"
+  columnTitle: "A2B25"
+  resultname: "A2B26"
+  resRotation: 0
+}
+items {
+  id: 146
+  levelId: 17
+  rowTitle: "A1B22"
+  columnTitle: "A3B25"
+  resultname: "A3B26"
+  resRotation: 0
+}
+items {
+  id: 147
+  levelId: 17
+  rowTitle: "A1B22"
+  columnTitle: "A4B25"
+  resultname: "A4B26"
+  resRotation: 0
+}
+items {
+  id: 148
+  levelId: 17
+  rowTitle: "A1B23"
+  columnTitle: "A2B25"
+  resultname: "A2B27"
+  resRotation: 0
+}
+items {
+  id: 149
+  levelId: 17
+  rowTitle: "A1B23"
+  columnTitle: "A3B25"
+  resultname: "A3B27"
+  resRotation: 0
+}
+items {
+  id: 150
+  levelId: 17
+  rowTitle: "A1B23"
+  columnTitle: "A4B25"
+  resultname: "A4B27"
+  resRotation: 0
+}
+items {
+  id: 151
+  levelId: 17
+  rowTitle: "A1B24"
+  columnTitle: "A2B25"
+  resultname: "A2B28"
+  resRotation: 0
+}
+items {
+  id: 152
+  levelId: 17
+  rowTitle: "A1B24"
+  columnTitle: "A3B25"
+  resultname: "A3B28"
+  resRotation: 0
+}
+items {
+  id: 153
+  levelId: 17
+  rowTitle: "A1B24"
+  columnTitle: "A4B25"
+  resultname: "A4B28"
+  resRotation: 0
+}
+items {
+  id: 154
+  levelId: 18
+  rowTitle: "A1B22"
+  columnTitle: "A2B29"
+  resultname: "A2B30"
+  resRotation: 0
+}
+items {
+  id: 155
+  levelId: 18
+  rowTitle: "A1B22"
+  columnTitle: "A3B29"
+  resultname: "A3B30"
+  resRotation: 0
+}
+items {
+  id: 156
+  levelId: 18
+  rowTitle: "A1B22"
+  columnTitle: "A4B29"
+  resultname: "A4B30"
+  resRotation: 0
+}
+items {
+  id: 157
+  levelId: 18
+  rowTitle: "A1B23"
+  columnTitle: "A2B29"
+  resultname: "A2B31"
+  resRotation: 0
+}
+items {
+  id: 158
+  levelId: 18
+  rowTitle: "A1B23"
+  columnTitle: "A3B29"
+  resultname: "A3B31"
+  resRotation: 0
+}
+items {
+  id: 159
+  levelId: 18
+  rowTitle: "A1B23"
+  columnTitle: "A4B29"
+  resultname: "A4B31"
+  resRotation: 0
+}
+items {
+  id: 160
+  levelId: 18
+  rowTitle: "A1B24"
+  columnTitle: "A2B29"
+  resultname: "A2B32"
+  resRotation: 0
+}
+items {
+  id: 161
+  levelId: 18
+  rowTitle: "A1B24"
+  columnTitle: "A3B29"
+  resultname: "A3B32"
+  resRotation: 0
+}
+items {
+  id: 162
+  levelId: 18
+  rowTitle: "A1B24"
+  columnTitle: "A4B29"
+  resultname: "A4B32"
+  resRotation: 0
+}
+items {
+  id: 163
+  levelId: 19
+  rowTitle: "A2B21"
+  columnTitle: "A2B33"
+  resultname: "A2B34"
+  resRotation: 0
+}
+items {
+  id: 164
+  levelId: 19
+  rowTitle: "A2B21"
+  columnTitle: "A3B33"
+  resultname: "A3B34"
+  resRotation: 0
+}
+items {
+  id: 165
+  levelId: 19
+  rowTitle: "A2B21"
+  columnTitle: "A4B33"
+  resultname: "A4B34"
+  resRotation: 0
+}
+items {
+  id: 166
+  levelId: 19
+  rowTitle: "A4B29"
+  columnTitle: "A2B33"
+  resultname: "A2B35"
+  resRotation: 0
+}
+items {
+  id: 167
+  levelId: 19
+  rowTitle: "A4B29"
+  columnTitle: "A3B33"
+  resultname: "A3B35"
+  resRotation: 0
+}
+items {
+  id: 168
+  levelId: 19
+  rowTitle: "A4B29"
+  columnTitle: "A4B33"
+  resultname: "A4B30"
+  resRotation: 0
+}
+items {
+  id: 169
+  levelId: 19
+  rowTitle: "A4B21"
+  columnTitle: "A2B33"
+  resultname: "A2B36"
+  resRotation: 0
+}
+items {
+  id: 170
+  levelId: 19
+  rowTitle: "A4B21"
+  columnTitle: "A3B33"
+  resultname: "A3B36"
+  resRotation: 0
+}
+items {
+  id: 171
+  levelId: 19
+  rowTitle: "A4B21"
+  columnTitle: "A4B33"
+  resultname: "A4B24"
+  resRotation: 0
+}
+items {
+  id: 172
+  levelId: 20
+  rowTitle: "A2B25"
+  columnTitle: "A2B33"
+  resultname: "A2B38"
+  resRotation: 0
+}
+items {
+  id: 173
+  levelId: 20
+  rowTitle: "A2B25"
+  columnTitle: "A3B33"
+  resultname: "A3B38"
+  resRotation: 0
+}
+items {
+  id: 174
+  levelId: 20
+  rowTitle: "A2B25"
+  columnTitle: "A4B33"
+  resultname: "A2B27"
+  resRotation: 0
+}
+items {
+  id: 175
+  levelId: 20
+  rowTitle: "A3B25"
+  columnTitle: "A2B33"
+  resultname: "A2B39"
+  resRotation: 0
+}
+items {
+  id: 176
+  levelId: 20
+  rowTitle: "A3B25"
+  columnTitle: "A3B33"
+  resultname: "A3B39"
+  resRotation: 0
+}
+items {
+  id: 177
+  levelId: 20
+  rowTitle: "A3B25"
+  columnTitle: "A4B33"
+  resultname: "A4B39"
+  resRotation: 0
+}
+items {
+  id: 178
+  levelId: 20
+  rowTitle: "A4B25"
+  columnTitle: "A2B33"
+  resultname: "A2B40"
+  resRotation: 0
+}
+items {
+  id: 179
+  levelId: 20
+  rowTitle: "A4B25"
+  columnTitle: "A3B33"
+  resultname: "A3B40"
+  resRotation: 0
+}
+items {
+  id: 180
+  levelId: 20
+  rowTitle: "A4B25"
+  columnTitle: "A4B33"
+  resultname: "A4B26"
+  resRotation: 0
+}
+items {
+  id: 181
+  levelId: 21
+  rowTitle: "A5B22"
+  columnTitle: "A6B21"
+  resultname: "A6B22"
+  resRotation: 0
+}
+items {
+  id: 182
+  levelId: 21
+  rowTitle: "A5B22"
+  columnTitle: "A7B21"
+  resultname: "A7B22"
+  resRotation: 0
+}
+items {
+  id: 183
+  levelId: 21
+  rowTitle: "A5B22"
+  columnTitle: "A8B21"
+  resultname: "A8B22"
+  resRotation: 0
+}
+items {
+  id: 184
+  levelId: 21
+  rowTitle: "A5B23"
+  columnTitle: "A6B21"
+  resultname: "A6B23"
+  resRotation: 0
+}
+items {
+  id: 185
+  levelId: 21
+  rowTitle: "A5B23"
+  columnTitle: "A7B21"
+  resultname: "A7B23"
+  resRotation: 0
+}
+items {
+  id: 186
+  levelId: 21
+  rowTitle: "A5B23"
+  columnTitle: "A8B21"
+  resultname: "A8B23"
+  resRotation: 0
+}
+items {
+  id: 187
+  levelId: 21
+  rowTitle: "A5B24"
+  columnTitle: "A6B21"
+  resultname: "A6B24"
+  resRotation: 0
+}
+items {
+  id: 188
+  levelId: 21
+  rowTitle: "A5B24"
+  columnTitle: "A7B21"
+  resultname: "A7B24"
+  resRotation: 0
+}
+items {
+  id: 189
+  levelId: 21
+  rowTitle: "A5B24"
+  columnTitle: "A8B21"
+  resultname: "A8B24"
+  resRotation: 0
+}
+items {
+  id: 190
+  levelId: 22
+  rowTitle: "A5B26"
+  columnTitle: "A4B31"
+  resultname: "A6B26"
+  resRotation: 0
+}
+items {
+  id: 191
+  levelId: 22
+  rowTitle: "A5B26"
+  columnTitle: "A2B32"
+  resultname: "A7B26"
+  resRotation: 0
+}
+items {
+  id: 192
+  levelId: 22
+  rowTitle: "A5B26"
+  columnTitle: "A3B31"
+  resultname: "A8B26"
+  resRotation: 0
+}
+items {
+  id: 193
+  levelId: 22
+  rowTitle: "A5B27"
+  columnTitle: "A4B31"
+  resultname: "A6B27"
+  resRotation: 0
+}
+items {
+  id: 194
+  levelId: 22
+  rowTitle: "A5B27"
+  columnTitle: "A2B32"
+  resultname: "A7B27"
+  resRotation: 0
+}
+items {
+  id: 195
+  levelId: 22
+  rowTitle: "A5B27"
+  columnTitle: "A3B31"
+  resultname: "A8B27"
+  resRotation: 0
+}
+items {
+  id: 196
+  levelId: 22
+  rowTitle: "A4B28"
+  columnTitle: "A4B31"
+  resultname: "A6B28"
+  resRotation: 0
+}
+items {
+  id: 197
+  levelId: 22
+  rowTitle: "A4B28"
+  columnTitle: "A2B32"
+  resultname: "A7B28"
+  resRotation: 0
+}
+items {
+  id: 198
+  levelId: 22
+  rowTitle: "A4B28"
+  columnTitle: "A3B31"
+  resultname: "A8B28"
+  resRotation: 0
+}
+items {
+  id: 199
+  levelId: 23
+  rowTitle: "A5B30"
+  columnTitle: "A2B21"
+  resultname: "A6B30"
+  resRotation: 0
+}
+items {
+  id: 200
+  levelId: 23
+  rowTitle: "A5B30"
+  columnTitle: "A4B21"
+  resultname: "A7B30"
+  resRotation: 0
+}
+items {
+  id: 201
+  levelId: 23
+  rowTitle: "A5B30"
+  columnTitle: "A3B21"
+  resultname: "A8B30"
+  resRotation: 0
+}
+items {
+  id: 202
+  levelId: 23
+  rowTitle: "A5B31"
+  columnTitle: "A2B21"
+  resultname: "A6B31"
+  resRotation: 0
+}
+items {
+  id: 203
+  levelId: 23
+  rowTitle: "A5B31"
+  columnTitle: "A4B21"
+  resultname: "A7B31"
+  resRotation: 0
+}
+items {
+  id: 204
+  levelId: 23
+  rowTitle: "A5B31"
+  columnTitle: "A3B21"
+  resultname: "A8B31"
+  resRotation: 0
+}
+items {
+  id: 205
+  levelId: 23
+  rowTitle: "A5B32"
+  columnTitle: "A2B21"
+  resultname: "A6B32"
+  resRotation: 0
+}
+items {
+  id: 206
+  levelId: 23
+  rowTitle: "A5B32"
+  columnTitle: "A4B21"
+  resultname: "A7B32"
+  resRotation: 0
+}
+items {
+  id: 207
+  levelId: 23
+  rowTitle: "A5B32"
+  columnTitle: "A3B21"
+  resultname: "A8B32"
+  resRotation: 0
+}
+items {
+  id: 208
+  levelId: 24
+  rowTitle: "A5B34"
+  columnTitle: "A2B25"
+  resultname: "A6B34"
+  resRotation: 0
+}
+items {
+  id: 209
+  levelId: 24
+  rowTitle: "A5B34"
+  columnTitle: "A3B25"
+  resultname: "A7B34"
+  resRotation: 0
+}
+items {
+  id: 210
+  levelId: 24
+  rowTitle: "A5B34"
+  columnTitle: "A4B29"
+  resultname: "A8B34"
+  resRotation: 0
+}
+items {
+  id: 211
+  levelId: 24
+  rowTitle: "A5B35"
+  columnTitle: "A2B25"
+  resultname: "A6B35"
+  resRotation: 0
+}
+items {
+  id: 212
+  levelId: 24
+  rowTitle: "A5B35"
+  columnTitle: "A3B25"
+  resultname: "A7B35"
+  resRotation: 0
+}
+items {
+  id: 213
+  levelId: 24
+  rowTitle: "A5B35"
+  columnTitle: "A4B29"
+  resultname: "A8B35"
+  resRotation: 0
+}
+items {
+  id: 214
+  levelId: 24
+  rowTitle: "A5B36"
+  columnTitle: "A2B25"
+  resultname: "A6B36"
+  resRotation: 0
+}
+items {
+  id: 215
+  levelId: 24
+  rowTitle: "A5B36"
+  columnTitle: "A3B25"
+  resultname: "A7B36"
+  resRotation: 0
+}
+items {
+  id: 216
+  levelId: 24
+  rowTitle: "A5B36"
+  columnTitle: "A4B29"
+  resultname: "A8B36"
+  resRotation: 0
+}
+items {
+  id: 217
+  levelId: 25
+  rowTitle: "A5B38"
+  columnTitle: "A3B29"
+  resultname: "A6B38"
+  resRotation: 0
+}
+items {
+  id: 218
+  levelId: 25
+  rowTitle: "A5B38"
+  columnTitle: "A2B29"
+  resultname: "A7B38"
+  resRotation: 0
+}
+items {
+  id: 219
+  levelId: 25
+  rowTitle: "A5B38"
+  columnTitle: "A8B37"
+  resultname: "A8B38"
+  resRotation: 0
+}
+items {
+  id: 220
+  levelId: 25
+  rowTitle: "A5B39"
+  columnTitle: "A3B29"
+  resultname: "A6B39"
+  resRotation: 0
+}
+items {
+  id: 221
+  levelId: 25
+  rowTitle: "A5B39"
+  columnTitle: "A2B29"
+  resultname: "A7B39"
+  resRotation: 0
+}
+items {
+  id: 222
+  levelId: 25
+  rowTitle: "A5B39"
+  columnTitle: "A8B37"
+  resultname: "A8B39"
+  resRotation: 0
+}
+items {
+  id: 223
+  levelId: 25
+  rowTitle: "A5B40"
+  columnTitle: "A3B29"
+  resultname: "A6B40"
+  resRotation: 0
+}
+items {
+  id: 224
+  levelId: 25
+  rowTitle: "A5B40"
+  columnTitle: "A2B29"
+  resultname: "A7B40"
+  resRotation: 0
+}
+items {
+  id: 225
+  levelId: 25
+  rowTitle: "A5B40"
+  columnTitle: "A8B37"
+  resultname: "A8B40"
+  resRotation: 0
+}
+items {
+  id: 226
+  levelId: 26
+  rowTitle: "A9B22"
+  columnTitle: "A10B21"
+  resultname: "A10B22"
+  resRotation: 0
+}
+items {
+  id: 227
+  levelId: 26
+  rowTitle: "A9B22"
+  columnTitle: "A11B21"
+  resultname: "A11B22"
+  resRotation: 0
+}
+items {
+  id: 228
+  levelId: 26
+  rowTitle: "A9B22"
+  columnTitle: "A12B21"
+  resultname: "A12B22"
+  resRotation: 0
+}
+items {
+  id: 229
+  levelId: 26
+  rowTitle: "A9B23"
+  columnTitle: "A10B21"
+  resultname: "A10B23"
+  resRotation: 0
+}
+items {
+  id: 230
+  levelId: 26
+  rowTitle: "A9B23"
+  columnTitle: "A11B21"
+  resultname: "A11B23"
+  resRotation: 0
+}
+items {
+  id: 231
+  levelId: 26
+  rowTitle: "A9B23"
+  columnTitle: "A12B21"
+  resultname: "A12B23"
+  resRotation: 0
+}
+items {
+  id: 232
+  levelId: 26
+  rowTitle: "A9B24"
+  columnTitle: "A10B21"
+  resultname: "A10B24"
+  resRotation: 0
+}
+items {
+  id: 233
+  levelId: 26
+  rowTitle: "A9B24"
+  columnTitle: "A11B21"
+  resultname: "A11B24"
+  resRotation: 0
+}
+items {
+  id: 234
+  levelId: 26
+  rowTitle: "A9B24"
+  columnTitle: "A12B21"
+  resultname: "A12B24"
+  resRotation: 0
+}
+items {
+  id: 235
+  levelId: 27
+  rowTitle: "A9B26"
+  columnTitle: "A10B21"
+  resultname: "A10B26"
+  resRotation: 0
+}
+items {
+  id: 236
+  levelId: 27
+  rowTitle: "A9B26"
+  columnTitle: "A11B21"
+  resultname: "A11B26"
+  resRotation: 0
+}
+items {
+  id: 237
+  levelId: 27
+  rowTitle: "A9B26"
+  columnTitle: "A12B21"
+  resultname: "A12B26"
+  resRotation: 0
+}
+items {
+  id: 238
+  levelId: 27
+  rowTitle: "A9B27"
+  columnTitle: "A10B21"
+  resultname: "A10B27"
+  resRotation: 0
+}
+items {
+  id: 239
+  levelId: 27
+  rowTitle: "A9B27"
+  columnTitle: "A11B21"
+  resultname: "A11B27"
+  resRotation: 0
+}
+items {
+  id: 240
+  levelId: 27
+  rowTitle: "A9B27"
+  columnTitle: "A12B21"
+  resultname: "A12B27"
+  resRotation: 0
+}
+items {
+  id: 241
+  levelId: 27
+  rowTitle: "A9B28"
+  columnTitle: "A10B21"
+  resultname: "A10B28"
+  resRotation: 0
+}
+items {
+  id: 242
+  levelId: 27
+  rowTitle: "A9B28"
+  columnTitle: "A11B21"
+  resultname: "A10B28"
+  resRotation: 0
+}
+items {
+  id: 243
+  levelId: 27
+  rowTitle: "A9B28"
+  columnTitle: "A12B21"
+  resultname: "A12B28"
+  resRotation: 0
+}
+items {
+  id: 244
+  levelId: 28
+  rowTitle: "A9B30"
+  columnTitle: "A10B29"
+  resultname: "A10B30"
+  resRotation: 0
+}
+items {
+  id: 245
+  levelId: 28
+  rowTitle: "A9B30"
+  columnTitle: "A11B29"
+  resultname: "A11B30"
+  resRotation: 0
+}
+items {
+  id: 246
+  levelId: 28
+  rowTitle: "A9B30"
+  columnTitle: "A12B29"
+  resultname: "A12B30"
+  resRotation: 0
+}
+items {
+  id: 247
+  levelId: 28
+  rowTitle: "A9B31"
+  columnTitle: "A10B29"
+  resultname: "A10B31"
+  resRotation: 0
+}
+items {
+  id: 248
+  levelId: 28
+  rowTitle: "A9B31"
+  columnTitle: "A11B29"
+  resultname: "A11B31"
+  resRotation: 0
+}
+items {
+  id: 249
+  levelId: 28
+  rowTitle: "A9B31"
+  columnTitle: "A12B29"
+  resultname: "A12B31"
+  resRotation: 0
+}
+items {
+  id: 250
+  levelId: 28
+  rowTitle: "A9B32"
+  columnTitle: "A10B29"
+  resultname: "A10B32"
+  resRotation: 0
+}
+items {
+  id: 251
+  levelId: 28
+  rowTitle: "A9B32"
+  columnTitle: "A11B29"
+  resultname: "A11B32"
+  resRotation: 0
+}
+items {
+  id: 252
+  levelId: 28
+  rowTitle: "A9B32"
+  columnTitle: "A12B29"
+  resultname: "A12B32"
+  resRotation: 0
+}
+items {
+  id: 253
+  levelId: 29
+  rowTitle: "A10B33"
+  columnTitle: "A10B33"
+  resultname: "A10B34"
+  resRotation: 0
+}
+items {
+  id: 254
+  levelId: 29
+  rowTitle: "A10B33"
+  columnTitle: "A11B33"
+  resultname: "A11B34"
+  resRotation: 0
+}
+items {
+  id: 255
+  levelId: 29
+  rowTitle: "A10B33"
+  columnTitle: "A12B33"
+  resultname: "A12B34"
+  resRotation: 0
+}
+items {
+  id: 256
+  levelId: 29
+  rowTitle: "A11B33"
+  columnTitle: "A10B33"
+  resultname: "A11B34"
+  resRotation: 0
+}
+items {
+  id: 257
+  levelId: 29
+  rowTitle: "A11B33"
+  columnTitle: "A11B33"
+  resultname: "A11B35"
+  resRotation: 0
+}
+items {
+  id: 258
+  levelId: 29
+  rowTitle: "A11B33"
+  columnTitle: "A12B33"
+  resultname: "A12B35"
+  resRotation: 0
+}
+items {
+  id: 259
+  levelId: 29
+  rowTitle: "A12B33"
+  columnTitle: "A10B33"
+  resultname: "A12B34"
+  resRotation: 0
+}
+items {
+  id: 260
+  levelId: 29
+  rowTitle: "A12B33"
+  columnTitle: "A11B33"
+  resultname: "A12B35"
+  resRotation: 0
+}
+items {
+  id: 261
+  levelId: 29
+  rowTitle: "A12B33"
+  columnTitle: "A12B33"
+  resultname: "A12B36"
+  resRotation: 0
+}
+items {
+  id: 262
+  levelId: 30
+  rowTitle: "A9B38"
+  columnTitle: "A10B37"
+  resultname: "A10B38"
+  resRotation: 0
+}
+items {
+  id: 263
+  levelId: 30
+  rowTitle: "A9B38"
+  columnTitle: "A11B37"
+  resultname: "A11B38"
+  resRotation: 0
+}
+items {
+  id: 264
+  levelId: 30
+  rowTitle: "A9B38"
+  columnTitle: "A12B37"
+  resultname: "A12B38"
+  resRotation: 0
+}
+items {
+  id: 265
+  levelId: 30
+  rowTitle: "A9B39"
+  columnTitle: "A10B37"
+  resultname: "A10B39"
+  resRotation: 0
+}
+items {
+  id: 266
+  levelId: 30
+  rowTitle: "A9B39"
+  columnTitle: "A11B37"
+  resultname: "A11B39"
+  resRotation: 0
+}
+items {
+  id: 267
+  levelId: 30
+  rowTitle: "A9B39"
+  columnTitle: "A12B37"
+  resultname: "A12B39"
+  resRotation: 0
+}
+items {
+  id: 268
+  levelId: 30
+  rowTitle: "A9B40"
+  columnTitle: "A10B37"
+  resultname: "A10B40"
+  resRotation: 0
+}
+items {
+  id: 269
+  levelId: 30
+  rowTitle: "A9B40"
+  columnTitle: "A11B37"
+  resultname: "A11B40"
+  resRotation: 0
+}
+items {
+  id: 270
+  levelId: 30
+  rowTitle: "A9B40"
+  columnTitle: "A12B37"
+  resultname: "A12B40"
+  resRotation: 0
+}
+items {
+  id: 271
+  levelId: 31
+  rowTitle: "A2B41"
+  columnTitle: "A2B41"
+  resultname: "A3B41"
+  resRotation: 0
+}
+items {
+  id: 272
+  levelId: 31
+  rowTitle: "A2B41"
+  columnTitle: "A3B41"
+  resultname: "A4B41"
+  resRotation: 0
+}
+items {
+  id: 273
+  levelId: 31
+  rowTitle: "A2B41"
+  columnTitle: "A4B41"
+  resultname: "A4B42"
+  resRotation: 0
+}
+items {
+  id: 274
+  levelId: 31
+  rowTitle: "A3B41"
+  columnTitle: "A2B41"
+  resultname: "A4B41"
+  resRotation: 0
+}
+items {
+  id: 275
+  levelId: 31
+  rowTitle: "A3B41"
+  columnTitle: "A3B41"
+  resultname: "A4B42"
+  resRotation: 0
+}
+items {
+  id: 276
+  levelId: 31
+  rowTitle: "A3B41"
+  columnTitle: "A4B41"
+  resultname: "A4B43"
+  resRotation: 0
+}
+items {
+  id: 277
+  levelId: 31
+  rowTitle: "A4B41"
+  columnTitle: "A2B41"
+  resultname: "A4B42"
+  resRotation: 0
+}
+items {
+  id: 278
+  levelId: 31
+  rowTitle: "A4B41"
+  columnTitle: "A3B41"
+  resultname: "A4B43"
+  resRotation: 0
+}
+items {
+  id: 279
+  levelId: 31
+  rowTitle: "A4B41"
+  columnTitle: "A4B41"
+  resultname: "A4B44"
+  resRotation: 0
+}
+items {
+  id: 280
+  levelId: 32
+  rowTitle: "A2B45"
+  columnTitle: "A2B45"
+  resultname: "A2B46"
+  resRotation: 0
+}
+items {
+  id: 281
+  levelId: 32
+  rowTitle: "A2B45"
+  columnTitle: "A3B45"
+  resultname: "A3B46"
+  resRotation: 0
+}
+items {
+  id: 282
+  levelId: 32
+  rowTitle: "A2B45"
+  columnTitle: "A4B45"
+  resultname: "A4B46"
+  resRotation: 0
+}
+items {
+  id: 283
+  levelId: 32
+  rowTitle: "A3B45"
+  columnTitle: "A2B45"
+  resultname: "A3B46"
+  resRotation: 0
+}
+items {
+  id: 284
+  levelId: 32
+  rowTitle: "A3B45"
+  columnTitle: "A3B45"
+  resultname: "A3B47"
+  resRotation: 0
+}
+items {
+  id: 285
+  levelId: 32
+  rowTitle: "A3B45"
+  columnTitle: "A4B45"
+  resultname: "A4B47"
+  resRotation: 0
+}
+items {
+  id: 286
+  levelId: 32
+  rowTitle: "A4B45"
+  columnTitle: "A2B45"
+  resultname: "A4B46"
+  resRotation: 0
+}
+items {
+  id: 287
+  levelId: 32
+  rowTitle: "A4B45"
+  columnTitle: "A3B45"
+  resultname: "A4B47"
+  resRotation: 0
+}
+items {
+  id: 288
+  levelId: 32
+  rowTitle: "A4B45"
+  columnTitle: "A4B45"
+  resultname: "A4B48"
+  resRotation: 0
+}
+items {
+  id: 289
+  levelId: 33
+  rowTitle: "A2B49"
+  columnTitle: "A2B49"
+  resultname: "A2B50"
+  resRotation: 0
+}
+items {
+  id: 290
+  levelId: 33
+  rowTitle: "A2B49"
+  columnTitle: "A3B49"
+  resultname: "A3B50"
+  resRotation: 0
+}
+items {
+  id: 291
+  levelId: 33
+  rowTitle: "A2B49"
+  columnTitle: "A4B49"
+  resultname: "A4B50"
+  resRotation: 0
+}
+items {
+  id: 292
+  levelId: 33
+  rowTitle: "A3B49"
+  columnTitle: "A2B49"
+  resultname: "A3B50"
+  resRotation: 0
+}
+items {
+  id: 293
+  levelId: 33
+  rowTitle: "A3B49"
+  columnTitle: "A3B49"
+  resultname: "A3B51"
+  resRotation: 0
+}
+items {
+  id: 294
+  levelId: 33
+  rowTitle: "A3B49"
+  columnTitle: "A4B49"
+  resultname: "A4B51"
+  resRotation: 0
+}
+items {
+  id: 295
+  levelId: 33
+  rowTitle: "A4B49"
+  columnTitle: "A2B49"
+  resultname: "A4B50"
+  resRotation: 0
+}
+items {
+  id: 296
+  levelId: 33
+  rowTitle: "A4B49"
+  columnTitle: "A3B49"
+  resultname: "A4B51"
+  resRotation: 0
+}
+items {
+  id: 297
+  levelId: 33
+  rowTitle: "A4B49"
+  columnTitle: "A4B49"
+  resultname: "A4B52"
+  resRotation: 0
+}
+items {
+  id: 298
+  levelId: 34
+  rowTitle: "A2B53"
+  columnTitle: "A2B53"
+  resultname: "A2B54"
+  resRotation: 0
+}
+items {
+  id: 299
+  levelId: 34
+  rowTitle: "A2B53"
+  columnTitle: "A3B53"
+  resultname: "A3B54"
+  resRotation: 0
+}
+items {
+  id: 300
+  levelId: 34
+  rowTitle: "A2B53"
+  columnTitle: "A4B53"
+  resultname: "A4B54"
+  resRotation: 0
+}
+items {
+  id: 301
+  levelId: 34
+  rowTitle: "A3B53"
+  columnTitle: "A2B53"
+  resultname: "A3B54"
+  resRotation: 0
+}
+items {
+  id: 302
+  levelId: 34
+  rowTitle: "A3B53"
+  columnTitle: "A3B53"
+  resultname: "A3B55"
+  resRotation: 0
+}
+items {
+  id: 303
+  levelId: 34
+  rowTitle: "A3B53"
+  columnTitle: "A4B53"
+  resultname: "A4B55"
+  resRotation: 0
+}
+items {
+  id: 304
+  levelId: 34
+  rowTitle: "A4B53"
+  columnTitle: "A2B53"
+  resultname: "A4B54"
+  resRotation: 0
+}
+items {
+  id: 305
+  levelId: 34
+  rowTitle: "A4B53"
+  columnTitle: "A3B53"
+  resultname: "A4B55"
+  resRotation: 0
+}
+items {
+  id: 306
+  levelId: 34
+  rowTitle: "A4B53"
+  columnTitle: "A4B53"
+  resultname: "A4B56"
+  resRotation: 0
+}
+items {
+  id: 307
+  levelId: 35
+  rowTitle: "A1B58"
+  columnTitle: "A2B57"
+  resultname: "A2B58"
+  resRotation: 0
+}
+items {
+  id: 308
+  levelId: 35
+  rowTitle: "A1B58"
+  columnTitle: "A3B57"
+  resultname: "A3B58"
+  resRotation: 0
+}
+items {
+  id: 309
+  levelId: 35
+  rowTitle: "A1B58"
+  columnTitle: "A4B57"
+  resultname: "A4B58"
+  resRotation: 0
+}
+items {
+  id: 310
+  levelId: 35
+  rowTitle: "A1B59"
+  columnTitle: "A2B57"
+  resultname: "A2B59"
+  resRotation: 0
+}
+items {
+  id: 311
+  levelId: 35
+  rowTitle: "A1B59"
+  columnTitle: "A3B57"
+  resultname: "A3B59"
+  resRotation: 0
+}
+items {
+  id: 312
+  levelId: 35
+  rowTitle: "A1B59"
+  columnTitle: "A4B57"
+  resultname: "A4B59"
+  resRotation: 0
+}
+items {
+  id: 313
+  levelId: 35
+  rowTitle: "A1B60"
+  columnTitle: "A2B57"
+  resultname: "A2B60"
+  resRotation: 0
+}
+items {
+  id: 314
+  levelId: 35
+  rowTitle: "A1B60"
+  columnTitle: "A3B57"
+  resultname: "A3B60"
+  resRotation: 0
+}
+items {
+  id: 315
+  levelId: 35
+  rowTitle: "A1B60"
+  columnTitle: "A4B57"
+  resultname: "A4B60"
+  resRotation: 0
+}
+items {
+  id: 316
+  levelId: 36
+  rowTitle: "A5B8"
+  columnTitle: "A5B8"
+  resultname: "A7B41"
+  resRotation: 0
+}
+items {
+  id: 317
+  levelId: 36
+  rowTitle: "A5B8"
+  columnTitle: "A7B41"
+  resultname: "A8B41"
+  resRotation: 0
+}
+items {
+  id: 318
+  levelId: 36
+  rowTitle: "A5B8"
+  columnTitle: "A8B41"
+  resultname: "A6B8"
+  resRotation: 0
+}
+items {
+  id: 319
+  levelId: 36
+  rowTitle: "A7B41"
+  columnTitle: "A5B8"
+  resultname: "A8B41"
+  resRotation: 0
+}
+items {
+  id: 320
+  levelId: 36
+  rowTitle: "A7B41"
+  columnTitle: "A7B41"
+  resultname: "A6B8"
+  resRotation: 0
+}
+items {
+  id: 321
+  levelId: 36
+  rowTitle: "A7B41"
+  columnTitle: "A8B41"
+  resultname: "A7B8"
+  resRotation: 0
+}
+items {
+  id: 322
+  levelId: 36
+  rowTitle: "A8B41"
+  columnTitle: "A5B8"
+  resultname: "A6B8"
+  resRotation: 0
+}
+items {
+  id: 323
+  levelId: 36
+  rowTitle: "A8B41"
+  columnTitle: "A7B41"
+  resultname: "A7B8"
+  resRotation: 0
+}
+items {
+  id: 324
+  levelId: 36
+  rowTitle: "A8B41"
+  columnTitle: "A8B41"
+  resultname: "A8B8"
+  resRotation: 0
+}
+items {
+  id: 325
+  levelId: 37
+  rowTitle: "A5B46"
+  columnTitle: "A6B45"
+  resultname: "A6B46"
+  resRotation: 0
+}
+items {
+  id: 326
+  levelId: 37
+  rowTitle: "A5B46"
+  columnTitle: "A7B45"
+  resultname: "A7B46"
+  resRotation: 0
+}
+items {
+  id: 327
+  levelId: 37
+  rowTitle: "A5B46"
+  columnTitle: "A8B45"
+  resultname: "A8B46"
+  resRotation: 0
+}
+items {
+  id: 328
+  levelId: 37
+  rowTitle: "A5B47"
+  columnTitle: "A6B45"
+  resultname: "A6B47"
+  resRotation: 0
+}
+items {
+  id: 329
+  levelId: 37
+  rowTitle: "A5B47"
+  columnTitle: "A7B45"
+  resultname: "A7B47"
+  resRotation: 0
+}
+items {
+  id: 330
+  levelId: 37
+  rowTitle: "A5B47"
+  columnTitle: "A8B45"
+  resultname: "A8B47"
+  resRotation: 0
+}
+items {
+  id: 331
+  levelId: 37
+  rowTitle: "A5B48"
+  columnTitle: "A6B45"
+  resultname: "A6B48"
+  resRotation: 0
+}
+items {
+  id: 332
+  levelId: 37
+  rowTitle: "A5B48"
+  columnTitle: "A7B45"
+  resultname: "A7B48"
+  resRotation: 0
+}
+items {
+  id: 333
+  levelId: 37
+  rowTitle: "A5B48"
+  columnTitle: "A8B45"
+  resultname: "A8B48"
+  resRotation: 0
+}
+items {
+  id: 334
+  levelId: 38
+  rowTitle: "A7B49"
+  columnTitle: "A6B49"
+  resultname: "A6B50"
+  resRotation: 0
+}
+items {
+  id: 335
+  levelId: 38
+  rowTitle: "A7B49"
+  columnTitle: "A7B49"
+  resultname: "A7B50"
+  resRotation: 0
+}
+items {
+  id: 336
+  levelId: 38
+  rowTitle: "A7B49"
+  columnTitle: "A8B49"
+  resultname: "A8B50"
+  resRotation: 0
+}
+items {
+  id: 337
+  levelId: 38
+  rowTitle: "A8B49"
+  columnTitle: "A6B49"
+  resultname: "A7B50"
+  resRotation: 0
+}
+items {
+  id: 338
+  levelId: 38
+  rowTitle: "A8B49"
+  columnTitle: "A7B49"
+  resultname: "A8B50"
+  resRotation: 0
+}
+items {
+  id: 339
+  levelId: 38
+  rowTitle: "A8B49"
+  columnTitle: "A8B49"
+  resultname: "A8B51"
+  resRotation: 0
+}
+items {
+  id: 340
+  levelId: 38
+  rowTitle: "A6B50"
+  columnTitle: "A6B49"
+  resultname: "A8B50"
+  resRotation: 0
+}
+items {
+  id: 341
+  levelId: 38
+  rowTitle: "A6B50"
+  columnTitle: "A7B49"
+  resultname: "A8B51"
+  resRotation: 0
+}
+items {
+  id: 342
+  levelId: 38
+  rowTitle: "A6B50"
+  columnTitle: "A8B49"
+  resultname: "A8B52"
+  resRotation: 0
+}
+items {
+  id: 343
+  levelId: 39
+  rowTitle: "A5B54"
+  columnTitle: "A6B53"
+  resultname: "A5B55"
+  resRotation: 0
+}
+items {
+  id: 344
+  levelId: 39
+  rowTitle: "A5B54"
+  columnTitle: "A7B53"
+  resultname: "A5B56"
+  resRotation: 0
+}
+items {
+  id: 345
+  levelId: 39
+  rowTitle: "A5B54"
+  columnTitle: "A8B53"
+  resultname: "A8B54"
+  resRotation: 0
+}
+items {
+  id: 346
+  levelId: 39
+  rowTitle: "A5B55"
+  columnTitle: "A6B53"
+  resultname: "A5B56"
+  resRotation: 0
+}
+items {
+  id: 347
+  levelId: 39
+  rowTitle: "A5B55"
+  columnTitle: "A7B53"
+  resultname: "A8B54"
+  resRotation: 0
+}
+items {
+  id: 348
+  levelId: 39
+  rowTitle: "A5B55"
+  columnTitle: "A8B53"
+  resultname: "A8B55"
+  resRotation: 0
+}
+items {
+  id: 349
+  levelId: 39
+  rowTitle: "A5B56"
+  columnTitle: "A6B53"
+  resultname: "A8B54"
+  resRotation: 0
+}
+items {
+  id: 350
+  levelId: 39
+  rowTitle: "A5B56"
+  columnTitle: "A7B53"
+  resultname: "A8B55"
+  resRotation: 0
+}
+items {
+  id: 351
+  levelId: 39
+  rowTitle: "A5B56"
+  columnTitle: "A8B53"
+  resultname: "A8B56"
+  resRotation: 0
+}
+items {
+  id: 352
+  levelId: 40
+  rowTitle: "A6B8"
+  columnTitle: "A7B41"
+  resultname: "A6B58"
+  resRotation: 0
+}
+items {
+  id: 353
+  levelId: 40
+  rowTitle: "A6B8"
+  columnTitle: "A8B41"
+  resultname: "A7B58"
+  resRotation: 0
+}
+items {
+  id: 354
+  levelId: 40
+  rowTitle: "A6B8"
+  columnTitle: "A6B8"
+  resultname: "A8B58"
+  resRotation: 0
+}
+items {
+  id: 355
+  levelId: 40
+  rowTitle: "A7B8"
+  columnTitle: "A7B41"
+  resultname: "A6B59"
+  resRotation: 0
+}
+items {
+  id: 356
+  levelId: 40
+  rowTitle: "A7B8"
+  columnTitle: "A8B41"
+  resultname: "A7B59"
+  resRotation: 0
+}
+items {
+  id: 357
+  levelId: 40
+  rowTitle: "A7B8"
+  columnTitle: "A6B8"
+  resultname: "A8B59"
+  resRotation: 0
+}
+items {
+  id: 358
+  levelId: 40
+  rowTitle: "A8B8"
+  columnTitle: "A7B41"
+  resultname: "A6B60"
+  resRotation: 0
+}
+items {
+  id: 359
+  levelId: 40
+  rowTitle: "A8B8"
+  columnTitle: "A8B41"
+  resultname: "A7B60"
+  resRotation: 0
+}
+items {
+  id: 360
+  levelId: 40
+  rowTitle: "A8B8"
+  columnTitle: "A6B8"
+  resultname: "A8B60"
+  resRotation: 0
+}
+items {
+  id: 361
+  levelId: 41
+  rowTitle: "A2B1"
+  columnTitle: "A10B41"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 362
+  levelId: 41
+  rowTitle: "A2B1"
+  columnTitle: "A11B41"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 363
+  levelId: 41
+  rowTitle: "A2B1"
+  columnTitle: "A12B41"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 364
+  levelId: 41
+  rowTitle: "A3B1"
+  columnTitle: "A10B41"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 365
+  levelId: 41
+  rowTitle: "A3B1"
+  columnTitle: "A11B41"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 366
+  levelId: 41
+  rowTitle: "A3B1"
+  columnTitle: "A12B41"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 367
+  levelId: 41
+  rowTitle: "A4B1"
+  columnTitle: "A10B41"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 368
+  levelId: 41
+  rowTitle: "A4B1"
+  columnTitle: "A11B41"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 369
+  levelId: 41
+  rowTitle: "A4B1"
+  columnTitle: "A12B41"
+  resultname: "A12B44"
+  resRotation: 0
+}
+items {
+  id: 370
+  levelId: 42
+  rowTitle: "A6B1"
+  columnTitle: "A10B41"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 371
+  levelId: 42
+  rowTitle: "A6B1"
+  columnTitle: "A11B41"
+  resultname: "A12B44"
+  resRotation: 0
+}
+items {
+  id: 372
+  levelId: 42
+  rowTitle: "A6B1"
+  columnTitle: "A12B41"
+  resultname: "A12B46"
+  resRotation: 0
+}
+items {
+  id: 373
+  levelId: 42
+  rowTitle: "A7B1"
+  columnTitle: "A10B41"
+  resultname: "A12B44"
+  resRotation: 0
+}
+items {
+  id: 374
+  levelId: 42
+  rowTitle: "A7B1"
+  columnTitle: "A11B41"
+  resultname: "A12B46"
+  resRotation: 0
+}
+items {
+  id: 375
+  levelId: 42
+  rowTitle: "A7B1"
+  columnTitle: "A12B41"
+  resultname: "A12B47"
+  resRotation: 0
+}
+items {
+  id: 376
+  levelId: 42
+  rowTitle: "A8B1"
+  columnTitle: "A10B41"
+  resultname: "A12B46"
+  resRotation: 0
+}
+items {
+  id: 377
+  levelId: 42
+  rowTitle: "A8B1"
+  columnTitle: "A11B41"
+  resultname: "A12B47"
+  resRotation: 0
+}
+items {
+  id: 378
+  levelId: 42
+  rowTitle: "A8B1"
+  columnTitle: "A12B41"
+  resultname: "A12B48"
+  resRotation: 0
+}
+items {
+  id: 379
+  levelId: 43
+  rowTitle: "A6B1"
+  columnTitle: "A10B49"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 380
+  levelId: 43
+  rowTitle: "A6B1"
+  columnTitle: "A11B49"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 381
+  levelId: 43
+  rowTitle: "A6B1"
+  columnTitle: "A12B49"
+  resultname: "A12B50"
+  resRotation: 0
+}
+items {
+  id: 382
+  levelId: 43
+  rowTitle: "A7B1"
+  columnTitle: "A10B49"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 383
+  levelId: 43
+  rowTitle: "A7B1"
+  columnTitle: "A11B49"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 384
+  levelId: 43
+  rowTitle: "A7B1"
+  columnTitle: "A12B49"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 385
+  levelId: 43
+  rowTitle: "A8B1"
+  columnTitle: "A10B49"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 386
+  levelId: 43
+  rowTitle: "A8B1"
+  columnTitle: "A11B49"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 387
+  levelId: 43
+  rowTitle: "A8B1"
+  columnTitle: "A12B49"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 388
+  levelId: 44
+  rowTitle: "A8B1"
+  columnTitle: "A12B49"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 389
+  levelId: 44
+  rowTitle: "A8B1"
+  columnTitle: "A11B53"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 390
+  levelId: 44
+  rowTitle: "A8B1"
+  columnTitle: "A12B53"
+  resultname: "A12B50"
+  resRotation: 0
+}
+items {
+  id: 391
+  levelId: 44
+  rowTitle: "A10B1"
+  columnTitle: "A12B49"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 392
+  levelId: 44
+  rowTitle: "A10B1"
+  columnTitle: "A11B53"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 393
+  levelId: 44
+  rowTitle: "A10B1"
+  columnTitle: "A12B53"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 394
+  levelId: 44
+  rowTitle: "A11B1"
+  columnTitle: "A12B49"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 395
+  levelId: 44
+  rowTitle: "A11B1"
+  columnTitle: "A11B53"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 396
+  levelId: 44
+  rowTitle: "A11B1"
+  columnTitle: "A12B53"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 397
+  levelId: 45
+  rowTitle: "A10B1"
+  columnTitle: "A11B53"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 398
+  levelId: 45
+  rowTitle: "A10B1"
+  columnTitle: "A12B53"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 399
+  levelId: 45
+  rowTitle: "A10B1"
+  columnTitle: "A12B57"
+  resultname: "A12B50"
+  resRotation: 0
+}
+items {
+  id: 400
+  levelId: 45
+  rowTitle: "A11B1"
+  columnTitle: "A11B53"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 401
+  levelId: 45
+  rowTitle: "A11B1"
+  columnTitle: "A12B53"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 402
+  levelId: 45
+  rowTitle: "A11B1"
+  columnTitle: "A12B57"
+  resultname: "A10B42"
+  resRotation: 0
+}
+items {
+  id: 403
+  levelId: 45
+  rowTitle: "A12B1"
+  columnTitle: "A11B53"
+  resultname: "A12B43"
+  resRotation: 0
+}
+items {
+  id: 404
+  levelId: 45
+  rowTitle: "A12B1"
+  columnTitle: "A12B53"
+  resultname: "A12B42"
+  resRotation: 0
+}
+items {
+  id: 405
+  levelId: 45
+  rowTitle: "A12B1"
+  columnTitle: "A12B57"
+  resultname: "A11B42"
+  resRotation: 0
+}
+items {
+  id: 406
+  levelId: 46
+  rowTitle: "A1B62"
+  columnTitle: "A2B61"
+  resultname: "A2B62"
+  resRotation: 0
+}
+items {
+  id: 407
+  levelId: 46
+  rowTitle: "A1B62"
+  columnTitle: "A3B61"
+  resultname: "A3B62"
+  resRotation: 0
+}
+items {
+  id: 408
+  levelId: 46
+  rowTitle: "A1B62"
+  columnTitle: "A4B61"
+  resultname: "A4B62"
+  resRotation: 0
+}
+items {
+  id: 409
+  levelId: 46
+  rowTitle: "A1B63"
+  columnTitle: "A2B61"
+  resultname: "A2B63"
+  resRotation: 0
+}
+items {
+  id: 410
+  levelId: 46
+  rowTitle: "A1B63"
+  columnTitle: "A3B61"
+  resultname: "A3B63"
+  resRotation: 0
+}
+items {
+  id: 411
+  levelId: 46
+  rowTitle: "A1B63"
+  columnTitle: "A4B61"
+  resultname: "A4B63"
+  resRotation: 0
+}
+items {
+  id: 412
+  levelId: 46
+  rowTitle: "A1B64"
+  columnTitle: "A2B61"
+  resultname: "A2B64"
+  resRotation: 0
+}
+items {
+  id: 413
+  levelId: 46
+  rowTitle: "A1B64"
+  columnTitle: "A3B61"
+  resultname: "A3B64"
+  resRotation: 0
+}
+items {
+  id: 414
+  levelId: 46
+  rowTitle: "A1B64"
+  columnTitle: "A4B61"
+  resultname: "A4B64"
+  resRotation: 0
+}
+items {
+  id: 415
+  levelId: 47
+  rowTitle: "A1B65"
+  columnTitle: "A2B61"
+  resultname: "A2B66"
+  resRotation: 0
+}
+items {
+  id: 416
+  levelId: 47
+  rowTitle: "A1B65"
+  columnTitle: "A3B65"
+  resultname: "A3B66"
+  resRotation: 0
+}
+items {
+  id: 417
+  levelId: 47
+  rowTitle: "A1B65"
+  columnTitle: "A3B61"
+  resultname: "A4B66"
+  resRotation: 0
+}
+items {
+  id: 418
+  levelId: 47
+  rowTitle: "A1B66"
+  columnTitle: "A2B61"
+  resultname: "A2B67"
+  resRotation: 0
+}
+items {
+  id: 419
+  levelId: 47
+  rowTitle: "A1B66"
+  columnTitle: "A3B65"
+  resultname: "A3B67"
+  resRotation: 0
+}
+items {
+  id: 420
+  levelId: 47
+  rowTitle: "A1B66"
+  columnTitle: "A3B61"
+  resultname: "A4B67"
+  resRotation: 0
+}
+items {
+  id: 421
+  levelId: 47
+  rowTitle: "A1B67"
+  columnTitle: "A2B61"
+  resultname: "A2B68"
+  resRotation: 0
+}
+items {
+  id: 422
+  levelId: 47
+  rowTitle: "A1B67"
+  columnTitle: "A3B65"
+  resultname: "A3B68"
+  resRotation: 0
+}
+items {
+  id: 423
+  levelId: 47
+  rowTitle: "A1B67"
+  columnTitle: "A3B61"
+  resultname: "A4B68"
+  resRotation: 0
+}
+items {
+  id: 424
+  levelId: 48
+  rowTitle: "A1B70"
+  columnTitle: "A2B61"
+  resultname: "A2B70"
+  resRotation: 0
+}
+items {
+  id: 425
+  levelId: 48
+  rowTitle: "A1B70"
+  columnTitle: "A3B61"
+  resultname: "A3B70"
+  resRotation: 0
+}
+items {
+  id: 426
+  levelId: 48
+  rowTitle: "A1B70"
+  columnTitle: "A4B69"
+  resultname: "A4B70"
+  resRotation: 0
+}
+items {
+  id: 427
+  levelId: 48
+  rowTitle: "A1B71"
+  columnTitle: "A2B61"
+  resultname: "A2B71"
+  resRotation: 0
+}
+items {
+  id: 428
+  levelId: 48
+  rowTitle: "A1B71"
+  columnTitle: "A3B61"
+  resultname: "A3B71"
+  resRotation: 0
+}
+items {
+  id: 429
+  levelId: 48
+  rowTitle: "A1B71"
+  columnTitle: "A4B69"
+  resultname: "A4B71"
+  resRotation: 0
+}
+items {
+  id: 430
+  levelId: 48
+  rowTitle: "A1B72"
+  columnTitle: "A2B61"
+  resultname: "A2B72"
+  resRotation: 0
+}
+items {
+  id: 431
+  levelId: 48
+  rowTitle: "A1B72"
+  columnTitle: "A3B61"
+  resultname: "A3B72"
+  resRotation: 0
+}
+items {
+  id: 432
+  levelId: 48
+  rowTitle: "A1B72"
+  columnTitle: "A4B69"
+  resultname: "A4B72"
+  resRotation: 0
+}
+items {
+  id: 433
+  levelId: 49
+  rowTitle: "A1B74"
+  columnTitle: "A3B65"
+  resultname: "A2B74"
+  resRotation: 0
+}
+items {
+  id: 434
+  levelId: 49
+  rowTitle: "A1B74"
+  columnTitle: "A2B61"
+  resultname: "A3B74"
+  resRotation: 0
+}
+items {
+  id: 435
+  levelId: 49
+  rowTitle: "A1B74"
+  columnTitle: "A3B61"
+  resultname: "A4B74"
+  resRotation: 0
+}
+items {
+  id: 436
+  levelId: 49
+  rowTitle: "A1B75"
+  columnTitle: "A3B65"
+  resultname: "A2B75"
+  resRotation: 0
+}
+items {
+  id: 437
+  levelId: 49
+  rowTitle: "A1B75"
+  columnTitle: "A2B61"
+  resultname: "A3B75"
+  resRotation: 0
+}
+items {
+  id: 438
+  levelId: 49
+  rowTitle: "A1B75"
+  columnTitle: "A3B61"
+  resultname: "A4B75"
+  resRotation: 0
+}
+items {
+  id: 439
+  levelId: 49
+  rowTitle: "A1B76"
+  columnTitle: "A3B65"
+  resultname: "A2B76"
+  resRotation: 0
+}
+items {
+  id: 440
+  levelId: 49
+  rowTitle: "A1B76"
+  columnTitle: "A2B61"
+  resultname: "A3B76"
+  resRotation: 0
+}
+items {
+  id: 441
+  levelId: 49
+  rowTitle: "A1B76"
+  columnTitle: "A3B61"
+  resultname: "A4B76"
+  resRotation: 0
+}
+items {
+  id: 442
+  levelId: 50
+  rowTitle: "A1B78"
+  columnTitle: "A3B65"
+  resultname: "A2B78"
+  resRotation: 0
+}
+items {
+  id: 443
+  levelId: 50
+  rowTitle: "A1B78"
+  columnTitle: "A2B61"
+  resultname: "A3B78"
+  resRotation: 0
+}
+items {
+  id: 444
+  levelId: 50
+  rowTitle: "A1B78"
+  columnTitle: "A3B61"
+  resultname: "A4B78"
+  resRotation: 0
+}
+items {
+  id: 445
+  levelId: 50
+  rowTitle: "A1B79"
+  columnTitle: "A3B65"
+  resultname: "A2B79"
+  resRotation: 0
+}
+items {
+  id: 446
+  levelId: 50
+  rowTitle: "A1B79"
+  columnTitle: "A2B61"
+  resultname: "A3B79"
+  resRotation: 0
+}
+items {
+  id: 447
+  levelId: 50
+  rowTitle: "A1B79"
+  columnTitle: "A3B61"
+  resultname: "A4B79"
+  resRotation: 0
+}
+items {
+  id: 448
+  levelId: 50
+  rowTitle: "A1B80"
+  columnTitle: "A3B65"
+  resultname: "A2B80"
+  resRotation: 0
+}
+items {
+  id: 449
+  levelId: 50
+  rowTitle: "A1B80"
+  columnTitle: "A2B61"
+  resultname: "A3B80"
+  resRotation: 0
+}
+items {
+  id: 450
+  levelId: 50
+  rowTitle: "A1B80"
+  columnTitle: "A3B61"
+  resultname: "A4B80"
+  resRotation: 0
+}
+items {
+  id: 451
+  levelId: 51
+  rowTitle: "A5B62"
+  columnTitle: "A6B61"
+  resultname: "A6B62"
+  resRotation: 0
+}
+items {
+  id: 452
+  levelId: 51
+  rowTitle: "A5B62"
+  columnTitle: "A7B61"
+  resultname: "A7B62"
+  resRotation: 0
+}
+items {
+  id: 453
+  levelId: 51
+  rowTitle: "A5B62"
+  columnTitle: "A8B61"
+  resultname: "A8B62"
+  resRotation: 0
+}
+items {
+  id: 454
+  levelId: 51
+  rowTitle: "A5B63"
+  columnTitle: "A6B61"
+  resultname: "A6B63"
+  resRotation: 0
+}
+items {
+  id: 455
+  levelId: 51
+  rowTitle: "A5B63"
+  columnTitle: "A7B61"
+  resultname: "A7B63"
+  resRotation: 0
+}
+items {
+  id: 456
+  levelId: 51
+  rowTitle: "A5B63"
+  columnTitle: "A8B61"
+  resultname: "A8B63"
+  resRotation: 0
+}
+items {
+  id: 457
+  levelId: 51
+  rowTitle: "A5B64"
+  columnTitle: "A6B61"
+  resultname: "A6B64"
+  resRotation: 0
+}
+items {
+  id: 458
+  levelId: 51
+  rowTitle: "A5B64"
+  columnTitle: "A7B61"
+  resultname: "A7B64"
+  resRotation: 0
+}
+items {
+  id: 459
+  levelId: 51
+  rowTitle: "A5B64"
+  columnTitle: "A8B61"
+  resultname: "A8B64"
+  resRotation: 0
+}
+items {
+  id: 460
+  levelId: 52
+  rowTitle: "A5B66"
+  columnTitle: "A6B65"
+  resultname: "A6B66"
+  resRotation: 0
+}
+items {
+  id: 461
+  levelId: 52
+  rowTitle: "A5B66"
+  columnTitle: "A7B65"
+  resultname: "A7B66"
+  resRotation: 0
+}
+items {
+  id: 462
+  levelId: 52
+  rowTitle: "A5B66"
+  columnTitle: "A8B65"
+  resultname: "A5B66"
+  resRotation: 0
+}
+items {
+  id: 463
+  levelId: 52
+  rowTitle: "A5B67"
+  columnTitle: "A6B65"
+  resultname: "A6B67"
+  resRotation: 0
+}
+items {
+  id: 464
+  levelId: 52
+  rowTitle: "A5B67"
+  columnTitle: "A7B65"
+  resultname: "A7B67"
+  resRotation: 0
+}
+items {
+  id: 465
+  levelId: 52
+  rowTitle: "A5B67"
+  columnTitle: "A8B65"
+  resultname: "A8B67"
+  resRotation: 0
+}
+items {
+  id: 466
+  levelId: 52
+  rowTitle: "A5B68"
+  columnTitle: "A6B65"
+  resultname: "A6B68"
+  resRotation: 0
+}
+items {
+  id: 467
+  levelId: 52
+  rowTitle: "A5B68"
+  columnTitle: "A7B65"
+  resultname: "A7B68"
+  resRotation: 0
+}
+items {
+  id: 468
+  levelId: 52
+  rowTitle: "A5B68"
+  columnTitle: "A8B65"
+  resultname: "A8B68"
+  resRotation: 0
+}
+items {
+  id: 469
+  levelId: 53
+  rowTitle: "A5B70"
+  columnTitle: "A6B65"
+  resultname: "A6B70"
+  resRotation: 0
+}
+items {
+  id: 470
+  levelId: 53
+  rowTitle: "A5B70"
+  columnTitle: "A7B65"
+  resultname: "A7B70"
+  resRotation: 0
+}
+items {
+  id: 471
+  levelId: 53
+  rowTitle: "A5B70"
+  columnTitle: "A8B65"
+  resultname: "A8B70"
+  resRotation: 0
+}
+items {
+  id: 472
+  levelId: 53
+  rowTitle: "A5B71"
+  columnTitle: "A6B65"
+  resultname: "A6B71"
+  resRotation: 0
+}
+items {
+  id: 473
+  levelId: 53
+  rowTitle: "A5B71"
+  columnTitle: "A7B65"
+  resultname: "A7B71"
+  resRotation: 0
+}
+items {
+  id: 474
+  levelId: 53
+  rowTitle: "A5B71"
+  columnTitle: "A8B65"
+  resultname: "A8B71"
+  resRotation: 0
+}
+items {
+  id: 475
+  levelId: 53
+  rowTitle: "A5B72"
+  columnTitle: "A6B65"
+  resultname: "A6B72"
+  resRotation: 0
+}
+items {
+  id: 476
+  levelId: 53
+  rowTitle: "A5B72"
+  columnTitle: "A7B65"
+  resultname: "A7B72"
+  resRotation: 0
+}
+items {
+  id: 477
+  levelId: 53
+  rowTitle: "A5B72"
+  columnTitle: "A8B65"
+  resultname: "A8B72"
+  resRotation: 0
+}
+items {
+  id: 478
+  levelId: 54
+  rowTitle: "A5B74"
+  columnTitle: "A6B61"
+  resultname: "A6B74"
+  resRotation: 0
+}
+items {
+  id: 479
+  levelId: 54
+  rowTitle: "A5B74"
+  columnTitle: "A7B61"
+  resultname: "A7B74"
+  resRotation: 0
+}
+items {
+  id: 480
+  levelId: 54
+  rowTitle: "A5B74"
+  columnTitle: "A8B61"
+  resultname: "A8B74"
+  resRotation: 0
+}
+items {
+  id: 481
+  levelId: 54
+  rowTitle: "A5B75"
+  columnTitle: "A6B61"
+  resultname: "A6B75"
+  resRotation: 0
+}
+items {
+  id: 482
+  levelId: 54
+  rowTitle: "A5B75"
+  columnTitle: "A7B61"
+  resultname: "A7B75"
+  resRotation: 0
+}
+items {
+  id: 483
+  levelId: 54
+  rowTitle: "A5B75"
+  columnTitle: "A8B61"
+  resultname: "A8B75"
+  resRotation: 0
+}
+items {
+  id: 484
+  levelId: 54
+  rowTitle: "A5B76"
+  columnTitle: "A6B61"
+  resultname: "A6B76"
+  resRotation: 0
+}
+items {
+  id: 485
+  levelId: 54
+  rowTitle: "A5B76"
+  columnTitle: "A7B61"
+  resultname: "A7B76"
+  resRotation: 0
+}
+items {
+  id: 486
+  levelId: 54
+  rowTitle: "A5B76"
+  columnTitle: "A8B61"
+  resultname: "A8B76"
+  resRotation: 0
+}
+items {
+  id: 487
+  levelId: 55
+  rowTitle: "A5B78"
+  columnTitle: "A6B61"
+  resultname: "A6B78"
+  resRotation: 0
+}
+items {
+  id: 488
+  levelId: 55
+  rowTitle: "A5B78"
+  columnTitle: "A7B61"
+  resultname: "A7B78"
+  resRotation: 0
+}
+items {
+  id: 489
+  levelId: 55
+  rowTitle: "A5B78"
+  columnTitle: "A8B61"
+  resultname: "A8B78"
+  resRotation: 0
+}
+items {
+  id: 490
+  levelId: 55
+  rowTitle: "A5B79"
+  columnTitle: "A6B61"
+  resultname: "A6B79"
+  resRotation: 0
+}
+items {
+  id: 491
+  levelId: 55
+  rowTitle: "A5B79"
+  columnTitle: "A7B61"
+  resultname: "A7B79"
+  resRotation: 0
+}
+items {
+  id: 492
+  levelId: 55
+  rowTitle: "A5B79"
+  columnTitle: "A8B61"
+  resultname: "A8B79"
+  resRotation: 0
+}
+items {
+  id: 493
+  levelId: 55
+  rowTitle: "A5B80"
+  columnTitle: "A6B61"
+  resultname: "A6B80"
+  resRotation: 0
+}
+items {
+  id: 494
+  levelId: 55
+  rowTitle: "A5B80"
+  columnTitle: "A7B61"
+  resultname: "A7B80"
+  resRotation: 0
+}
+items {
+  id: 495
+  levelId: 55
+  rowTitle: "A5B80"
+  columnTitle: "A8B61"
+  resultname: "A8B80"
+  resRotation: 0
+}
+items {
+  id: 496
+  levelId: 56
+  rowTitle: "A9B62"
+  columnTitle: "A10B61"
+  resultname: "A10B62"
+  resRotation: 0
+}
+items {
+  id: 497
+  levelId: 56
+  rowTitle: "A9B62"
+  columnTitle: "A11B61"
+  resultname: "A11B62"
+  resRotation: 0
+}
+items {
+  id: 498
+  levelId: 56
+  rowTitle: "A9B62"
+  columnTitle: "A12B61"
+  resultname: "A12B62"
+  resRotation: 0
+}
+items {
+  id: 499
+  levelId: 56
+  rowTitle: "A9B63"
+  columnTitle: "A10B61"
+  resultname: "A10B63"
+  resRotation: 0
+}
+items {
+  id: 500
+  levelId: 56
+  rowTitle: "A9B63"
+  columnTitle: "A11B61"
+  resultname: "A11B63"
+  resRotation: 0
+}
+items {
+  id: 501
+  levelId: 56
+  rowTitle: "A9B63"
+  columnTitle: "A12B61"
+  resultname: "A12B63"
+  resRotation: 0
+}
+items {
+  id: 502
+  levelId: 56
+  rowTitle: "A9B64"
+  columnTitle: "A10B61"
+  resultname: "A10B64"
+  resRotation: 0
+}
+items {
+  id: 503
+  levelId: 56
+  rowTitle: "A9B64"
+  columnTitle: "A11B61"
+  resultname: "A11B64"
+  resRotation: 0
+}
+items {
+  id: 504
+  levelId: 56
+  rowTitle: "A9B64"
+  columnTitle: "A12B61"
+  resultname: "A12B64"
+  resRotation: 0
+}
+items {
+  id: 505
+  levelId: 57
+  rowTitle: "A9B66"
+  columnTitle: "A10B61"
+  resultname: "A10B66"
+  resRotation: 0
+}
+items {
+  id: 506
+  levelId: 57
+  rowTitle: "A9B66"
+  columnTitle: "A11B61"
+  resultname: "A11B66"
+  resRotation: 0
+}
+items {
+  id: 507
+  levelId: 57
+  rowTitle: "A9B66"
+  columnTitle: "A12B61"
+  resultname: "A12B66"
+  resRotation: 0
+}
+items {
+  id: 508
+  levelId: 57
+  rowTitle: "A9B67"
+  columnTitle: "A10B61"
+  resultname: "A10B67"
+  resRotation: 0
+}
+items {
+  id: 509
+  levelId: 57
+  rowTitle: "A9B67"
+  columnTitle: "A11B61"
+  resultname: "A11B67"
+  resRotation: 0
+}
+items {
+  id: 510
+  levelId: 57
+  rowTitle: "A9B67"
+  columnTitle: "A12B61"
+  resultname: "A12B67"
+  resRotation: 0
+}
+items {
+  id: 511
+  levelId: 57
+  rowTitle: "A9B68"
+  columnTitle: "A10B61"
+  resultname: "A10B68"
+  resRotation: 0
+}
+items {
+  id: 512
+  levelId: 57
+  rowTitle: "A9B68"
+  columnTitle: "A11B61"
+  resultname: "A11B68"
+  resRotation: 0
+}
+items {
+  id: 513
+  levelId: 57
+  rowTitle: "A9B68"
+  columnTitle: "A12B61"
+  resultname: "A12B68"
+  resRotation: 0
+}
+items {
+  id: 514
+  levelId: 58
+  rowTitle: "A9B70"
+  columnTitle: "A10B69"
+  resultname: "A10B70"
+  resRotation: 0
+}
+items {
+  id: 515
+  levelId: 58
+  rowTitle: "A9B70"
+  columnTitle: "A11B69"
+  resultname: "A11B70"
+  resRotation: 0
+}
+items {
+  id: 516
+  levelId: 58
+  rowTitle: "A9B70"
+  columnTitle: "A12B69"
+  resultname: "A12B70"
+  resRotation: 0
+}
+items {
+  id: 517
+  levelId: 58
+  rowTitle: "A9B71"
+  columnTitle: "A10B69"
+  resultname: "A10B71"
+  resRotation: 0
+}
+items {
+  id: 518
+  levelId: 58
+  rowTitle: "A9B71"
+  columnTitle: "A11B69"
+  resultname: "A11B71"
+  resRotation: 0
+}
+items {
+  id: 519
+  levelId: 58
+  rowTitle: "A9B71"
+  columnTitle: "A12B69"
+  resultname: "A12B71"
+  resRotation: 0
+}
+items {
+  id: 520
+  levelId: 58
+  rowTitle: "A9B72"
+  columnTitle: "A10B69"
+  resultname: "A10B72"
+  resRotation: 0
+}
+items {
+  id: 521
+  levelId: 58
+  rowTitle: "A9B72"
+  columnTitle: "A11B69"
+  resultname: "A11B72"
+  resRotation: 0
+}
+items {
+  id: 522
+  levelId: 58
+  rowTitle: "A9B72"
+  columnTitle: "A12B69"
+  resultname: "A12B72"
+  resRotation: 0
+}
+items {
+  id: 523
+  levelId: 59
+  rowTitle: "A9B74"
+  columnTitle: "A10B73"
+  resultname: "A10B74"
+  resRotation: 0
+}
+items {
+  id: 524
+  levelId: 59
+  rowTitle: "A9B74"
+  columnTitle: "A11B73"
+  resultname: "A11B74"
+  resRotation: 0
+}
+items {
+  id: 525
+  levelId: 59
+  rowTitle: "A9B74"
+  columnTitle: "A12B73"
+  resultname: "A12B74"
+  resRotation: 0
+}
+items {
+  id: 526
+  levelId: 59
+  rowTitle: "A9B75"
+  columnTitle: "A10B73"
+  resultname: "A10B75"
+  resRotation: 0
+}
+items {
+  id: 527
+  levelId: 59
+  rowTitle: "A9B75"
+  columnTitle: "A11B73"
+  resultname: "A11B75"
+  resRotation: 0
+}
+items {
+  id: 528
+  levelId: 59
+  rowTitle: "A9B75"
+  columnTitle: "A12B73"
+  resultname: "A12B75"
+  resRotation: 0
+}
+items {
+  id: 529
+  levelId: 59
+  rowTitle: "A9B76"
+  columnTitle: "A10B73"
+  resultname: "A10B76"
+  resRotation: 0
+}
+items {
+  id: 530
+  levelId: 59
+  rowTitle: "A9B76"
+  columnTitle: "A11B73"
+  resultname: "A11B76"
+  resRotation: 0
+}
+items {
+  id: 531
+  levelId: 59
+  rowTitle: "A9B76"
+  columnTitle: "A12B73"
+  resultname: "A12B76"
+  resRotation: 0
+}
+items {
+  id: 532
+  levelId: 60
+  rowTitle: "A9B78"
+  columnTitle: "A10B73"
+  resultname: "A10B78"
+  resRotation: 0
+}
+items {
+  id: 533
+  levelId: 60
+  rowTitle: "A9B78"
+  columnTitle: "A11B73"
+  resultname: "A11B78"
+  resRotation: 0
+}
+items {
+  id: 534
+  levelId: 60
+  rowTitle: "A9B78"
+  columnTitle: "A12B73"
+  resultname: "A12B78"
+  resRotation: 0
+}
+items {
+  id: 535
+  levelId: 60
+  rowTitle: "A9B79"
+  columnTitle: "A10B73"
+  resultname: "A10B79"
+  resRotation: 0
+}
+items {
+  id: 536
+  levelId: 60
+  rowTitle: "A9B79"
+  columnTitle: "A11B73"
+  resultname: "A11B79"
+  resRotation: 0
+}
+items {
+  id: 537
+  levelId: 60
+  rowTitle: "A9B79"
+  columnTitle: "A12B73"
+  resultname: "A12B79"
+  resRotation: 0
+}
+items {
+  id: 538
+  levelId: 60
+  rowTitle: "A9B80"
+  columnTitle: "A10B73"
+  resultname: "A10B80"
+  resRotation: 0
+}
+items {
+  id: 539
+  levelId: 60
+  rowTitle: "A9B80"
+  columnTitle: "A11B73"
+  resultname: "A11B80"
+  resRotation: 0
+}
+items {
+  id: 540
+  levelId: 60
+  rowTitle: "A9B80"
+  columnTitle: "A12B73"
+  resultname: "A12B80"
+  resRotation: 0
+}

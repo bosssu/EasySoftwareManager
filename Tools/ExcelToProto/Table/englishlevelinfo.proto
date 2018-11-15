@@ -1,0 +1,50 @@
+/**
+* @file:   englishlevelinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message EnglishLevelInfo{
+    /** 字母ID */
+    required uint32 id = 1 [default = 0];
+    /** 字母 */
+    optional string name = 2 [default = ""];
+    optional int32 play_mode = 3 [default = 0];
+    /** 游戏流程一
+        
+        流程一：共6幕游戏
+        如：雪花
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_1 = 4;
+    /** 游戏流程二
+        
+        流程二：共4幕游戏
+        如：扔雪球
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_2 = 5;
+    /** 游戏流程三
+        
+        流程三：共4幕游戏
+        如：大小写字母X2
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_3 = 6;
+    /** 游戏流程四
+        
+        流程四：共1幕游戏
+        如：阅读
+        如（10003）
+    */
+    repeated uint32 game_flow_4 = 7;
+    /** 演示单词
+ */
+    optional string word = 8 [default = ""];
+}
+
+message EnglishLevelInfo_ARRAY {
+    repeated EnglishLevelInfo items = 1;
+}

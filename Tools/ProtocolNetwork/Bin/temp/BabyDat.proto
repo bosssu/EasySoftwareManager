@@ -1,0 +1,26 @@
+// 宝贝信息
+package app.models;
+import "proto/DefaultDat.proto";
+message GetBabyInfo{
+    required int32 id = 1; // 玩家id
+}
+message ReturnBabyInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional BabyInfo babyInfo = 3; // 宝贝信息
+    optional int32 server_time = 4;  // 系统时间
+}
+message BabyInfo{
+    optional string name = 1;     // 名称，base_64串 默认：宝宝
+    optional int32 age_range = 2; // 年龄区间；1:1-2周岁、2:2-3周岁、3:3-4周岁、4:4-5周岁... 默认0
+    optional int32 gender = 3;    // 性别；1-boy、2-girl 默认0
+    optional int32 rest_switch = 4;      // 作息监控开关；1-开、2-关 默认2
+    optional string rest_start_time = 5; // 作息开始时间，22:30 默认22:00
+    optional string rest_end_time = 6;   // 作息结束时间，08:30（如结束时间小于开始时间，默认到第二天）默认08:00
+    optional int32 play_finite_time = 7; // 玩耍时长限制，单位分钟 默认30
+}
+message ChangeBabyInfo{
+    required int32 id = 1; // 玩家id
+    required BabyInfo babyInfo = 2; // 宝贝信息
+}
+// 返回更新结果 Default_out

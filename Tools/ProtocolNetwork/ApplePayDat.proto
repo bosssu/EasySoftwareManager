@@ -1,0 +1,15 @@
+// Apple_pay校验
+package app.models;
+import "proto/DefaultDat.proto";
+message IapVerify{
+	required string receipt = 1;   // 苹果发来的数据，base64的大字符串
+	required string bundle_id = 2; // 苹果发过来的包名
+}
+
+message ResultVerify{
+    required Status status = 1;      // 返回状态;0-请求失败，1-请求成功
+    required string info = 2;        // 返回描述;请求超时，请稍后重试;苹果返回数据有误，请稍后重试;购买失败
+    optional string product_id = 3;  // 物品id
+}
+
+ 

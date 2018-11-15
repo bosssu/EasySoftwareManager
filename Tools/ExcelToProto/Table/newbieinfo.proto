@@ -1,0 +1,28 @@
+/**
+* @file:   newbieinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message NewBieInfo{
+    /** ID */
+    required uint32 id = 1 [default = 0];
+    /** 权重 */
+    required uint32 Priority = 2 [default = 0];
+    /** 最高等级限制 */
+    required uint32 LevelUpperLimit = 3 [default = 0];
+    /** 最低等级限制 */
+    required uint32 LevelLowerLimit = 4 [default = 0];
+    /** 保存点 */
+    required uint32 SavePoint = 5 [default = 0];
+    /** 开始时机 */
+    required uint32 StartTimeType = 6 [default = 0];
+    /** 开始索引 */
+    required uint32 StartIndex = 7 [default = 0];
+}
+
+message NewBieInfo_ARRAY {
+    repeated NewBieInfo items = 1;
+}

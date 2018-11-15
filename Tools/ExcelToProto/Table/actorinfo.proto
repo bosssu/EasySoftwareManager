@@ -1,0 +1,18 @@
+/**
+* @file:   actorinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message ActorInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 资源路径 */
+    required string res_path = 2 [default = ""];
+}
+
+message ActorInfo_ARRAY {
+    repeated ActorInfo items = 1;
+}

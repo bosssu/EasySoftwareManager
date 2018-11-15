@@ -1,0 +1,16 @@
+items {
+  id: 101001000
+  res_path: "model/model_actor/ledi"
+}
+items {
+  id: 102001000
+  res_path: "model/model_actor/xiaoai"
+}
+items {
+  id: 105001000
+  res_path: "model/model_actor/xiaoqing"
+}
+items {
+  id: 201002000
+  res_path: "model/model_actor/anqi"
+}

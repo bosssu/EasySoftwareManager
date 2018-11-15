@@ -1,0 +1,13 @@
+// 公共信息
+package app.models;
+import "proto/DefaultDat.proto";
+import "proto/OrderDat.proto";
+message GetCommonData{
+    required int32 id = 1; // 玩家id
+}
+message ReturnCommonData{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated CourseInfo courseInfo = 3; // 我的课程信息
+    optional int32 server_time = 4;  // 系统时间
+}

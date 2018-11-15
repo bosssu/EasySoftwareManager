@@ -1,0 +1,31 @@
+// 登录
+package app.models;
+import "proto/DefaultDat.proto";
+message LoginInfo {
+	required int32 type = 1;		// 1-游客  2-微信  3-手机
+	required string mac = 2;		// SDK使用imei生成唯一码
+	optional string open_uuid = 3;	// SDK使用open_id生成唯一码（微信等第三方渠道）
+	optional string phone = 4;	    // 手机号
+	optional string extra = 5;      // 附加信息,json格式;{"wx_nickname":"xxxxxx"},"xxxxx"为base64串
+}
+
+message ReturnLoginStatus {
+	required Status status = 1; // 返回状态
+	required string info = 2;   // 返回描述
+	optional UserInfo user_info = 3;
+	optional int32 server_time = 4;     // 系统时间
+}
+
+// 用户信息
+message UserInfo {
+	required int32 id = 1;    // 用户ID
+	optional string wx_nickname = 2; // 微信昵称，base_64串
+	optional string wx_open_uuid = 3;// SDK使用open_id生成唯一码（微信等第三方渠道）
+	optional string phone = 4;       // 手机号
+}
+
+// 钱包信息
+message WalletInfo{
+    required int32 id = 1;    // 用户ID
+    required int32 energy = 2;   // 能量数
+}

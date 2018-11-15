@@ -1,0 +1,9 @@
+items {
+  id: 10001
+  Priority: 1
+  LevelUpperLimit: 10
+  LevelLowerLimit: 1
+  SavePoint: 0
+  StartTimeType: 1
+  StartIndex: 1
+}

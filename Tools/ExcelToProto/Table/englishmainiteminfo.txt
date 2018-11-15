@@ -1,0 +1,59 @@
+items {
+  id: 3004
+  shop_info: 3004
+  type: 5
+  show: 1
+  name: "\350\213\261\350\257\255\345\220\257\350\222\231"
+  index: 1
+  scene: "StudyEnglishState"
+  image: "icon-zmrz"
+  action_asset: "action_yyqm"
+  download: 0
+  path: "study_english"
+  main_buy: 0
+  umeng_event: "90401"
+  umeng_level: "4001"
+  desc: "\346\233\264\345\244\232\350\257\246\346\203\205\357\274\214\350\257\267\345\217\202\350\200\203\346\210\221\344\273\254\347\232\204\343\200\220\350\257\276\347\250\213\344\273\213\347\273\215\343\200\221\343\200\202"
+}
+items {
+  id: 3005
+  shop_info: 3005
+  type: 5
+  show: 1
+  name: "\350\207\252\347\204\266\346\213\274\350\257\273"
+  index: 2
+  scene: "StudyPhonicsState"
+  image: "icon-zrpd"
+  action_asset: "action_zrpd"
+  download: 0
+  path: "study_phonics"
+  main_buy: 0
+  umeng_event: "90402"
+  umeng_level: "4002"
+  desc: "\351\233\266\345\237\272\347\241\200\347\217\255\357\274\21026\350\212\202\350\257\276\357\274\211\357\274\21430\345\244\251\346\202\250\347\232\204\345\255\251\345\255\220\345\260\261\350\203\275\345\255\246\344\274\232\357\274\201"
+}
+items {
+  id: 7001
+  type: 7
+  show: 1
+  name: "\347\224\265\345\217\260"
+  index: 3
+  scene: "RadioState"
+  image: "icon-yyeg"
+  action_asset: "action_yyrg"
+  download: 1
+  main_buy: 0
+}
+items {
+  id: 8001
+  type: 8
+  show: 1
+  name: "AR\347\231\276\347\247\221"
+  index: 4
+  scene: "ARBaikeState"
+  image: "icon-arbk"
+  action_asset: "action_arbk"
+  download: 1
+  path: "baike_animal"
+  main_buy: 0
+}

@@ -1,0 +1,600 @@
+items {
+  id: 1
+  level: 1
+  type: 1
+  rowTitles: "A1B2;A1B3;A1B4"
+  columnTitles: "A2B1;A3B1;A4B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 2
+  level: 2
+  type: 1
+  rowTitles: "A1B6;A1B7;A1B8"
+  columnTitles: "A2B1;A3B1;A4B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 3
+  level: 3
+  type: 1
+  rowTitles: "A1B10;A1B11;A1B12"
+  columnTitles: "A2B1;A3B1;A4B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 4
+  level: 4
+  type: 1
+  rowTitles: "A10B14;A1B15;A1B16"
+  columnTitles: "A2B1;A3B1;A4B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 5
+  level: 5
+  type: 1
+  rowTitles: "A1B18;A1B19;A1B20"
+  columnTitles: "A2B1;A3B1;A4B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 6
+  level: 6
+  type: 1
+  rowTitles: "A5B2;A5B3;A5B4"
+  columnTitles: "A6B1;A7B1;A8B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 7
+  level: 7
+  type: 1
+  rowTitles: "A5B6;A5B7;A5B8"
+  columnTitles: "A6B1;A7B1;A8B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 8
+  level: 8
+  type: 1
+  rowTitles: "A5B10;A5B11;A5B12"
+  columnTitles: "A6B1;A7B1;A8B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 9
+  level: 9
+  type: 1
+  rowTitles: "A5B14;A5B15;A5B16"
+  columnTitles: "A6B1;A7B1;A8B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 10
+  level: 10
+  type: 1
+  rowTitles: "A1B6;A1B7;A1B8"
+  columnTitles: "A6B1;A7B1;A8B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 11
+  level: 11
+  type: 1
+  rowTitles: "A9B2;A9B3;A9B4"
+  columnTitles: "A10B1;A11B1;A12B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 12
+  level: 12
+  type: 1
+  rowTitles: "A9B6;A9B7;A9B8"
+  columnTitles: "A10B1;A11B1;A12B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 13
+  level: 13
+  type: 1
+  rowTitles: "A9B10;A9B11;A9B12"
+  columnTitles: "A10B1;A11B1;A12B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 14
+  level: 14
+  type: 1
+  rowTitles: "A9B14;A9B15;A9B16"
+  columnTitles: "A10B1;A11B1;A12B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 15
+  level: 15
+  type: 1
+  rowTitles: "A9B18;A9B19;A9B20"
+  columnTitles: "A10B1;A11B1;A12B1"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B1"
+}
+items {
+  id: 16
+  level: 1
+  type: 2
+  rowTitles: "A1B22;A1B23;A1B24"
+  columnTitles: "A2B21;A3B21;A4B21"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 17
+  level: 2
+  type: 2
+  rowTitles: "A1B22;A1B23;A1B24"
+  columnTitles: "A2B25;A3B25;A4B25"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 18
+  level: 3
+  type: 2
+  rowTitles: "A1B22;A1B23;A1B24"
+  columnTitles: "A2B29;A3B29;A4B29"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 19
+  level: 4
+  type: 2
+  rowTitles: "A2B21;A4B29;A4B21"
+  columnTitles: "A2B33;A3B33;A4B33"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B21"
+}
+items {
+  id: 20
+  level: 5
+  type: 2
+  rowTitles: "A2B25;A3B25;A4B25"
+  columnTitles: "A2B33;A3B33;A4B33"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B21"
+}
+items {
+  id: 21
+  level: 6
+  type: 2
+  rowTitles: "A5B22;A5B23;A5B24"
+  columnTitles: "A6B21;A7B21;A8B21"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 22
+  level: 7
+  type: 2
+  rowTitles: "A5B26;A5B27;A4B28"
+  columnTitles: "A4B31;A2B32;A3B31"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 23
+  level: 8
+  type: 2
+  rowTitles: "A5B30;A5B31;A5B32"
+  columnTitles: "A2B21;A4B21;A3B21"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 24
+  level: 9
+  type: 2
+  rowTitles: "A5B34;A5B35;A5B36"
+  columnTitles: "A2B25;A3B25;A4B29"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 25
+  level: 10
+  type: 2
+  rowTitles: "A5B38;A5B39;A5B40"
+  columnTitles: "A3B29;A2B29;A8B37"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 26
+  level: 11
+  type: 2
+  rowTitles: "A9B22;A9B23;A9B24"
+  columnTitles: "A10B21;A11B21;A12B21"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 27
+  level: 12
+  type: 2
+  rowTitles: "A9B26;A9B27;A9B28"
+  columnTitles: "A10B21;A11B21;A12B21"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 28
+  level: 13
+  type: 2
+  rowTitles: "A9B30;A9B31;A9B32"
+  columnTitles: "A10B29;A11B29;A12B29"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 29
+  level: 14
+  type: 2
+  rowTitles: "A10B33;A11B33;A12B33"
+  columnTitles: "A10B33;A11B33;A12B33"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 30
+  level: 15
+  type: 2
+  rowTitles: "A9B38;A9B39;A9B40"
+  columnTitles: "A10B37;A11B37;A12B37"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B21"
+}
+items {
+  id: 31
+  level: 1
+  type: 3
+  rowTitles: "A2B41;A3B41;A4B41"
+  columnTitles: "A2B41;A3B41;A4B41"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 32
+  level: 2
+  type: 3
+  rowTitles: "A2B45;A3B45;A4B45"
+  columnTitles: "A2B45;A3B45;A4B45"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 33
+  level: 3
+  type: 3
+  rowTitles: "A2B49;A3B49;A4B49"
+  columnTitles: "A2B49;A3B49;A4B49"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 34
+  level: 4
+  type: 3
+  rowTitles: "A2B53;A3B53;A4B53"
+  columnTitles: "A2B53;A3B53;A4B53"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 35
+  level: 5
+  type: 3
+  rowTitles: "A1B58;A1B59;A1B60"
+  columnTitles: "A2B57;A3B57;A4B57"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 36
+  level: 6
+  type: 3
+  rowTitles: "A5B8;A7B41;A8B41"
+  columnTitles: "A5B8;A7B41;A8B41"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 37
+  level: 7
+  type: 3
+  rowTitles: "A5B46;A5B47;A5B48"
+  columnTitles: "A6B45;A7B45;A8B45"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 38
+  level: 8
+  type: 3
+  rowTitles: "A7B49;A8B49;A6B50"
+  columnTitles: "A6B49;A7B49;A8B49"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 39
+  level: 9
+  type: 3
+  rowTitles: "A5B54;A5B55;A5B56"
+  columnTitles: "A6B53;A7B53;A8B53"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 40
+  level: 10
+  type: 3
+  rowTitles: "A6B8;A7B8;A8B8"
+  columnTitles: "A7B41;A8B41;A6B8"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 41
+  level: 11
+  type: 3
+  rowTitles: "A2B1;A3B1;A4B1"
+  columnTitles: "A10B41;A11B41;A12B41"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 42
+  level: 12
+  type: 3
+  rowTitles: "A6B1;A7B1;A8B1"
+  columnTitles: "A10B41;A11B41;A12B41"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 43
+  level: 13
+  type: 3
+  rowTitles: "A6B1;A7B1;A8B1"
+  columnTitles: "A10B49;A11B49;A12B49"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 44
+  level: 14
+  type: 3
+  rowTitles: "A8B1;A10B1;A11B1"
+  columnTitles: "A12B49;A11B53;A12B53"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 45
+  level: 15
+  type: 3
+  rowTitles: "A10B1;A11B1;A12B1"
+  columnTitles: "A11B53;A12B53;A12B57"
+  rIsRandom: 0
+  cIsRandom: 0
+  titleRes: "A1B41"
+}
+items {
+  id: 46
+  level: 1
+  type: 4
+  rowTitles: "A1B62;A1B63;A1B64"
+  columnTitles: "A2B61;A3B61;A4B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 47
+  level: 2
+  type: 4
+  rowTitles: "A1B65;A1B66;A1B67"
+  columnTitles: "A2B61;A3B65;A3B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 48
+  level: 3
+  type: 4
+  rowTitles: "A1B70;A1B71;A1B72"
+  columnTitles: "A2B61;A3B61;A4B69"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 49
+  level: 4
+  type: 4
+  rowTitles: "A1B74;A1B75;A1B76"
+  columnTitles: "A3B65;A2B61;A3B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 50
+  level: 5
+  type: 4
+  rowTitles: "A1B78;A1B79;A1B80"
+  columnTitles: "A3B65;A2B61;A3B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 51
+  level: 6
+  type: 4
+  rowTitles: "A5B62;A5B63;A5B64"
+  columnTitles: "A6B61;A7B61;A8B61"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B61"
+}
+items {
+  id: 52
+  level: 7
+  type: 4
+  rowTitles: "A5B66;A5B67;A5B68"
+  columnTitles: "A6B65;A7B65;A8B65"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B61"
+}
+items {
+  id: 53
+  level: 8
+  type: 4
+  rowTitles: "A5B70;A5B71;A5B72"
+  columnTitles: "A6B65;A7B65;A8B65"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B61"
+}
+items {
+  id: 54
+  level: 9
+  type: 4
+  rowTitles: "A5B74;A5B75;A5B76"
+  columnTitles: "A6B61;A7B61;A8B61"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B61"
+}
+items {
+  id: 55
+  level: 10
+  type: 4
+  rowTitles: "A5B78;A5B79;A5B80"
+  columnTitles: "A6B61;A7B61;A8B61"
+  rIsRandom: 1
+  cIsRandom: 0
+  titleRes: "A1B61"
+}
+items {
+  id: 56
+  level: 11
+  type: 4
+  rowTitles: "A9B62;A9B63;A9B64"
+  columnTitles: "A10B61;A11B61;A12B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 57
+  level: 12
+  type: 4
+  rowTitles: "A9B66;A9B67;A9B68"
+  columnTitles: "A10B61;A11B61;A12B61"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 58
+  level: 13
+  type: 4
+  rowTitles: "A9B70;A9B71;A9B72"
+  columnTitles: "A10B69;A11B69;A12B69"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 59
+  level: 14
+  type: 4
+  rowTitles: "A9B74;A9B75;A9B76"
+  columnTitles: "A10B73;A11B73;A12B73"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}
+items {
+  id: 60
+  level: 15
+  type: 4
+  rowTitles: "A9B78;A9B79;A9B80"
+  columnTitles: "A10B73;A11B73;A12B73"
+  rIsRandom: 1
+  cIsRandom: 1
+  titleRes: "A1B61"
+}

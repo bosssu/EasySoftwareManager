@@ -1,0 +1,296 @@
+items {
+  id: 10001
+  word: "Black"
+  wordAudio: "401030101;401030102"
+  fillColor: "32;31;31;255"
+  ColorTexName: "Black"
+  SpecialColor: "32;31;31;255"
+  mainTex: "C_huahua_16"
+  mainTexAudio: "401030147"
+  mainTexAudioWord: "Jacket"
+  mainTexWordAudio: "401030204"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Balloon;Umbrella"
+  randomTexWordAudio: "401030149;401030157;401030165;401030181;401030189"
+  des: "\347\224\273\345\244\271\345\205\213;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10002
+  word: "Blue"
+  wordAudio: "401030105;401030106"
+  fillColor: "64;144;231;255"
+  ColorTexName: "Blue"
+  SpecialColor: "64;144;231;255"
+  mainTex: "C_huahua_09"
+  mainTexAudio: "401030141"
+  mainTexAudioWord: "Blueberry"
+  mainTexWordAudio: "401030199"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_04;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030136;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Flower;Balloon;Umbrella"
+  randomTexWordAudio: "401030150;401030158;401030166;401030174;401030182;401030190"
+  des: "\347\224\273\350\223\235\350\216\223;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\345\260\217\350\212\261;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10003
+  word: "Green"
+  wordAudio: "401030109;401030110"
+  fillColor: "42;180;96;255"
+  ColorTexName: "Green"
+  SpecialColor: "42;180;96;255"
+  mainTex: "C_huahua_12"
+  mainTexAudio: "401030144"
+  mainTexAudioWord: "Loofah"
+  mainTexWordAudio: "401030202"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Balloon;Umbrella"
+  randomTexWordAudio: "401030151;401030159;401030167;401030183;401030191"
+  des: "\347\224\273\344\270\235\347\223\234;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10004
+  word: "Orange"
+  wordAudio: "401030113;401030114"
+  fillColor: "242;132;13;255"
+  ColorTexName: "Orange"
+  SpecialColor: "242;132;13;255"
+  mainTex: "C_huahua_15"
+  mainTexAudio: "401030148"
+  mainTexAudioWord: "Pumpkin"
+  mainTexWordAudio: "401030197"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_04;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030136;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Flower;Balloon;Umbrella"
+  randomTexWordAudio: "401030152;401030160;401030168;401030176;401030184;401030192"
+  des: "\347\224\273\345\215\227\347\223\234;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\345\260\217\350\212\261;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10005
+  word: "Purple"
+  wordAudio: "401030117;401030118"
+  fillColor: "161;64;216;255"
+  ColorTexName: "Purple"
+  SpecialColor: "161;64;216;255"
+  mainTex: "C_huahua_10"
+  mainTexAudio: "401030142"
+  mainTexAudioWord: "Eggplant"
+  mainTexWordAudio: "401030200"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_04;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030136;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Flower;Balloon;Umbrella"
+  randomTexWordAudio: "401030153;401030161;401030169;401030177;401030185;401030193"
+  des: "\347\224\273\350\214\204\345\255\220;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\345\260\217\350\212\261;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10006
+  word: "Red"
+  wordAudio: "401030121;401030122"
+  fillColor: "255;82;79;255"
+  ColorTexName: "Red"
+  SpecialColor: "255;82;79;255"
+  mainTex: "C_huahua_11"
+  mainTexAudio: "401030143"
+  mainTexAudioWord: "Sun"
+  mainTexWordAudio: "401030201"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_04;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030136;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Flower;Balloon;Umbrella"
+  randomTexWordAudio: "401030154;401030162;401030170;401030178;401030186;401030194"
+  des: "\347\224\273\345\244\252\351\230\263;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\345\260\217\350\212\261;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 10007
+  word: "White"
+  wordAudio: "401030125;401030126"
+  fillColor: "249;248;235;255"
+  ColorTexName: "White"
+  SpecialColor: "172;101;49;255"
+  mainTex: "C_huahua_13"
+  mainTexAudio: "401030145"
+  mainTexAudioWord: "Rabbit"
+  mainTexWordAudio: "401030203"
+  texFillCompleteThrehold: "85"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03"
+  randomTexAudio: "401030133;401030134;401030135"
+  randomTexAudioWord: "Car;Skirt;Butterfly"
+  randomTexWordAudio: "401030155;401030163;401030171;"
+  des: "\347\224\273\345\205\224\345\255\220;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266"
+}
+items {
+  id: 10008
+  word: "Yellow"
+  wordAudio: "401030129;401030130"
+  fillColor: "255;186;0;255"
+  ColorTexName: "Yellow"
+  SpecialColor: "255;186;0;255"
+  mainTex: "C_huahua_08"
+  mainTexAudio: "401030140"
+  mainTexAudioWord: "Duck"
+  mainTexWordAudio: "401030198"
+  texFillCompleteThrehold: "98"
+  randomTex: "C_huahua_01;C_huahua_02;C_huahua_03;C_huahua_04;C_huahua_05;C_huahua_06"
+  randomTexAudio: "401030133;401030134;401030135;401030136;401030137;401030138"
+  randomTexAudioWord: "Car;Skirt;Butterfly;Flower;Balloon;Umbrella"
+  randomTexWordAudio: "401030156;401030164;401030172;401030180;401030188;401030196"
+  des: "\347\224\273\351\270\255\345\255\220;\351\232\217\346\234\272\345\260\217\346\261\275\350\275\246;\350\243\231\345\255\220;\350\235\264\350\235\266;\345\260\217\350\212\261;\346\260\224\347\220\203;\351\233\250\344\274\236"
+}
+items {
+  id: 20001
+  word: "Black"
+  wordAudio: "401030104"
+  wordAudioArray: "401030207;401030217;401030206;401030208;401030216"
+  fillColor: "32;31;31;255"
+  secondWordAudio: "401030101"
+  SpecialColor: "32;31;31;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20002
+  word: "Blue"
+  wordAudio: "401030108"
+  wordAudioArray: "401030207;401030217;401030226;401030210"
+  fillColor: "64;144;231;255"
+  secondWordAudio: "401030105"
+  SpecialColor: "64;144;231;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20003
+  word: "Green"
+  wordAudio: "401030112"
+  wordAudioArray: "401030212;401030223;401030210;401030210;401030219"
+  fillColor: "42;180;96;255"
+  secondWordAudio: "401030109"
+  SpecialColor: "42;180;96;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20004
+  word: "Orange"
+  wordAudio: "401030116"
+  wordAudioArray: "401030220;401030223;401030206;401030219;401030212;401030210"
+  fillColor: "242;132;13;255"
+  secondWordAudio: "401030113"
+  SpecialColor: "242;132;13;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20005
+  word: "Purple"
+  wordAudio: "401030120"
+  wordAudioArray: "401030221;401030226;401030223;401030221;401030217;401030210"
+  fillColor: "161;64;216;255"
+  secondWordAudio: "401030117"
+  SpecialColor: "161;64;216;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20006
+  word: "Red"
+  wordAudio: "401030124"
+  wordAudioArray: "401030223;401030210;401030209"
+  fillColor: "255;82;79;255"
+  secondWordAudio: "401030121"
+  SpecialColor: "255;82;79;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20007
+  word: "White"
+  wordAudio: "401030128"
+  wordAudioArray: "401030228;401030213;401030214;401030225;401030210"
+  fillColor: "249;248;235;255"
+  secondWordAudio: "401030125"
+  SpecialColor: "172;101;49;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 20008
+  word: "Yellow"
+  wordAudio: "401030132"
+  wordAudioArray: "401030230;401030210;401030217;401030217;401030220;401030228"
+  fillColor: "255;186;0;255"
+  secondWordAudio: "401030129"
+  SpecialColor: "255;186;0;255"
+  des: "\346\213\274\345\215\225\350\257\215"
+}
+items {
+  id: 30001
+  word: "Black"
+  wordAudio: "401030104"
+  fillColor: "32;31;31;255"
+  SpecialColor: "32;31;31;255"
+  mainTex: "C_bsl_black;C_blackhouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30002
+  word: "Blue"
+  wordAudio: "401030108"
+  fillColor: "64;144;231;255"
+  SpecialColor: "64;144;231;255"
+  mainTex: "C_bsl_blue;C_bulehouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30003
+  word: "Green"
+  wordAudio: "401030112"
+  fillColor: "42;180;96;255"
+  SpecialColor: "42;180;96;255"
+  mainTex: "C_bsl_green;C_greenhouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30004
+  word: "Orange"
+  wordAudio: "401030116"
+  fillColor: "242;132;13;255"
+  SpecialColor: "242;132;13;255"
+  mainTex: "C_bsl_orange;C_orangehouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30005
+  word: "Purple"
+  wordAudio: "401030120"
+  fillColor: "161;64;216;255"
+  SpecialColor: "161;64;216;255"
+  mainTex: "C_bsl_purple;C_purplehouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30006
+  word: "Red"
+  wordAudio: "401030124"
+  fillColor: "255;82;79;255"
+  SpecialColor: "255;82;79;255"
+  mainTex: "C_bsl_red;C_redhouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30007
+  word: "White"
+  wordAudio: "401030128"
+  fillColor: "249;248;235;255"
+  SpecialColor: "172;101;49;255"
+  mainTex: "C_bsl_white;C_whitehouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}
+items {
+  id: 30008
+  word: "Yellow"
+  wordAudio: "401030132"
+  fillColor: "255;186;0;255"
+  SpecialColor: "255;186;0;255"
+  mainTex: "C_bsl_yellow;C_yellowhouse"
+  des: "\350\276\250\351\237\263\351\200\211\345\261\213"
+}

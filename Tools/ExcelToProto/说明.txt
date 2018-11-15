@@ -1,0 +1,7 @@
+1. 安装python2.7，设置环境变量Path到你的安装目录
+
+2. 安装setuptools，进入setuptools-38.2.4执行命令python setup.py install
+
+3. 安装Protobuff，进入protobuf-2.5.0目录下面的Python目录，执行：python setup.py install
+
+4. 安装xlrd，进入xlrd-1.0.0执行指令：python setup.py install

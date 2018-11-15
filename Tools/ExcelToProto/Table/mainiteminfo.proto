@@ -1,0 +1,58 @@
+/**
+* @file:   mainiteminfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message MainItemInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 类型
+        1冒险 2基地 3数学 4送快递 5英语 6画画 7电台 8AR百科
+        9玩具箱 10解锁全部
+    */
+    required uint32 type = 2 [default = 0];
+    /** 是否显示 */
+    required uint32 show = 3 [default = 0];
+    /** ios是否显示 */
+    required uint32 show_ios = 4 [default = 0];
+    /** 新功能标识 */
+    required uint32 newtips = 5 [default = 0];
+    /** 名字 */
+    required string name = 6 [default = ""];
+    /** 顺序 */
+    required uint32 index = 7 [default = 0];
+    /** 场景名 */
+    optional string scene = 8 [default = ""];
+    /** 场景参数int */
+    optional int32 scene_int = 9 [default = 0];
+    /** 图片
+家长中心 */
+    optional string image = 10 [default = ""];
+    /** 资源路径 */
+    optional string path = 11 [default = ""];
+    /** 是否在主页面购买 */
+    optional int32 main_buy = 12 [default = 0];
+    /** 价钱（分） */
+    required int32 price = 13 [default = 0];
+    /** IOS价钱（分） */
+    required int32 price_ios = 14 [default = 0];
+    /** 是否需要下载 */
+    required int32 download = 15 [default = 0];
+    /** 是否需要下载 */
+    required int32 download_ios = 16 [default = 0];
+    /** 购买图片背景 */
+    optional string shop_bg = 17 [default = ""];
+    /** 友盟计数 */
+    optional string umeng_event = 18 [default = ""];
+    /** 友盟时长 */
+    optional string umeng_level = 19 [default = ""];
+    /** 描述 */
+    optional string desc = 20 [default = ""];
+}
+
+message MainItemInfo_ARRAY {
+    repeated MainItemInfo items = 1;
+}

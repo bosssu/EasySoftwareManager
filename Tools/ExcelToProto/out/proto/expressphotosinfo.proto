@@ -1,0 +1,22 @@
+/**
+* @file:   expressphotosinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message ExpressPhotosInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 照片标题 */
+    required string title = 2 [default = ""];
+    /** 是否显示 */
+    required string photo_url = 3 [default = ""];
+    /** 所属大洲 */
+    required uint32 area_type = 4 [default = 0];
+}
+
+message ExpressPhotosInfo_ARRAY {
+    repeated ExpressPhotosInfo items = 1;
+}

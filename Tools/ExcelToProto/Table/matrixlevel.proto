@@ -1,0 +1,33 @@
+/**
+* @file:   matrixlevel.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message MatrixLevel{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 关卡 */
+    required int32 level = 2 [default = 0];
+    /** 数字：1 图形：2
+运算：3 逻辑：4 */
+    required int32 type = 3 [default = 0];
+    /** 行标题资源 */
+    required string rowTitles = 4 [default = ""];
+    /** 列标题资源 */
+    required string columnTitles = 5 [default = ""];
+    /** 行随机
+(1是0否) */
+    optional int32 rIsRandom = 6 [default = 0];
+    /** 列随机
+(1是0否) */
+    required int32 cIsRandom = 7 [default = 0];
+    /** 标题资源 */
+    optional string titleRes = 8 [default = ""];
+}
+
+message MatrixLevel_ARRAY {
+    repeated MatrixLevel items = 1;
+}

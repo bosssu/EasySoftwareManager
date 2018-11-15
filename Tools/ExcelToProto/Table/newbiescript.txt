@@ -1,0 +1,13 @@
+items {
+  id: 1
+  NewbieId: 10001
+  Type: 1
+  PauseGame: 0
+  SoundFileName: "sound/3011"
+  ShowTransparency: 1
+  FlipType: 0
+  NotShowArrow: 1
+  OffsetHighLightX: 0
+  OffsetHighLightY: 0
+  SpecialTip: "\346\217\220\347\244\272\346\265\213\350\257\225\357\274\201"
+}

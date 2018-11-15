@@ -1,0 +1,20 @@
+//"解锁收费"-礼包
+package app.models;
+import "proto/DefaultDat.proto";
+
+
+
+message UnlockBagInfo{
+     required int32 product_id = 1; //商品ID
+     required int32 is_buy = 2;   //是否已经购买 1是 0否
+}
+
+message GetUnlockBagData{
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnUnlockBagInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    required UnlockBagInfo data = 3;   //电台相关数据
+}

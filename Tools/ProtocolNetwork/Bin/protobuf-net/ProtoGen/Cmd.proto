@@ -1,0 +1,240 @@
+// Apple_pay校验
+message IapVerify{
+	required string receipt = 1;   // 苹果发来的数据，base64的大字符串
+	required string bundle_id = 2; // 苹果发过来的包名
+}
+
+message ResultVerify{
+    required Status status = 1;      // 返回状态;0-请求失败，1-请求成功
+    required string info = 2;        // 返回描述;请求超时，请稍后重试;苹果返回数据有误，请稍后重试;购买失败
+    optional string product_id = 3;  // 物品id
+}
+
+ // 记录玩家购卖的课程
+message ArBikeLogReq{
+	required string mac = 1;  //设备Id
+	required string course_id = 2; // 渠道号
+}
+
+message ArBikeInfo{
+	required string mac = 1;  //设备Id
+}
+
+message ArBikeListRes{
+    required Status status = 1;      // 返回状态;
+    required string info = 2;        // 返回描述;
+    repeated ArBikeCourseInfo courseInfo = 3; //课程信息
+}
+
+message ArBikeCourseInfo{
+    required int32 id = 1; //课程ID
+    optional int32 status = 2; //是否购买了1是2否
+}
+ // 宝贝信息
+message GetBabyInfo{
+    required int32 id = 1; // 玩家id
+}
+message ReturnBabyInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional BabyInfo babyInfo = 3; // 宝贝信息
+    optional int32 server_time = 4;  // 系统时间
+}
+message BabyInfo{
+    optional string name = 1;     // 名称，base_64串 默认：宝宝
+    optional int32 age_range = 2; // 年龄区间；1:1-2周岁、2:2-3周岁、3:3-4周岁、4:4-5周岁... 默认0
+    optional int32 gender = 3;    // 性别；1-boy、2-girl 默认0
+    optional int32 rest_switch = 4;      // 作息监控开关；1-开、2-关 默认2
+    optional string rest_start_time = 5; // 作息开始时间，22:30 默认22:00
+    optional string rest_end_time = 6;   // 作息结束时间，08:30（如结束时间小于开始时间，默认到第二天）默认08:00
+    optional int32 play_finite_time = 7; // 玩耍时长限制，单位分钟 默认30
+}
+message ChangeBabyInfo{
+    required int32 id = 1; // 玩家id
+    required BabyInfo babyInfo = 2; // 宝贝信息
+}
+// 返回更新结果 Default_out
+// 公共信息
+message GetCommonData{
+    required int32 id = 1; // 玩家id
+}
+message ReturnCommonData{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated CourseInfo courseInfo = 3; // 我的课程信息
+    optional int32 server_time = 4;  // 系统时间
+}//默认返回数据格式
+//数据返回状态
+enum Status {
+	FAILURE = 0;
+	SUCCESS = 1;
+	MESSAGE = 2;
+}
+message Default_out {
+	required Status status = 1;//返回状态
+	required string info = 2;//返回描述
+	optional string message= 3;
+}
+// 快递
+
+message InitDeliveryData {
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnDeliveryData {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+    optional int32 energy = 3;    // 能量数
+    optional int32 total_photo_num = 4;    // 所有照片数
+    repeated PhotoInfo my_photo_info = 5;  // 我的图片集合
+    optional string bonus_energy_time = 6; // 获得能量奖励时的时间;0-无奖励，非0-时间戳
+}
+
+message PhotoInfo {
+    required string photo_id = 1;    // 照片ID
+    optional string title = 2;       // 名称
+    optional string photo_url = 3;   // 照片地址
+    optional int32 area_type = 4;    // 洲份信息；1-北美洲、2-大洋洲、3-非洲、4-南美洲、5-欧洲、6-亚洲
+}
+
+message Travel {
+    required int32 id = 1; // 玩家id
+}
+
+message TakePhoto {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+    optional PhotoInfo photo_info = 3; // 获得图片信息
+}
+
+message AddEnergy {
+    required int32 id = 1; // 玩家id
+    required int32 num = 2;
+}
+
+message ReturnAddEnergy {
+    required Status status = 1;   // 返回状态
+    required string info = 2;     // 返回描述
+}
+// 订单信息
+message GetCourseList{
+    required int32 id = 1; // 玩家id
+}
+message ReturnCourseList{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated CourseInfo courseInfo = 3; // 课程信息
+}
+message CourseInfo{
+    required int32 course_id = 1; // 课程id
+    optional string name = 2;     // 课程名称
+    optional int32 price = 3;     // 价格，单位分
+    optional string cover_url = 4;// 封面url
+    optional string source_url = 5;  // 资源url
+    optional int32 putaway_time = 6; // 上架时间
+    optional int32 is_recommend = 7; // 是否推荐；1-推荐，2-不推荐
+    optional int32 hot_index = 8;    // 热门指数
+    optional int32 is_buy = 9;       // 是否购买；1-已购买，2-未购买
+}
+
+// 下订单
+message Pay{
+    required int32 id = 1; // 玩家id
+    required int32 product_id = 2; // 商品id
+}
+message ReturnOrderSn{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional string order_sn = 3; // 订单号
+}
+// 查订单状态
+message Validate{
+    required int32 id = 1; // 玩家id
+    required string order_sn = 2; // 订单号
+}
+message ReturnOrderStatus{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional string code = 3;   // 发货状态；200-已发货，201-未发货
+}//飞侠电台
+
+
+message Album{
+     required int32 cid = 1; // 分类ID
+     required string name = 2;   // 名称
+     optional string desc = 3;   // 描述
+     optional string cover_url = 4;   // 图片地址
+     required int32 price = 5;   // 价格
+     repeated RadioInfo radioList = 6;   //视频列表信息
+     required int32 buy = 7;   //是否购买了本专辑 1是 0否
+     required int32 status = 8;   //状态 1在售 0下架
+	 required int32 good_id = 9;   //商品ID 下单时用
+     required int32 order = 10;   //顺序
+}
+
+message RadioInfo{
+     required int32 rid = 1; //集ID
+     required string name = 2;   // 名称
+     optional string desc = 3;   // 描述
+     optional string cover_url = 4;   // 展示图标
+     optional string addr = 5;   // 播放地址
+     required int32 free = 6;   //是否免费 1是 0否
+     required int32 status = 7;   //状态 1在售 0下架
+     required int32 order = 8;   //顺序
+     required int32 is_recommand = 9;   //是否推荐商品 1是 0否
+}
+
+message GetRadioData {
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnRadioInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated Album album = 3;   //电台相关数据
+}//"解锁收费"-礼包
+
+
+
+message UnlockBagInfo{
+     required int32 product_id = 1; //商品ID
+     required int32 is_buy = 2;   //是否已经购买 1是 0否
+}
+
+message GetUnlockBagData{
+    required int32 id = 1; // 玩家id
+}
+
+message ReturnUnlockBagInfo{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    required UnlockBagInfo data = 3;   //电台相关数据
+}// 登录
+message LoginInfo {
+	required int32 type = 1;		// 1-游客  2-微信  3-手机
+	required string mac = 2;		// SDK使用imei生成唯一码
+	optional string open_uuid = 3;	// SDK使用open_id生成唯一码（微信等第三方渠道）
+	optional string phone = 4;	    // 手机号
+	optional string extra = 5;      // 附加信息,json格式;{"wx_nickname":"xxxxxx"},"xxxxx"为base64串
+}
+
+message ReturnLoginStatus {
+	required Status status = 1; // 返回状态
+	required string info = 2;   // 返回描述
+	optional UserInfo user_info = 3;
+	optional int32 server_time = 4;     // 系统时间
+}
+
+// 用户信息
+message UserInfo {
+	required int32 id = 1;    // 用户ID
+	optional string wx_nickname = 2; // 微信昵称，base_64串
+	optional string wx_open_uuid = 3;// SDK使用open_id生成唯一码（微信等第三方渠道）
+	optional string phone = 4;       // 手机号
+}
+
+// 钱包信息
+message WalletInfo{
+    required int32 id = 1;    // 用户ID
+    required int32 energy = 2;   // 能量数
+}

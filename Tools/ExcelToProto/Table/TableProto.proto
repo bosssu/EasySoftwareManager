@@ -1,0 +1,683 @@
+
+message ActionAudioInfo{
+    /** 动作音效ID
+        认识数字：1开头
+        图形认知：2开头
+        字母认知：3开头
+    */
+    required uint32 id = 1 [default = 0];
+    /** 音效名 */
+    optional string audio_name = 2 [default = ""];
+    optional int32 play_state = 3 [default = 0];
+    /** 音频资源路径
+        “0”：公共音效
+        “1”：认知数字
+        “2”：图形认知
+        “3”：字母认知
+    */
+    optional int32 play_path = 4 [default = 0];
+    /** 特殊播放规则
+        “0”：正常播放
+        “1”：中心击掌
+    */
+    optional int32 play_mode = 5 [default = 0];
+    /** 动画1,动画1时长;
+        动画2,动画2时长;
+        动画3,动画3时长
+    */
+    optional string action_param_array = 6 [default = ""];
+    /** 语音播放延时 */
+    optional uint32 audio_delay_time = 7 [default = 0];
+    /** 结束动画名 */
+    optional string action_end_name = 8 [default = ""];
+    /** 结束动画时长
+（毫秒） */
+    optional uint32 action_end_time = 9 [default = 0];
+    /** 下个动作ID */
+    optional uint32 next_action_id = 10 [default = 0];
+    /** 音频内容 */
+    optional string audio_describe = 11 [default = ""];
+    /** 播放描述 */
+    optional string describe = 12 [default = ""];
+}
+
+message ActionAudioInfo_ARRAY {
+    repeated ActionAudioInfo items = 1;
+}
+
+message ActorInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 资源路径 */
+    required string res_path = 2 [default = ""];
+}
+
+message ActorInfo_ARRAY {
+    repeated ActorInfo items = 1;
+}
+
+message AudioEnglishInfo{
+    /** 音效ID
+        千位0：背景音乐
+        千位1：音效      千位2：对白
+        认识数字：1开头
+        图形认知：2开头
+        字母认知：3开头
+    */
+    required uint32 id = 1 [default = 0];
+    /** 音效名 */
+    optional string name = 2 [default = ""];
+    optional int32 play_state = 3 [default = 0];
+    optional int32 play_mode = 4 [default = 0];
+    /** 对应的资源文件夹
+        “0”：公共音效
+        “1”：认知数字
+        “2”：图形认知
+        “3”：字母认知
+    */
+    optional int32 play_path = 5 [default = 0];
+    /** 动作描述 */
+    optional string action_describe = 6 [default = ""];
+    /** 音频内容 */
+    optional string audio_describe = 7 [default = ""];
+    /** 播放描述 */
+    optional string describe = 8 [default = ""];
+}
+
+message AudioEnglishInfo_ARRAY {
+    repeated AudioEnglishInfo items = 1;
+}
+
+message AudioInfo{
+    /** 音效ID
+        千位0：背景音乐
+        千位1：音效      千位2：对白
+        认识数字：1开头
+        图形认知：2开头
+        字母认知：3开头
+        英语颜色：4开头
+    */
+    required uint32 id = 1 [default = 0];
+    /** 音效名 */
+    optional string name = 2 [default = ""];
+    optional int32 play_state = 3 [default = 0];
+    optional int32 play_mode = 4 [default = 0];
+    /** 对应的游戏场景
+        “0”：公共音效
+        “1”：认知数字
+        “2”：图形认知
+        “3”：字母认知
+        “4”：颜色认知
+    */
+    optional int32 play_path = 5 [default = 0];
+    /** 动作描述 */
+    optional string action_describe = 6 [default = ""];
+    /** 音频内容 */
+    optional string audio_describe = 7 [default = ""];
+    /** 播放描述 */
+    optional string describe = 8 [default = ""];
+}
+
+message AudioInfo_ARRAY {
+    repeated AudioInfo items = 1;
+}
+
+message EnglishColoursInfo{
+    /** 关卡id
+游戏一起始ID：10001 */
+    required uint32 id = 1 [default = 0];
+    /** 暂无 */
+    optional string name = 2 [default = ""];
+    /** 单词 */
+    optional string word = 3 [default = ""];
+    /** 单词音频文件名 */
+    optional string wordAudio = 4 [default = ""];
+    /** 单词单个字母音频文件名
+        如：Blue
+        B的音频名;l的音频名;u的音频名;e的音频名
+    */
+    optional string wordAudioArray = 5 [default = ""];
+    /** 填充的颜色值
+        格式：
+        255;255;255;255
+    */
+    optional string fillColor = 6 [default = ""];
+    /** 游戏2单词拼好后单词音频
+填写：音频文件名 */
+    optional string secondWordAudio = 7 [default = ""];
+    /** 游戏中对应颜色显示的一些图片
+填：图片名称 */
+    optional string ColorTexName = 8 [default = ""];
+    /** 背景为白色时填充的颜色值
+        格式：
+        255;255;255;255
+    */
+    optional string SpecialColor = 9 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        填：贴图文件名
+    */
+    optional string mainTex = 10 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        单词发音
+        填：音频文件名
+    */
+    optional string mainTexAudio = 11 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        单词
+        填：单词音频对应单词
+    */
+    optional string mainTexAudioWord = 12 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        句子发音
+        填：音频文件名
+        （The box is red）
+    */
+    optional string mainTexWordAudio = 13 [default = ""];
+    optional string texFillCompleteThrehold = 14 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        填：贴图文件名
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTex = 15 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        单词发音
+        填：音频文件名
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexAudio = 16 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        单词
+        填：单词名称
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexAudioWord = 17 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        句子发音
+        填：音频文件名
+        (The box is red)
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexWordAudio = 18 [default = ""];
+    /** 描述 */
+    optional string des = 19 [default = ""];
+}
+
+message EnglishColoursInfo_ARRAY {
+    repeated EnglishColoursInfo items = 1;
+}
+
+message EnglishLetterInfo{
+    /** 字母ID */
+    required uint32 id = 1 [default = 0];
+    /** 字母 */
+    optional string name = 2 [default = ""];
+    /** 详情 */
+    optional string description = 3 [default = ""];
+    /** 元素一
+正确目标 */
+    optional string param_1 = 4 [default = ""];
+    /** 元素二
+其它目标 */
+    optional string param_2 = 5 [default = ""];
+    /** 元素三
+其它目标 */
+    optional string param_3 = 6 [default = ""];
+    /** 元素一
+音频资源 */
+    optional string audio_param_1 = 7 [default = ""];
+    /** 元素二
+音频资源 */
+    optional string audio_param_2 = 8 [default = ""];
+    /** 元素三
+音频资源 */
+    optional string audio_param_3 = 9 [default = ""];
+    /** 元素一
+对应图集ID */
+    optional int32 param_1_atlas = 10 [default = 0];
+    /** 元素一
+贴图资源名 */
+    optional string param_1_texture = 11 [default = ""];
+    /** 元素二
+对应图集ID */
+    optional int32 param_2_atlas = 12 [default = 0];
+    /** 元素二
+贴图资源名 */
+    optional string param_2_texture = 13 [default = ""];
+    /** 元素三
+对应图集ID */
+    optional int32 param_3_atlas = 14 [default = 0];
+    /** 元素三
+贴图资源名 */
+    optional string param_3_texture = 15 [default = ""];
+    /** 元素一
+        坐标偏移
+        x,y,z
+    */
+    optional string param_1_offset = 16 [default = ""];
+    /** 元素二
+        坐标偏移
+        x,y,z
+    */
+    optional string param_2_offset = 17 [default = ""];
+    /** 元素三
+        坐标偏移
+        x,y,z
+    */
+    optional string param_3_offset = 18 [default = ""];
+    /** 乐迪提示音频
+        Big A 
+        Little a
+    */
+    optional string ledi_hint_audio = 19 [default = ""];
+    /** 写字母元素音频（分号带1表示公共音频） */
+    optional string letter_draw_audio = 20 [default = ""];
+    /** 写字母
+乐迪说话音频"A" */
+    optional string ledi_letter_audio = 21 [default = ""];
+    /** 大小写区分
+        1：大写
+        2：小写
+    */
+    optional int32 bigorsmall = 22 [default = 0];
+    /** 绘本：大写字母 */
+    optional string game1_statement1 = 23 [default = ""];
+    /** 绘本：小写字母 */
+    optional string game1_statement2 = 24 [default = ""];
+    /** 绘本：单词1 */
+    optional string game1_statement3 = 25 [default = ""];
+    /** 绘本：单词2 */
+    optional string game1_statement4 = 26 [default = ""];
+    /** 绘本：大写字母
+音频 */
+    optional string game1_audio1 = 27 [default = ""];
+    /** 绘本：小写字母音频2 */
+    optional string game1_audio2 = 28 [default = ""];
+    /** 绘本：单词1
+音频3 */
+    optional string game1_audio3 = 29 [default = ""];
+    /** 绘本：单词2
+音频4 */
+    optional string game1_audio4 = 30 [default = ""];
+    /** 0:森林
+        1:天空
+        2:沙漠
+        3:海洋
+        4:房间
+    */
+    repeated int32 game1_bg_list = 31;
+    /** 绘本单词贴图1 */
+    optional string game1_texture1 = 32 [default = ""];
+    /** 绘本单词贴图2 */
+    optional string game1_texture2 = 33 [default = ""];
+}
+
+message EnglishLetterInfo_ARRAY {
+    repeated EnglishLetterInfo items = 1;
+}
+
+message EnglishLevelInfo{
+    /** 字母ID */
+    required uint32 id = 1 [default = 0];
+    /** 字母 */
+    optional string name = 2 [default = ""];
+    optional int32 play_mode = 3 [default = 0];
+    /** 游戏流程一
+        
+        流程一：共6幕游戏
+        如：雪花
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_1 = 4;
+    /** 游戏流程二
+        
+        流程二：共4幕游戏
+        如：扔雪球
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_2 = 5;
+    /** 游戏流程三
+        
+        流程三：共4幕游戏
+        如：大小写字母X2
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_3 = 6;
+    /** 游戏流程四
+        
+        流程四：共1幕游戏
+        如：阅读
+        如（10003）
+    */
+    repeated uint32 game_flow_4 = 7;
+    /** 演示单词
+ */
+    optional string word = 8 [default = ""];
+}
+
+message EnglishLevelInfo_ARRAY {
+    repeated EnglishLevelInfo items = 1;
+}
+
+message EnglishMainItemInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 购买信息ID */
+    optional int32 shop_info = 2 [default = 0];
+    /** 类型
+1冒险 2基地 3数学 4送快递 5英语 6画画 7电台 8AR百科 */
+    required uint32 type = 3 [default = 0];
+    /** 是否显示 */
+    required uint32 show = 4 [default = 0];
+    /** 名字 */
+    required string name = 5 [default = ""];
+    /** 顺序 */
+    required uint32 index = 6 [default = 0];
+    /** 场景名 */
+    optional string scene = 7 [default = ""];
+    /** 场景参数int */
+    optional int32 scene_int = 8 [default = 0];
+    /** 图片 */
+    optional string image = 9 [default = ""];
+    /** 动作资源 */
+    optional string action_asset = 10 [default = ""];
+    /** 是否需要下载 */
+    required int32 download = 11 [default = 0];
+    /** 资源路径 */
+    optional string path = 12 [default = ""];
+    /** 是否在主页面购买 */
+    optional int32 main_buy = 13 [default = 0];
+    /** 友盟计数 */
+    optional string umeng_event = 14 [default = ""];
+    /** 友盟时长 */
+    optional string umeng_level = 15 [default = ""];
+    /** 描述 */
+    optional string desc = 16 [default = ""];
+}
+
+message EnglishMainItemInfo_ARRAY {
+    repeated EnglishMainItemInfo items = 1;
+}
+
+message ExpressPhotosInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 照片标题 */
+    required string title = 2 [default = ""];
+    /** 是否显示 */
+    required string photo_url = 3 [default = ""];
+    /** 所属大洲 */
+    required uint32 area_type = 4 [default = 0];
+}
+
+message ExpressPhotosInfo_ARRAY {
+    repeated ExpressPhotosInfo items = 1;
+}
+
+message MainAnimation{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 特殊互动 */
+    required uint32 special_act = 2 [default = 0];
+    /** 是否启用 */
+    required int32 enable = 3 [default = 0];
+
+    message act_attr{
+        /** 动作名称 */
+        optional string act_name = 1 [default = ""];
+        /** 动作声音 */
+        optional string act_sound = 2 [default = ""];
+        /** 动作时长（毫秒） */
+        optional uint32 time = 3 [default = 0];
+        /** 下一个动作延时（毫秒） */
+        optional uint32 delay_time = 4 [default = 0];
+        /** 动作描述 */
+        optional string act_des = 5 [default = ""];
+    }
+
+    repeated act_attr act_table = 4;
+}
+
+message MainAnimation_ARRAY {
+    repeated MainAnimation items = 1;
+}
+
+message MainItemInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 类型
+        1冒险 2基地 3数学 4送快递 5英语 6画画 7电台 8AR百科
+        9玩具箱 10解锁全部
+    */
+    required uint32 type = 2 [default = 0];
+    /** 是否显示 */
+    required uint32 show = 3 [default = 0];
+    /** ios是否显示 */
+    required uint32 show_ios = 4 [default = 0];
+    /** 新功能标识 */
+    required uint32 newtips = 5 [default = 0];
+    /** 名字 */
+    required string name = 6 [default = ""];
+    /** 顺序 */
+    required uint32 index = 7 [default = 0];
+    /** 场景名 */
+    optional string scene = 8 [default = ""];
+    /** 场景参数int */
+    optional int32 scene_int = 9 [default = 0];
+    /** 图片
+家长中心 */
+    optional string image = 10 [default = ""];
+    /** 资源路径 */
+    optional string path = 11 [default = ""];
+    /** 是否在主页面购买 */
+    optional int32 main_buy = 12 [default = 0];
+    /** 价钱（分） */
+    required int32 price = 13 [default = 0];
+    /** IOS价钱（分） */
+    required int32 price_ios = 14 [default = 0];
+    /** 是否需要下载 */
+    required int32 download = 15 [default = 0];
+    /** 是否需要下载 */
+    required int32 download_ios = 16 [default = 0];
+    /** 购买图片背景 */
+    optional string shop_bg = 17 [default = ""];
+    /** 友盟计数 */
+    optional string umeng_event = 18 [default = ""];
+    /** 友盟时长 */
+    optional string umeng_level = 19 [default = ""];
+    /** 描述 */
+    optional string desc = 20 [default = ""];
+}
+
+message MainItemInfo_ARRAY {
+    repeated MainItemInfo items = 1;
+}
+
+message MatrixLevel{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 关卡 */
+    required int32 level = 2 [default = 0];
+    /** 数字：1 图形：2
+运算：3 逻辑：4 */
+    required int32 type = 3 [default = 0];
+    /** 行标题资源 */
+    required string rowTitles = 4 [default = ""];
+    /** 列标题资源 */
+    required string columnTitles = 5 [default = ""];
+    /** 行随机
+(1是0否) */
+    optional int32 rIsRandom = 6 [default = 0];
+    /** 列随机
+(1是0否) */
+    required int32 cIsRandom = 7 [default = 0];
+    /** 标题资源 */
+    optional string titleRes = 8 [default = ""];
+}
+
+message MatrixLevel_ARRAY {
+    repeated MatrixLevel items = 1;
+}
+
+message MatrixLevelInfo{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 关卡表关联id */
+    required int32 levelId = 2 [default = 0];
+    /** 列标题资源 */
+    required string rowTitle = 3 [default = ""];
+    /** 行标题资源 */
+    required string columnTitle = 4 [default = ""];
+    /** 结果图资源名称 */
+    required string resultname = 5 [default = ""];
+    /** 旋转 */
+    optional int32 resRotation = 6 [default = 0];
+}
+
+message MatrixLevelInfo_ARRAY {
+    repeated MatrixLevelInfo items = 1;
+}
+
+message NewBieInfo{
+    /** ID */
+    required uint32 id = 1 [default = 0];
+    /** 权重 */
+    required uint32 Priority = 2 [default = 0];
+    /** 最高等级限制 */
+    required uint32 LevelUpperLimit = 3 [default = 0];
+    /** 最低等级限制 */
+    required uint32 LevelLowerLimit = 4 [default = 0];
+    /** 保存点 */
+    required uint32 SavePoint = 5 [default = 0];
+    /** 开始时机 */
+    required uint32 StartTimeType = 6 [default = 0];
+    /** 开始索引 */
+    required uint32 StartIndex = 7 [default = 0];
+}
+
+message NewBieInfo_ARRAY {
+    repeated NewBieInfo items = 1;
+}
+
+message NewBieScript{
+    /** ID */
+    required uint32 id = 1 [default = 0];
+    /** 引导id */
+    required uint32 NewbieId = 2 [default = 0];
+    /** 对应脚本枚举 */
+    required uint32 Type = 3 [default = 0];
+    /** 是否暂停游戏 */
+    required uint32 PauseGame = 4 [default = 0];
+    /** 开始播放声音 */
+    required string SoundFileName = 5 [default = ""];
+    /** 透明度
+        Standard,
+        Transparent,
+        Darker,
+    */
+    required uint32 ShowTransparency = 6 [default = 0];
+    /** 翻转规则
+        none
+        x
+        y
+        xy
+    */
+    required uint32 FlipType = 7 [default = 0];
+    /** 是否显示箭头 */
+    required uint32 NotShowArrow = 8 [default = 0];
+    /** 高亮偏移X */
+    required int32 OffsetHighLightX = 9 [default = 0];
+    /** 高亮偏移Y */
+    required int32 OffsetHighLightY = 10 [default = 0];
+    /**  */
+    optional string SpecialTip = 11 [default = ""];
+}
+
+message NewBieScript_ARRAY {
+    repeated NewBieScript items = 1;
+}
+
+message SensitiveWord{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 词语 */
+    required string word = 2 [default = ""];
+}
+
+message SensitiveWord_ARRAY {
+    repeated SensitiveWord items = 1;
+}
+
+message SuperMarketGoodsInfo{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 单个编号 */
+    required string resid = 2 [default = ""];
+    /** 组团编号 */
+    required string groupId = 3 [default = ""];
+    /** 类型(1蔬菜2水果3零食4玩具5甜品6日用品) */
+    required int32 type = 4 [default = 0];
+    /** 价钱（元） */
+    required float price = 5 [default = 0];
+    /** UI资源 */
+    optional string atlas = 6 [default = ""];
+    /** 备注 */
+    optional string remark = 7 [default = ""];
+    /** 数量 */
+    optional int32 count = 8 [default = 0];
+    /** 声音 */
+    optional string sound = 9 [default = ""];
+}
+
+message SuperMarketGoodsInfo_ARRAY {
+    repeated SuperMarketGoodsInfo items = 1;
+}
+
+message TimelineInfo{
+    /** 剧情ID */
+    required uint32 id = 1 [default = 0];
+    /** 剧情对应场景名称 */
+    optional string scene_name = 2 [default = ""];
+    /** 对应剧情的超级飞侠
+        “0”：米莉
+        “1”：小爱
+        “2”：多多
+        “3”：小青
+        “4”：包警长
+    */
+    optional int32 player_mode = 3 [default = 0];
+    /** 对应场景的路径 */
+    optional string scene_Tag = 4 [default = ""];
+    /** 游戏流程二
+        
+        流程二：共4幕游戏
+        如：扔雪球
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_2 = 5;
+    /** 游戏流程三
+        
+        流程三：共4幕游戏
+        如：大小写字母X2
+        如（10001;10002;10003）
+    */
+    repeated uint32 game_flow_3 = 6;
+    /** 游戏流程四
+        
+        流程四：共1幕游戏
+        如：阅读
+        如（10003）
+    */
+    repeated uint32 game_flow_4 = 7;
+}
+
+message TimelineInfo_ARRAY {
+    repeated TimelineInfo items = 1;
+}

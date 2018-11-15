@@ -1,0 +1,43 @@
+// 订单信息
+package app.models;
+import "proto/DefaultDat.proto";
+message GetCourseList{
+    required int32 id = 1; // 玩家id
+}
+message ReturnCourseList{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    repeated CourseInfo courseInfo = 3; // 课程信息
+}
+message CourseInfo{
+    required int32 course_id = 1; // 课程id
+    optional string name = 2;     // 课程名称
+    optional int32 price = 3;     // 价格，单位分
+    optional string cover_url = 4;// 封面url
+    optional string source_url = 5;  // 资源url
+    optional int32 putaway_time = 6; // 上架时间
+    optional int32 is_recommend = 7; // 是否推荐；1-推荐，2-不推荐
+    optional int32 hot_index = 8;    // 热门指数
+    optional int32 is_buy = 9;       // 是否购买；1-已购买，2-未购买
+}
+
+// 下订单
+message Pay{
+    required int32 id = 1; // 玩家id
+    required int32 product_id = 2; // 商品id
+}
+message ReturnOrderSn{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional string order_sn = 3; // 订单号
+}
+// 查订单状态
+message Validate{
+    required int32 id = 1; // 玩家id
+    required string order_sn = 2; // 订单号
+}
+message ReturnOrderStatus{
+    required Status status = 1; // 返回状态
+    required string info = 2;   // 返回描述
+    optional string code = 3;   // 发货状态；200-已发货，201-未发货
+}

@@ -1,0 +1,41 @@
+/**
+* @file:   audioinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message AudioInfo{
+    /** 音效ID
+        千位0：背景音乐
+        千位1：音效      千位2：对白
+        认识数字：1开头
+        图形认知：2开头
+        字母认知：3开头
+        英语颜色：4开头
+    */
+    required uint32 id = 1 [default = 0];
+    /** 音效名 */
+    optional string name = 2 [default = ""];
+    optional int32 play_state = 3 [default = 0];
+    optional int32 play_mode = 4 [default = 0];
+    /** 对应的游戏场景
+        “0”：公共音效
+        “1”：认知数字
+        “2”：图形认知
+        “3”：字母认知
+        “4”：颜色认知
+    */
+    optional int32 play_path = 5 [default = 0];
+    /** 动作描述 */
+    optional string action_describe = 6 [default = ""];
+    /** 音频内容 */
+    optional string audio_describe = 7 [default = ""];
+    /** 播放描述 */
+    optional string describe = 8 [default = ""];
+}
+
+message AudioInfo_ARRAY {
+    repeated AudioInfo items = 1;
+}

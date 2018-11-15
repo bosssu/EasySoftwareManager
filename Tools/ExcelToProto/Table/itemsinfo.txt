@@ -1,0 +1,1845 @@
+items {
+  id: 10999
+  name: "\346\265\213\350\257\225\347\245\236\345\231\250"
+  sex: 100
+  level_limit: 0
+  consume_type: 2
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  rank: 0
+}
+items {
+  id: 10001
+  name: "\347\252\201\345\207\273\346\255\245\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 94
+    price_value: 1
+  }
+  price_table {
+    price_dq: 470
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 940
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2820
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5640
+    price_value: 20000
+  }
+  description: "TNT\344\270\255\346\240\207\345\207\206\345\210\266\345\274\217\347\232\204\346\211\213\346\214\201\346\255\246\345\231\250\357\274\214\347\273\217\345\205\270\350\200\220\347\224\250\357\274\214\344\270\212\351\235\242\345\210\273\347\235\200\357\274\232\342\200\234\347\224\261\346\201\251\344\275\220\345\215\232\345\243\253\345\217\221\346\230\216\345\210\266\344\275\234\342\200\235\343\200\202"
+}
+items {
+  id: 10003
+  name: "\351\253\230\347\210\206\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 100
+    price_value: 1
+  }
+  price_table {
+    price_dq: 500
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1000
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3000
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6000
+    price_value: 20000
+  }
+  description: "\345\234\250\346\210\230\345\234\272\344\270\212\345\271\277\346\263\233\344\275\277\347\224\250\347\232\204\350\275\273\351\207\217\345\236\213\351\253\230\346\235\200\344\274\244\346\212\225\346\216\267\346\255\246\345\231\250\357\274\214\350\275\273\346\235\276\345\272\224\344\273\230\351\253\230\350\247\222\345\272\246\347\232\204\344\275\277\347\224\250\346\203\205\345\206\265\343\200\202"
+}
+items {
+  id: 10005
+  name: "B3\346\215\215\345\215\253\350\200\205\347\201\253\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 96
+    price_value: 1
+  }
+  price_table {
+    price_dq: 480
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 960
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2880
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5760
+    price_value: 20000
+  }
+  description: "\345\276\210\346\234\211\342\200\234\344\273\275\351\207\217\342\200\235\347\232\204\346\255\246\345\231\250\357\274\214\345\217\252\346\234\211\350\272\253\344\275\223\345\274\272\345\243\256\347\232\204\344\272\272\346\211\215\350\203\275\345\276\210\345\245\275\347\232\204\344\275\277\347\224\250\345\256\203\343\200\202\345\276\210\351\232\276\347\236\204\345\207\206\357\274\214\344\275\206\346\211\200\345\271\270\347\232\204\346\230\257\345\256\203\347\232\204\347\202\256\345\274\271\345\250\201\345\212\233\344\271\237\345\276\210\346\234\211\342\200\234\344\273\275\351\207\217\342\200\235"
+}
+items {
+  id: 10011
+  name: "\345\234\237\345\210\266\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 2
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 5
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 80
+    price_value: 1
+  }
+  price_table {
+    price_dq: 400
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 800
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2400
+    price_gold: 0
+    price_value: 180
+  }
+  description: "\351\207\207\347\224\250\345\234\237\346\263\225\345\210\266\344\275\234\347\232\204\347\202\270\345\274\271\357\274\214\345\216\237\346\226\231\347\256\200\345\215\225\346\230\223\345\276\227\357\274\214\345\256\271\346\230\223\345\210\266\344\275\234\357\274\214\351\200\240\344\273\267\344\276\277\345\256\234\342\200\246\346\200\273\344\271\213\357\274\214\345\260\261\346\230\257\346\200\247\344\273\267\346\257\224\350\276\203\351\253\230\357\274\214\347\210\206\347\202\270\345\220\216\344\274\232\344\272\247\347\224\237\346\265\223\351\207\215\347\232\204\347\203\237\345\260\230\343\200\202"
+}
+items {
+  id: 10012
+  name: "G5\345\274\217\346\255\245\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 94
+    price_value: 1
+  }
+  price_table {
+    price_dq: 470
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 940
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2820
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5640
+    price_value: 20000
+  }
+  description: "\345\276\210\345\270\270\350\247\201\347\232\204\345\215\212\350\207\252\345\212\250\346\255\245\346\236\252\357\274\214\346\215\256\350\257\264\345\267\262\347\273\217\347\224\250\344\272\21650\345\244\232\344\270\252\345\233\275\345\256\266\345\222\214\345\234\260\345\214\272\347\232\204\350\255\246\345\244\207\345\212\233\351\207\217\343\200\202"
+}
+items {
+  id: 10013
+  name: "\347\245\226\345\215\241\347\201\253\347\256\255\347\255\222"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 90
+    price_value: 1
+  }
+  price_table {
+    price_dq: 450
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 900
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2700
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5400
+    price_value: 20000
+  }
+  description: "\345\222\214B3\347\233\270\346\257\224\357\274\214\347\245\226\345\215\241\350\203\234\345\234\250\350\275\273\344\276\277\346\230\223\347\224\250\357\274\214\345\215\263\344\276\277\346\230\257\345\245\263\346\200\247\357\274\214\344\271\237\345\217\257\344\273\245\346\216\214\346\216\247\343\200\202\345\275\223\347\204\266\344\275\234\344\270\272\347\201\253\347\256\255\347\255\222\357\274\214\345\205\266\345\250\201\345\212\233\344\271\237\344\270\215\345\217\257\345\260\217\350\247\221\343\200\202"
+}
+items {
+  id: 10014
+  name: "\347\216\204\351\223\201\351\243\236\351\225\226"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 360
+    price_value: 1
+  }
+  price_table {
+    price_dq: 1800
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 3600
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 10800
+    price_gold: 0
+    price_value: 180
+  }
+  description: "\347\216\204\351\223\201\346\235\220\350\264\250\347\232\204\345\233\233\347\210\252\351\243\236\351\225\226\357\274\214\345\244\226\345\261\202\351\225\200\351\223\254\357\274\214\351\243\236\351\225\226\351\253\230\351\200\237\351\243\236\350\241\214\346\227\266\345\217\215\345\260\204\351\223\266\350\223\235\350\211\262\347\232\204\351\225\234\351\235\242\345\205\211\346\263\275\357\274\214\351\224\220\344\270\215\345\217\257\345\275\223\343\200\202"
+}
+items {
+  id: 10015
+  name: "\347\207\203\347\203\247\347\223\266"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 90
+    price_value: 1
+  }
+  price_table {
+    price_dq: 450
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 900
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2700
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5400
+    price_value: 20000
+  }
+  description: "\350\243\205\347\235\200\345\215\212\346\273\241\346\230\223\347\207\203\346\266\262\344\275\223\347\232\204\347\216\273\347\222\203\347\223\266\357\274\214\347\202\271\347\207\203\347\223\266\345\217\243\347\232\204\345\270\203\346\235\241\357\274\214\345\220\221\344\275\240\347\232\204\345\257\271\346\211\213\346\212\225\346\216\267\345\207\272\345\216\273\345\220\247\357\274\201"
+}
+items {
+  id: 10016
+  name: "\351\272\246\351\207\221\346\211\230\344\273\200\345\206\262\351\224\213\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 90
+    price_value: 1
+  }
+  price_table {
+    price_dq: 450
+    price_gold: 0
+    price_value: 7
+  }
+  price_table {
+    price_dq: 900
+    price_gold: 0
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2700
+    price_gold: 0
+    price_value: 180
+  }
+  price_table {
+    price_dq: 5400
+    price_value: 20000
+  }
+  description: "\350\221\227\345\220\215\346\236\252\346\242\260\345\205\254\345\217\270\347\232\204\346\213\263\345\244\264\344\272\247\345\223\201\357\274\214\345\261\236\344\272\216\345\276\256\345\236\213\345\206\262\351\224\213\346\236\252\357\274\214\346\235\200\344\274\244\346\225\210\346\236\234\346\203\212\344\272\272\357\274\214\345\220\216\345\235\220\345\212\233\345\220\214\346\240\267\346\203\212\344\272\272\343\200\202"
+}
+items {
+  id: 10017
+  name: "\345\267\250\345\274\217\345\212\240\345\206\234\347\202\256"
+  sex: 100
+  level_limit: 0
+  qb_2: 1
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 100
+  price_table {
+    price_dq: 200
+    price_value: 7
+  }
+  description: "\347\234\213\347\235\200\351\235\236\345\270\270\345\267\250\345\236\213\347\232\204\346\255\246\345\231\250\357\274\214\346\262\241\346\234\211\345\274\272\345\243\256\347\232\204\350\207\202\345\212\233\350\257\267\346\205\216\347\224\250\343\200\202\345\270\246\346\234\211\345\205\211\345\255\246\347\236\204\345\207\206\351\225\234\357\274\214\345\246\202\350\231\216\346\267\273\347\277\274\343\200\202"
+}
+items {
+  id: 10018
+  name: "\347\237\263\344\275\233\345\217\215\345\235\246\345\205\213\346\255\246\345\231\250"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 4
+  vip_discount: 80
+  description: "\344\275\223\347\247\257\347\241\225\345\244\247\347\232\204\346\255\246\345\231\250\357\274\214\347\234\213\347\235\200\345\210\206\345\244\226\347\273\231\345\212\233\357\274\201\351\200\202\345\220\210\347\224\267\346\200\247\344\275\277\347\224\250\357\274\214\345\275\223\347\204\266\345\246\202\346\236\234MM\350\203\275\345\244\237\351\251\276\351\251\255\347\232\204\350\257\235\345\260\261\347\211\233\351\200\274\344\272\206\343\200\202"
+}
+items {
+  id: 10019
+  name: "\345\244\252\347\251\272\350\223\235\345\205\211\345\231\250"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 92
+    price_value: 1
+  }
+  price_table {
+    price_dq: 460
+    price_value: 7
+  }
+  price_table {
+    price_dq: 920
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2760
+    price_value: 180
+  }
+  description: "\344\270\272\350\223\235\351\222\273\344\270\223\351\227\250\345\256\232\345\201\232\347\232\204\345\244\252\347\251\272\350\223\235\345\205\211\345\231\250\357\274\214\351\200\240\345\236\213\347\201\265\345\267\247\357\274\214\344\275\206\346\230\257\345\250\201\345\212\233\345\217\257\344\270\215\344\275\216\345\223\246\357\274\214\345\222\214\350\223\235\351\222\273\347\232\204\350\243\205\346\211\256\346\220\255\351\205\215\350\265\267\346\235\245\351\205\267\346\204\237\345\215\201\350\266\263\343\200\202"
+}
+items {
+  id: 10020
+  name: "\345\244\251\347\276\275\345\274\223\347\256\255"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 92
+    price_value: 1
+  }
+  price_table {
+    price_dq: 460
+    price_value: 7
+  }
+  price_table {
+    price_dq: 920
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2760
+    price_value: 180
+  }
+  description: "\350\266\205\347\272\247\344\274\232\345\221\230\344\270\223\345\261\236\357\274\214\347\232\256\346\220\213\345\255\220\351\200\240\345\236\213\347\232\204\347\256\255\345\244\264\357\274\214\346\212\212\345\256\203\347\213\240\347\213\240\345\260\204\345\210\260\345\257\271\346\211\213\347\232\204\350\204\270\344\270\212\345\220\247\357\274\201\345\210\253\345\277\230\344\272\206\351\202\243\346\222\256\351\224\200\351\255\202\347\232\204\345\260\217\347\272\242\346\257\233\343\200\202"
+}
+items {
+  id: 10021
+  name: "\351\207\221\345\205\211\350\234\234\347\263\226\347\275\220"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 92
+    price_value: 1
+  }
+  price_table {
+    price_dq: 460
+    price_value: 7
+  }
+  price_table {
+    price_dq: 920
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2760
+    price_value: 180
+  }
+  description: "\350\234\234\347\263\226\347\275\220\357\274\214\347\224\234\350\234\234\350\234\234\357\274\214\345\260\217\350\234\234\350\234\202\351\200\240\345\236\213\347\232\204\345\255\220\345\274\271\357\274\214\347\256\241\346\225\231\350\233\260\345\276\227\345\257\271\346\211\213\346\273\241\350\204\270\345\214\205O(\342\210\251_\342\210\251)O\345\223\210\345\223\210~\350\277\231\345\260\261\346\230\257\351\273\204\351\222\273\344\270\223\345\261\236\346\255\246\345\231\250\347\232\204\345\250\201\345\212\233\357\274\201"
+}
+items {
+  id: 10022
+  name: "\347\262\211\347\262\211\345\206\260\346\277\200\345\207\214"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 92
+    price_value: 1
+  }
+  price_table {
+    price_dq: 460
+    price_value: 7
+  }
+  price_table {
+    price_dq: 920
+    price_value: 30
+  }
+  price_table {
+    price_dq: 2760
+    price_value: 180
+  }
+  description: "\350\215\211\350\216\223\345\221\263\351\201\223\347\232\204\345\206\260\346\277\200\345\207\214\347\220\203\351\200\240\345\236\213\357\274\214\342\200\234\347\224\234\346\255\273\342\200\235\345\257\271\346\211\213\344\271\237\347\256\227\346\230\257\344\270\200\347\247\215\347\213\254\347\211\271\347\232\204\347\256\241\346\225\231\346\226\271\345\274\217\344\272\206\357\274\214\347\262\211\351\222\273\344\270\223\345\261\236\346\255\246\345\231\250\345\275\223\347\204\266\350\220\214\345\225\246~"
+}
+items {
+  id: 10023
+  name: "G11\350\275\254\350\206\233\346\234\272\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 102
+    price_value: 1
+  }
+  price_table {
+    price_dq: 510
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1020
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3060
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6120
+    price_value: 20000
+  }
+  description: "\344\270\216\344\274\240\347\273\237\347\232\204\345\276\200\345\244\215\345\274\217\346\234\272\346\236\252\347\233\270\346\257\224\357\274\214G11\347\234\201\345\215\264\344\272\206\346\212\233\345\243\263\347\232\204\345\212\250\344\275\234\357\274\214\345\220\216\345\272\247\345\212\233\346\257\224\350\276\203\345\260\217\345\237\272\346\234\254\351\200\202\345\220\210\346\211\200\346\234\211\347\216\251\345\256\266\343\200\202"
+}
+items {
+  id: 10024
+  name: "\347\221\237\345\256\276\346\255\245\346\236\252"
+  sex: 100
+  level_limit: 0
+  qb_2: 1
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 100
+  price_table {
+    price_dq: 200
+    price_value: 7
+  }
+  description: "\347\273\217\345\205\270\347\232\204\346\255\246\345\231\250\357\274\214\346\257\213\345\272\270\347\275\256\347\226\221\357\274\214\345\226\234\346\254\242\345\244\215\345\217\244\347\232\204\344\275\240\344\270\215\345\256\271\351\224\231\350\277\207\343\200\202"
+}
+items {
+  id: 10025
+  name: "\346\211\213\346\246\264\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 100
+    price_value: 1
+  }
+  price_table {
+    price_dq: 500
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1000
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3000
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6000
+    price_value: 20000
+  }
+  description: "\346\234\250\346\237\204\346\211\213\346\246\264\345\274\271\357\274\214\345\210\253\347\234\213\345\256\203\345\205\266\350\262\214\344\270\215\346\211\254\357\274\214\346\225\210\346\236\234\345\245\275\347\234\237\347\232\204\346\234\211\350\257\264\346\234\215\345\212\233\343\200\202"
+}
+items {
+  id: 10026
+  name: "\346\242\255\346\233\274\346\257\222\346\260\224\347\255\222"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-13 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 840
+    price_value: 1
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 7
+  }
+  price_table {
+    price_dq: 8400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 25200
+    price_value: 180
+  }
+  description: "\345\210\253\347\234\213\350\277\231\346\212\212\346\255\246\345\231\250\350\262\214\344\270\215\346\203\212\344\272\272\357\274\214\345\205\266\345\274\271\345\244\264\345\214\205\350\243\271\346\242\255\346\233\274\345\211\247\346\257\222\357\274\214\346\235\200\344\274\244\345\212\233\346\203\212\344\272\272\343\200\202"
+}
+items {
+  id: 10027
+  name: "\347\234\237\347\272\242\345\217\244\344\274\236"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-13 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 102
+    price_value: 1
+  }
+  price_table {
+    price_dq: 510
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1020
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3060
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6120
+    price_value: 20000
+  }
+  description: "\351\242\207\345\205\267\345\217\244\346\204\217\347\232\204\351\223\201\351\252\250\344\274\236\357\274\214\350\276\271\347\274\230\351\224\213\345\210\251\357\274\214\345\210\207\345\211\262\346\225\210\346\236\234\346\203\212\344\272\272\343\200\202"
+}
+items {
+  id: 10028
+  name: "\345\256\211\345\274\217\345\233\236\350\275\254\345\212\240\351\200\237\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-13 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 104
+    price_value: 1
+  }
+  price_table {
+    price_dq: 520
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1040
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3120
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6240
+    price_value: 20000
+  }
+  description: "\350\277\231\344\270\215\346\230\257\351\230\277\345\247\206\346\226\257\347\211\271\346\234\227\345\233\236\350\275\254\345\212\240\351\200\237\345\226\267\346\260\224\345\274\217\351\230\277\345\247\206\346\226\257\347\211\271\346\234\227\345\244\247\347\202\256\345\230\233\357\274\214\350\277\230\345\216\237\345\272\246\347\234\237\351\253\230\345\225\212\357\274\201"
+}
+items {
+  id: 10029
+  name: "\347\263\226\346\236\234\346\230\237\346\230\237"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-15 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 104
+    price_value: 1
+  }
+  price_table {
+    price_dq: 520
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1040
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3120
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6240
+    price_value: 20000
+  }
+  description: "\347\224\234\350\234\234\346\230\237\346\230\237\351\200\240\345\236\213\347\232\204\347\263\226\346\236\234\357\274\214\345\210\253\347\234\213\346\210\221\345\244\226\350\241\250\345\217\257\347\210\261\357\274\214\345\206\205\351\207\214\347\224\234\350\234\234\357\274\214\347\224\234\350\234\234\350\265\267\346\235\245\345\217\257\350\256\251\344\272\272\345\217\227\344\270\215\344\272\206\345\225\212~"
+}
+items {
+  id: 10030
+  name: "\345\234\243\350\257\236\351\223\203\351\223\233"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2011-12-15 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  sort_priority: 0
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 100
+  price_table {
+    price_dq: 200
+    price_value: 7
+  }
+  description: "\344\270\242\350\265\267\346\235\245\345\217\256\345\217\256\345\275\223\347\232\204\351\223\203\351\223\233\357\274\214\345\234\243\350\257\236\346\260\224\346\201\257\345\215\201\350\266\263\357\274\214\346\211\224\350\277\207\345\216\273\351\207\221\351\222\237\347\275\251\351\241\266\347\232\204\346\273\213\345\221\263\345\217\257\344\270\215\344\270\200\350\210\254~"
+}
+items {
+  id: 10031
+  name: "\346\213\220\346\235\226\347\263\226\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-15 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 110
+    price_value: 1
+  }
+  price_table {
+    price_dq: 550
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1100
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3300
+    price_value: 180
+  }
+  price_table {
+    price_dq: 6600
+    price_value: 20000
+  }
+  description: "\346\213\220\346\235\226\347\263\226\345\275\242\347\212\266\347\232\204\346\211\213\346\214\201\346\255\246\345\231\250\357\274\214\345\217\221\345\260\204\345\207\272\347\232\204\347\263\226\346\236\234\345\255\220\345\274\271\351\242\227\351\242\227\347\224\234\350\234\234~"
+}
+items {
+  id: 10032
+  name: "\345\234\243\350\257\236\350\200\201\344\272\272\347\216\251\345\201\266"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2011-12-15 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 400
+    price_value: 1
+  }
+  price_table {
+    price_dq: 2000
+    price_value: 7
+  }
+  price_table {
+    price_dq: 4000
+    price_value: 30
+  }
+  price_table {
+    price_dq: 12000
+    price_value: 180
+  }
+  description: "\345\234\243\350\257\236\350\200\201\344\272\272\345\217\257\344\273\245\345\201\232\346\255\246\345\231\250\357\274\237\357\274\201\344\275\240\346\262\241\346\234\211\347\234\213\351\224\231\357\274\214\347\213\240\347\213\240\345\234\260\343\200\201\347\224\250\345\212\233\345\234\260\346\212\212\345\256\203\344\270\242\345\207\272\345\216\273\345\220\247\357\274\201"
+}
+items {
+  id: 10033
+  name: "\346\246\264\350\216\262\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2011-12-22 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\346\246\264\350\216\262\347\202\270\345\274\271\357\274\214\346\235\200\344\274\244\350\203\275\345\212\233\345\222\214\345\205\266\346\260\224\345\221\263\344\270\200\346\240\267\351\224\200\351\255\202\343\200\202"
+}
+items {
+  id: 10034
+  name: "\350\233\213\351\273\204\351\205\261\345\244\247\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2011-12-22 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  sort_priority: 0
+  rank: 4
+  price_discount: 100
+  vip_discount: 100
+  price_table {
+    price_dq: 200
+    price_value: 7
+  }
+  description: "\350\233\213\351\273\204\351\205\261\345\244\247\347\202\256\357\274\214\344\271\203\346\230\257\344\270\200\344\274\227\350\233\213\351\273\204\351\205\261\346\216\247\344\273\254\347\232\204\346\234\200\347\210\261~"
+}
+items {
+  id: 10035
+  name: "\346\226\260\345\271\264\347\210\206\347\253\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-01-06 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 0
+    price_value: 1
+  }
+  description: "\346\226\260\345\271\264\346\234\200\347\247\260\345\244\264\347\232\204\346\255\246\345\231\250\357\274\214\345\205\210\345\243\260\345\244\272\344\272\272"
+}
+items {
+  id: 10036
+  name: "\351\246\231\350\225\211\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  online_time: "2012-01-06 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\351\246\231\350\225\211\345\275\242\347\212\266\347\232\204\346\220\236\346\200\252\346\255\246\345\231\250\343\200\202\343\200\202\343\200\202"
+}
+items {
+  id: 10037
+  name: "\350\245\277\347\233\226\351\207\215\345\211\221"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-01-06 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 122
+    price_value: 1
+  }
+  price_table {
+    price_dq: 610
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1220
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3660
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7320
+    price_value: 20000
+  }
+  description: "\350\245\277\347\233\226\351\207\215\345\211\221\345\216\237\346\235\245\344\270\215\346\230\257\345\217\253\350\277\231\344\270\252\345\220\215\345\255\227\347\232\204\357\274\214\347\233\264\345\210\260\350\245\277\347\233\226\347\232\204\350\206\235\347\233\226\344\270\255\344\272\206\344\270\200\347\256\255\343\200\202\343\200\202\343\200\202"
+}
+items {
+  id: 10038
+  name: "\351\276\231\345\225\270\345\267\250\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-09-29 00:00:00"
+  privileged_plat_id_list: 2
+  privileged_plat_id_list: 18
+  privileged_plat_id_list: 31
+  privileged_plat_id_list: 10001
+  privileged_plat_id_list: 10002
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 1160
+    price_value: 1
+  }
+  price_table {
+    price_dq: 5800
+    price_value: 7
+  }
+  price_table {
+    price_dq: 11600
+    price_value: 30
+  }
+  price_table {
+    price_dq: 34800
+    price_value: 180
+  }
+  description: "\351\276\231\345\244\264\350\243\205\351\245\260\347\232\204\346\255\246\345\231\250\357\274\214\345\205\266\345\250\201\345\212\233\345\222\214\345\244\226\350\241\250\344\270\200\346\240\267\351\234\270\346\260\224\343\200\202"
+}
+items {
+  id: 10039
+  name: "\347\214\233\347\203\210\345\233\236\346\227\213\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-01-06 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  description: "\350\257\245\346\255\246\345\231\250\351\243\236\351\200\237\346\227\213\350\275\254\345\207\272\347\232\204\345\255\220\345\274\271\346\235\200\344\274\244\345\212\233\347\205\236\346\230\257\346\203\212\344\272\272\343\200\202\343\200\202\343\200\202"
+}
+items {
+  id: 10040
+  name: "\345\205\203\345\256\265\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  online_time: "2012-01-18 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 122
+    price_value: 1
+  }
+  price_table {
+    price_dq: 610
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1220
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3660
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7320
+    price_value: 20000
+  }
+  description: "\345\234\206\346\273\232\346\273\232\350\203\226\344\271\216\344\271\216\347\232\204\345\205\203\345\256\265\347\202\270\345\274\271\357\274\214\347\224\234\350\234\234\346\273\264\346\235\200\346\255\273\344\275\240~"
+}
+items {
+  id: 10041
+  name: "\350\212\261\347\201\257"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 1
+  online_time: "2012-01-18 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\347\272\242\345\275\244\345\275\244\347\232\204\350\212\261\347\201\257\357\274\214\347\205\247\344\272\256\344\275\240\347\232\204\345\277\203~"
+}
+items {
+  id: 10042
+  name: "\347\234\237\347\210\261\347\216\253\347\221\260"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-01 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 640
+    price_value: 1
+  }
+  price_table {
+    price_dq: 3200
+    price_value: 7
+  }
+  price_table {
+    price_dq: 6400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 19200
+    price_value: 180
+  }
+  description: "\347\210\261\346\203\205\345\260\261\345\246\202\345\220\214\347\216\253\347\221\260\344\270\200\346\240\267\357\274\214\346\273\241\346\200\200\347\210\261\346\204\217\345\222\214\346\270\264\346\234\233\343\200\202"
+}
+items {
+  id: 10043
+  name: "\347\210\261\345\277\203\345\260\217\347\256\255"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-01 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 130
+    price_value: 1
+  }
+  price_table {
+    price_dq: 650
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1300
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3900
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7800
+    price_value: 20000
+  }
+  description: "\344\275\206\346\204\277\345\220\233\345\277\203\344\274\274\346\210\221\345\277\203\343\200\202"
+}
+items {
+  id: 10044
+  name: "\351\273\221\346\235\277\346\223\246"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-09 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\347\224\250\346\235\277\346\223\246\346\212\225\346\216\267\345\210\260\345\257\271\346\211\213\350\204\270\344\270\212\357\274\214\347\273\231\344\273\226\344\270\200\344\270\252\346\267\261\345\210\273\347\232\204\346\225\231\350\256\255\345\220\247\357\274\201"
+}
+items {
+  id: 10045
+  name: "\347\276\216\346\235\234\350\216\216\346\212\225\347\237\263\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-16 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 130
+    price_value: 1
+  }
+  price_table {
+    price_dq: 650
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1300
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3900
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7800
+    price_value: 20000
+  }
+  description: "\350\257\245\346\255\246\345\231\250\347\232\204\345\255\220\345\274\271\345\200\222\346\230\257\345\276\210\345\256\271\346\230\223\350\216\267\345\276\227\343\200\202\343\200\202\343\200\202"
+}
+items {
+  id: 10046
+  name: "\346\270\224\347\275\221\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-22 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 136
+    price_value: 1
+  }
+  price_table {
+    price_dq: 680
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1360
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4080
+    price_value: 180
+  }
+  price_table {
+    price_dq: 8160
+    price_value: 20000
+  }
+  description: "\346\211\223\345\207\272\344\270\200\345\274\240\351\261\274\347\275\221\357\274\214\346\212\212\344\273\226\357\274\210\345\245\271\357\274\211\347\275\221\344\275\217\345\220\247~"
+}
+items {
+  id: 10047
+  name: "\345\207\244\351\270\243\345\267\250\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-02-22 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 800
+    price_value: 1
+  }
+  price_table {
+    price_dq: 4000
+    price_value: 7
+  }
+  price_table {
+    price_dq: 8000
+    price_value: 30
+  }
+  price_table {
+    price_dq: 24000
+    price_value: 180
+  }
+  description: "\344\271\205\346\234\211\344\274\240\350\250\200\357\274\214\345\214\227\351\276\231\345\225\270\357\274\214\345\215\227\345\207\244\351\270\243\357\274\214\344\270\226\347\225\214\350\207\263\345\260\212\357\274\214\345\267\250\347\202\256\345\220\215\351\276\231\357\274\214\345\207\244\351\270\243\344\270\215\345\207\272\357\274\214\350\260\201\344\270\216\344\272\211\351\224\213\343\200\202"
+}
+items {
+  id: 10048
+  name: "\345\256\211\344\270\234\344\270\223\347\224\250"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-02-22 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 0
+  description: "\345\256\211\344\270\234\347\224\250\357\274\201\357\274\201\357\274\201"
+}
+items {
+  id: 10049
+  name: "\347\210\261\345\277\203\344\276\277\345\275\223"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-01 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\347\262\211\350\211\262\347\232\204\344\276\277\345\275\223\357\274\214\346\265\223\346\265\223\347\232\204\347\210\261\345\277\203\346\273\241\346\273\241\350\215\241\346\274\276\343\200\202"
+}
+items {
+  id: 10050
+  name: "\345\256\211\345\246\256\347\232\204\345\260\217\347\206\212"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-03-01 00:00:00"
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  status: "0.0"
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 140
+    price_value: 1
+  }
+  price_table {
+    price_dq: 700
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 180
+  }
+  description: "\350\213\261\351\233\204\345\256\211\345\246\256\347\232\204\345\260\217\347\206\212\347\216\251\345\201\266\357\274\214\345\210\253\350\242\253\345\256\203\347\232\204\345\244\226\350\241\250\342\200\234\350\220\214\342\200\235\344\275\217\344\272\206~"
+}
+items {
+  id: 10051
+  name: "\346\240\271\351\241\273\347\274\240\347\273\225"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 0
+  privileged_plat_can_recharge: 0
+  rank: 3
+}
+items {
+  id: 10052
+  name: "\345\256\211\345\274\217\347\224\265\346\265\206\347\202\256"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-07 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 800
+    price_value: 1
+  }
+  price_table {
+    price_dq: 4000
+    price_value: 7
+  }
+  price_table {
+    price_dq: 8000
+    price_value: 30
+  }
+  price_table {
+    price_dq: 24000
+    price_value: 180
+  }
+  description: "\345\222\214\345\256\211\345\274\217\345\233\236\350\275\254\345\212\240\351\200\237\347\202\256\344\270\200\346\240\267\357\274\214\347\263\273\345\207\272\345\220\215\351\227\250~"
+}
+items {
+  id: 10053
+  name: "\345\205\211\347\224\265\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-07 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 120
+    price_value: 1
+  }
+  price_table {
+    price_dq: 600
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1200
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3600
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7200
+    price_value: 20000
+  }
+  description: "\346\261\207\350\201\232\347\224\265\347\232\204\350\203\275\351\207\217\347\232\204\345\274\202\345\275\242\347\202\270\345\274\271\343\200\202"
+}
+items {
+  id: 10054
+  name: "\347\231\275\347\276\212\347\202\270\345\274\271"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-15 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 480
+    price_value: 1
+  }
+  price_table {
+    price_dq: 2400
+    price_value: 7
+  }
+  price_table {
+    price_dq: 4800
+    price_value: 30
+  }
+  price_table {
+    price_dq: 14400
+    price_value: 180
+  }
+  description: "\345\222\251\345\222\251\347\276\212\350\257\264\357\274\232\342\200\234\345\210\253\347\234\213\346\210\221\350\275\257\347\273\265\347\273\265\347\232\204\357\274\214\347\240\270\345\210\260\344\275\240\350\272\253\344\270\212\344\271\237\346\230\257\345\276\210\347\226\274\347\232\204\342\200\235"
+}
+items {
+  id: 10055
+  name: "\346\230\245\347\254\213"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-15 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 124
+    price_value: 1
+  }
+  price_table {
+    price_dq: 620
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1240
+    price_value: 30
+  }
+  price_table {
+    price_dq: 3720
+    price_value: 180
+  }
+  price_table {
+    price_dq: 7440
+    price_value: 20000
+  }
+  description: "\351\245\277\344\272\206\344\271\237\346\230\257\345\217\257\344\273\245\345\220\203\345\220\203\347\234\213\347\232\204~"
+}
+items {
+  id: 10056
+  name: "\346\201\220\346\200\226\345\267\250\350\233\213"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-22 00:00:01"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 140
+    price_value: 1
+  }
+  price_table {
+    price_dq: 700
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 180
+  }
+  price_table {
+    price_dq: 8400
+    price_value: 20000
+  }
+  description: "\346\210\221\346\230\257\344\270\200\351\242\227\350\233\213\345\225\212\357\274\214\346\210\221\345\260\261\345\226\234\346\254\242\350\275\254\345\225\212"
+}
+items {
+  id: 10057
+  name: "\345\260\217\344\270\221\347\216\251\345\201\266"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-03-30 15:00:01"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 140
+    price_value: 1
+  }
+  price_table {
+    price_dq: 700
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 180
+  }
+  price_table {
+    price_dq: 8400
+    price_value: 20000
+  }
+  description: "\351\202\252\346\201\266\347\232\204\345\260\217\344\270\221\357\274\214\345\250\201\345\212\233\345\267\250\345\244\247\357\274\214\350\203\275\345\220\246\344\270\272\347\244\276\344\274\232\350\264\241\347\214\256\345\212\233\351\207\217\345\260\261\347\234\213\346\223\215\347\272\265\350\200\205\347\232\204\345\277\203\346\234\257\346\255\243\344\270\215\346\255\243\344\272\206"
+}
+items {
+  id: 10058
+  name: "\345\244\272\345\221\275\351\243\236\345\210\200"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-04-06 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 140
+    price_value: 1
+  }
+  price_table {
+    price_dq: 700
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 180
+  }
+  price_table {
+    price_dq: 8400
+    price_value: 20000
+  }
+  description: "\345\215\201\345\271\264\347\243\250\344\270\200\345\210\200\357\274\214\351\243\236\345\210\200\344\270\215\345\207\272\346\211\213\357\274\214\345\207\272\346\211\213\345\277\205\350\247\201\350\241\200\357\274\201"
+}
+items {
+  id: 10059
+  name: "\345\267\246\350\275\256\345\244\215\345\217\244\346\236\252"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 0
+  can_buy: 0
+  can_recharge: 0
+  online_time: "2012-10-02 00:00:00"
+  privileged_plat_id_list: 1
+  privileged_plat_id_list: 14
+  privileged_plat_is_online: 0
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 3
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 840
+    price_value: 1
+  }
+  price_table {
+    price_dq: 4200
+    price_value: 7
+  }
+  price_table {
+    price_dq: 8400
+    price_value: 30
+  }
+  price_table {
+    price_dq: 25200
+    price_value: 180
+  }
+  description: "\346\236\252\347\232\204\345\272\225\351\203\250\345\210\273\347\235\200\344\270\200\350\241\214\345\260\217\345\255\227\357\274\232\350\265\240\347\273\231\344\272\262\347\210\261\347\232\204\351\207\214\345\245\245\345\206\205\345\260\224\342\200\224\342\200\224\347\210\261\344\275\240\347\232\204\345\271\262\347\210\271\357\274\201"
+}
+items {
+  id: 10060
+  name: "\345\220\271\347\211\233\345\226\207\345\217\255"
+  sex: 100
+  level_limit: 0
+  consume_type: 1
+  is_online: 1
+  can_buy: 1
+  can_recharge: 1
+  online_time: "2012-04-13 00:00:00"
+  privileged_plat_is_online: 1
+  privileged_plat_can_buy: 1
+  privileged_plat_can_recharge: 1
+  rank: 4
+  price_discount: 100
+  vip_discount: 80
+  price_table {
+    price_dq: 136
+    price_value: 1
+  }
+  price_table {
+    price_dq: 680
+    price_value: 7
+  }
+  price_table {
+    price_dq: 1360
+    price_value: 30
+  }
+  price_table {
+    price_dq: 4080
+    price_value: 180
+  }
+  price_table {
+    price_dq: 8160
+    price_value: 20000
+  }
+  description: "\346\210\221\345\220\271\345\207\272\346\235\245\347\232\204\347\211\233\351\203\275\350\203\275\347\240\270\346\255\273\344\275\240\357\274\201"
+}

@@ -1,0 +1,23 @@
+// 记录玩家购卖的课程
+package app.models;
+import "proto/DefaultDat.proto";
+message ArBikeLogReq{
+	required string mac = 1;  //设备Id
+	required string course_id = 2; // 渠道号
+}
+
+message ArBikeInfo{
+	required string mac = 1;  //设备Id
+}
+
+message ArBikeListRes{
+    required Status status = 1;      // 返回状态;
+    required string info = 2;        // 返回描述;
+    repeated ArBikeCourseInfo courseInfo = 3; //课程信息
+}
+
+message ArBikeCourseInfo{
+    required int32 id = 1; //课程ID
+    optional int32 status = 2; //是否购买了1是2否
+}
+ 

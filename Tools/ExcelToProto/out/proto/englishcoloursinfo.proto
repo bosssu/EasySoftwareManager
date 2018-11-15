@@ -1,0 +1,99 @@
+/**
+* @file:   englishcoloursinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message EnglishColoursInfo{
+    /** 关卡id
+游戏一起始ID：10001 */
+    required uint32 id = 1 [default = 0];
+    /** 暂无 */
+    optional string name = 2 [default = ""];
+    /** 单词 */
+    optional string word = 3 [default = ""];
+    /** 单词音频文件名 */
+    optional string wordAudio = 4 [default = ""];
+    /** 单词单个字母音频文件名
+        如：Blue
+        B的音频名;l的音频名;u的音频名;e的音频名
+    */
+    optional string wordAudioArray = 5 [default = ""];
+    /** 填充的颜色值
+        格式：
+        255;255;255;255
+    */
+    optional string fillColor = 6 [default = ""];
+    /** 游戏2单词拼好后单词音频
+填写：音频文件名 */
+    optional string secondWordAudio = 7 [default = ""];
+    /** 游戏中对应颜色显示的一些图片
+填：图片名称 */
+    optional string ColorTexName = 8 [default = ""];
+    /** 背景为白色时填充的颜色值
+        格式：
+        255;255;255;255
+    */
+    optional string SpecialColor = 9 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        填：贴图文件名
+    */
+    optional string mainTex = 10 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        单词发音
+        填：音频文件名
+    */
+    optional string mainTexAudio = 11 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        单词
+        填：单词音频对应单词
+    */
+    optional string mainTexAudioWord = 12 [default = ""];
+    /** 游戏一
+        第一张填色贴图
+        句子发音
+        填：音频文件名
+        （The box is red）
+    */
+    optional string mainTexWordAudio = 13 [default = ""];
+    optional string texFillCompleteThrehold = 14 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        填：贴图文件名
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTex = 15 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        单词发音
+        填：音频文件名
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexAudio = 16 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        单词
+        填：单词名称
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexAudioWord = 17 [default = ""];
+    /** 游戏一
+        第二张填色贴图
+        句子发音
+        填：音频文件名
+        (The box is red)
+        格式：xxx;xxx;xxx
+    */
+    optional string randomTexWordAudio = 18 [default = ""];
+    /** 描述 */
+    optional string des = 19 [default = ""];
+}
+
+message EnglishColoursInfo_ARRAY {
+    repeated EnglishColoursInfo items = 1;
+}

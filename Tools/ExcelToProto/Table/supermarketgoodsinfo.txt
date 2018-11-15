@@ -1,0 +1,583 @@
+items {
+  id: 1
+  resid: "304050402"
+  groupId: "304050401"
+  type: 1
+  price: 2.0
+  atlas: "cs_icon15"
+  remark: "\347\216\211\347\261\263"
+  count: 1
+  sound: "404050301"
+}
+items {
+  id: 2
+  resid: "304050404"
+  groupId: "304050403"
+  type: 1
+  price: 2.0
+  atlas: "cs_icon13"
+  remark: "\350\203\241\350\220\235\345\215\234"
+  count: 1
+  sound: "404050302"
+}
+items {
+  id: 3
+  resid: "304050406"
+  groupId: "304050405"
+  type: 1
+  price: 2.0
+  atlas: "cs_icon14"
+  remark: "\351\273\204\347\223\234"
+  count: 1
+  sound: "404050303"
+}
+items {
+  id: 4
+  resid: "304050408"
+  groupId: "304050407"
+  type: 1
+  price: 5.0
+  atlas: "cs_icon12"
+  remark: "\345\215\227\347\223\234"
+  count: 1
+  sound: "404050304"
+}
+items {
+  id: 5
+  resid: "304050410"
+  groupId: "304050409"
+  type: 1
+  price: 2.5
+  atlas: "cs_icon19"
+  remark: "\350\245\277\347\272\242\346\237\277"
+  count: 1
+  sound: "404050305"
+}
+items {
+  id: 6
+  resid: "304050412"
+  groupId: "304050411"
+  type: 1
+  price: 1.5
+  atlas: "cs_icon24"
+  remark: "\345\244\247\347\231\275\350\217\234"
+  count: 1
+  sound: "404050306"
+}
+items {
+  id: 7
+  resid: "304050414"
+  groupId: "304050413"
+  type: 1
+  price: 2.0
+  atlas: "cs_icon16"
+  remark: "\350\214\204\345\255\220"
+  count: 1
+  sound: "404050307"
+}
+items {
+  id: 8
+  resid: "304050416"
+  groupId: "304050415"
+  type: 1
+  price: 2.0
+  atlas: "cs_icon21"
+  remark: "\346\264\213\350\221\261"
+  count: 1
+  sound: "404050308"
+}
+items {
+  id: 9
+  resid: "304050418"
+  groupId: "304050417"
+  type: 1
+  price: 1.5
+  atlas: "cs_icon20"
+  remark: "\347\272\242\350\276\243\346\244\222"
+  count: 1
+  sound: "404050309"
+}
+items {
+  id: 10
+  resid: "304050420"
+  groupId: "304050419"
+  type: 1
+  price: 5.0
+  atlas: "cs_icon17"
+  remark: "\350\216\262\350\227\225"
+  count: 1
+  sound: "404050310"
+}
+items {
+  id: 11
+  resid: "304050422"
+  groupId: "304050421"
+  type: 1
+  price: 5.0
+  atlas: "cs_icon22"
+  remark: "\350\212\261\350\217\234"
+  count: 1
+  sound: "404050311"
+}
+items {
+  id: 12
+  resid: "304050424"
+  groupId: "304050423"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon29"
+  remark: "\350\215\211\350\216\223"
+  count: 1
+  sound: "404020205"
+}
+items {
+  id: 13
+  resid: "304050432"
+  groupId: "304050431"
+  type: 2
+  price: 10.0
+  atlas: "cs_icon27"
+  remark: "\350\221\241\350\220\204"
+  count: 1
+  sound: "404050312"
+}
+items {
+  id: 14
+  resid: "304050434"
+  groupId: "304050433"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon23"
+  remark: "\347\201\253\351\276\231\346\236\234"
+  count: 1
+  sound: "404020213"
+}
+items {
+  id: 15
+  resid: "304050438"
+  groupId: "304050437"
+  type: 2
+  price: 10.0
+  atlas: "cs_icon3"
+  remark: "\351\246\231\350\225\211"
+  count: 1
+  sound: "404020211"
+}
+items {
+  id: 16
+  resid: "304050444"
+  groupId: "304050443"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon31"
+  remark: "\345\261\261\347\253\271"
+  count: 1
+  sound: "404050313"
+}
+items {
+  id: 17
+  resid: "304050446"
+  groupId: "304050445"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon34"
+  remark: "\346\235\250\346\241\203"
+  count: 1
+  sound: "404020214"
+}
+items {
+  id: 18
+  resid: "304050426"
+  groupId: "304050425"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon28"
+  remark: "\350\213\271\346\236\234"
+  count: 1
+  sound: "404020208"
+}
+items {
+  id: 19
+  resid: "304050428"
+  groupId: "304050427"
+  type: 2
+  price: 10.0
+  atlas: "cs_icon25"
+  remark: "\350\245\277\347\223\234"
+  count: 1
+  sound: "404020212"
+}
+items {
+  id: 20
+  resid: "304050430"
+  groupId: "304050429"
+  type: 2
+  price: 4.5
+  atlas: "cs_icon30"
+  remark: "\347\214\225\347\214\264\346\241\203"
+  count: 1
+  sound: "404020207"
+}
+items {
+  id: 21
+  resid: "304050436"
+  groupId: "304050435"
+  type: 2
+  price: 2.5
+  atlas: "cs_icon32"
+  remark: "\351\270\255\346\242\250"
+  count: 1
+  sound: "404020210"
+}
+items {
+  id: 22
+  resid: "304050440"
+  groupId: "304050439"
+  type: 2
+  price: 6.5
+  atlas: "cs_icon33"
+  remark: "\350\212\222\346\236\234"
+  count: 1
+  sound: "404020209"
+}
+items {
+  id: 23
+  resid: "304050442"
+  groupId: "304050441"
+  type: 2
+  price: 5.0
+  atlas: "cs_icon26"
+  remark: "\346\251\231\345\255\220"
+  count: 1
+  sound: "404020206"
+}
+items {
+  id: 24
+  resid: "304050448"
+  groupId: "304050447"
+  type: 3
+  price: 10.0
+  atlas: "cs_icon4"
+  remark: "\347\275\220\350\243\205\350\226\257\347\211\207"
+  count: 1
+  sound: "404050314"
+}
+items {
+  id: 25
+  resid: "304050450"
+  groupId: "304050449"
+  type: 3
+  price: 5.5
+  atlas: "cs_icon1"
+  remark: "\350\242\213\350\243\205\350\226\257\347\211\207"
+  count: 1
+  sound: "404050314"
+}
+items {
+  id: 26
+  resid: "304050452"
+  groupId: "304050451"
+  type: 3
+  price: 10.0
+  atlas: "cs_icon7"
+  remark: "\345\267\247\345\205\213\345\212\233"
+  count: 1
+  sound: "404050315"
+}
+items {
+  id: 27
+  resid: "304050454"
+  groupId: "304050453"
+  type: 3
+  price: 8.5
+  atlas: "cs_icon9"
+  remark: "\347\272\242\350\242\213\351\245\274\345\271\262"
+  count: 1
+  sound: "404050316"
+}
+items {
+  id: 28
+  resid: "304050456"
+  groupId: "304050455"
+  type: 3
+  price: 2.5
+  atlas: "cs_icon8"
+  remark: "\351\273\204\350\242\213\351\245\274\345\271\262"
+  count: 1
+  sound: "404050318"
+}
+items {
+  id: 29
+  resid: "304050458"
+  groupId: "304050457"
+  type: 3
+  price: 3.5
+  atlas: "cs_icon2"
+  remark: "\345\215\225\350\211\262\346\243\222\346\243\222\347\263\226"
+  count: 1
+  sound: "404050319"
+}
+items {
+  id: 30
+  resid: "304050460"
+  groupId: "304050459"
+  type: 3
+  price: 5.0
+  atlas: "cs_icon35"
+  remark: "\344\272\224\345\275\251\346\243\222\346\243\222\347\263\2261\357\274\210\347\264\253\357\274\211"
+  count: 1
+  sound: "404050320"
+}
+items {
+  id: 31
+  resid: "304050462"
+  groupId: "304050461"
+  type: 3
+  price: 10.0
+  atlas: "cs_icon11"
+  remark: "\346\236\234\345\206\273"
+  count: 1
+  sound: "404050321"
+}
+items {
+  id: 32
+  resid: "304050464"
+  groupId: "304050463"
+  type: 3
+  price: 2.0
+  atlas: "cs_icon5"
+  remark: "\344\270\215\351\200\217\346\230\216\350\242\213\350\212\261\347\224\237"
+  count: 1
+  sound: "404050323"
+}
+items {
+  id: 33
+  resid: "304050466"
+  groupId: "304050465"
+  type: 3
+  price: 10.0
+  atlas: "cs_icon18"
+  remark: "\344\272\224\345\275\251\346\243\222\346\243\222\347\263\2262\357\274\210\351\273\204\357\274\211"
+  count: 1
+  sound: "404050320"
+}
+items {
+  id: 34
+  resid: "304050468"
+  groupId: "304050467"
+  type: 3
+  price: 2.0
+  atlas: "cs_icon10"
+  remark: "\347\264\253\350\242\213\351\245\274\345\271\262"
+  count: 1
+  sound: "404050317"
+}
+items {
+  id: 35
+  resid: "304050470"
+  groupId: "304050469"
+  type: 3
+  price: 5.0
+  atlas: "cs_icon6"
+  remark: "\351\200\217\346\230\216\350\242\213\350\212\261\347\224\237"
+  count: 1
+  sound: "404050322"
+}
+items {
+  id: 36
+  resid: "304050626"
+  groupId: "304050625"
+  type: 4
+  price: 5.0
+  atlas: "cs_icon52"
+  remark: "\347\232\256\347\220\203"
+  count: 1
+  sound: "404050324"
+}
+items {
+  id: 37
+  resid: "304050628"
+  groupId: "304050627"
+  type: 4
+  price: 15.0
+  atlas: "cs_icon53"
+  remark: "\351\243\236\346\234\272"
+  count: 1
+  sound: "404050325"
+}
+items {
+  id: 38
+  resid: "304050630"
+  groupId: "304050629"
+  type: 4
+  price: 12.0
+  atlas: "cs_icon37"
+  remark: "\346\264\213\345\250\203\345\250\203"
+  count: 1
+  sound: "404050327"
+}
+items {
+  id: 39
+  resid: "304050632"
+  groupId: "304050631"
+  type: 4
+  price: 20.0
+  atlas: "cs_icon38"
+  remark: "\346\261\275\350\275\246"
+  count: 1
+  sound: "404050326"
+}
+items {
+  id: 40
+  resid: "304050634"
+  groupId: "304050633"
+  type: 4
+  price: 10.0
+  atlas: "cs_icon54"
+  remark: "\345\260\217\347\206\212\345\205\254\344\273\224"
+  count: 1
+  sound: "404050328"
+}
+items {
+  id: 41
+  resid: "304050636"
+  groupId: "304050635"
+  type: 4
+  price: 15.0
+  atlas: "cs_icon39"
+  remark: "\347\247\257\346\234\250"
+  count: 1
+  sound: "404050329"
+}
+items {
+  id: 42
+  resid: "304050614"
+  groupId: "304050613"
+  type: 5
+  price: 8.0
+  atlas: "cs_icon43"
+  remark: "\346\241\202\350\212\261\347\263\225"
+  count: 1
+  sound: "404050334"
+}
+items {
+  id: 43
+  resid: "304050616"
+  groupId: "304050615"
+  type: 5
+  price: 5.0
+  atlas: "cs_icon40"
+  remark: "\345\206\260\346\277\200\345\207\214\n"
+  count: 1
+  sound: "404050330"
+}
+items {
+  id: 44
+  resid: "304050618"
+  groupId: "304050617"
+  type: 5
+  price: 10.0
+  atlas: "cs_icon42"
+  remark: "\346\217\220\346\213\211\347\261\263\350\213\217"
+  count: 1
+  sound: "404050332"
+}
+items {
+  id: 45
+  resid: "304050620"
+  groupId: "304050619"
+  type: 5
+  price: 5.0
+  atlas: "cs_icon45"
+  remark: "\345\205\253\345\256\235\347\262\245"
+  count: 1
+  sound: "404050335"
+}
+items {
+  id: 46
+  resid: "304050622"
+  groupId: "304050621"
+  type: 5
+  price: 2.0
+  atlas: "cs_icon41"
+  remark: "\351\235\242\345\214\205\n"
+  count: 1
+  sound: "404050331"
+}
+items {
+  id: 47
+  resid: "304050624"
+  groupId: "304050623"
+  type: 5
+  price: 10.0
+  atlas: "cs_icon44"
+  remark: "\350\233\213\346\214\236"
+  count: 1
+  sound: "404050333"
+}
+items {
+  id: 48
+  resid: "304050602"
+  groupId: "304050601"
+  type: 6
+  price: 20.0
+  atlas: "cs_icon46"
+  remark: "\346\262\220\346\265\264\351\234\262"
+  count: 1
+  sound: "404050336"
+}
+items {
+  id: 49
+  resid: "304050604"
+  groupId: "304050603"
+  type: 6
+  price: 15.0
+  atlas: "cs_icon47"
+  remark: "\346\264\227\345\217\221\346\260\264"
+  count: 1
+  sound: "404050337"
+}
+items {
+  id: 50
+  resid: "304050606"
+  groupId: "304050605"
+  type: 6
+  price: 5.5
+  atlas: "cs_icon50"
+  remark: "\347\211\231\345\210\267"
+  count: 1
+  sound: "404050341"
+}
+items {
+  id: 51
+  resid: "304050608"
+  groupId: "304050607"
+  type: 6
+  price: 5.0
+  atlas: "cs_icon51"
+  remark: "\346\257\233\345\267\276"
+  count: 1
+  sound: "404050339"
+}
+items {
+  id: 52
+  resid: "304050610"
+  groupId: "304050609"
+  type: 6
+  price: 25.0
+  atlas: "cs_icon48"
+  remark: "\345\220\271\351\243\216\346\234\272"
+  count: 1
+  sound: "404050338"
+}
+items {
+  id: 53
+  resid: "304050612"
+  groupId: "304050611"
+  type: 6
+  price: 5.0
+  atlas: "cs_icon49"
+  remark: "\346\260\264\345\243\266"
+  count: 1
+  sound: "404050340"
+}

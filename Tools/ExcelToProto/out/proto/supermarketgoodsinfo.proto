@@ -1,0 +1,32 @@
+/**
+* @file:   supermarketgoodsinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message SuperMarketGoodsInfo{
+    /** 编号 */
+    required uint32 id = 1 [default = 0];
+    /** 单个编号 */
+    required string resid = 2 [default = ""];
+    /** 组团编号 */
+    required string groupId = 3 [default = ""];
+    /** 类型(1蔬菜2水果3零食4玩具5甜品6日用品) */
+    required int32 type = 4 [default = 0];
+    /** 价钱（元） */
+    required float price = 5 [default = 0];
+    /** UI资源 */
+    optional string atlas = 6 [default = ""];
+    /** 备注 */
+    optional string remark = 7 [default = ""];
+    /** 数量 */
+    optional int32 count = 8 [default = 0];
+    /** 声音 */
+    optional string sound = 9 [default = ""];
+}
+
+message SuperMarketGoodsInfo_ARRAY {
+    repeated SuperMarketGoodsInfo items = 1;
+}

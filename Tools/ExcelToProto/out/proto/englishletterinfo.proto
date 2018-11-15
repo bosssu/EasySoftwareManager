@@ -1,0 +1,116 @@
+/**
+* @file:   englishletterinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message EnglishLetterInfo{
+    /** 字母ID */
+    required uint32 id = 1 [default = 0];
+    /** 字母 */
+    optional string name = 2 [default = ""];
+    /** 详情 */
+    optional string description = 3 [default = ""];
+    /** 元素一
+正确目标 */
+    optional string param_1 = 4 [default = ""];
+    /** 元素二
+其它目标 */
+    optional string param_2 = 5 [default = ""];
+    /** 元素三
+其它目标 */
+    optional string param_3 = 6 [default = ""];
+    /** 元素一
+音频资源 */
+    optional string audio_param_1 = 7 [default = ""];
+    /** 元素二
+音频资源 */
+    optional string audio_param_2 = 8 [default = ""];
+    /** 元素三
+音频资源 */
+    optional string audio_param_3 = 9 [default = ""];
+    /** 元素一
+对应图集ID */
+    optional int32 param_1_atlas = 10 [default = 0];
+    /** 元素一
+贴图资源名 */
+    optional string param_1_texture = 11 [default = ""];
+    /** 元素二
+对应图集ID */
+    optional int32 param_2_atlas = 12 [default = 0];
+    /** 元素二
+贴图资源名 */
+    optional string param_2_texture = 13 [default = ""];
+    /** 元素三
+对应图集ID */
+    optional int32 param_3_atlas = 14 [default = 0];
+    /** 元素三
+贴图资源名 */
+    optional string param_3_texture = 15 [default = ""];
+    /** 元素一
+        坐标偏移
+        x,y,z
+    */
+    optional string param_1_offset = 16 [default = ""];
+    /** 元素二
+        坐标偏移
+        x,y,z
+    */
+    optional string param_2_offset = 17 [default = ""];
+    /** 元素三
+        坐标偏移
+        x,y,z
+    */
+    optional string param_3_offset = 18 [default = ""];
+    /** 乐迪提示音频
+        Big A 
+        Little a
+    */
+    optional string ledi_hint_audio = 19 [default = ""];
+    /** 写字母元素音频（分号带1表示公共音频） */
+    optional string letter_draw_audio = 20 [default = ""];
+    /** 写字母
+乐迪说话音频"A" */
+    optional string ledi_letter_audio = 21 [default = ""];
+    /** 大小写区分
+        1：大写
+        2：小写
+    */
+    optional int32 bigorsmall = 22 [default = 0];
+    /** 绘本：大写字母 */
+    optional string game1_statement1 = 23 [default = ""];
+    /** 绘本：小写字母 */
+    optional string game1_statement2 = 24 [default = ""];
+    /** 绘本：单词1 */
+    optional string game1_statement3 = 25 [default = ""];
+    /** 绘本：单词2 */
+    optional string game1_statement4 = 26 [default = ""];
+    /** 绘本：大写字母
+音频 */
+    optional string game1_audio1 = 27 [default = ""];
+    /** 绘本：小写字母音频2 */
+    optional string game1_audio2 = 28 [default = ""];
+    /** 绘本：单词1
+音频3 */
+    optional string game1_audio3 = 29 [default = ""];
+    /** 绘本：单词2
+音频4 */
+    optional string game1_audio4 = 30 [default = ""];
+    /** 0:森林
+        1:天空
+        2:沙漠
+        3:海洋
+        4:房间
+    */
+    repeated int32 game1_bg_list = 31;
+    /** 绘本单词贴图1 */
+    optional string game1_texture1 = 32 [default = ""];
+    /** 绘本单词贴图2 */
+    optional string game1_texture2 = 33 [default = ""];
+}
+
+message EnglishLetterInfo_ARRAY {
+    repeated EnglishLetterInfo items = 1;
+}

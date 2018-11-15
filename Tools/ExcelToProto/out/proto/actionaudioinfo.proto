@@ -1,0 +1,53 @@
+/**
+* @file:   actionaudioinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message ActionAudioInfo{
+    /** 动作音效ID
+        认识数字：1开头
+        图形认知：2开头
+        字母认知：3开头
+    */
+    required uint32 id = 1 [default = 0];
+    /** 音效名 */
+    optional string audio_name = 2 [default = ""];
+    optional int32 play_state = 3 [default = 0];
+    /** 音频资源路径
+        “0”：公共音效
+        “1”：认知数字
+        “2”：图形认知
+        “3”：字母认知
+    */
+    optional int32 play_path = 4 [default = 0];
+    /** 特殊播放规则
+        “0”：正常播放
+        “1”：中心击掌
+    */
+    optional int32 play_mode = 5 [default = 0];
+    /** 动画1,动画1时长;
+        动画2,动画2时长;
+        动画3,动画3时长
+    */
+    optional string action_param_array = 6 [default = ""];
+    /** 语音播放延时 */
+    optional uint32 audio_delay_time = 7 [default = 0];
+    /** 结束动画名 */
+    optional string action_end_name = 8 [default = ""];
+    /** 结束动画时长
+（毫秒） */
+    optional uint32 action_end_time = 9 [default = 0];
+    /** 下个动作ID */
+    optional uint32 next_action_id = 10 [default = 0];
+    /** 音频内容 */
+    optional string audio_describe = 11 [default = ""];
+    /** 播放描述 */
+    optional string describe = 12 [default = ""];
+}
+
+message ActionAudioInfo_ARRAY {
+    repeated ActionAudioInfo items = 1;
+}

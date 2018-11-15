@@ -1,0 +1,45 @@
+/**
+* @file:   newbiescript.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message NewBieScript{
+    /** ID */
+    required uint32 id = 1 [default = 0];
+    /** 引导id */
+    required uint32 NewbieId = 2 [default = 0];
+    /** 对应脚本枚举 */
+    required uint32 Type = 3 [default = 0];
+    /** 是否暂停游戏 */
+    required uint32 PauseGame = 4 [default = 0];
+    /** 开始播放声音 */
+    required string SoundFileName = 5 [default = ""];
+    /** 透明度
+        Standard,
+        Transparent,
+        Darker,
+    */
+    required uint32 ShowTransparency = 6 [default = 0];
+    /** 翻转规则
+        none
+        x
+        y
+        xy
+    */
+    required uint32 FlipType = 7 [default = 0];
+    /** 是否显示箭头 */
+    required uint32 NotShowArrow = 8 [default = 0];
+    /** 高亮偏移X */
+    required int32 OffsetHighLightX = 9 [default = 0];
+    /** 高亮偏移Y */
+    required int32 OffsetHighLightY = 10 [default = 0];
+    /**  */
+    optional string SpecialTip = 11 [default = ""];
+}
+
+message NewBieScript_ARRAY {
+    repeated NewBieScript items = 1;
+}

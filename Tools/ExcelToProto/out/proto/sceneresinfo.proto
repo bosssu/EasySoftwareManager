@@ -1,0 +1,31 @@
+/**
+* @file:   sceneresinfo.proto
+* @author: jameyli <jameyli AT tencent DOT com>
+* @brief:  这个文件是通过工具自动生成的，建议不要手动修改
+*/
+
+package TableProto;
+
+message SceneResInfo{
+    /** 对象id */
+    required uint32 id = 1 [default = 0];
+    /** 场景类型
+        0 actor
+        1 背景
+    */
+    required uint32 scene_type = 2 [default = 0];
+    /** actor类型
+0 飞侠 */
+    optional uint32 actor_type = 3 [default = 0];
+    /** 资源路径 */
+    required string res_path = 4 [default = ""];
+    /** 是否只会实例一个
+        0 不是
+        1 是
+    */
+    required uint32 only_one = 5 [default = 0];
+}
+
+message SceneResInfo_ARRAY {
+    repeated SceneResInfo items = 1;
+}

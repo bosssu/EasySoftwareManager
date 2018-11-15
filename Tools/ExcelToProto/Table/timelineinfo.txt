@@ -1,0 +1,228 @@
+items {
+  id: 10001
+  scene_name: "301010100"
+  player_mode: 0
+  scene_Tag: "Commom"
+}
+items {
+  id: 10002
+  scene_name: "301010100"
+  player_mode: 0
+  scene_Tag: "Commom"
+}
+items {
+  id: 10003
+  scene_name: "301010100"
+  player_mode: 0
+  scene_Tag: "Commom"
+}
+items {
+  id: 10004
+  scene_name: "301010100"
+  player_mode: 0
+  scene_Tag: "Commom"
+}
+items {
+  id: 10005
+  scene_name: "302010200"
+  player_mode: 0
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10006
+  scene_name: "302010200"
+  player_mode: 0
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10007
+  scene_name: "302010200"
+  player_mode: 0
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10008
+  scene_name: "302010200"
+  player_mode: 0
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10009
+  scene_name: "0"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10010
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10011
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10012
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10013
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10014
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10015
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10016
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10017
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10018
+  scene_name: "302010500"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 10019
+  scene_name: "302010200"
+  player_mode: 1
+  scene_Tag: "story_himalaya"
+}
+items {
+  id: 20001
+  scene_name: "301010100"
+  player_mode: 1
+  scene_Tag: "Commom"
+}
+items {
+  id: 20002
+  scene_name: "301010100"
+  player_mode: 1
+  scene_Tag: "Commom"
+}
+items {
+  id: 20003
+  scene_name: "301010100"
+  player_mode: 10
+  scene_Tag: "Commom"
+}
+items {
+  id: 20004
+  scene_name: "301010100"
+  player_mode: 11
+  scene_Tag: "Commom"
+}
+items {
+  id: 20005
+  scene_name: "302020200"
+  player_mode: 12
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20006
+  scene_name: "302020300"
+  player_mode: 13
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20007
+  scene_name: "302020300"
+  player_mode: 14
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20008
+  scene_name: "302020300"
+  player_mode: 15
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20009
+  scene_name: "302020300"
+  player_mode: 16
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20010
+  scene_name: "302020500"
+  player_mode: 17
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20011
+  scene_name: "3020205001"
+  player_mode: 18
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20012
+  scene_name: "302020600"
+  player_mode: 3
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20013
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20014
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20015
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20016
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20017
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20018
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
+items {
+  id: 20019
+  scene_name: "302020600"
+  player_mode: 0
+  scene_Tag: "story_maerdaifu"
+}
