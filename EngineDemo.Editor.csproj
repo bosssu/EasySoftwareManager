@@ -254,6 +254,15 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets/Plugins/protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="WCBG.ToolsForUnity">
+      <HintPath>Assets/Plugins/WCBG.ToolsForUnity.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/lzh/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -269,15 +278,6 @@
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>C:/Users/lzh/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="WCBG.ToolsForUnity">
-      <HintPath>Assets/Plugins/WCBG.ToolsForUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets/Plugins/protobuf-net.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="EngineDemo.csproj">
@@ -287,7 +287,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\AssetHeplerEditor.cs" />
+    <Compile Include="Assets\Editor\CreateAssetBundle.cs" />
     <Compile Include="Assets\Editor\CreateTableProto.cs" />
+    <Compile Include="Assets\Editor\ModuleAssetBundle.cs" />
+    <Compile Include="Assets\Editor\ModuleConst.cs" />
+    <Compile Include="Assets\Editor\PackageEditor.cs" />
+    <Compile Include="Assets\Editor\PublishEditor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

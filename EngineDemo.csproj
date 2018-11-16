@@ -212,20 +212,20 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity2017.2.3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net">
+      <HintPath>Assets/Plugins/protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="WCBG.ToolsForUnity">
+      <HintPath>Assets/Plugins/WCBG.ToolsForUnity.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/lzh/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@1.0.1/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/lzh/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="WCBG.ToolsForUnity">
-      <HintPath>Assets/Plugins/WCBG.ToolsForUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="protobuf-net">
-      <HintPath>Assets/Plugins/protobuf-net.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -234,8 +234,19 @@
     <Compile Include="Assets\Scripts\DataManager\TableProtoLoader.cs" />
     <Compile Include="Assets\Scripts\DataManager\TableProtoManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Attribute\GameStateAttribute.cs" />
+    <Compile Include="Assets\Scripts\Framework\Event\EventID.cs" />
     <Compile Include="Assets\Scripts\Framework\Framework.cs" />
     <Compile Include="Assets\Scripts\Framework\GameStateManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\Extension\UDPReceive.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\Extension\UDPSender.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\NetManager.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCP\MyTcpClient.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCP\NetConnector.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCP\StickClass.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCP\TCPController.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\UDP\Debugger.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPClient.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPController.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Framework\State\GameStateName.cs" />
     <Compile Include="Assets\Scripts\Framework\State\MainState.cs" />
