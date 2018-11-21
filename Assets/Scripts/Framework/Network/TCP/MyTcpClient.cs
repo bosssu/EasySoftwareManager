@@ -6,6 +6,7 @@ public class MyTcpClient
 {
     private int port = 5999;
     private string serverIp = "192.168.1.134";
+    private int headbuf_size = 4;
 
     private const int BufferSize = 1024;
     private byte[] buffer;
@@ -35,9 +36,9 @@ public class MyTcpClient
     private CodeCallback recvCallback;
     private StickClass stickClass;
 
-    public MyTcpClient(string serverIp, int port, CodeCallback connectCallback, CodeCallback sendCallback, CodeCallback recvCallback,OnOneMsgReceived oneMsgReceived)
+    public MyTcpClient(string serverIp, int port,int headbuf_size, CodeCallback connectCallback, CodeCallback sendCallback, CodeCallback recvCallback,OnOneMsgReceived oneMsgReceived)
     {
-        stickClass = new global::StickClass(4, OneMsgReceived);
+        stickClass = new StickClass(headbuf_size, OneMsgReceived);
 
         this.onOneMsgReceived = oneMsgReceived;
         this.connectCallback = connectCallback;
@@ -154,7 +155,11 @@ public class MyTcpClient
     {
         try
         {
-            streamToServer.Write(msg, 0, msg.Length); // 发往服务器
+            byte[] messageTosend = new byte[msg.Length + headbuf_size];
+            byte[] headbuf = BitConverter.GetBytes(msg.Length);
+            Array.Copy(headbuf,0, messageTosend,0, headbuf.Length);
+            Array.Copy(msg, 0, messageTosend, headbuf.Length, msg.Length);
+            streamToServer.Write(messageTosend, 0, messageTosend.Length); // 发往服务器
             if (sendCallback != null) sendCallback(true, ClientStateCode.SendSuccess, "");
         }
         catch (Exception ex)

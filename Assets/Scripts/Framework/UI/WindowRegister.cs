@@ -11,6 +11,7 @@ public class WindowRegister : Singleton<WindowRegister>{
         WindowManager mgr = WindowManager.Instance;
 
         mgr.RegisterWindow(WinNames.Test_Panel, new TestPanel());
+        mgr.RegisterWindow(WinNames.Test_Server_Panel, new TestServerPanel());
 
     }
 }

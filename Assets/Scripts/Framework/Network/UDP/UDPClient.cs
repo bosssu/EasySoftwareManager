@@ -16,11 +16,10 @@ public class UDPClient
     Socket udpSocket;
     Thread recvThread;
 
-    public bool BindSocket(ushort port, int bufferLength,BindCallback callback)
+    public UDPClient(ushort port,string remoteIp, int bufferLength,BindCallback callback)
     {
-        udpIp = new IPEndPoint(IPAddress.Any, port);
 
-        UDPConnect();
+        UDPBind(port,remoteIp);
 
         this.bindCallback = callback;
 
@@ -28,13 +27,14 @@ public class UDPClient
 
         recvThread = new Thread(UDPReceive);
 
-        return true;
     }
 
-    private void UDPConnect()
+    private void UDPBind(ushort port,string ip)
     {
+        udpIp = new IPEndPoint(IPAddress.Parse(ip), port);
         udpSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
         udpSocket.Bind(udpIp);
+        Debug.Log("UDP 绑定");
     }
 
     private bool isRunning = true;
@@ -62,14 +62,7 @@ public class UDPClient
 
     public int UDPSend(byte[] data)
     {
-        if (!udpSocket.Connected)
-        {
-            UDPConnect();
-        }
-
-        int sendCount = udpSocket.Send(data, data.Length, SocketFlags.None);
-
-        return sendCount;
+        return udpSocket.Send(data, data.Length, SocketFlags.None);
     }
 
     public void Dispose()

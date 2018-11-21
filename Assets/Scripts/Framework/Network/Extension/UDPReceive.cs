@@ -8,39 +8,57 @@ using System.Net.Sockets;
 using System.Threading;
 
 
-public class UDPReceive : MonoBehaviour {
-
-    public static UDPReceive _Instance;
+public class UDPReceive : MonoSingleton<UDPReceive> {
 
     public Action<byte[]> MessageRecevdEvent;
 
     Thread receiveThread;
     UdpClient client;
     public int port = 7008;
+    bool _thread_flag;
 
-    void Awake()
+    public bool IsAlive
     {
-        _Instance = this;
+        get {
+            return _thread_flag;
+        }
+        set {
+            _thread_flag = value;
+            if (value)
+            {
+                receiveThread = new Thread(new ThreadStart(ReceiveData));
+                receiveThread.IsBackground = true;
+                receiveThread.Start();
+                _thread_flag = true;
+            }
+            else
+            {
+                _thread_flag = false;
+                client.Close();
+                receiveThread.Abort();
+                client = null;
+                receiveThread = null;
+            }
+        }
     }
 
-    void Start()
+    protected override void Init()
     {
-        Init();
-    }
-
-    public void Init()
-    {
-        receiveThread = new Thread(
-            new ThreadStart(ReceiveData));
-        receiveThread.IsBackground = true;
-        receiveThread.Start();
+        base.Init();
+        IsAlive = true;
     }
 
     private void ReceiveData()
     {
         client = new UdpClient(port);
-        while (true)
+        while (_thread_flag)
         {
+            if (client == null || client.Available < 1)
+            {
+                Thread.Sleep(100);
+                continue;
+            }
+
             try
             {
                 IPEndPoint anyIP = new IPEndPoint(IPAddress.Any, 0);
@@ -57,14 +75,9 @@ public class UDPReceive : MonoBehaviour {
         }
     }
 
-    public void OnApplicationQuit()
+    protected override void OnDestroy()
     {
-        
-        if (receiveThread.IsAlive)
-        {
-            receiveThread.Abort();
-            client.Close();
-        }
-        
+        base.OnDestroy();
+        IsAlive = false;
     }
 }

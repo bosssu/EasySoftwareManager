@@ -19,6 +19,7 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         base.OnOpen(paramArray);
         _IpInput.text = "192.168.1.179";
         _PortInput.text = "8000";
+        UDPReceive.Instance.MessageRecevdEvent = (str) => { Debug.Log(str.Length); };
     }
 
     protected override void AddListeners()
@@ -41,8 +42,9 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
     {
         Debug.Log("尝试发送");
         byte[] bfs_text = Encoding.Default.GetBytes(_InputField.text);
-        //NetManager.Instance._tcpController.SendData(bfs_text);
-        NetManager.Instance._udpController.SendData(bfs_text);
+        NetManager.Instance._tcpController.SendData(bfs_text);
+        //NetManager.Instance._udpController.SendData(bfs_text);
+        //UDPSender.Instance.Send(bfs_text);
 
     }
 
@@ -51,8 +53,8 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         Debug.Log("尝试连接");
         string ip = _IpInput.text;
         ushort port = ushort.Parse(_PortInput.text);
-        //NetManager.Instance._tcpController.Connect(ip, port);
-        NetManager.Instance._udpController.Bind(port, 1024);
+        NetManager.Instance._tcpController.Connect(ip, port);
+        //NetManager.Instance._udpController.Bind(port,"127.0.0.1", 1024);
     }
 
     private void OnBtnDisconnectClick()

@@ -244,6 +244,9 @@
     <Compile Include="Assets\Scripts\Framework\Network\TCP\NetConnector.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\TCP\StickClass.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\TCP\TCPController.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\MySession.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\MyTcpServer.cs" />
+    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\TCPServerController.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\UDP\Debugger.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPClient.cs" />
     <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPController.cs" />
@@ -255,6 +258,7 @@
     <Compile Include="Assets\Scripts\Framework\UISpriteManager\emUIAltas.cs" />
     <Compile Include="Assets\Scripts\Framework\UISpriteManager\UISpriteManager.cs" />
     <Compile Include="Assets\Scripts\Logic\Test\UI\TestPanel.cs" />
+    <Compile Include="Assets\Scripts\Logic\Test\UI\TestServerPanel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

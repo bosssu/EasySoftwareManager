@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Net;
 
 public class Debugger {
 
@@ -22,8 +23,7 @@ public class Debugger {
             {
                 if (udpClient == null)
                 {
-                    udpClient = new global::UDPClient();
-                    udpClient.BindSocket(port, 1024, null);
+                    udpClient = new UDPClient(port,ip, 1024, null);
                 }
 
                 string s = string.Format("contex: {0} message:{1}", sender.ToString(), messsage);
@@ -46,8 +46,7 @@ public class Debugger {
             {
                 if (udpClient == null)
                 {
-                    udpClient = new global::UDPClient();
-                    udpClient.BindSocket(port, 1024, null);
+                    udpClient = new UDPClient(port,ip, 1024, null);
                 }
 
                 string s = string.Format("contex: {0} message:{1}", sender.ToString(), messsage);

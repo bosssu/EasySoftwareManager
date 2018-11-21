@@ -22,12 +22,10 @@ public class UDPController : Singleton<UDPController>
             udpClient.Dispose();
     }
 
-    public void Bind(ushort port,int bufferLength)
+    public void Bind(ushort port,string remoteIp,int bufferLength)
     {
         if (udpClient == null)
-            udpClient = new UDPClient();
-
-        udpClient.BindSocket(port, bufferLength, UDPRecvCallback);
+            udpClient = new UDPClient(port,remoteIp, bufferLength, UDPRecvCallback);
     }
 
     public void SendData(byte[] data)

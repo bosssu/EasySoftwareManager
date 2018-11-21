@@ -8,10 +8,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-public class UDPSender : MonoBehaviour
+public class UDPSender : MonoSingleton<UDPSender>
 {
-    public static UDPSender _Instance;
-
     public int remotePort = 7009;  //远端端口号
     public string remoteIpStr = "127.0.0.1"; //
 
@@ -20,15 +18,9 @@ public class UDPSender : MonoBehaviour
     IPAddress remoteIP;
     IPEndPoint remotePoint;
 
-    void Awake()
+    protected override void Init()
     {
-        _Instance = this;
-    }
-
-    void Start()
-    {
-        Console.WriteLine("初始化");
-
+        base.Init();
         client = new UdpClient();
     }
 
@@ -39,9 +31,11 @@ public class UDPSender : MonoBehaviour
         client.Send(data, data.Length, remotePoint);//将数据发送到远程端点 
     }
 
-    void OnApplicationQuit()
+    protected override void OnDestroy()
     {
+        base.OnDestroy();
         client.Close();
+        client = null;
     }
 
 }

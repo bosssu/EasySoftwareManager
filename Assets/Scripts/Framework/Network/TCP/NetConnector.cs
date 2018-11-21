@@ -16,7 +16,7 @@ public class NetConnector {
 
     public NetConnector(string ip, int port)
     {
-        tcpClient = new MyTcpClient(ip, port, ConnectCallback, SendCallback, RecvCallback, OnOneMsgReceived);
+        tcpClient = new MyTcpClient(ip, port,4, ConnectCallback, SendCallback, RecvCallback, OnOneMsgReceived);
 
         msgToReceives = new Queue<byte[]>();
         msgToSends = new Queue<byte[]>();
@@ -109,6 +109,7 @@ public class NetConnector {
         if (sendThread != null) sendThread.Abort();
         if (tcpClient != null) tcpClient.StopClient();
         sendThread = null;
+        recvThread = null;
         tcpClient = null;
     }
 }
