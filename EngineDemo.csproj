@@ -212,6 +212,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity2017.2.3/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="BestHTTP">
+      <HintPath>Assets/Plugins/BestHTTP.dll</HintPath>
+    </Reference>
     <Reference Include="ICSharpCode.SharpZipLib">
       <HintPath>Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
@@ -227,6 +230,12 @@
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/lzh/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@1.0.1/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>Assets/Plugins/Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>Assets/Plugins/System.Data.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DataManager\AllTableProto.cs" />
@@ -237,19 +246,6 @@
     <Compile Include="Assets\Scripts\Framework\Event\EventID.cs" />
     <Compile Include="Assets\Scripts\Framework\Framework.cs" />
     <Compile Include="Assets\Scripts\Framework\GameStateManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\Extension\UDPReceive.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\Extension\UDPSender.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\NetManager.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCP\MyTcpClient.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCP\NetConnector.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCP\StickClass.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCP\TCPController.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\MySession.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\MyTcpServer.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\TCPServer\TCPServerController.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\UDP\Debugger.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPClient.cs" />
-    <Compile Include="Assets\Scripts\Framework\Network\UDP\UDPController.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\Framework\State\GameStateName.cs" />
     <Compile Include="Assets\Scripts\Framework\State\MainState.cs" />
@@ -257,8 +253,12 @@
     <Compile Include="Assets\Scripts\Framework\UI\WinNames.cs" />
     <Compile Include="Assets\Scripts\Framework\UISpriteManager\emUIAltas.cs" />
     <Compile Include="Assets\Scripts\Framework\UISpriteManager\UISpriteManager.cs" />
+    <Compile Include="Assets\Scripts\Logic\Test\DBTest.cs" />
     <Compile Include="Assets\Scripts\Logic\Test\UI\TestPanel.cs" />
     <Compile Include="Assets\Scripts\Logic\Test\UI\TestServerPanel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\BestHTTP.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

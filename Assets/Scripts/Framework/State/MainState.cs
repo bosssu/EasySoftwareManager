@@ -20,11 +20,13 @@ public class MainState : BaseState {
             //GameObjectPool.Instance.PrepareGameObject("test/test_prefab/Cube", enResourceType.Prefab, 10);
 
             //加载ui
-            //WindowManager.Instance.OpenWindow(WinNames.Test_Panel);
-            WindowManager.Instance.OpenWindow(WinNames.Test_Server_Panel);
+            WindowManager.Instance.OpenWindow(WinNames.Test_Panel);
+            //WindowManager.Instance.OpenWindow(WinNames.Test_Server_Panel);
 
             //protobuf
             //Debug.Log(TableProtoLoader.MainItemInfoDict[1001].index);
+
+            Debug.LogError(Application.persistentDataPath);
 
         });
 

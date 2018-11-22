@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Text;
+using System;
 
 public class TestPanel : SingletonBaseWindow<TestPanel> {
 
@@ -19,7 +20,9 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         base.OnOpen(paramArray);
         _IpInput.text = "192.168.1.179";
         _PortInput.text = "8000";
+        NetManager.Instance._netType = NetManager.NetType.TCP;
         UDPReceive.Instance.MessageRecevdEvent = (str) => { Debug.Log(str.Length); };
+
     }
 
     protected override void AddListeners()
@@ -28,6 +31,13 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         _Btn_Send.onClick.AddListener(OnBtnSendClick);
         _Btn_Connect.onClick.AddListener(OnBtnConnect);
         _Btn_Disconnect.onClick.AddListener(OnBtnDisconnectClick);
+        EventBus.Instance.AddEventHandler<byte[]>(EventID.NETWORK_MESSAGE_RECEIVED, RecvTest);
+            
+    }
+
+    private void RecvTest(byte[] obj)
+    {
+        Debug.Log(obj.Length);
     }
 
     protected override void RemoveListensers()
@@ -36,15 +46,14 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         _Btn_Send.onClick.RemoveListener(OnBtnSendClick);
         _Btn_Connect.onClick.RemoveListener(OnBtnConnect);
         _Btn_Disconnect.onClick.RemoveListener(OnBtnDisconnectClick);
+        EventBus.Instance.RemoveEventHandler<byte[]>(EventID.NETWORK_MESSAGE_RECEIVED, RecvTest);
     }
 
     private void OnBtnSendClick()
     {
         Debug.Log("尝试发送");
-        byte[] bfs_text = Encoding.Default.GetBytes(_InputField.text);
-        NetManager.Instance._tcpController.SendData(bfs_text);
-        //NetManager.Instance._udpController.SendData(bfs_text);
-        //UDPSender.Instance.Send(bfs_text);
+        byte[] bfs = System.Text.Encoding.Default.GetBytes("fdfdfdfdfd");
+        NetManager.Instance.UDPSend(bfs, int.Parse(_PortInput.text), _IpInput.text);
 
     }
 
@@ -53,8 +62,7 @@ public class TestPanel : SingletonBaseWindow<TestPanel> {
         Debug.Log("尝试连接");
         string ip = _IpInput.text;
         ushort port = ushort.Parse(_PortInput.text);
-        NetManager.Instance._tcpController.Connect(ip, port);
-        //NetManager.Instance._udpController.Bind(port,"127.0.0.1", 1024);
+        NetManager.Instance.NetworkReady(port,ip);
     }
 
     private void OnBtnDisconnectClick()
