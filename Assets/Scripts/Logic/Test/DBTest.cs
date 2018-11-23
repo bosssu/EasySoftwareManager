@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using DB;
 using UnityEngine;
-using DB;
 
-public class DBTest : MonoBehaviour {
+public class DBTest : MonoBehaviour
+{
 
     private string appDBPath;
     private DbAccess db;
