@@ -244,6 +244,8 @@
     <Compile Include="Assets\Scripts\DataManager\TableProtoManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Attribute\GameStateAttribute.cs" />
     <Compile Include="Assets\Scripts\Framework\Event\EventID.cs" />
+    <Compile Include="Assets\Scripts\Framework\Extension\PetPainterScriptObjectData.cs" />
+    <Compile Include="Assets\Scripts\Framework\Extension\WayCreator.cs" />
     <Compile Include="Assets\Scripts\Framework\Framework.cs" />
     <Compile Include="Assets\Scripts\Framework\GameStateManager.cs" />
     <Compile Include="Assets\Scripts\Framework\Scene\SceneLoader.cs" />

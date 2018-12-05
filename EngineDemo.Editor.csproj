@@ -302,6 +302,7 @@
     <Compile Include="Assets\Editor\ModuleConst.cs" />
     <Compile Include="Assets\Editor\PackageEditor.cs" />
     <Compile Include="Assets\Editor\PublishEditor.cs" />
+    <Compile Include="Assets\Editor\WayCreatorEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\BestHTTP.xml" />

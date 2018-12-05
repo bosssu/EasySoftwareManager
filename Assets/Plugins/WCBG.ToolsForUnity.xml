@@ -199,6 +199,21 @@
             The saturation, ranges between 0 and 1
             </summary>
         </member>
+        <member name="M:MyColor.ColorExtension.ToHex(UnityEngine.Color)">
+            <summary>
+            unity_color->hex
+            </summary>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MyColor.ColorExtension.FromHex(UnityEngine.Color,System.String)">
+            <summary>
+            hex - > unity_color
+            </summary>
+            <param name="col"></param>
+            <param name="hex"></param>
+            <returns></returns>
+        </member>
         <member name="M:CSVUtil.LoadCsvData``1(System.String)">
             <summary>
             加载CSV结构数据
@@ -312,6 +327,80 @@
         </member>
         <member name="M:Protocol.ProtoBufSerialize``1(``0)">
             Proto-buffer serialize.
+        </member>
+        <member name="T:RegxUtil">
+            <summary>
+            正则匹配工具类
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.EMAIL">
+            <summary>
+            邮箱地址
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.HANDZI">
+            <summary>
+            中文汉字
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.PHONE_NUMBER">
+            <summary>
+            电话号码
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.IP">
+            <summary>
+            ip地址
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.URL">
+            <summary>
+            网址
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.CHAR_SMALL">
+            <summary>
+            小写英文字母
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.CHAR_LARGE">
+            <summary>
+            大写英文字母
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.ACOUNT_CHECK1">
+            <summary>
+            账号1
+            </summary>
+        </member>
+        <member name="F:RegxUtil.enCommonRegx.ACOUND_CHECK2">
+            <summary>
+            账号2
+            </summary>
+        </member>
+        <member name="M:RegxUtil.GetMatch(System.String,System.String)">
+            <summary>
+            根据匹配规则进行匹配
+            </summary>
+            <param name="src"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RegxUtil.GetAllMatches(System.String,System.String)">
+            <summary>
+            根据匹配规则获取所有的匹配项
+            </summary>
+            <param name="src"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RegxUtil.IsTheCommonRegx(System.String,RegxUtil.enCommonRegx)">
+            <summary>
+            是否是指定的一些通用的匹配项
+            </summary>
+            <param name="src"></param>
+            <param name="commonRegx"></param>
+            <returns></returns>
         </member>
         <member name="T:ResSlightly">
             <summary>
@@ -602,6 +691,15 @@
             <param name="cvs"></param>
             <param name="rect"></param>
             <returns></returns>
+        </member>
+        <member name="M:UGUITool.GetUGUIElementBound(System.Collections.Generic.List{UnityEngine.RectTransform},UnityEngine.Vector2@,UnityEngine.Vector2@,UnityEngine.Vector2@)">
+            <summary>
+            获取一系列ui组合的bound
+            </summary>
+            <param name="rts"></param>
+            <param name="lu"></param>
+            <param name="rd"></param>
+            <param name="center"></param>
         </member>
         <member name="M:BaseWindow.OnAutoSetUIProperty">
             <summary>
