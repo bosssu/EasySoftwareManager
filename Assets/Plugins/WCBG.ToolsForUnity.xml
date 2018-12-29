@@ -87,6 +87,3093 @@
             <param name="_buf">发送的数组</param>
             <returns></returns>
         </member>
+        <member name="T:iTween">
+            <summary>
+            <para>Version: 2.0.44</para>	 
+            <para>Author: Bob Berkebile (http://pixelplacement.com)</para>
+            <para>Support: http://itween.pixelplacement.com</para>
+            </summary>
+        </member>
+        <member name="T:iTween.EaseType">
+            <summary>
+            The type of easing to use based on Robert Penner's open source easing equations (http://www.robertpenner.com/easing_terms_of_use.html).
+            </summary>
+        </member>
+        <member name="T:iTween.LoopType">
+            <summary>
+            The type of loop (if any) to use.  
+            </summary>
+        </member>
+        <member name="F:iTween.LoopType.none">
+            <summary>
+            Do not loop.
+            </summary>
+        </member>
+        <member name="F:iTween.LoopType.loop">
+            <summary>
+            Rewind and replay.
+            </summary>
+        </member>
+        <member name="F:iTween.LoopType.pingPong">
+            <summary>
+            Ping pong the animation back and forth.
+            </summary>
+        </member>
+        <member name="T:iTween.NamedValueColor">
+            <summary>
+            Many shaders use more than one color. Use can have iTween's Color methods operate on them by name.   
+            </summary>
+        </member>
+        <member name="F:iTween.NamedValueColor._Color">
+            <summary>
+            The main color of a material. Used by default and not required for Color methods to work in iTween.
+            </summary>
+        </member>
+        <member name="F:iTween.NamedValueColor._SpecColor">
+            <summary>
+            The specular color of a material (used in specular/glossy/vertexlit shaders).
+            </summary>
+        </member>
+        <member name="F:iTween.NamedValueColor._Emission">
+            <summary>
+            The emissive color of a material (used in vertexlit shaders).
+            </summary>
+        </member>
+        <member name="F:iTween.NamedValueColor._ReflectColor">
+            <summary>
+            The reflection color of the material (used in reflective shaders).
+            </summary>
+        </member>
+        <member name="T:iTween.Defaults">
+            <summary>
+            A collection of baseline presets that iTween needs and utilizes if certain parameters are not provided. 
+            </summary>
+        </member>
+        <member name="M:iTween.Init(UnityEngine.GameObject)">
+            <summary>
+            Sets up a GameObject to avoid hiccups when an initial iTween is added. It's advisable to run this on every object you intend to run iTween on in its Start or Awake.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target to be initialized for iTween.
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeFrom(System.Single,System.Single)">
+            <summary>
+            Instantly changes the amount(transparency) of a camera fade and then returns it back over time with MINIMUM customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how transparent the Texture2D that the camera fade uses is.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeFrom(System.Collections.Hashtable)">
+            <summary>
+            Instantly changes the amount(transparency) of a camera fade and then returns it back over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how transparent the Texture2D that the camera fade uses is.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeTo(System.Single,System.Single)">
+            <summary>
+            Changes the amount(transparency) of a camera fade over time with MINIMUM customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how transparent the Texture2D that the camera fade uses is.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeTo(System.Collections.Hashtable)">
+            <summary>
+            Changes the amount(transparency) of a camera fade over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how transparent the Texture2D that the camera fade uses is.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ValueTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Returns a value to an 'oncallback' method interpolated between the supplied 'from' and 'to' values for application as desired.  Requires an 'onupdate' callback that accepts the same type as the supplied 'from' and 'to' properties.
+            </summary>
+            <param name="from">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> or <see cref="T:UnityEngine.Vector3"/> or <see cref="T:UnityEngine.Vector2"/> or <see cref="T:UnityEngine.Color"/> or <see cref="T:UnityEngine.Rect"/> for the starting value.
+            </param> 
+            <param name="to">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> or <see cref="T:UnityEngine.Vector3"/> or <see cref="T:UnityEngine.Vector2"/> or <see cref="T:UnityEngine.Color"/> or <see cref="T:UnityEngine.Rect"/> for the ending value.
+            </param> 
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed (only works with Vector2, Vector3, and Floats)
+            </param>	
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.FadeFrom(UnityEngine.GameObject,System.Single,System.Single)">
+            <summary>
+            Changes a GameObject's alpha value instantly then returns it to the provided alpha over time with MINIMUM customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation. Identical to using ColorFrom and using the "a" parameter. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> for the final alpha value of the animation.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.FadeFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's alpha value instantly then returns it to the provided alpha over time with FULL customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation. Identical to using ColorFrom and using the "a" parameter.
+            </summary>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the initial alpha value of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the initial alpha value of the animation.
+            </param>
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.FadeTo(UnityEngine.GameObject,System.Single,System.Single)">
+            <summary>
+            Changes a GameObject's alpha value over time with MINIMUM customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation. Identical to using ColorTo and using the "a" parameter.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> for the final alpha value of the animation.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.FadeTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's alpha value over time with FULL customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation. Identical to using ColorTo and using the "a" parameter.
+            </summary>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the final alpha value of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the final alpha value of the animation.
+            </param>
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ColorFrom(UnityEngine.GameObject,UnityEngine.Color,System.Single)">
+            <summary>
+            Changes a GameObject's color values instantly then returns them to the provided properties over time with MINIMUM customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ColorFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's color values instantly then returns them to the provided properties over time with FULL customization options.  If a GUIText or GUITexture component is attached, it will become the target of the animation.
+            </summary>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="r">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color red.
+            </param>
+            <param name="g">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="b">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="a">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the alpha.
+            </param> 
+            <param name="namedcolorvalue">
+            A <see cref="!:NamedColorValue"/> or <see cref="T:System.String"/> for the individual setting of the alpha.
+            </param> 
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ColorTo(UnityEngine.GameObject,UnityEngine.Color,System.Single)">
+            <summary>
+            Changes a GameObject's color values over time with MINIMUM customization options.  If a GUIText or GUITexture component is attached, they will become the target of the animation.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ColorTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's color values over time with FULL customization options.  If a GUIText or GUITexture component is attached, they will become the target of the animation.
+            </summary>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="r">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color red.
+            </param>
+            <param name="g">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="b">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="a">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the alpha.
+            </param> 
+            <param name="namedcolorvalue">
+            A <see cref="!:NamedColorValue"/> or <see cref="T:System.String"/> for the individual setting of the alpha.
+            </param> 
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.AudioFrom(UnityEngine.GameObject,System.Single,System.Single,System.Single)">
+            <summary>
+            Instantly changes an AudioSource's volume and pitch then returns it to it's starting volume and pitch over time with MINIMUM customization options. Default AudioSource attached to GameObject will be used (if one exists) if not supplied.
+            </summary>
+            <param name="target"> 
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation which holds the AudioSource to be changed.
+            </param>
+            <param name="volume"> for the target level of volume.
+            A <see cref="T:System.Single"/>
+            </param>
+            <param name="pitch"> for the target pitch.
+            A <see cref="T:System.Single"/>
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.AudioFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Instantly changes an AudioSource's volume and pitch then returns it to it's starting volume and pitch over time with FULL customization options. Default AudioSource attached to GameObject will be used (if one exists) if not supplied. 
+            </summary>
+            <param name="audiosource">
+            A <see cref="T:UnityEngine.AudioSource"/> for which AudioSource to use.
+            </param> 
+            <param name="volume">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target level of volume.
+            </param>
+            <param name="pitch">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target pitch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.AudioTo(UnityEngine.GameObject,System.Single,System.Single,System.Single)">
+            <summary>
+            Fades volume and pitch of an AudioSource with MINIMUM customization options.  Default AudioSource attached to GameObject will be used (if one exists) if not supplied. 
+            </summary>
+            <param name="target"> 
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation which holds the AudioSource to be changed.
+            </param>
+            <param name="volume"> for the target level of volume.
+            A <see cref="T:System.Single"/>
+            </param>
+            <param name="pitch"> for the target pitch.
+            A <see cref="T:System.Single"/>
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.AudioTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Fades volume and pitch of an AudioSource with FULL customization options.  Default AudioSource attached to GameObject will be used (if one exists) if not supplied. 
+            </summary>
+            <param name="audiosource">
+            A <see cref="T:UnityEngine.AudioSource"/> for which AudioSource to use.
+            </param> 
+            <param name="volume">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target level of volume.
+            </param>
+            <param name="pitch">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target pitch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.Stab(UnityEngine.GameObject,UnityEngine.AudioClip,System.Single)">
+            <summary>
+            Plays an AudioClip once based on supplied volume and pitch and following any delay with MINIMUM customization options. AudioSource is optional as iTween will provide one.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation which holds the AudioSource to be utilized.
+            </param>
+            <param name="audioclip">
+            A <see cref="T:UnityEngine.AudioClip"/> for a reference to the AudioClip to be played.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> for the time in seconds the action will wait before beginning.
+            </param>
+        </member>
+        <member name="M:iTween.Stab(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Plays an AudioClip once based on supplied volume and pitch and following any delay with FULL customization options. AudioSource is optional as iTween will provide one.
+            </summary>
+            <param name="audioclip">
+            A <see cref="T:UnityEngine.AudioClip"/> for a reference to the AudioClip to be played.
+            </param> 
+            <param name="audiosource">
+            A <see cref="T:UnityEngine.AudioSource"/> for which AudioSource to use
+            </param> 
+            <param name="volume">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target level of volume.
+            </param>
+            <param name="pitch">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target pitch.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the action will wait before beginning.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.LookFrom(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Instantly rotates a GameObject to look at the supplied Vector3 then returns it to it's starting rotation over time with MINIMUM customization options. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> to be the Vector3 that the target will look towards.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.LookFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Instantly rotates a GameObject to look at a supplied Transform or Vector3 then returns it to it's starting rotation over time with FULL customization options. 
+            </summary>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a target the GameObject will look at.
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.LookTo(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Rotates a GameObject to look at the supplied Vector3 over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> to be the Vector3 that the target will look towards.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.LookTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Rotates a GameObject to look at a supplied Transform or Vector3 over time with FULL customization options.
+            </summary>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a target the GameObject will look at.
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.MoveTo(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Changes a GameObject's position over time to a supplied destination with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="position">
+            A <see cref="T:UnityEngine.Vector3"/> for the destination Vector3.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.MoveTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's position over time to a supplied destination with FULL customization options.
+            </summary>
+            <param name="position">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a point in space the GameObject will animate to.
+            </param>
+            <param name="path">
+            A <see cref="!:Transform[]"/> or <see cref="!:Vector3[]"/> for a list of points to draw a Catmull-Rom through for a curved animation path.
+            </param>
+            <param name="movetopath">
+            A <see cref="T:System.Boolean"/> for whether to automatically generate a curve from the GameObject's current position to the beginning of the path. True by default.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="lookahead">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how much of a percentage to look ahead on a path to influence how strict "orientopath" is.
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.MoveFrom(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Instantly changes a GameObject's position to a supplied destination then returns it to it's starting position over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="position">
+            A <see cref="T:UnityEngine.Vector3"/> for the destination Vector3.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.MoveFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Instantly changes a GameObject's position to a supplied destination then returns it to it's starting position over time with FULL customization options.
+            </summary>
+            <param name="position">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a point in space the GameObject will animate to.
+            </param>
+            <param name="path">
+            A <see cref="!:Transform[]"/> or <see cref="!:Vector3[]"/> for a list of points to draw a Catmull-Rom through for a curved animation path.
+            </param>
+            <param name="movetopath">
+            A <see cref="T:System.Boolean"/> for whether to automatically generate a curve from the GameObject's current position to the beginning of the path. True by default.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="lookahead">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for how much of a percentage to look ahead on a path to influence how strict "orientopath" is.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.MoveAdd(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Translates a GameObject's position over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of change in position to move the GameObject.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.MoveAdd(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Translates a GameObject's position over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of change in position to move the GameObject.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> or <see cref="T:System.String"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.MoveBy(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Adds the supplied coordinates to a GameObject's postion with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of change in position to move the GameObject.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.MoveBy(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Adds the supplied coordinates to a GameObject's position with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of change in position to move the GameObject.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> or <see cref="T:System.String"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleTo(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Changes a GameObject's scale over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Changes a GameObject's scale over time with FULL customization options.
+            </summary>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleFrom(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Instantly changes a GameObject's scale then returns it to it's starting scale over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Instantly changes a GameObject's scale then returns it to it's starting scale over time with FULL customization options.
+            </summary>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleAdd(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Adds to a GameObject's scale over time with FULL customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of scale to be added to the GameObject's current scale.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleAdd(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Adds to a GameObject's scale over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount to be added to the GameObject's current scale.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleBy(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Multiplies a GameObject's scale over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of scale to be multiplied by the GameObject's current scale.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleBy(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Multiplies a GameObject's scale over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount to be multiplied to the GameObject's current scale.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.RotateTo(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Rotates a GameObject to the supplied Euler angles in degrees over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.RotateTo(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Rotates a GameObject to the supplied Euler angles in degrees over time with FULL customization options.
+            </summary>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate to.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.RotateFrom(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Instantly changes a GameObject's Euler angles in degrees then returns it to it's starting rotation over time (if allowed) with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate from.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.RotateFrom(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Instantly changes a GameObject's Euler angles in degrees then returns it to it's starting rotation over time (if allowed) with FULL customization options.
+            </summary>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate to.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.RotateAdd(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Adds supplied Euler angles in degrees to a GameObject's rotation over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of Euler angles in degrees to add to the current rotation of the GameObject.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.RotateAdd(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Adds supplied Euler angles in degrees to a GameObject's rotation over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount of Euler angles in degrees to add to the current rotation of the GameObject.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> or <see cref="T:System.String"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.RotateBy(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Multiplies supplied values by 360 and rotates a GameObject by calculated amount over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount to be multiplied by 360 to rotate the GameObject.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.RotateBy(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Multiplies supplied values by 360 and rotates a GameObject by calculated amount over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the amount to be multiplied by 360 to rotate the GameObject.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> or <see cref="T:System.String"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="speed">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> can be used instead of time to allow animation based on speed
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="easetype">
+            A <see cref="T:iTween.EaseType"/> or <see cref="T:System.String"/> for the shape of the easing curve applied to the animation.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed.
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ShakePosition(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Randomly shakes a GameObject's position by a diminishing amount over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ShakePosition(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Randomly shakes a GameObject's position by a diminishing amount over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param> 
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>  
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with shakes)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ShakeScale(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Randomly shakes a GameObject's scale by a diminishing amount over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ShakeScale(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Randomly shakes a GameObject's scale by a diminishing amount over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with shakes)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.ShakeRotation(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Randomly shakes a GameObject's rotation by a diminishing amount over time with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ShakeRotation(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Randomly shakes a GameObject's rotation by a diminishing amount over time with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param> 
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with shakes)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.PunchPosition(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Applies a jolt of force to a GameObject's position and wobbles it back to its initial position with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of the punch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.PunchPosition(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Applies a jolt of force to a GameObject's position and wobbles it back to its initial position with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param> 
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget".
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param>   
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with punches)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.PunchRotation(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Applies a jolt of force to a GameObject's rotation and wobbles it back to its initial rotation with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of the punch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.PunchRotation(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Applies a jolt of force to a GameObject's rotation and wobbles it back to its initial rotation with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="space">
+            A <see cref="T:UnityEngine.Space"/> for applying the transformation in either the world coordinate or local cordinate system. Defaults to local space.
+            </param> 
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param> 
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with punches)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <member name="M:iTween.PunchScale(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Applies a jolt of force to a GameObject's scale and wobbles it back to its initial scale with MINIMUM customization options.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of the punch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.PunchScale(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Applies a jolt of force to a GameObject's scale and wobbles it back to its initial scale with FULL customization options.
+            </summary>
+            <param name="amount">
+            A <see cref="T:UnityEngine.Vector3"/> for the magnitude of shake.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x magnitude.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y magnitude.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z magnitude.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+            <param name="delay">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will wait before beginning.
+            </param> 
+            <param name="looptype">
+            A <see cref="T:iTween.LoopType"/> or <see cref="T:System.String"/> for the type of loop to apply once the animation has completed. (only "loop" is allowed with punches)
+            </param>
+            <param name="onstart">
+            A <see cref="T:System.String"/> for the name of a function to launch at the beginning of the animation.
+            </param>
+            <param name="onstarttarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onstart" method.
+            </param>
+            <param name="onstartparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onstart" method.
+            </param>
+            <param name="onupdate"> 
+            A <see cref="T:System.String"/> for the name of a function to launch on every step of the animation.
+            </param>
+            <param name="onupdatetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "onupdate" method.
+            </param>
+            <param name="onupdateparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "onupdate" method.
+            </param> 
+            <param name="oncomplete">
+            A <see cref="T:System.String"/> for the name of a function to launch at the end of the animation.
+            </param>
+            <param name="oncompletetarget">
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the GameObject that holds the "oncomplete" method.
+            </param>
+            <param name="oncompleteparams">
+            A <see cref="T:System.Object"/> for arguments to be sent to the "oncomplete" method.
+            </param>
+        </member>
+        <!-- 对于成员“M:iTween.RectUpdate(UnityEngine.Rect,UnityEngine.Rect,System.Single)”忽略有格式错误的 XML 注释 -->
+        <member name="M:iTween.Vector3Update(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Returns a Vector3 that is eased between a current and target value by the supplied speed.
+            </summary>
+            <returns>
+            A <see cref="T:UnityEngine.Vector3"/>
+            </returns>
+            <param name='currentValue'>
+            A <see cref="T:UnityEngine.Vector3"/> the starting or initial value
+            </param>
+            <param name='targetValue'>
+            A <see cref="T:UnityEngine.Vector3"/> the target value that the current value will be eased to.
+            </param>
+            <param name='speed'>
+            A <see cref="T:System.Single"/> to be used as rate of speed (larger number equals faster animation)
+            </param>
+        </member>
+        <member name="M:iTween.Vector2Update(UnityEngine.Vector2,UnityEngine.Vector2,System.Single)">
+            <summary>
+            Returns a Vector2 that is eased between a current and target value by the supplied speed.
+            </summary>
+            <returns>
+            A <see cref="T:UnityEngine.Vector2"/>
+            </returns>
+            <param name='currentValue'>
+            A <see cref="T:UnityEngine.Vector2"/> the starting or initial value
+            </param>
+            <param name='targetValue'>
+            A <see cref="T:UnityEngine.Vector2"/> the target value that the current value will be eased to.
+            </param>
+            <param name='speed'>
+            A <see cref="T:System.Single"/> to be used as rate of speed (larger number equals faster animation)
+            </param>
+        </member>
+        <member name="M:iTween.FloatUpdate(System.Single,System.Single,System.Single)">
+            <summary>
+            Returns a float that is eased between a current and target value by the supplied speed.
+            </summary>
+            <returns>
+            A <see cref="T:System.Single"/>
+            </returns>
+            <param name='currentValue'>
+            A <see cref="T:System.Single"/> the starting or initial value
+            </param>
+            <param name='targetValue'>
+            A <see cref="T:System.Single"/> the target value that the current value will be eased to.
+            </param>
+            <param name='speed'>
+            A <see cref="T:System.Single"/> to be used as rate of speed (larger number equals faster animation)
+            </param>
+        </member>
+        <member name="M:iTween.FadeUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to FadeTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the final alpha value of the animation.
+            </param>
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.FadeUpdate(UnityEngine.GameObject,System.Single,System.Single)">
+            <summary>
+            Similar to FadeTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="alpha">
+            A <see cref="T:System.Single"/> for the final alpha value of the animation.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ColorUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to ColorTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="r">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color red.
+            </param>
+            <param name="g">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="b">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the color green.
+            </param>
+            <param name="a">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the alpha.
+            </param> 
+            <param name="namedcolorvalue">
+            A <see cref="!:NamedColorValue"/> or <see cref="T:System.String"/> for the individual setting of the alpha.
+            </param> 
+            <param name="includechildren">
+            A <see cref="T:System.Boolean"/> for whether or not to include children of this GameObject. True by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ColorUpdate(UnityEngine.GameObject,UnityEngine.Color,System.Single)">
+            <summary>
+            Similar to ColorTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options. Does not utilize an EaseType.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/> to change the GameObject's color to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.AudioUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to AudioTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="audiosource">
+            A <see cref="T:UnityEngine.AudioSource"/> for which AudioSource to use.
+            </param> 
+            <param name="volume">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target level of volume.
+            </param>
+            <param name="pitch">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the target pitch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.AudioUpdate(UnityEngine.GameObject,System.Single,System.Single,System.Single)">
+            <summary>
+            Similar to AudioTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="volume">
+            A <see cref="T:System.Single"/> for the target level of volume.
+            </param>
+            <param name="pitch">
+            A <see cref="T:System.Single"/> for the target pitch.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.RotateUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to RotateTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate to.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False by default.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param> 
+        </member>
+        <member name="M:iTween.RotateUpdate(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Similar to RotateTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="rotation">
+            A <see cref="T:UnityEngine.Vector3"/> for the target Euler angles in degrees to rotate to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.ScaleUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to ScaleTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options.  Does not utilize an EaseType. 
+            </summary>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param> 
+        </member>
+        <member name="M:iTween.ScaleUpdate(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Similar to ScaleTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options.  Does not utilize an EaseType.
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="scale">
+            A <see cref="T:UnityEngine.Vector3"/> for the final scale.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.MoveUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to MoveTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="position">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a point in space the GameObject will animate to.
+            </param>
+            <param name="x">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the x axis.
+            </param>
+            <param name="y">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the y axis.
+            </param>
+            <param name="z">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the individual setting of the z axis.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param> 
+            <param name="islocal">
+            A <see cref="T:System.Boolean"/> for whether to animate in world space or relative to the parent. False be default.
+            </param>
+            <param name="orienttopath">
+            A <see cref="T:System.Boolean"/> for whether or not the GameObject will orient to its direction of travel.  False by default.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> or A <see cref="T:UnityEngine.Transform"/> for a target the GameObject will look at.
+            </param>
+            <param name="looktime">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the object will take to look at either the "looktarget" or "orienttopath".
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+        </member>
+        <member name="M:iTween.MoveUpdate(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Similar to MoveTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with MINIMUM customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="position">
+            A <see cref="T:UnityEngine.Vector3"/> for a point in space the GameObject will animate to.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.LookUpdate(UnityEngine.GameObject,System.Collections.Hashtable)">
+            <summary>
+            Similar to LookTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Transform"/> or <see cref="T:UnityEngine.Vector3"/> for a target the GameObject will look at.
+            </param>
+            <param name="axis">
+            A <see cref="T:System.String"/>. Restricts rotation to the supplied axis only.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> or <see cref="T:System.Double"/> for the time in seconds the animation will take to complete.
+            </param> 
+        </member>
+        <member name="M:iTween.LookUpdate(UnityEngine.GameObject,UnityEngine.Vector3,System.Single)">
+            <summary>
+            Similar to LookTo but incredibly less expensive for usage inside the Update function or similar looping situations involving a "live" set of changing values with FULL customization options. Does not utilize an EaseType. 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/> to be the target of the animation.
+            </param>
+            <param name="looktarget">
+            A <see cref="T:UnityEngine.Vector3"/> for a target the GameObject will look at.
+            </param>
+            <param name="time">
+            A <see cref="T:System.Single"/> for the time in seconds the animation will take to complete.
+            </param>
+        </member>
+        <member name="M:iTween.PathLength(UnityEngine.Transform[])">
+            <summary>
+            Returns the length of a curved path drawn through the provided array of Transforms.
+            </summary>
+            <returns>
+            A <see cref="T:System.Single"/>
+            </returns>
+            <param name='path'>
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.PathLength(UnityEngine.Vector3[])">
+            <summary>
+            Returns the length of a curved path drawn through the provided array of Vector3s.
+            </summary>
+            <returns>
+            The length.
+            </returns>
+            <param name='path'>
+            A <see cref="!:Vector3[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.CameraTexture(UnityEngine.Color)">
+            <summary>
+            Creates and returns a full-screen Texture2D for use with CameraFade.
+            </summary>
+            <returns>
+            Texture2D
+            </returns>
+            <param name='color'>
+            Color
+            </param>
+        </member>
+        <member name="M:iTween.PutOnPath(UnityEngine.GameObject,UnityEngine.Vector3[],System.Single)">
+            <summary>
+            Puts a GameObject on a path at the provided percentage 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/>
+            </param>
+            <param name="path">
+            A <see cref="!:Vector3[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+        </member>
+        <member name="M:iTween.PutOnPath(UnityEngine.Transform,UnityEngine.Vector3[],System.Single)">
+            <summary>
+            Puts a GameObject on a path at the provided percentage 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.Transform"/>
+            </param>
+            <param name="path">
+            A <see cref="!:Vector3[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+        </member>
+        <member name="M:iTween.PutOnPath(UnityEngine.GameObject,UnityEngine.Transform[],System.Single)">
+            <summary>
+            Puts a GameObject on a path at the provided percentage 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.GameObject"/>
+            </param>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+        </member>
+        <member name="M:iTween.PutOnPath(UnityEngine.Transform,UnityEngine.Transform[],System.Single)">
+            <summary>
+            Puts a GameObject on a path at the provided percentage 
+            </summary>
+            <param name="target">
+            A <see cref="T:UnityEngine.Transform"/>
+            </param>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+        </member>
+        <member name="M:iTween.PointOnPath(UnityEngine.Transform[],System.Single)">
+            <summary>
+            Returns a Vector3 position on a path at the provided percentage  
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+            <returns>
+            A <see cref="T:UnityEngine.Vector3"/>
+            </returns>
+        </member>
+        <member name="M:iTween.DrawLine(UnityEngine.Vector3[])">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a line through the provided array of Vector3s.
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLine(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a line through the provided array of Vector3s.
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawLine(UnityEngine.Transform[])">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a line through the provided array of Transforms.
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLine(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a line through the provided array of Transforms.
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawLineGizmos(UnityEngine.Vector3[])">
+            <summary>
+            Draws a line through the provided array of Vector3s with Gizmos.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLineGizmos(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            Draws a line through the provided array of Vector3s with Gizmos.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawLineGizmos(UnityEngine.Transform[])">
+            <summary>
+            Draws a line through the provided array of Transforms with Gizmos.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLineGizmos(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            Draws a line through the provided array of Transforms with Gizmos.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawLineHandles(UnityEngine.Vector3[])">
+            <summary>
+            Draws a line through the provided array of Vector3s with Handles.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLineHandles(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            Draws a line through the provided array of Vector3s with Handles.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawLineHandles(UnityEngine.Transform[])">
+            <summary>
+            Draws a line through the provided array of Transforms with Handles.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawLineHandles(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            Draws a line through the provided array of Transforms with Handles.DrawLine().
+            </summary>
+            <param name="line">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.PointOnPath(UnityEngine.Vector3[],System.Single)">
+            <summary>
+            Returns a Vector3 position on a path at the provided percentage  
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3[]"/>
+            </param>
+            <param name="percent">
+            A <see cref="T:System.Single"/>
+            </param>
+            <returns>
+            A <see cref="T:UnityEngine.Vector3"/>
+            </returns>
+        </member>
+        <member name="M:iTween.DrawPath(UnityEngine.Vector3[])">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a curved path through the provided array of Vector3s.
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPath(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a curved path through the provided array of Vector3s.
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawPath(UnityEngine.Transform[])">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a curved path through the provided array of Transforms.
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPath(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            When called from an OnDrawGizmos() function it will draw a curved path through the provided array of Transforms.
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawPathGizmos(UnityEngine.Vector3[])">
+            <summary>
+            Draws a curved path through the provided array of Vector3s with Gizmos.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPathGizmos(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            Draws a curved path through the provided array of Vector3s with Gizmos.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawPathGizmos(UnityEngine.Transform[])">
+            <summary>
+            Draws a curved path through the provided array of Transforms with Gizmos.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPathGizmos(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            Draws a curved path through the provided array of Transforms with Gizmos.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawPathHandles(UnityEngine.Vector3[])">
+            <summary>
+            Draws a curved path through the provided array of Vector3s with Handles.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPathHandles(UnityEngine.Vector3[],UnityEngine.Color)">
+            <summary>
+            Draws a curved path through the provided array of Vector3s with Handles.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Vector3s[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.DrawPathHandles(UnityEngine.Transform[])">
+            <summary>
+            Draws a curved path through the provided array of Transforms with Handles.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+        </member>
+        <member name="M:iTween.DrawPathHandles(UnityEngine.Transform[],UnityEngine.Color)">
+            <summary>
+            Draws a curved path through the provided array of Transforms with Handles.DrawLine().
+            </summary>
+            <param name="path">
+            A <see cref="!:Transform[]"/>
+            </param>
+            <param name="color">
+            A <see cref="T:UnityEngine.Color"/>
+            </param> 
+        </member>
+        <member name="M:iTween.CameraFadeDepth(System.Int32)">
+            <summary>
+            Changes a camera fade's texture.
+            </summary>
+            <param name="depth">
+            A <see cref="T:System.Int32"/>
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeDestroy">
+            <summary>
+            Removes and destroyes a camera fade.
+            </summary>
+        </member>
+        <member name="M:iTween.CameraFadeSwap(UnityEngine.Texture2D)">
+            <summary>
+            Changes a camera fade's texture.
+            </summary>
+            <param name='texture'>
+            A <see cref="T:UnityEngine.Texture2D"/>
+            </param>
+        </member>
+        <member name="M:iTween.CameraFadeAdd(UnityEngine.Texture2D,System.Int32)">
+            <summary>
+            Creates a GameObject (if it doesn't exist) at the supplied depth that can be used to simulate a camera fade.
+            </summary>
+            <param name='texture'>
+            A <see cref="T:UnityEngine.Texture2D"/>
+            </param>
+            <param name='depth'>
+            A <see cref="T:System.Int32"/>
+            </param>
+            <returns>
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the CameraFade.
+            </returns>
+        </member>
+        <member name="M:iTween.CameraFadeAdd(UnityEngine.Texture2D)">
+            <summary>
+            Creates a GameObject (if it doesn't exist) at the default depth that can be used to simulate a camera fade.
+            </summary>
+            <param name='texture'>
+            A <see cref="T:UnityEngine.Texture2D"/>
+            </param>
+            <returns>
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the CameraFade.
+            </returns>
+        </member>
+        <member name="M:iTween.CameraFadeAdd">
+            <summary>
+            Creates a GameObject (if it doesn't exist) at the default depth filled with black that can be used to simulate a camera fade.
+            </summary>
+            <returns>
+            A <see cref="T:UnityEngine.GameObject"/> for a reference to the CameraFade.
+            </returns>
+        </member>
+        <member name="M:iTween.Resume(UnityEngine.GameObject)">
+            <summary>
+            Resume all iTweens on a GameObject.
+            </summary>
+        </member>
+        <member name="M:iTween.Resume(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+            Resume all iTweens on a GameObject including its children.
+            </summary>
+        </member>
+        <!-- 对于成员“M:iTween.Resume(UnityEngine.GameObject,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:iTween.Resume(UnityEngine.GameObject,System.String,System.Boolean)”忽略有格式错误的 XML 注释 -->
+        <member name="M:iTween.Resume">
+            <summary>
+            Resume all iTweens in scene.
+            </summary>
+        </member>
+        <member name="M:iTween.Resume(System.String)">
+            <summary>
+            Resume all iTweens in scene of a particular type.
+            </summary>
+            <param name="type">
+            A <see cref="T:System.String"/> name of the type of iTween you would like to resume.  Can be written as part of a name such as "mov" for all "MoveTo" iTweens.
+            </param> 
+        </member>
+        <member name="M:iTween.Pause(UnityEngine.GameObject)">
+            <summary>
+            Pause all iTweens on a GameObject.
+            </summary>
+        </member>
+        <member name="M:iTween.Pause(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+            Pause all iTweens on a GameObject including its children.
+            </summary>
+        </member>
+        <!-- 对于成员“M:iTween.Pause(UnityEngine.GameObject,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:iTween.Pause(UnityEngine.GameObject,System.String,System.Boolean)”忽略有格式错误的 XML 注释 -->
+        <member name="M:iTween.Pause">
+            <summary>
+            Pause all iTweens in scene.
+            </summary>
+        </member>
+        <member name="M:iTween.Pause(System.String)">
+            <summary>
+            Pause all iTweens in scene of a particular type.
+            </summary>
+            <param name="type">
+            A <see cref="T:System.String"/> name of the type of iTween you would like to pause.  Can be written as part of a name such as "mov" for all "MoveTo" iTweens.
+            </param> 
+        </member>
+        <member name="M:iTween.Count">
+            <summary>
+            Count all iTweens in current scene.
+            </summary>
+        </member>
+        <member name="M:iTween.Count(System.String)">
+            <summary>
+            Count all iTweens in current scene of a particular type.
+            </summary>
+            <param name="type">
+            A <see cref="T:System.String"/> name of the type of iTween you would like to stop.  Can be written as part of a name such as "mov" for all "MoveTo" iTweens.
+            </param> 
+        </member>
+        <member name="M:iTween.Count(UnityEngine.GameObject)">
+            <summary>
+            Count all iTweens on a GameObject.
+            </summary>
+        </member>
+        <member name="M:iTween.Count(UnityEngine.GameObject,System.String)">
+            <summary>
+            Count all iTweens on a GameObject of a particular type.
+            </summary>
+            <param name="type">
+            A <see cref="T:System.String"/> name of the type of iTween you would like to count.  Can be written as part of a name such as "mov" for all "MoveTo" iTweens.
+            </param>  
+        </member>
+        <member name="M:iTween.Stop">
+            <summary>
+            Stop and destroy all Tweens in current scene.
+            </summary>
+        </member>
+        <member name="M:iTween.Stop(System.String)">
+            <summary>
+            Stop and destroy all iTweens in current scene of a particular type.
+            </summary>
+            <param name="type">
+            A <see cref="T:System.String"/> name of the type of iTween you would like to stop.  Can be written as part of a name such as "mov" for all "MoveTo" iTweens.
+            </param> 
+        </member>
+        <member name="M:iTween.StopByName(System.String)">
+            <summary>
+            Stop and destroy all iTweens in current scene of a particular name.
+            </summary>
+            <param name="name">
+            The <see cref="T:System.String"/> name of iTween you would like to stop.
+            </param> 
+        </member>
+        <member name="M:iTween.Stop(UnityEngine.GameObject)">
+            <summary>
+            Stop and destroy all iTweens on a GameObject.
+            </summary>
+        </member>
+        <member name="M:iTween.Stop(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+            Stop and destroy all iTweens on a GameObject including its children.
+            </summary>
+        </member>
+        <!-- 对于成员“M:iTween.Stop(UnityEngine.GameObject,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:iTween.StopByName(UnityEngine.GameObject,System.String)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:iTween.Stop(UnityEngine.GameObject,System.String,System.Boolean)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:iTween.StopByName(UnityEngine.GameObject,System.String,System.Boolean)”忽略有格式错误的 XML 注释 -->
+        <member name="M:iTween.Hash(System.Object[])">
+            <summary>
+            Universal interface to help in the creation of Hashtables.  Especially useful for C# users.
+            </summary>
+            <param name="args">
+            A <see cref="!:System.Object[]"/> of alternating name value pairs.  For example "time",1,"delay",2...
+            </param>
+            <returns>
+            A <see cref="T:System.Collections.Hashtable"/>
+            </returns>
+        </member>
         <member name="T:ClassObjPool`1">
             <summary>
             对象池，继承对象池句柄
@@ -229,6 +3316,11 @@
             <param name="src_filePath"></param>
             <param name="dst_filepath"></param>
         </member>
+        <member name="T:EaseUtil.EaseType">
+            <summary>
+            The type of easing to use based on Robert Penner's open source easing equations (http://www.robertpenner.com/easing_terms_of_use.html).
+            </summary>
+        </member>
         <member name="M:EncryptUtils.Base64Encrypt(System.String)">
             <summary>
             Base64加密
@@ -306,6 +3398,32 @@
             回调是否可用
             </summary>
         </member>
+        <member name="M:GeneralUtils.GetRandomNumsNotRepeat(System.Collections.Generic.List{System.Int32},System.Collections.Generic.List{System.Int32}@,System.Int32)">
+            <summary>
+            从指定的样本中选取指定数量的不重复随机数
+            </summary>
+            <param name="src_nums">样本</param>
+            <param name="randomNums">采集到的随机样本</param>
+            <param name="ramdomNumCount">要采集的随机样本的数量</param>
+        </member>
+        <member name="M:GeneralUtils.GetLocalSize(System.Single)">
+            <summary>
+            自适应宽高
+            </summary>
+            <param name="w_h_radio">宽高比</param>
+            <returns></returns>
+        </member>
+        <member name="M:GeneralUtils.Get2DHit(UnityEngine.Camera,UnityEngine.Vector3,UnityEngine.LayerMask,UnityEngine.RaycastHit2D@,System.Single)">
+            <summary>
+            2d射线碰撞检测
+            </summary>
+            <param name="cam"></param>
+            <param name="screenPos"></param>
+            <param name="mask"></param>
+            <param name="_hit"></param>
+            <param name="distane"></param>
+            <returns></returns>
+        </member>
         <member name="M:InputTimerManager.AddTimerNoInput(System.Single,System.Boolean,System.Action{System.Int32})">
             <summary>
             添加 无操作时间统计事件
@@ -314,7 +3432,7 @@
             <param name="loop">是否循环</param>
             <param name="callback">事件回调</param>
         </member>
-        <member name="M:PathTool.PathHelper.PathLength(UnityEngine.Vector3[])">
+        <member name="M:PathHelper.PathLength(UnityEngine.Vector3[],System.Boolean)">
             <summary>
             Returns the length of a curved path drawn through the provided array of Vector3s.
             </summary>

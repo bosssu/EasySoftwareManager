@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scene/StartUp.unity
+- path: Assets/Scene/ExtensionDemo.unity
   isLoaded: 1
   isActive: 1
