@@ -321,6 +321,8 @@
     <None Include="Assets\Plugins\BestHTTP.xml" />
     <None Include="Assets\Plugins\UniRx\ReadMe.txt" />
     <None Include="Assets\Plugins\WCBG.ToolsForUnity.xml" />
+    <None Include="Assets\Resources\test\shader\Grab.shader" />
+    <None Include="Assets\Resources\test\shader\test2.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

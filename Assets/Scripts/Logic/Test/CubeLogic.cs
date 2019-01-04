@@ -14,29 +14,32 @@ public class CubeLogic : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-        ClickCheck(EnumType.Click, () => { Debug.Log("单机"); });
-        ClickCheck(EnumType.DoubleClick, () => { Debug.Log("双击"); });
 
-        Plane p = new Plane(Vector3.forward, transform.position);
+        InputHander.CreateInstance();
+
+        //ClickCheck(EnumType.Click, () => { Debug.Log("单机"); });
+        //ClickCheck(EnumType.DoubleClick, () => { Debug.Log("双击"); });
+
+        //Plane p = new Plane(Vector3.forward, transform.position);
 
 
-        var mouse_stream = Observable.EveryUpdate()
-            .Where(_ => Input.GetMouseButton(0))
-            
-            .Subscribe((x) => {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, Mathf.Infinity))
-                {
-                
-                    float dis;
-                    if (p.Raycast(ray, out dis))
-                    {
-                        Vector3 point = ray.GetPoint(dis);
-                        transform.position = point;
-                    }
-                }
-            });
+        //var mouse_stream = Observable.EveryUpdate()
+        //    .Where(_ => Input.GetMouseButton(0))
+
+        //    .Subscribe((x) => {
+        //        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //        RaycastHit hit;
+        //        if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+        //        {
+
+        //            float dis;
+        //            if (p.Raycast(ray, out dis))
+        //            {
+        //                Vector3 point = ray.GetPoint(dis);
+        //                transform.position = point;
+        //            }
+        //        }
+        //    });
 
     }
 
