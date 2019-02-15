@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using System.Linq;
+using System.IO;
+using System.Text.RegularExpressions;
+using System;
 
 public class LayooutWindow : EditorWindow {
 
@@ -146,5 +149,110 @@ public class LayooutWindow : EditorWindow {
     {
         // 获取自定义窗口的实例并显示窗口
         GetWindow<LayooutWindow>().Show();
+    }
+}
+
+public class EditorTool
+{
+    [MenuItem("Assets/Cleanup Missing Scripts")]
+    static void CleanupMissingScripts()
+    {
+        for (int i = 0; i < Selection.gameObjects.Length; i++)
+        {
+            var gameObject = Selection.gameObjects[i];
+
+            var components = gameObject.GetComponents<Component>();
+            var serializedObject = new SerializedObject(gameObject);
+            var prop = serializedObject.FindProperty("m_Component");
+
+            int r = 0;
+
+            for (int j = 0; j < components.Length; j++)
+            {
+                if (components[j] == null)
+                {
+                    prop.DeleteArrayElementAtIndex(j - r);
+                    r++;
+                }
+            }
+
+            serializedObject.ApplyModifiedProperties();
+            //这一行一定要加！！！
+            EditorUtility.SetDirty(gameObject);
+        }
+    }
+
+    /// <summary>
+    /// 删除一个Prefab上的空脚本
+    /// </summary>
+    /// <param name="path">prefab路径 例Assets/Resources/FriendInfo.prefab</param>
+    private void DeleteNullScript(string path)
+    {
+        bool isNull = false;
+        string s = File.ReadAllText(path);
+
+        Regex regBlock = new Regex("MonoBehaviour");
+
+        // 以"---"划分组件
+        string[] strArray = s.Split(new string[] { "---" }, StringSplitOptions.RemoveEmptyEntries);
+
+        for (int i = 0; i < strArray.Length; i++)
+        {
+            string blockStr = strArray[i];
+
+            if (regBlock.IsMatch(blockStr))
+            {
+                // 模块是 MonoBehavior
+                Match guidMatch = Regex.Match(blockStr, "m_Script: {fileID: (.*), guid: (?<GuidValue>.*?), type:");
+                if (guidMatch.Success)
+                {
+                    // 获取 MonoBehavior的guid
+                    string guid = guidMatch.Groups["GuidValue"].Value;
+                    //Debug.Log("Guid:" + guid);
+
+                    if (string.IsNullOrEmpty(GetScriptPath(guid)))
+                    {
+                        // 工程中无此脚本 空脚本！！！
+                        //Debug.Log("空脚本");
+                        isNull = true;
+
+                        // 删除操作
+
+                        // 删除MonoScript
+                        s = s.Replace("---" + blockStr, "");
+
+                        Match idMatch = Regex.Match(blockStr, "!u!(.*) &(?<idValue>.*?)\r");
+                        if (idMatch.Success)
+                        {
+                            // 获取 MonoBehavior的guid
+                            string id = idMatch.Groups["idValue"].Value;
+
+                            // 删除MonoScript的引用
+                            Regex quote = new Regex("  - (.*): {fileID: " + id + "}");
+                            s = quote.Replace(s, "");
+                        }
+
+                    }
+
+                }
+
+            }
+
+
+        }
+
+        if (isNull)
+        {
+            // 有空脚本 写回prefab
+            File.WriteAllText(path, s);
+
+            // 打印Log
+            Debug.Log(path);
+        }
+    }
+
+    private string GetScriptPath(string guid)
+    {
+        return "";
     }
 }
